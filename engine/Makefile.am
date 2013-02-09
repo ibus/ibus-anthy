@@ -118,7 +118,7 @@ test:
 
 EXTRA_DIST = \
 	$(engine_anthy_built_in_files) \
-	$(PYGTK2_ANTHY_RAW) \
+	anthy.i \
 	anthy.xml.in.in \
 	default.xml.in.in \
 	ibus-engine-anthy.in \
