@@ -5,16 +5,16 @@
   <project_license>GPL-2.0</project_license>
   <name>Anthy</name>
   <_summary>Japanese input method</_summary>
-  <_description>
-    <p>
+  <description>
+    <_p>
       The Anthy input method is designed for entering Japanese text.
-    </p>
-    <p>
+    <_/p>
+    <_p>
       Input methods are typing systems allowing users to input complex languages.
       They are necessary because these contain too many characters to simply be laid
       out on a traditional keyboard.
-    </p>
-  </_description>
+    <_/p>
+  </description>
   <url type="homepage">https://github.com/ibus/ibus/wiki</url>
   <url type="bugtracker">https://github.com/ibus/ibus-anthy/issues</url>
   <url type="help">https://github.com/ibus/ibus/wiki/FAQ</url>
