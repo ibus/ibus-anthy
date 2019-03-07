@@ -10,8 +10,8 @@ engine/python3/factory.py
 setup/python2/anthyprefs.py
 setup/python2/ibus-setup-anthy.desktop.in.in
 setup/python2/main.py
-[type: gettext/glade]setup/python2/setup.ui
+setup/python2/setup.ui
 setup/python3/anthyprefs.py
 setup/python3/ibus-setup-anthy.desktop.in.in
 setup/python3/main.py
-[type: gettext/glade]setup/python3/setup.ui
+setup/python3/setup.ui

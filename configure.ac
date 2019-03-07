@@ -55,7 +55,6 @@ AM_PROG_CC_C_O
 AC_PROG_CXX
 AC_HEADER_STDC
 LT_INIT
-IT_PROG_INTLTOOL([0.41.1])
 
 dnl - For dislpay Date
 m4_define(ibus_datedisplay,
@@ -412,14 +411,19 @@ AC_SUBST(LT_VERSION_INFO)
 dnl - define GETTEXT_* variables
 GETTEXT_PACKAGE=ibus-anthy
 AC_SUBST(GETTEXT_PACKAGE)
-AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [Define to the read-only architecture-independent data directory.])
 
+AC_DEFINE_UNQUOTED(
+  GETTEXT_PACKAGE, "$GETTEXT_PACKAGE",
+    [Define to the read-only architecture-independent data directory.]
+)
+
+AM_GNU_GETTEXT_VERSION([0.19.8])
 AM_GNU_GETTEXT([external])
-AM_GNU_GETTEXT_VERSION(0.16.1)
 
 
 dnl - OUTPUT files
-AC_CONFIG_FILES([ po/Makefile.in
+AC_CONFIG_FILES([
+po/Makefile.in
 Makefile
 ibus-anthy.spec
 data/Makefile

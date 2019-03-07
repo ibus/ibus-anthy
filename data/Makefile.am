@@ -32,26 +32,21 @@ dictsdir = $(pkgdatadir)/dicts
 # http://www.freedesktop.org/software/appstream/docs/sect-Quickstart-Translation.html
 # https://blogs.gnome.org/hughsie/2016/01/25/appdata-and-the-gettext-domain/
 metainfo_in_files = ibus-anthy.appdata.xml.in
-metainfo_inter_files = $(metainfo_in_files:.xml.in=.xml)
 metainfo_DATA = org.freedesktop.ibus.engine.anthy.metainfo.xml
 metainfodir=$(datadir)/metainfo
-@INTLTOOL_XML_RULE@
 
 schemas_in_files = org.freedesktop.ibus.engine.anthy.gschema.xml.in
 schemas_DATA = $(schemas_in_files:.xml.in=.xml)
 schemasdir = $(datadir)/glib-2.0/schemas
 
 CLEANFILES = \
-        $(metainfo_inter_files) \
         $(metainfo_DATA) \
         $(schemas_DATA) \
         emoji.t \
         $(NULL)
 
-$(metainfo_DATA): $(metainfo_inter_files)
-	mv $< $@
-	ln -s $@ $<
-	touch -m $@
+$(metainfo_DATA): $(metainfo_in_files) Makefile
+	$(AM_V_GEN)$(MSGFMT) --xml --template $< -d $(top_srcdir)/po -o $@
 
 $(schemas_DATA): $(schemas_in_files)
 	$(SED) -e "s|\@ANTHY_ZIPCODE_FILE\@|$(ANTHY_ZIPCODE_FILE)|g" \

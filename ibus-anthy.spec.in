@@ -3,7 +3,6 @@
 
 %define sub_version                     1.0
 %define require_ibus_version            1.4.2
-%define require_intltool_version        0.41.1
 
 Name:       @PACKAGE_NAME@
 Version:    @PACKAGE_VERSION@
@@ -20,7 +19,6 @@ BuildRequires:  anthy-devel
 BuildRequires:  glib2-devel
 BuildRequires:  gettext-devel
 BuildRequires:  ibus
-BuildRequires:  intltool >= %require_intltool_version
 BuildRequires:  libtool
 BuildRequires:  pkgconfig
 BuildRequires:  gobject-introspection-devel

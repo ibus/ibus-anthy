@@ -31,9 +31,10 @@ $(desktop_in_files): %.desktop.in: %.desktop.in.in Makefile
 	       $< > $@.tmp && mv $@.tmp $@
 
 desktopdir=$(datadir)/applications
-desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
+desktop_DATA = ibus-setup-anthy.desktop
 
-@INTLTOOL_DESKTOP_RULE@
+$(desktop_DATA): $(desktop_in_files) Makefile
+	$(AM_V_GEN)$(MSGFMT) --desktop --template $< -d $(top_srcdir)/po -o $@
 
 BUILT_SOURCES = \
 	_config.py \

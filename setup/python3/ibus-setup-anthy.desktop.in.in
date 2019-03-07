@@ -1,6 +1,6 @@
 [Desktop Entry]
-_Name=IBus Anthy Setup
-_Comment=Set up IBus Anthy engine
+Name=IBus Anthy Setup
+Comment=Set up IBus Anthy engine
 Exec=@libexecdir@/ibus-setup-anthy
 Icon=ibus-anthy
 NoDisplay=true
