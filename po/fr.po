@@ -2,9 +2,8 @@
 # Copyright (C) 2008 Peng Huang <shawn.p.huang@gmail.com>
 # Copyright (C) 2009-2019 Takao Fujiwara <takao.fujiwara1@gmail.com>
 # This file is distributed under the same license as the ibus-anthy package.
-#
 # Translators:
-# Julien Humbert <julroy67@gmail.com>, 2009-2014.
+# Julien Humbert <julroy67@gmail.com>, 2009-2014, 2020.
 # fujiwara <takao.fujiwara1@gmail.com>, 2015. #zanata
 # Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2016. #zanata
 # José Fournier <jaaf64@zoraldia.com>, 2016. #zanata
@@ -15,15 +14,16 @@ msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.10\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2019-04-22 23:08+0900\n"
+"PO-Revision-Date: 2020-01-01 12:15+0000\n"
+"Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
+"Language-Team: French <https://translate.stg.fedoraproject.org/projects/ibus/"
+"ibus-anthy/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-04-23 08:15+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: French <trans-fr@lists.fedoraproject.org>\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: data/ibus-anthy.appdata.xml.in:7
 msgid "Japanese input method"
@@ -243,7 +243,7 @@ msgstr "Ère"
 
 #: setup/python2/anthyprefs.py:341 setup/python3/anthyprefs.py:334
 msgid "Emoji"
-msgstr "Pictogramme"
+msgstr "Émoticône"
 
 #: setup/python2/ibus-setup-anthy.desktop.in.in:3
 #: setup/python3/ibus-setup-anthy.desktop.in.in:3
@@ -718,7 +718,7 @@ msgstr "Disposition de la _Méthode de saisie :"
 
 #: setup/python2/setup.ui:1339 setup/python3/setup.ui:1339
 msgid "Restart IBus when you change the keyboard layout"
-msgstr "Redémarrez IBus lorsque vous changer la disposition clavier système."
+msgstr "Redémarrez IBus lorsque vous changer la disposition clavier système"
 
 #: setup/python2/setup.ui:1340 setup/python3/setup.ui:1340
 msgid "Restart IBus when you change XKB"
@@ -792,7 +792,7 @@ msgstr "_Voir"
 #: setup/python2/setup.ui:2373 setup/python3/setup.ui:1747
 #: setup/python3/setup.ui:2099 setup/python3/setup.ui:2373
 msgid "_Add"
-msgstr "A_jouter"
+msgstr "_Ajouter"
 
 #: setup/python2/setup.ui:1779 setup/python2/setup.ui:2132
 #: setup/python3/setup.ui:1779 setup/python3/setup.ui:2132
