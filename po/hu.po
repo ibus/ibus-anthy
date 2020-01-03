@@ -8,21 +8,24 @@ msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.10\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2019-04-22 23:08+0900\n"
-"PO-Revision-Date: 2019-04-22 23:08+0900\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-01-06 00:15+0000\n"
+"Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
+"Language-Team: Hungarian <https://translate.stg.fedoraproject.org/projects/"
+"ibus/ibus-anthy/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: data/ibus-anthy.appdata.xml.in:7
 msgid "Japanese input method"
-msgstr ""
+msgstr "Japán beviteli mód"
 
 #: data/ibus-anthy.appdata.xml.in:9
 msgid "The Anthy input method is designed for entering Japanese text."
-msgstr ""
+msgstr "Az Anthy beviteli mód japán szöveg bevitelére lett tervezve."
 
 #: data/ibus-anthy.appdata.xml.in:12
 msgid ""
@@ -30,11 +33,14 @@ msgid ""
 "They are necessary because these contain too many characters to simply be "
 "laid out on a traditional keyboard."
 msgstr ""
+"A beviteli módok olyan gépelési rendszerek, amelyekkel a felhasználók "
+"összetett nyelveken írhatnak. Azért szükségesek, mert ezek túl sok karaktert "
+"tartalmaznak ahhoz, hogy hagyományos billentyűzettel vigyék be őket."
 
 #: engine/python2/default.inputMethod.xml.in.in:13
 #: engine/python3/default.inputMethod.xml.in.in:13
 msgid "Anthy Input Method"
-msgstr ""
+msgstr "Anthy beviteli mód"
 
 #: engine/python2/engine.py:208 engine/python3/engine.py:209
 #, python-format
@@ -44,15 +50,20 @@ msgid ""
 "directory is not '\\n'. I.e. not correct text format.\n"
 "Please fix the file or remove it by manual and restart IBus."
 msgstr ""
+"Az Anthy nem engedélyezhető.\n"
+"A saját mappájában lévő %s/last-record2_default.utf8 fájl tartalmának vége "
+"nem „\\n"
+"”. Tehát nem helyes szövegformátum.\n"
+"Javítsa a fájlt vagy távolítsa el kézzel, és indítsa újra az IBust."
 
 #: engine/python2/engine.py:256 engine/python3/engine.py:257
 #: setup/python2/main.py:420 setup/python3/main.py:425
 msgid "Preferences - Anthy"
-msgstr ""
+msgstr "Beállítások – Anthy"
 
 #: engine/python2/engine.py:258 engine/python3/engine.py:259
 msgid "Configure Anthy"
-msgstr ""
+msgstr "Az Anthy beállítása"
 
 #. Translators: Specify the order of %s with your translation.
 #. It will be "Input Mode (A)" for example.
@@ -67,63 +78,63 @@ msgstr ""
 #: engine/python3/engine.py:971 engine/python3/engine.py:1033
 #, python-format
 msgid "%(description)s (%(symbol)s)"
-msgstr ""
+msgstr "%(description)s (%(symbol)s)"
 
 #: engine/python2/engine.py:296 engine/python2/engine.py:893
 #: engine/python3/engine.py:297 engine/python3/engine.py:888
 #: setup/python2/main.py:405 setup/python3/main.py:410
 msgid "Input mode"
-msgstr ""
+msgstr "Beviteli mód"
 
 #: engine/python2/engine.py:302 engine/python3/engine.py:303
 msgid "Switch input mode"
-msgstr ""
+msgstr "Beviteli mód váltása"
 
 #: engine/python2/engine.py:312 engine/python3/engine.py:313
 #: setup/python2/setup.ui:17 setup/python3/setup.ui:17
 msgid "Hiragana"
-msgstr ""
+msgstr "Hiragana"
 
 #: engine/python2/engine.py:321 engine/python3/engine.py:322
 #: setup/python2/setup.ui:20 setup/python3/setup.ui:20
 msgid "Katakana"
-msgstr ""
+msgstr "Katakana"
 
 #: engine/python2/engine.py:330 engine/python3/engine.py:331
 #: setup/python2/setup.ui:23 setup/python3/setup.ui:23
 msgid "Halfwidth Katakana"
-msgstr ""
+msgstr "Fél szélességű katakana"
 
 #: engine/python2/engine.py:339 engine/python3/engine.py:340
 #: setup/python2/setup.ui:26 setup/python3/setup.ui:26
 msgid "Latin"
-msgstr ""
+msgstr "Latin"
 
 #: engine/python2/engine.py:348 engine/python3/engine.py:349
 #: setup/python2/setup.ui:29 setup/python3/setup.ui:29
 msgid "Wide Latin"
-msgstr ""
+msgstr "Széles latin"
 
 #: engine/python2/engine.py:384 engine/python2/engine.py:924
 #: engine/python2/engine.py:948 engine/python3/engine.py:385
 #: engine/python3/engine.py:919 engine/python3/engine.py:943
 #: setup/python2/main.py:408 setup/python3/main.py:413
 msgid "Typing method"
-msgstr ""
+msgstr "Gépelési mód"
 
 #: engine/python2/engine.py:390 engine/python3/engine.py:391
 msgid "Switch typing method"
-msgstr ""
+msgstr "Gépelési mód váltása"
 
 #: engine/python2/engine.py:400 engine/python3/engine.py:401
 #: setup/python2/setup.ui:71 setup/python3/setup.ui:71
 msgid "Romaji"
-msgstr ""
+msgstr "Rómadzsi"
 
 #: engine/python2/engine.py:409 engine/python3/engine.py:410
 #: setup/python2/setup.ui:74 setup/python3/setup.ui:74
 msgid "Kana"
-msgstr ""
+msgstr "Kana"
 
 #: engine/python2/engine.py:418 engine/python3/engine.py:419
 #: setup/python2/setup.ui:77 setup/python3/setup.ui:77
@@ -134,122 +145,122 @@ msgstr ""
 #: engine/python3/engine.py:452 engine/python3/engine.py:972
 #: setup/python2/main.py:411 setup/python3/main.py:416
 msgid "Segment mode"
-msgstr ""
+msgstr "Szegmens mód"
 
 #: engine/python2/engine.py:457 engine/python3/engine.py:458
 msgid "Switch conversion mode"
-msgstr ""
+msgstr "Átalakítási mód váltása"
 
 #: engine/python2/engine.py:467 engine/python3/engine.py:468
 #: setup/python2/setup.ui:87 setup/python3/setup.ui:87
 msgid "Multiple segment"
-msgstr ""
+msgstr "Több szegmens"
 
 #: engine/python2/engine.py:476 engine/python3/engine.py:477
 #: setup/python2/setup.ui:90 setup/python3/setup.ui:90
 msgid "Single segment"
-msgstr ""
+msgstr "Egy szegmens"
 
 #: engine/python2/engine.py:485 engine/python3/engine.py:486
 #: setup/python2/setup.ui:93 setup/python3/setup.ui:93
 msgid "Immediate conversion (multiple segment)"
-msgstr ""
+msgstr "Azonnali átalakítás (több szegmens)"
 
 #: engine/python2/engine.py:494 engine/python3/engine.py:495
 #: setup/python2/setup.ui:96 setup/python3/setup.ui:96
 msgid "Immediate conversion (single segment)"
-msgstr ""
+msgstr "Azonnali átalakítás (egy szegmens)"
 
 #: engine/python2/engine.py:527 engine/python2/engine.py:1039
 #: engine/python3/engine.py:528 engine/python3/engine.py:1034
 #: setup/python2/main.py:414 setup/python3/main.py:419
 msgid "Dictionary mode"
-msgstr ""
+msgstr "Szótár mód"
 
 #: engine/python2/engine.py:533 engine/python3/engine.py:534
 msgid "Switch dictionary"
-msgstr ""
+msgstr "Szótár váltása"
 
 #: engine/python2/engine.py:623 engine/python3/engine.py:623
 #: setup/python2/main.py:417 setup/python3/main.py:422
 msgid "Dictionary - Anthy"
-msgstr ""
+msgstr "Szótár – Anthy"
 
 #. Translators: "Dic" means 'dictionary', One kanji may be good.
 #: engine/python2/engine.py:629 engine/python3/engine.py:628
 msgid "Dic"
-msgstr ""
+msgstr "Szótár"
 
 #: engine/python2/engine.py:636 engine/python3/engine.py:635
 msgid "Configure dictionaries"
-msgstr ""
+msgstr "Szótárak beállítása"
 
 #: engine/python2/engine.py:646 engine/python3/engine.py:645
 msgid "Edit dictionaries"
-msgstr ""
+msgstr "Szótárak szerkesztése"
 
 #: engine/python2/engine.py:648 engine/python3/engine.py:647
 msgid "Launch the dictionary tool"
-msgstr ""
+msgstr "Szótár eszköz indítása"
 
 #: engine/python2/engine.py:655 engine/python3/engine.py:654
 msgid "Add words"
-msgstr ""
+msgstr "Szavak hozzáadása"
 
 #: engine/python2/engine.py:657 engine/python3/engine.py:656
 msgid "Add words to the dictionary"
-msgstr ""
+msgstr "Szavak hozzáadása a szótárhoz"
 
 #: setup/python2/anthyprefs.py:336 setup/python2/setup.ui:397
 #: setup/python3/anthyprefs.py:329 setup/python3/setup.ui:397
 msgid "General"
-msgstr ""
+msgstr "Általános"
 
 #: setup/python2/anthyprefs.py:337 setup/python3/anthyprefs.py:330
 msgid "Zip Code Conversion"
-msgstr ""
+msgstr "Irányítószám átalakítás"
 
 #: setup/python2/anthyprefs.py:338 setup/python3/anthyprefs.py:331
 msgid "Symbol"
-msgstr ""
+msgstr "Szimbólum"
 
 #: setup/python2/anthyprefs.py:339 setup/python3/anthyprefs.py:332
 msgid "Old Character Style"
-msgstr ""
+msgstr "Régi karakterstílus"
 
 #: setup/python2/anthyprefs.py:340 setup/python3/anthyprefs.py:333
 msgid "Era"
-msgstr ""
+msgstr "Éra"
 
 #: setup/python2/anthyprefs.py:341 setup/python3/anthyprefs.py:334
 msgid "Emoji"
-msgstr ""
+msgstr "Emodzsi"
 
 #: setup/python2/ibus-setup-anthy.desktop.in.in:3
 #: setup/python3/ibus-setup-anthy.desktop.in.in:3
 msgid "IBus Anthy Setup"
-msgstr ""
+msgstr "IBus Anthy beállítások"
 
 #: setup/python2/ibus-setup-anthy.desktop.in.in:4
 #: setup/python3/ibus-setup-anthy.desktop.in.in:4
 msgid "Set up IBus Anthy engine"
-msgstr ""
+msgstr "Az IBus Anthy motor beállítása"
 
 #: setup/python2/main.py:177 setup/python3/main.py:180
 msgid "Menu label"
-msgstr ""
+msgstr "Menücímke"
 
 #: setup/python2/main.py:198 setup/python3/main.py:201
 msgid "Command"
-msgstr ""
+msgstr "Parancs"
 
 #: setup/python2/main.py:202 setup/python3/main.py:205
 msgid "Shortcut"
-msgstr ""
+msgstr "Gyorsbillentyű"
 
 #: setup/python2/main.py:247 setup/python3/main.py:250
 msgid "Description"
-msgstr ""
+msgstr "Leírás"
 
 #. Translators: "Embd" is an abbreviation of "embedded".
 #: setup/python2/main.py:255 setup/python3/main.py:258
@@ -264,62 +275,62 @@ msgstr ""
 #: setup/python2/main.py:441 setup/python2/main.py:467
 #: setup/python3/main.py:446 setup/python3/main.py:472
 msgid "Input Chars"
-msgstr ""
+msgstr "Beviteli karakterek"
 
 #: setup/python2/main.py:443 setup/python2/main.py:469
 #: setup/python3/main.py:448 setup/python3/main.py:474
 msgid "Output Chars"
-msgstr ""
+msgstr "Kimeneti karakterek"
 
 #: setup/python2/main.py:499 setup/python3/main.py:504
 msgid "Input"
-msgstr ""
+msgstr "Bemenet"
 
 #: setup/python2/main.py:501 setup/python3/main.py:506
 msgid "Single"
-msgstr ""
+msgstr "Egyetlen"
 
 #: setup/python2/main.py:503 setup/python3/main.py:508
 msgid "Left"
-msgstr ""
+msgstr "Bal"
 
 #: setup/python2/main.py:505 setup/python3/main.py:510
 msgid "Right"
-msgstr ""
+msgstr "Jobb"
 
 #: setup/python2/main.py:587 setup/python3/main.py:592
 msgid "Customize Romaji Key Table"
-msgstr ""
+msgstr "Rómadzsi billentyűtábla testreszabása"
 
 #: setup/python2/main.py:588 setup/python2/setup.ui:910
 #: setup/python3/main.py:593 setup/python3/setup.ui:910
 msgid "_Romaji Key Table:"
-msgstr ""
+msgstr "_Rómadzsi billentyűtábla:"
 
 #: setup/python2/main.py:589 setup/python2/main.py:595
 #: setup/python3/main.py:594 setup/python3/main.py:600
 msgid "_Output Chars"
-msgstr ""
+msgstr "_Kimeneti karakterek"
 
 #: setup/python2/main.py:590 setup/python2/main.py:1071
 #: setup/python2/main.py:1175 setup/python2/setup.ui:183
 #: setup/python3/main.py:595 setup/python3/main.py:1065
 #: setup/python3/main.py:1169 setup/python3/setup.ui:183
 msgid "Default"
-msgstr ""
+msgstr "Alapértelmezett"
 
 #: setup/python2/main.py:593 setup/python3/main.py:598
 msgid "Customize Kana Key Table"
-msgstr ""
+msgstr "Kana billentyűtábla testreszabása"
 
 #: setup/python2/main.py:594 setup/python2/setup.ui:988
 #: setup/python3/main.py:599 setup/python3/setup.ui:988
 msgid "_Kana Key Table:"
-msgstr ""
+msgstr "_Kana billentyűtábla:"
 
 #: setup/python2/main.py:596 setup/python3/main.py:601
 msgid "Japanese Keyboard Layout"
-msgstr ""
+msgstr "Japán billentyűzetkiosztás"
 
 #: setup/python2/main.py:597 setup/python3/main.py:602
 msgid "U.S. Keyboard Layout"
@@ -440,7 +451,7 @@ msgstr ""
 #: setup/python2/setup.ui:2166 setup/python3/main.py:1381
 #: setup/python3/main.py:1387 setup/python3/setup.ui:2166
 msgid "_Cancel"
-msgstr ""
+msgstr "_Mégse"
 
 #: setup/python2/main.py:1388 setup/python3/main.py:1382
 msgid "_Open"
@@ -454,7 +465,7 @@ msgstr ""
 #: setup/python2/setup.ui:2181 setup/python3/main.py:1388
 #: setup/python3/main.py:1477 setup/python3/setup.ui:2181
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #: setup/python2/main.py:1405 setup/python3/main.py:1399
 msgid "Your choosed file is not correct."
@@ -474,7 +485,7 @@ msgstr ""
 
 #: setup/python2/main.py:1642 setup/python3/main.py:1636
 msgid "Please press a key (or a key combination)"
-msgstr ""
+msgstr "Nyomjon meg egy billentyűt (vagy billentyűkombinációt)"
 
 #: setup/python2/main.py:1643 setup/python3/main.py:1637
 msgid "The dialog will be closed when the key is released"
@@ -504,7 +515,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:55 setup/python3/setup.ui:55
 msgid "None"
-msgstr ""
+msgstr "Nincs"
 
 #: setup/python2/setup.ui:58 setup/python3/setup.ui:58
 msgid "FMV KB231 key extension"
@@ -758,16 +769,16 @@ msgstr ""
 #: setup/python2/setup.ui:2373 setup/python3/setup.ui:1747
 #: setup/python3/setup.ui:2099 setup/python3/setup.ui:2373
 msgid "_Add"
-msgstr ""
+msgstr "Hozzá_adás"
 
 #: setup/python2/setup.ui:1779 setup/python2/setup.ui:2132
 #: setup/python3/setup.ui:1779 setup/python3/setup.ui:2132
 msgid "_Delete"
-msgstr ""
+msgstr "_Törlés"
 
 #: setup/python2/setup.ui:1808 setup/python3/setup.ui:1808
 msgid "_Up"
-msgstr ""
+msgstr "_Fel"
 
 #: setup/python2/setup.ui:1810 setup/python2/setup.ui:1827
 #: setup/python3/setup.ui:1810 setup/python3/setup.ui:1827
@@ -776,7 +787,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:1825 setup/python3/setup.ui:1825
 msgid "_Down"
-msgstr ""
+msgstr "_Le"
 
 #: setup/python2/setup.ui:1852 setup/python3/setup.ui:1852
 msgid "<b>Extended Dictionaries</b>"
@@ -788,12 +799,12 @@ msgstr ""
 
 #: setup/python2/setup.ui:1888 setup/python3/setup.ui:1888
 msgid "About"
-msgstr ""
+msgstr "Névjegy"
 
 #: setup/python2/setup.ui:1908 setup/python2/setup.ui:2418
 #: setup/python3/setup.ui:1908 setup/python3/setup.ui:2418
 msgid "_Close"
-msgstr ""
+msgstr "_Bezárás"
 
 #: setup/python2/setup.ui:1938 setup/python3/setup.ui:1938
 msgid "Edit Shortcut"
@@ -841,7 +852,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:2387 setup/python3/setup.ui:2387
 msgid "_Remove"
-msgstr ""
+msgstr "_Eltávolítás"
 
 #: setup/python2/setup.ui:2607 setup/python3/setup.ui:2607
 msgid "_Short Label:"
