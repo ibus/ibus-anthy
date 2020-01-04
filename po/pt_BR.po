@@ -5,7 +5,7 @@
 #
 # Translators:
 # Marco Aurélio Krause <ouesten@me.com>, 2015. #zanata
-# Rafael Fontenelle <rafaelff@gnome.org>, 2020.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2020, 2025.
 # Henrique Roberto Gattermann Mittelstaedt <henrique.roberto97@gmail.com>, 2020.
 msgid ""
 msgstr ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2017-03-17 13:26+0900\n"
 "PO-Revision-Date: 2025-02-19 05:16+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/ibus/ibus-anthy/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -763,9 +763,9 @@ msgid ""
 "Key Arrangement\" since this option changes input method layout only in case "
 "input method is turned on."
 msgstr ""
-"Você não precisa reconfigurar o layout do teclado do sistema para \"Arranjo "
-"de teclas adicional\", pois esta opção altera o layout do método de entrada "
-"apenas se o método de entrada estiver ativado."
+"Você não precisa reconfigurar o layout do teclado do sistema para "
+"\"Arranjo de teclas adicional\", pois esta opção altera o layout do método "
+"de entrada apenas se o método de entrada estiver ativado."
 
 #: ../setup/python2/setup.ui.h:71 ../setup/python3/setup.ui.h:71
 msgid ""
