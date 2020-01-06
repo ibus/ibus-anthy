@@ -8,17 +8,20 @@ msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.10\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2019-04-22 23:08+0900\n"
-"PO-Revision-Date: 2019-04-22 23:08+0900\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-01-06 19:36+0000\n"
+"Last-Translator: Manuela Silva <mmsrs@sky.com>\n"
+"Language-Team: Portuguese (Portugal) <https://translate.stg.fedoraproject."
+"org/projects/ibus/ibus-anthy/pt_PT/>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: data/ibus-anthy.appdata.xml.in:7
 msgid "Japanese input method"
-msgstr ""
+msgstr "Método de entrada japonês"
 
 #: data/ibus-anthy.appdata.xml.in:9
 msgid "The Anthy input method is designed for entering Japanese text."
@@ -48,11 +51,11 @@ msgstr ""
 #: engine/python2/engine.py:256 engine/python3/engine.py:257
 #: setup/python2/main.py:420 setup/python3/main.py:425
 msgid "Preferences - Anthy"
-msgstr ""
+msgstr "Preferências - Anthy"
 
 #: engine/python2/engine.py:258 engine/python3/engine.py:259
 msgid "Configure Anthy"
-msgstr ""
+msgstr "Configurar Anthy"
 
 #. Translators: Specify the order of %s with your translation.
 #. It will be "Input Mode (A)" for example.
@@ -67,37 +70,37 @@ msgstr ""
 #: engine/python3/engine.py:971 engine/python3/engine.py:1033
 #, python-format
 msgid "%(description)s (%(symbol)s)"
-msgstr ""
+msgstr "%(description)s (%(symbol)s)"
 
 #: engine/python2/engine.py:296 engine/python2/engine.py:893
 #: engine/python3/engine.py:297 engine/python3/engine.py:888
 #: setup/python2/main.py:405 setup/python3/main.py:410
 msgid "Input mode"
-msgstr ""
+msgstr "Modo de entrada"
 
 #: engine/python2/engine.py:302 engine/python3/engine.py:303
 msgid "Switch input mode"
-msgstr ""
+msgstr "Mudar modo de entrada"
 
 #: engine/python2/engine.py:312 engine/python3/engine.py:313
 #: setup/python2/setup.ui:17 setup/python3/setup.ui:17
 msgid "Hiragana"
-msgstr ""
+msgstr "Hiragana"
 
 #: engine/python2/engine.py:321 engine/python3/engine.py:322
 #: setup/python2/setup.ui:20 setup/python3/setup.ui:20
 msgid "Katakana"
-msgstr ""
+msgstr "Katakana"
 
 #: engine/python2/engine.py:330 engine/python3/engine.py:331
 #: setup/python2/setup.ui:23 setup/python3/setup.ui:23
 msgid "Halfwidth Katakana"
-msgstr ""
+msgstr "Halfwidth Katakana"
 
 #: engine/python2/engine.py:339 engine/python3/engine.py:340
 #: setup/python2/setup.ui:26 setup/python3/setup.ui:26
 msgid "Latin"
-msgstr ""
+msgstr "Latim"
 
 #: engine/python2/engine.py:348 engine/python3/engine.py:349
 #: setup/python2/setup.ui:29 setup/python3/setup.ui:29
@@ -109,21 +112,21 @@ msgstr ""
 #: engine/python3/engine.py:919 engine/python3/engine.py:943
 #: setup/python2/main.py:408 setup/python3/main.py:413
 msgid "Typing method"
-msgstr ""
+msgstr "Método de digitação"
 
 #: engine/python2/engine.py:390 engine/python3/engine.py:391
 msgid "Switch typing method"
-msgstr ""
+msgstr "Mudar método de digitação"
 
 #: engine/python2/engine.py:400 engine/python3/engine.py:401
 #: setup/python2/setup.ui:71 setup/python3/setup.ui:71
 msgid "Romaji"
-msgstr ""
+msgstr "Romaji"
 
 #: engine/python2/engine.py:409 engine/python3/engine.py:410
 #: setup/python2/setup.ui:74 setup/python3/setup.ui:74
 msgid "Kana"
-msgstr ""
+msgstr "Kana"
 
 #: engine/python2/engine.py:418 engine/python3/engine.py:419
 #: setup/python2/setup.ui:77 setup/python3/setup.ui:77
@@ -134,96 +137,96 @@ msgstr ""
 #: engine/python3/engine.py:452 engine/python3/engine.py:972
 #: setup/python2/main.py:411 setup/python3/main.py:416
 msgid "Segment mode"
-msgstr ""
+msgstr "Modo de segmento"
 
 #: engine/python2/engine.py:457 engine/python3/engine.py:458
 msgid "Switch conversion mode"
-msgstr ""
+msgstr "Mudar modo de conversão"
 
 #: engine/python2/engine.py:467 engine/python3/engine.py:468
 #: setup/python2/setup.ui:87 setup/python3/setup.ui:87
 msgid "Multiple segment"
-msgstr ""
+msgstr "Segmento múltiplo"
 
 #: engine/python2/engine.py:476 engine/python3/engine.py:477
 #: setup/python2/setup.ui:90 setup/python3/setup.ui:90
 msgid "Single segment"
-msgstr ""
+msgstr "Segmento único"
 
 #: engine/python2/engine.py:485 engine/python3/engine.py:486
 #: setup/python2/setup.ui:93 setup/python3/setup.ui:93
 msgid "Immediate conversion (multiple segment)"
-msgstr ""
+msgstr "Conversão imediata (segmento múltiplo)"
 
 #: engine/python2/engine.py:494 engine/python3/engine.py:495
 #: setup/python2/setup.ui:96 setup/python3/setup.ui:96
 msgid "Immediate conversion (single segment)"
-msgstr ""
+msgstr "Conversão imediata (segmento único)"
 
 #: engine/python2/engine.py:527 engine/python2/engine.py:1039
 #: engine/python3/engine.py:528 engine/python3/engine.py:1034
 #: setup/python2/main.py:414 setup/python3/main.py:419
 msgid "Dictionary mode"
-msgstr ""
+msgstr "Modo de dicionário"
 
 #: engine/python2/engine.py:533 engine/python3/engine.py:534
 msgid "Switch dictionary"
-msgstr ""
+msgstr "Mudar dicionário"
 
 #: engine/python2/engine.py:623 engine/python3/engine.py:623
 #: setup/python2/main.py:417 setup/python3/main.py:422
 msgid "Dictionary - Anthy"
-msgstr ""
+msgstr "Dicionário - Anthy"
 
 #. Translators: "Dic" means 'dictionary', One kanji may be good.
 #: engine/python2/engine.py:629 engine/python3/engine.py:628
 msgid "Dic"
-msgstr ""
+msgstr "Dicionário"
 
 #: engine/python2/engine.py:636 engine/python3/engine.py:635
 msgid "Configure dictionaries"
-msgstr ""
+msgstr "Configurar dicionários"
 
 #: engine/python2/engine.py:646 engine/python3/engine.py:645
 msgid "Edit dictionaries"
-msgstr ""
+msgstr "Editar dicionários"
 
 #: engine/python2/engine.py:648 engine/python3/engine.py:647
 msgid "Launch the dictionary tool"
-msgstr ""
+msgstr "Iniciar ferramenta de dicionário"
 
 #: engine/python2/engine.py:655 engine/python3/engine.py:654
 msgid "Add words"
-msgstr ""
+msgstr "Adicionar palavras"
 
 #: engine/python2/engine.py:657 engine/python3/engine.py:656
 msgid "Add words to the dictionary"
-msgstr ""
+msgstr "Adicionar palavras ao dicionário"
 
 #: setup/python2/anthyprefs.py:336 setup/python2/setup.ui:397
 #: setup/python3/anthyprefs.py:329 setup/python3/setup.ui:397
 msgid "General"
-msgstr ""
+msgstr "Geral"
 
 #: setup/python2/anthyprefs.py:337 setup/python3/anthyprefs.py:330
 msgid "Zip Code Conversion"
-msgstr ""
+msgstr "Conversão de Código Postal"
 
 #: setup/python2/anthyprefs.py:338 setup/python3/anthyprefs.py:331
 msgid "Symbol"
-msgstr ""
+msgstr "Símbolo"
 
 #: setup/python2/anthyprefs.py:339 setup/python3/anthyprefs.py:332
 msgid "Old Character Style"
-msgstr ""
+msgstr "Estilo de Caráter Antigo"
 
 #: setup/python2/anthyprefs.py:340 setup/python3/anthyprefs.py:333
 msgid "Era"
-msgstr ""
+msgstr "Era"
 
 #: setup/python2/anthyprefs.py:341 setup/python3/anthyprefs.py:334
 msgid "Emoji"
-msgstr ""
+msgstr "Emoji"
 
 #: setup/python2/ibus-setup-anthy.desktop.in.in:3
 #: setup/python3/ibus-setup-anthy.desktop.in.in:3
@@ -237,19 +240,19 @@ msgstr ""
 
 #: setup/python2/main.py:177 setup/python3/main.py:180
 msgid "Menu label"
-msgstr ""
+msgstr "Etiqueta do menu"
 
 #: setup/python2/main.py:198 setup/python3/main.py:201
 msgid "Command"
-msgstr ""
+msgstr "Comando"
 
 #: setup/python2/main.py:202 setup/python3/main.py:205
 msgid "Shortcut"
-msgstr ""
+msgstr "Atalho"
 
 #: setup/python2/main.py:247 setup/python3/main.py:250
 msgid "Description"
-msgstr ""
+msgstr "Descrição"
 
 #. Translators: "Embd" is an abbreviation of "embedded".
 #: setup/python2/main.py:255 setup/python3/main.py:258
@@ -281,11 +284,11 @@ msgstr ""
 
 #: setup/python2/main.py:503 setup/python3/main.py:508
 msgid "Left"
-msgstr ""
+msgstr "Esquerda"
 
 #: setup/python2/main.py:505 setup/python3/main.py:510
 msgid "Right"
-msgstr ""
+msgstr "Direita"
 
 #: setup/python2/main.py:587 setup/python3/main.py:592
 msgid "Customize Romaji Key Table"
@@ -299,14 +302,14 @@ msgstr ""
 #: setup/python2/main.py:589 setup/python2/main.py:595
 #: setup/python3/main.py:594 setup/python3/main.py:600
 msgid "_Output Chars"
-msgstr ""
+msgstr "Carateres de _Saída"
 
 #: setup/python2/main.py:590 setup/python2/main.py:1071
 #: setup/python2/main.py:1175 setup/python2/setup.ui:183
 #: setup/python3/main.py:595 setup/python3/main.py:1065
 #: setup/python3/main.py:1169 setup/python3/setup.ui:183
 msgid "Default"
-msgstr ""
+msgstr "Predefinição"
 
 #: setup/python2/main.py:593 setup/python3/main.py:598
 msgid "Customize Kana Key Table"
@@ -339,7 +342,7 @@ msgstr ""
 
 #: setup/python2/main.py:603 setup/python3/main.py:608
 msgid "Base"
-msgstr ""
+msgstr "Base"
 
 #: setup/python2/main.py:604 setup/python3/main.py:609
 msgid "NICOLA-J key extension"
@@ -379,23 +382,23 @@ msgstr ""
 
 #: setup/python2/main.py:753 setup/python3/main.py:758
 msgid "Your choosed file has already been added: "
-msgstr ""
+msgstr "O seu ficheiro escolhido já foi adicionado: "
 
 #: setup/python2/main.py:757 setup/python3/main.py:762
 msgid "The file you have chosen does not exist: "
-msgstr ""
+msgstr "O seu ficheiro escolhido não existe: "
 
 #: setup/python2/main.py:761 setup/python3/main.py:766
 msgid "Your choosed file is a directory: "
-msgstr ""
+msgstr "O seu ficheiro escolhido é uma diretoria: "
 
 #: setup/python2/main.py:765 setup/python3/main.py:770
 msgid "You cannot add dictionaries in the anthy private directory: "
-msgstr ""
+msgstr "Não pode adicionar dicionários na diretoria privada do anthy: "
 
 #: setup/python2/main.py:774 setup/python3/main.py:779
 msgid "Your file path is not good: "
-msgstr ""
+msgstr "O caminho do seu ficheiro não é bom: "
 
 #: setup/python2/main.py:935 setup/python3/main.py:938
 msgid "The engine xml file does not exist: "
