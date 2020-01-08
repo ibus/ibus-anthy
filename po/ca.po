@@ -7,14 +7,14 @@
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2016. #zanata
 # fujiwara <takao.fujiwara1@gmail.com>, 2017. #zanata
 # fujiwara <takao.fujiwara1@gmail.com>, 2019. #zanata
-# Antoni Bella Pérez <antonibella5@yahoo.com>, 2020.
+# Antoni Bella Pérez <antonibella5@yahoo.com>, 2020, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.10\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2019-04-22 23:08+0900\n"
 "PO-Revision-Date: 2025-02-19 05:16+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/ca/>\n"
 "Language: ca\n"
