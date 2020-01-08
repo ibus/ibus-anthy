@@ -2,26 +2,27 @@
 # Copyright (C) 2008 Peng Huang <shawn.p.huang@gmail.com>
 # Copyright (C) 2009-2019 Takao Fujiwara <takao.fujiwara1@gmail.com>
 # This file is distributed under the same license as the ibus-anthy package.
-#
 # Translators:
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2015. #zanata
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2016. #zanata
 # fujiwara <takao.fujiwara1@gmail.com>, 2017. #zanata
 # fujiwara <takao.fujiwara1@gmail.com>, 2019. #zanata
+# Antoni Bella Pérez <antonibella5@yahoo.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.10\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2019-04-22 23:08+0900\n"
+"PO-Revision-Date: 2020-01-08 20:18+0000\n"
+"Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
+"Language-Team: Catalan <https://translate.stg.fedoraproject.org/projects/"
+"ibus/ibus-anthy/ca/>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-04-23 08:15+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Catalan\n"
-"Language: ca\n"
-"X-Generator: Zanata 4.6.2\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: data/ibus-anthy.appdata.xml.in:7
 msgid "Japanese input method"
@@ -271,12 +272,12 @@ msgstr "Descripció"
 #. Translators: "Embd" is an abbreviation of "embedded".
 #: setup/python2/main.py:255 setup/python3/main.py:258
 msgid "Embd"
-msgstr "Embd"
+msgstr "Incrustat"
 
 #. Translators: "Sgl" is an abbreviation of "single".
 #: setup/python2/main.py:263 setup/python3/main.py:266
 msgid "Sgl"
-msgstr "Sgl"
+msgstr "Indv"
 
 #: setup/python2/main.py:441 setup/python2/main.py:467
 #: setup/python3/main.py:446 setup/python3/main.py:472
@@ -396,15 +397,15 @@ msgstr "Extensió de tecles FMV KB611-F"
 
 #: setup/python2/main.py:753 setup/python3/main.py:758
 msgid "Your choosed file has already been added: "
-msgstr "El fitxer que heu triat ja ha estat afegit:"
+msgstr "El fitxer que heu triat ja ha estat afegit: "
 
 #: setup/python2/main.py:757 setup/python3/main.py:762
 msgid "The file you have chosen does not exist: "
-msgstr "El fitxer que heu triat no existeix:"
+msgstr "El fitxer que heu triat no existeix: "
 
 #: setup/python2/main.py:761 setup/python3/main.py:766
 msgid "Your choosed file is a directory: "
-msgstr "El fitxer que heu triat és un directori:"
+msgstr "El fitxer que heu triat és un directori: "
 
 #: setup/python2/main.py:765 setup/python3/main.py:770
 msgid "You cannot add dictionaries in the anthy private directory: "
@@ -412,11 +413,11 @@ msgstr "No podeu afegir diccionaris al directori privat de l'anthy: "
 
 #: setup/python2/main.py:774 setup/python3/main.py:779
 msgid "Your file path is not good: "
-msgstr "El camí al vostre fitxer no és bo:"
+msgstr "El camí al vostre fitxer no és bo: "
 
 #: setup/python2/main.py:935 setup/python3/main.py:938
 msgid "The engine xml file does not exist: "
-msgstr "El fitxer xml del motor no existeix:"
+msgstr "El fitxer xml del motor no existeix: "
 
 #: setup/python2/main.py:1051 setup/python3/main.py:1045
 msgid ""
@@ -455,7 +456,7 @@ msgstr ""
 #: setup/python2/main.py:1374 setup/python2/main.py:1463
 #: setup/python3/main.py:1368 setup/python3/main.py:1457
 msgid "Your file does not exist: "
-msgstr "El vostre fitxer no existeix:"
+msgstr "El vostre fitxer no existeix: "
 
 #: setup/python2/main.py:1384 setup/python3/main.py:1378
 msgid "Open Dictionary File"
@@ -499,7 +500,7 @@ msgstr "Visualitza el fitxer de diccionari"
 
 #: setup/python2/main.py:1642 setup/python3/main.py:1636
 msgid "Please press a key (or a key combination)"
-msgstr "Si us plau, premeu una tecla (o una combinació de tecles)"
+msgstr "Premeu una tecla (o una combinació de tecles)"
 
 #: setup/python2/main.py:1643 setup/python3/main.py:1637
 msgid "The dialog will be closed when the key is released"
@@ -529,7 +530,7 @@ msgstr "NICOLA-F"
 
 #: setup/python2/setup.ui:55 setup/python3/setup.ui:55
 msgid "None"
-msgstr "Cap"
+msgstr "Sense"
 
 #: setup/python2/setup.ui:58 setup/python3/setup.ui:58
 msgid "FMV KB231 key extension"
@@ -800,7 +801,7 @@ msgstr "_Afegeix"
 #: setup/python2/setup.ui:1779 setup/python2/setup.ui:2132
 #: setup/python3/setup.ui:1779 setup/python3/setup.ui:2132
 msgid "_Delete"
-msgstr "_Elimina"
+msgstr "_Suprimeix"
 
 #: setup/python2/setup.ui:1808 setup/python3/setup.ui:1808
 msgid "_Up"
@@ -825,7 +826,7 @@ msgstr "Diccionari"
 
 #: setup/python2/setup.ui:1888 setup/python3/setup.ui:1888
 msgid "About"
-msgstr "Sobre"
+msgstr "Quant a"
 
 #: setup/python2/setup.ui:1908 setup/python2/setup.ui:2418
 #: setup/python3/setup.ui:1908 setup/python3/setup.ui:2418
