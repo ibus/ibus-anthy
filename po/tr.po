@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.10\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2019-04-22 23:08+0900\n"
-"PO-Revision-Date: 2020-01-08 20:18+0000\n"
+"PO-Revision-Date: 2020-09-04 20:29+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
-"Language-Team: Turkish <https://translate.stg.fedoraproject.org/projects/"
-"ibus/ibus-anthy/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/ibus/"
+"ibus-anthy/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.2.2\n"
 
 #: data/ibus-anthy.appdata.xml.in:7
 msgid "Japanese input method"
@@ -319,7 +319,7 @@ msgstr "_Çıkış Karakterleri"
 #: setup/python3/main.py:595 setup/python3/main.py:1065
 #: setup/python3/main.py:1169 setup/python3/setup.ui:183
 msgid "Default"
-msgstr "Varsayılan"
+msgstr "Öntanımlı"
 
 #: setup/python2/main.py:593 setup/python3/main.py:598
 msgid "Customize Kana Key Table"
@@ -328,7 +328,7 @@ msgstr "Kana Tuş Tablosunu Özelleştir"
 #: setup/python2/main.py:594 setup/python2/setup.ui:988
 #: setup/python3/main.py:599 setup/python3/setup.ui:988
 msgid "_Kana Key Table:"
-msgstr "_Kana Tuş Tablosu"
+msgstr "_Kana Tuş Tablosu:"
 
 #: setup/python2/main.py:596 setup/python3/main.py:601
 msgid "Japanese Keyboard Layout"
@@ -489,7 +489,7 @@ msgstr "Sözlük Dosyasını Görüntüle"
 
 #: setup/python2/main.py:1642 setup/python3/main.py:1636
 msgid "Please press a key (or a key combination)"
-msgstr "Lütfen bir tuşa (veya bir tuş kombinasyonuna) basın"
+msgstr "Lütfen bir tuşa (veya bir tuş dizisine) basın"
 
 #: setup/python2/main.py:1643 setup/python3/main.py:1637
 msgid "The dialog will be closed when the key is released"
@@ -655,7 +655,7 @@ msgstr "_Kısayol Türü:"
 
 #: setup/python2/setup.ui:831 setup/python3/setup.ui:831
 msgid "De_fault"
-msgstr "Var_sayılan"
+msgstr "Ön_tanımlı"
 
 #: setup/python2/setup.ui:847 setup/python2/setup.ui:1763
 #: setup/python3/setup.ui:847 setup/python3/setup.ui:1763
@@ -770,7 +770,7 @@ msgstr "Kelime _Ekleme Komutu:"
 
 #: setup/python2/setup.ui:1680 setup/python3/setup.ui:1680
 msgid "<b>Default Dictionary Configuration</b>"
-msgstr "<b>Varsayılan Sözlük Yapılandırması</b>"
+msgstr "<b>Öntanımlı Sözlük Yapılandırması</b>"
 
 #: setup/python2/setup.ui:1731 setup/python3/setup.ui:1731
 msgid "_View"
@@ -831,11 +831,11 @@ msgstr "Değiştirici:"
 
 #: setup/python2/setup.ui:2042 setup/python3/setup.ui:2042
 msgid "A_lternate"
-msgstr "A_lternatif"
+msgstr "A_lt"
 
 #: setup/python2/setup.ui:2055 setup/python3/setup.ui:2055
 msgid "Co_ntrol"
-msgstr "Ko_ntrol"
+msgstr "C_trl"
 
 #: setup/python2/setup.ui:2068 setup/python3/setup.ui:2068
 msgid "_Shift"
@@ -891,4 +891,4 @@ msgstr "IBus giriş platformu için Anthy motoru"
 
 #: setup/python2/setup.ui:2719 setup/python3/setup.ui:2719
 msgid "translator_credits"
-msgstr "Oğuz Ersen <oguzersen@protonmail.com>, 2020"
+msgstr "Oğuz Ersen <oguzersen@protonmail.com>"
