@@ -15,16 +15,16 @@ msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.10\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2019-04-22 23:08+0900\n"
-"PO-Revision-Date: 2020-01-01 12:15+0000\n"
+"PO-Revision-Date: 2020-10-17 07:15+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
-"Language-Team: French <https://translate.stg.fedoraproject.org/projects/ibus/"
+"Language-Team: French <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.3\n"
 
 #: data/ibus-anthy.appdata.xml.in:7
 msgid "Japanese input method"
@@ -33,7 +33,7 @@ msgstr "Méthode de saisie du japonais"
 #: data/ibus-anthy.appdata.xml.in:9
 msgid "The Anthy input method is designed for entering Japanese text."
 msgstr ""
-"La méthode de saisie Anthy  est conçue pour saisir des textes en japonais."
+"La méthode de saisie Anthy est conçue pour saisir des textes en japonais."
 
 #: data/ibus-anthy.appdata.xml.in:12
 msgid ""
@@ -43,8 +43,8 @@ msgid ""
 msgstr ""
 "Les méthodes de saisie sont des systèmes permettant aux utilisateurs de "
 "saisir des langues complexes. Elles sont nécessaires parce que les trop "
-"nombreux  caractères de ces langues ne peuvent être disposés sur des "
-"claviers classiques."
+"nombreux caractères de ces langues ne peuvent être disposés sur des claviers "
+"classiques."
 
 #: engine/python2/default.inputMethod.xml.in.in:13
 #: engine/python3/default.inputMethod.xml.in.in:13
@@ -59,11 +59,11 @@ msgid ""
 "directory is not '\\n'. I.e. not correct text format.\n"
 "Please fix the file or remove it by manual and restart IBus."
 msgstr ""
-"Anthy n'a pas pu être activée.\n"
+"Anthy n’a pas pu être activée.\n"
 "Le contenu à la fin du fichier %s/last-record2_default.utf8 de votre dossier "
-"personnel n'est pas\n"
-"dans un format texte correct.\n"
-"Veuillez corriger le fichier ou le supprimer manuellement, puis redémarrer "
+"personnel n’est pas « \\n"
+" ». C.-à-d. pas dans un format texte correct.\n"
+"Veuillez corriger le fichier ou le supprimer manuellement, puis redémarrez "
 "IBus."
 
 #: engine/python2/engine.py:256 engine/python3/engine.py:257
@@ -310,7 +310,7 @@ msgstr "Droite"
 
 #: setup/python2/main.py:587 setup/python3/main.py:592
 msgid "Customize Romaji Key Table"
-msgstr "Modifier la table des touches Romaji"
+msgstr "Personnaliser la table des touches Romaji"
 
 #: setup/python2/main.py:588 setup/python2/setup.ui:910
 #: setup/python3/main.py:593 setup/python3/setup.ui:910
@@ -331,7 +331,7 @@ msgstr "Par défaut"
 
 #: setup/python2/main.py:593 setup/python3/main.py:598
 msgid "Customize Kana Key Table"
-msgstr "Modifier la table des touches Kana"
+msgstr "Personnaliser la table des touches Kana"
 
 #: setup/python2/main.py:594 setup/python2/setup.ui:988
 #: setup/python3/main.py:599 setup/python3/setup.ui:988
@@ -348,7 +348,7 @@ msgstr "Disposition clavier américain"
 
 #: setup/python2/main.py:600 setup/python3/main.py:605
 msgid "Customize Thumb Shift Key Table"
-msgstr "Modifier la table des touches de la méthode Thumb Shift"
+msgstr "Personnaliser la table des touches de la méthode Thumb Shift"
 
 #: setup/python2/main.py:601 setup/python3/main.py:606
 msgid "_Thumb Shift Key Table:"
@@ -480,7 +480,7 @@ msgstr "Modifier le fichier de dictionnaire"
 #: setup/python2/setup.ui:2181 setup/python3/main.py:1388
 #: setup/python3/main.py:1477 setup/python3/setup.ui:2181
 msgid "_OK"
-msgstr "_Valider"
+msgstr "_OK"
 
 #: setup/python2/main.py:1405 setup/python3/main.py:1399
 msgid "Your choosed file is not correct."
@@ -509,12 +509,12 @@ msgstr "La fenêtre se fermera lorsque la touche sera relâchée"
 #: setup/python2/main.py:1663 setup/python2/main.py:1684
 #: setup/python3/main.py:1657 setup/python3/main.py:1678
 msgid "Invalid keysym"
-msgstr "« keysym » invalide"
+msgstr "« keysym » invalide"
 
 #: setup/python2/main.py:1664 setup/python2/main.py:1685
 #: setup/python3/main.py:1658 setup/python3/main.py:1679
 msgid "This keysym is not valid"
-msgstr "Ce « keysym » n’est pas valide"
+msgstr "Ce « keysym » n’est pas valide"
 
 #: setup/python2/setup.ui:39 setup/python3/setup.ui:39
 msgid "NICOLA-J"
@@ -602,7 +602,7 @@ msgstr "<b>Configuration initiale</b>"
 
 #: setup/python2/setup.ui:381 setup/python3/setup.ui:381
 msgid "<b>Menu Visibility on Status Icon</b>"
-msgstr "<b>Visibilité du menu sur l’icône d'état</b>"
+msgstr "<b>Visibilité du menu sur l’icône d’état</b>"
 
 #: setup/python2/setup.ui:428 setup/python3/setup.ui:428
 msgid "_Period Style:"
@@ -649,7 +649,7 @@ msgid ""
 "Swi_tch “Hiragana” and “Latin” with Shift key and Hiragana–Katakana key in "
 "preedit"
 msgstr ""
-"Permuter entre les modes « Hiragana » et « Latin » avec la touche Maj et la "
+"Permuter entre les modes « Hiragana » et « Latin » avec la touche Maj et la "
 "touche Hiragana-Katakana en pré-édition"
 
 #: setup/python2/setup.ui:726 setup/python3/setup.ui:726
@@ -658,7 +658,7 @@ msgstr "<b>Autres options</b>"
 
 #: setup/python2/setup.ui:742 setup/python3/setup.ui:742
 msgid "Conversion"
-msgstr "Mode de conversion"
+msgstr "Conversion"
 
 #: setup/python2/setup.ui:764 setup/python3/setup.ui:764
 msgid "_Shortcut Type:"
@@ -675,7 +675,7 @@ msgstr "_Modifier"
 
 #: setup/python2/setup.ui:873 setup/python3/setup.ui:873
 msgid "Key Binding"
-msgstr "Raccourcis claviers"
+msgstr "Affectation des touches"
 
 #: setup/python2/setup.ui:951 setup/python3/setup.ui:951
 msgid "<b>Romaji</b>"
@@ -732,7 +732,8 @@ msgstr "_Arrangements des Touches Additionnelles :"
 #: setup/python2/setup.ui:1377 setup/python3/setup.ui:1377
 msgid "'～', '『', '¢', '£' and so on can be output with Thumb Shift key"
 msgstr ""
-"'～', '『', '¢', '£', etc. peuvent être tapés avec la méthode Thumb Shift"
+"« ～ », « 『 », « ¢ », « £ », etc. peuvent être tapés avec la touche Thumb "
+"Shift"
 
 #: setup/python2/setup.ui:1419 setup/python3/setup.ui:1419
 msgid ""
@@ -741,7 +742,7 @@ msgid ""
 "input method is turned on."
 msgstr ""
 "Vous n’avez pas besoin de reconfigurer la disposition clavier système pour "
-"profiter des « Arrangements des Touches Additionnelles », puisque cette "
+"profiter des « Arrangements des Touches Additionnelles », puisque cette "
 "option ne change la disposition de la méthode de saisie que lorsque la "
 "méthode de saisie est activée."
 
@@ -755,7 +756,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:1437 setup/python3/setup.ui:1437
 msgid "_Enable semi-voiced sound mark with Shift key"
-msgstr "Activer les « semi-_voiced sound mark » avec la touche Majuscule"
+msgstr "Activer les « semi-_voiced sound mark » avec la touche Majuscule"
 
 #: setup/python2/setup.ui:1438 setup/python3/setup.ui:1438
 msgid "Seion + Shift can output Handakuon"
@@ -832,7 +833,7 @@ msgstr "_Fermer"
 
 #: setup/python2/setup.ui:1938 setup/python3/setup.ui:1938
 msgid "Edit Shortcut"
-msgstr "Éditer le raccourci"
+msgstr "Modifier le raccourci"
 
 #: setup/python2/setup.ui:1980 setup/python3/setup.ui:1980
 msgid "Key Code:"
@@ -876,7 +877,7 @@ msgstr "Thumb Shift D_roit"
 
 #: setup/python2/setup.ui:2387 setup/python3/setup.ui:2387
 msgid "_Remove"
-msgstr "_Enlever"
+msgstr "_Retirer"
 
 #: setup/python2/setup.ui:2607 setup/python3/setup.ui:2607
 msgid "_Short Label:"
