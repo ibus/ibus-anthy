@@ -7,21 +7,22 @@
 # fujiwara <takao.fujiwara1@gmail.com>, 2017. #zanata
 # fujiwara <takao.fujiwara1@gmail.com>, 2019. #zanata
 # Mike FABIAN <mfabian@redhat.com>, 2020.
+# Emilio Herrera <ehespinosa57@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.10\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2019-04-22 23:08+0900\n"
-"PO-Revision-Date: 2020-01-06 00:15+0000\n"
-"Last-Translator: Mike FABIAN <mfabian@redhat.com>\n"
-"Language-Team: Spanish <https://translate.stg.fedoraproject.org/projects/"
-"ibus/ibus-anthy/es/>\n"
+"PO-Revision-Date: 2020-10-23 12:15+0000\n"
+"Last-Translator: Emilio Herrera <ehespinosa57@gmail.com>\n"
+"Language-Team: Spanish <https://translate.fedoraproject.org/projects/ibus/"
+"ibus-anthy/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.3.1\n"
 
 #: data/ibus-anthy.appdata.xml.in:7
 msgid "Japanese input method"
@@ -56,8 +57,8 @@ msgid ""
 "Please fix the file or remove it by manual and restart IBus."
 msgstr ""
 "No se pudo activar Anthy.\n"
-"El archivo %s/last-record2_default.utf8 del directorio de usuario no termina "
-"con una línea nueva; es decir, no tiene el formato correcto.\n"
+"El archivo %s/last-record2_default.utf8 del directorio de usuario no '\\n"
+"'.l.e. termina con una línea nueva; es decir, no tiene el formato correcto.\n"
 "Corrija el fichero o bórrelo y reinicie IBus."
 
 #: engine/python2/engine.py:256 engine/python3/engine.py:257
@@ -472,7 +473,7 @@ msgstr "Editar archivo de diccionario"
 #: setup/python2/setup.ui:2181 setup/python3/main.py:1388
 #: setup/python3/main.py:1477 setup/python3/setup.ui:2181
 msgid "_OK"
-msgstr "_Hecho"
+msgstr "_Aceptar"
 
 #: setup/python2/main.py:1405 setup/python3/main.py:1399
 msgid "Your choosed file is not correct."
@@ -492,7 +493,7 @@ msgstr "Ver archivos de diccionario"
 
 #: setup/python2/main.py:1642 setup/python3/main.py:1636
 msgid "Please press a key (or a key combination)"
-msgstr "Pulse una tecla (o una combinación de teclas)"
+msgstr "Por favor, presione una tecla (o una combinación de teclas)"
 
 #: setup/python2/main.py:1643 setup/python3/main.py:1637
 msgid "The dialog will be closed when the key is released"
@@ -792,7 +793,7 @@ msgstr "_Añadir"
 #: setup/python2/setup.ui:1779 setup/python2/setup.ui:2132
 #: setup/python3/setup.ui:1779 setup/python3/setup.ui:2132
 msgid "_Delete"
-msgstr "_Borrar"
+msgstr "_Eliminar"
 
 #: setup/python2/setup.ui:1808 setup/python3/setup.ui:1808
 msgid "_Up"
@@ -805,7 +806,7 @@ msgstr "Puede cambiar el orden en la barra de idiomas"
 
 #: setup/python2/setup.ui:1825 setup/python3/setup.ui:1825
 msgid "_Down"
-msgstr "Ba_jar"
+msgstr "_Abajo"
 
 #: setup/python2/setup.ui:1852 setup/python3/setup.ui:1852
 msgid "<b>Extended Dictionaries</b>"
@@ -898,6 +899,4 @@ msgstr "El motor Anthy para la plataforma de entrada IBus"
 
 #: setup/python2/setup.ui:2719 setup/python3/setup.ui:2719
 msgid "translator_credits"
-msgstr ""
-"Máximo Castañeda <lonemadmax@fedoraproject.org>\n"
-"Equipo de español de Fedora <https://fedora.zanata.org/language/view/es>"
+msgstr "traductores"
