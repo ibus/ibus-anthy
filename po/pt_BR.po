@@ -6,21 +6,23 @@
 # Translators:
 # Marco Aurélio Krause <ouesten@me.com>, 2015. #zanata
 # Rafael Fontenelle <rafaelff@gnome.org>, 2020.
+# Henrique Roberto Gattermann Mittelstaedt <henrique.roberto97@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: ibus-anthy master\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2017-03-17 13:26+0900\n"
-"PO-Revision-Date: 2020-01-06 00:15+0000\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
-"Language-Team: Portuguese (Brazil) <https://translate.stg.fedoraproject.org/"
+"PO-Revision-Date: 2020-11-30 11:35+0000\n"
+"Last-Translator: Henrique Roberto Gattermann Mittelstaedt <henrique."
+"roberto97@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/ibus/ibus-anthy/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #: ../data/ibus-anthy.appdata.xml.in.h:1
 msgid "Japanese input method"
@@ -746,7 +748,7 @@ msgstr "Reiniciar IBus quando você alterar o XKB"
 
 #: ../setup/python2/setup.ui.h:68 ../setup/python3/setup.ui.h:68
 msgid "_Additional Key Arrangement:"
-msgstr "Arranjo de teclas _adicional:"
+msgstr "Arranjo de Teclas _Adicional:"
 
 #: ../setup/python2/setup.ui.h:69 ../setup/python3/setup.ui.h:69
 msgid ""
@@ -796,7 +798,7 @@ msgstr "Thumb Shift"
 
 #: ../setup/python2/setup.ui.h:77 ../setup/python3/setup.ui.h:77
 msgid "_Edit Dictionary Command:"
-msgstr "Comando de _editar de dicionário:"
+msgstr "Comando de _Editar de Dicionário:"
 
 #: ../setup/python2/setup.ui.h:78 ../setup/python3/setup.ui.h:78
 msgid "_Add Word Command:"
