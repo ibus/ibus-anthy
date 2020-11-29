@@ -6,14 +6,15 @@
 # Translators:
 # Marco Aurélio Krause <ouesten@me.com>, 2015. #zanata
 # Rafael Fontenelle <rafaelff@gnome.org>, 2020, 2025.
-# Henrique Roberto Gattermann Mittelstaedt <henrique.roberto97@gmail.com>, 2020.
+# Henrique Roberto Gattermann Mittelstaedt <henrique.roberto97@gmail.com>, 2020, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: ibus-anthy master\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2017-03-17 13:26+0900\n"
 "PO-Revision-Date: 2025-02-19 05:16+0000\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"Last-Translator: Henrique Roberto Gattermann Mittelstaedt "
+"<henrique.roberto97@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/ibus/ibus-anthy/pt_BR/>\n"
 "Language: pt_BR\n"
