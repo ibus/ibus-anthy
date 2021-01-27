@@ -7,19 +7,22 @@
 # Peng Huang <shawn.p.huang@gmail.com>, 2008.
 # Popolon <popolon@popolon.org>, 2011
 # Popolon <popolon@popolon.org>, 2011
+# Dingzhong Chen <wsxy162@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: IBus-Anthy\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2017-03-17 13:26+0900\n"
-"PO-Revision-Date: 2014-02-18 08:42+0000\n"
-"Last-Translator: Peng Huang <shawn.p.huang@gmail.com>\n"
-"Language-Team: Peng Huang <shawn.p.huang@gmail.com>\n"
+"PO-Revision-Date: 2021-01-28 17:40+0000\n"
+"Last-Translator: Dingzhong Chen <wsxy162@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
+"projects/ibus/ibus-anthy/zh_CN/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: ../data/ibus-anthy.appdata.xml.in.h:1
 msgid "Japanese input method"
@@ -817,7 +820,7 @@ msgstr ""
 
 #: ../setup/python2/setup.ui.h:88 ../setup/python3/setup.ui.h:88
 msgid "About"
-msgstr ""
+msgstr "关于"
 
 #: ../setup/python2/setup.ui.h:89 ../setup/python3/setup.ui.h:89
 msgid "_Apply"
