@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.10\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2019-04-22 23:08+0900\n"
-"PO-Revision-Date: 2021-04-28 19:02+0000\n"
+"PO-Revision-Date: 2021-04-30 13:02+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/fi/>\n"
@@ -255,7 +255,7 @@ msgstr ""
 
 #: setup/python2/main.py:198 setup/python3/main.py:201
 msgid "Command"
-msgstr ""
+msgstr "Komento"
 
 #: setup/python2/main.py:202 setup/python3/main.py:205
 msgid "Shortcut"
@@ -263,7 +263,7 @@ msgstr ""
 
 #: setup/python2/main.py:247 setup/python3/main.py:250
 msgid "Description"
-msgstr ""
+msgstr "Kuvaus"
 
 #. Translators: "Embd" is an abbreviation of "embedded".
 #: setup/python2/main.py:255 setup/python3/main.py:258
@@ -287,11 +287,11 @@ msgstr ""
 
 #: setup/python2/main.py:499 setup/python3/main.py:504
 msgid "Input"
-msgstr ""
+msgstr "Sisääntulo"
 
 #: setup/python2/main.py:501 setup/python3/main.py:506
 msgid "Single"
-msgstr ""
+msgstr "Yksittäinen"
 
 #: setup/python2/main.py:503 setup/python3/main.py:508
 msgid "Left"
@@ -299,7 +299,7 @@ msgstr ""
 
 #: setup/python2/main.py:505 setup/python3/main.py:510
 msgid "Right"
-msgstr ""
+msgstr "Oikeudet"
 
 #: setup/python2/main.py:587 setup/python3/main.py:592
 msgid "Customize Romaji Key Table"
@@ -320,7 +320,7 @@ msgstr ""
 #: setup/python3/main.py:595 setup/python3/main.py:1065
 #: setup/python3/main.py:1169 setup/python3/setup.ui:183
 msgid "Default"
-msgstr ""
+msgstr "Oletus"
 
 #: setup/python2/main.py:593 setup/python3/main.py:598
 msgid "Customize Kana Key Table"
@@ -353,7 +353,7 @@ msgstr ""
 
 #: setup/python2/main.py:603 setup/python3/main.py:608
 msgid "Base"
-msgstr ""
+msgstr "Peruspaketit"
 
 #: setup/python2/main.py:604 setup/python3/main.py:609
 msgid "NICOLA-J key extension"
@@ -458,7 +458,7 @@ msgstr "_Peru"
 
 #: setup/python2/main.py:1388 setup/python3/main.py:1382
 msgid "_Open"
-msgstr ""
+msgstr "_Avaa"
 
 #: setup/python2/main.py:1391 setup/python3/main.py:1385
 msgid "Edit Dictionary File"
@@ -518,7 +518,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:55 setup/python3/setup.ui:55
 msgid "None"
-msgstr "Ei mitään"
+msgstr "Ei yhtään"
 
 #: setup/python2/setup.ui:58 setup/python3/setup.ui:58
 msgid "FMV KB231 key extension"
@@ -554,11 +554,11 @@ msgstr ""
 
 #: setup/python2/setup.ui:170 setup/python3/setup.ui:170
 msgid "Commit"
-msgstr ""
+msgstr "Tehdä"
 
 #: setup/python2/setup.ui:173 setup/python3/setup.ui:173
 msgid "Hold"
-msgstr ""
+msgstr "_Pysäytä"
 
 #: setup/python2/setup.ui:186 setup/python3/setup.ui:186
 msgid "ATOK"
@@ -652,12 +652,12 @@ msgstr ""
 
 #: setup/python2/setup.ui:831 setup/python3/setup.ui:831
 msgid "De_fault"
-msgstr ""
+msgstr "Oletus"
 
 #: setup/python2/setup.ui:847 setup/python2/setup.ui:1763
 #: setup/python3/setup.ui:847 setup/python3/setup.ui:1763
 msgid "_Edit"
-msgstr ""
+msgstr "_Muokkaa"
 
 #: setup/python2/setup.ui:873 setup/python3/setup.ui:873
 msgid "Key Binding"
@@ -677,7 +677,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:1108 setup/python3/setup.ui:1108
 msgid "<b>Keyboard layout</b>"
-msgstr ""
+msgstr "<b>Näppäimistön asettelu</b>"
 
 #: setup/python2/setup.ui:1127 setup/python3/setup.ui:1127
 msgid "Typing Method"
@@ -766,7 +766,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:1731 setup/python3/setup.ui:1731
 msgid "_View"
-msgstr ""
+msgstr "_Näytä"
 
 #: setup/python2/setup.ui:1747 setup/python2/setup.ui:2099
 #: setup/python2/setup.ui:2373 setup/python3/setup.ui:1747
@@ -815,11 +815,11 @@ msgstr ""
 
 #: setup/python2/setup.ui:1980 setup/python3/setup.ui:1980
 msgid "Key Code:"
-msgstr ""
+msgstr "Avain koodi:"
 
 #: setup/python2/setup.ui:2028 setup/python3/setup.ui:2028
 msgid "Modifier:"
-msgstr ""
+msgstr "Muokkaajat:"
 
 #: setup/python2/setup.ui:2042 setup/python3/setup.ui:2042
 msgid "A_lternate"
@@ -827,7 +827,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:2055 setup/python3/setup.ui:2055
 msgid "Co_ntrol"
-msgstr ""
+msgstr "Hallinta"
 
 #: setup/python2/setup.ui:2068 setup/python3/setup.ui:2068
 msgid "_Shift"
@@ -835,7 +835,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:2116 setup/python3/setup.ui:2116
 msgid "_Refresh"
-msgstr ""
+msgstr "_Päivitä"
 
 #: setup/python2/setup.ui:2293 setup/python3/setup.ui:2293
 msgid "_Input Characters"
@@ -855,7 +855,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:2387 setup/python3/setup.ui:2387
 msgid "_Remove"
-msgstr "_Poista"
+msgstr "P_oista"
 
 #: setup/python2/setup.ui:2607 setup/python3/setup.ui:2607
 msgid "_Short Label:"
@@ -863,7 +863,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:2631 setup/python3/setup.ui:2631
 msgid "_Description:"
-msgstr ""
+msgstr "_Kuvaus:"
 
 #: setup/python2/setup.ui:2663 setup/python3/setup.ui:2663
 msgid "_Use your dictionary alone with switching dictionaries"
@@ -884,3 +884,6 @@ msgstr ""
 #: setup/python2/setup.ui:2719 setup/python3/setup.ui:2719
 msgid "translator_credits"
 msgstr ""
+"Ilkka Tuohela, 2004-2005\n"
+"Jan Kuparinen\n"
+"http://gnome.fi/"
