@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.10\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2019-04-22 23:08+0900\n"
-"PO-Revision-Date: 2021-04-30 13:02+0000\n"
+"PO-Revision-Date: 2021-06-12 17:04+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/fi/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.6\n"
+"X-Generator: Weblate 4.6.2\n"
 
 #: data/ibus-anthy.appdata.xml.in:7
 msgid "Japanese input method"
@@ -123,56 +123,56 @@ msgstr "Leveä Latina"
 #: engine/python3/engine.py:919 engine/python3/engine.py:943
 #: setup/python2/main.py:408 setup/python3/main.py:413
 msgid "Typing method"
-msgstr ""
+msgstr "Kirjoitusmenetelmä"
 
 #: engine/python2/engine.py:390 engine/python3/engine.py:391
 msgid "Switch typing method"
-msgstr ""
+msgstr "Vaihda kirjoitusmenetelmä"
 
 #: engine/python2/engine.py:400 engine/python3/engine.py:401
 #: setup/python2/setup.ui:71 setup/python3/setup.ui:71
 msgid "Romaji"
-msgstr ""
+msgstr "Romaji"
 
 #: engine/python2/engine.py:409 engine/python3/engine.py:410
 #: setup/python2/setup.ui:74 setup/python3/setup.ui:74
 msgid "Kana"
-msgstr ""
+msgstr "Kana"
 
 #: engine/python2/engine.py:418 engine/python3/engine.py:419
 #: setup/python2/setup.ui:77 setup/python3/setup.ui:77
 msgid "Thumb shift"
-msgstr ""
+msgstr "Peukalo muutos"
 
 #: engine/python2/engine.py:451 engine/python2/engine.py:977
 #: engine/python3/engine.py:452 engine/python3/engine.py:972
 #: setup/python2/main.py:411 setup/python3/main.py:416
 msgid "Segment mode"
-msgstr ""
+msgstr "Segmenttitila"
 
 #: engine/python2/engine.py:457 engine/python3/engine.py:458
 msgid "Switch conversion mode"
-msgstr ""
+msgstr "Vaihda muunnostila"
 
 #: engine/python2/engine.py:467 engine/python3/engine.py:468
 #: setup/python2/setup.ui:87 setup/python3/setup.ui:87
 msgid "Multiple segment"
-msgstr ""
+msgstr "Useita segmenttejä"
 
 #: engine/python2/engine.py:476 engine/python3/engine.py:477
 #: setup/python2/setup.ui:90 setup/python3/setup.ui:90
 msgid "Single segment"
-msgstr ""
+msgstr "Yksittäinen segmentti"
 
 #: engine/python2/engine.py:485 engine/python3/engine.py:486
 #: setup/python2/setup.ui:93 setup/python3/setup.ui:93
 msgid "Immediate conversion (multiple segment)"
-msgstr ""
+msgstr "Välitön muunnos (useita segmenttejä)"
 
 #: engine/python2/engine.py:494 engine/python3/engine.py:495
 #: setup/python2/setup.ui:96 setup/python3/setup.ui:96
 msgid "Immediate conversion (single segment)"
-msgstr ""
+msgstr "Välitön muunnos (yksittäinen segmentti)"
 
 #: engine/python2/engine.py:527 engine/python2/engine.py:1039
 #: engine/python3/engine.py:528 engine/python3/engine.py:1034
