@@ -55,8 +55,7 @@ msgid ""
 msgstr ""
 "Anthyä ei voitu ottaa käyttöön.\n"
 "Kotihakemistosi tiedoston %s/last-record2_default.utf8 sisällön loppu ei ole "
-"'\\n"
-"'. Eli. väärä tekstimuoto.\n"
+"'\\n'. Eli. väärä tekstimuoto.\n"
 "Korjaa tiedosto tai poista se manuaalisesti ja käynnistä IBus uudelleen."
 
 #: engine/python2/engine.py:256 engine/python3/engine.py:257
