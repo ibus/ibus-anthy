@@ -7,7 +7,7 @@
 # Peng Huang <shawn.p.huang@gmail.com>, 2008.
 # Popolon <popolon@popolon.org>, 2011
 # Popolon <popolon@popolon.org>, 2011
-# Dingzhong Chen <wsxy162@gmail.com>, 2021.
+# Dingzhong Chen <wsxy162@gmail.com>, 2021, 2025.
 # Liu Tao <lyuutau@outlook.com>, 2021, 2023, 2025.
 # Jingge Chen <mariocanfly@hotmail.com>, 2023, 2025.
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2017-03-17 13:26+0900\n"
 "PO-Revision-Date: 2025-02-19 05:16+0000\n"
-"Last-Translator: Jingge Chen <mariocanfly@hotmail.com>\n"
+"Last-Translator: Dingzhong Chen <wsxy162@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/ibus/ibus-anthy/zh_CN/>\n"
 "Language: zh_CN\n"
