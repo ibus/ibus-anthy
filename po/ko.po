@@ -34,8 +34,9 @@ msgid ""
 "They are necessary because these contain too many characters to simply be "
 "laid out on a traditional keyboard."
 msgstr ""
-"입력 방법은 복잡한 언어를 입력하는 사용자가 이용하는 입력시스템입니다. 너무 많은 문자로 인하여 전통적인 키보드에 배치하여 간결하게 만들 "
-"수 없기 때문에 입력 방법이 필요합니다."
+"입력 방법은 복잡한 언어를 입력하는 사용자가 이용하는 입력시스템입니다. 너무 "
+"많은 문자로 인하여 전통적인 키보드에 배치하여 간결하게 만들 수 없기 때문에 입"
+"력 방법이 필요합니다."
 
 #: engine/python2/default.inputMethod.xml.in.in:13
 #: engine/python3/default.inputMethod.xml.in.in:13
@@ -51,8 +52,8 @@ msgid ""
 "Please fix the file or remove it by manual and restart IBus."
 msgstr ""
 "Anthy를 활성화 할 수 없습니다.\n"
-"홈 디렉토리에 있는 %s/last-record2_default.utf8 파일 내용의 끝은 '\\n"
-"'이 아닙니다. 올바른 문자 형식이 아닙니다.\n"
+"홈 디렉토리에 있는 %s/last-record2_default.utf8 파일 내용의 끝은 '\\n'이 아닙"
+"니다. 올바른 문자 형식이 아닙니다.\n"
 "파일을 수정하거나 수동으로 제거해 주고, IBUS를 재시작 하세요."
 
 #: engine/python2/engine.py:256 engine/python3/engine.py:257
@@ -414,7 +415,9 @@ msgstr "엔진 xml 파일은 존재하지 않습니다.: "
 #: setup/python2/main.py:1051 setup/python3/main.py:1045
 msgid ""
 "Anthy keyboard layout is changed. Please restart ibus to reload the layout."
-msgstr "Anthy 키보드 레이아웃이 변화 되었습니다. 레이아웃을 적재하기 위해서 ibus를 재시작 해주세요."
+msgstr ""
+"Anthy 키보드 레이아웃이 변화 되었습니다. 레이아웃을 적재하기 위해서 ibus를 재"
+"시작 해주세요."
 
 #: setup/python2/main.py:1263 setup/python3/main.py:1257
 msgid "Please specify Input Chars"
@@ -632,7 +635,9 @@ msgstr "하나의 열 너비로 공백 Con_vert"
 msgid ""
 "Swi_tch “Hiragana” and “Latin” with Shift key and Hiragana–Katakana key in "
 "preedit"
-msgstr "사전 편집에서 쉬프트 키와 히라카나-카타카나 키를 사용하는 Swi_tch \"히라가나\"및 \"라틴\""
+msgstr ""
+"사전 편집에서 쉬프트 키와 히라카나-카타카나 키를 사용하는 Swi_tch \"히라가나"
+"\"및 \"라틴\""
 
 #: setup/python2/setup.ui:726 setup/python3/setup.ui:726
 msgid "<b>Other</b>"
@@ -721,14 +726,16 @@ msgid ""
 "Key Arrangement\" since this option changes input method layout only in case "
 "input method is turned on."
 msgstr ""
-"이 선택은 입력 방식을 켜져 있는 경우에만 입력 방식 레이아웃을 변환 한 후에 \"추가 키 배열\"를 위하여 시스템 키보드 레이아웃을 "
-"재구성 할 필요가 없습니다."
+"이 선택은 입력 방식을 켜져 있는 경우에만 입력 방식 레이아웃을 변환 한 후에 "
+"\"추가 키 배열\"를 위하여 시스템 키보드 레이아웃을 재구성 할 필요가 없습니다."
 
 #: setup/python2/setup.ui:1420 setup/python3/setup.ui:1420
 msgid ""
 "You do not have to reconfigure XKB since this option changes IM layout only "
 "with IM on."
-msgstr "이 선택은 IM을 켠 후에만 IM 레이아웃을 변경 하므로 XKB를 재설정 할 필요가 없습니다."
+msgstr ""
+"이 선택은 IM을 켠 후에만 IM 레이아웃을 변경 하므로 XKB를 재설정 할 필요가 없"
+"습니다."
 
 #: setup/python2/setup.ui:1437 setup/python3/setup.ui:1437
 msgid "_Enable semi-voiced sound mark with Shift key"
