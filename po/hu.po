@@ -54,8 +54,7 @@ msgid ""
 msgstr ""
 "Az Anthy nem engedélyezhető.\n"
 "A saját mappájában lévő %s/last-record2_default.utf8 fájl tartalmának vége "
-"nem „\\n"
-"”. Tehát nem helyes szövegformátum.\n"
+"nem „\\n”. Tehát nem helyes szövegformátum.\n"
 "Javítsa a fájlt vagy távolítsa el kézzel, és indítsa újra az IBust."
 
 #: engine/python2/engine.py:256 engine/python3/engine.py:257
@@ -721,7 +720,8 @@ msgstr "_További billentyűelrendezések:"
 
 #: setup/python2/setup.ui:1377 setup/python3/setup.ui:1377
 msgid "'～', '『', '¢', '£' and so on can be output with Thumb Shift key"
-msgstr "A(z) „～”, „『”, „¢”, „£” stb. a hüvelyujjas Shit billentyűvel írható ki"
+msgstr ""
+"A(z) „～”, „『”, „¢”, „£” stb. a hüvelyujjas Shit billentyűvel írható ki"
 
 #: setup/python2/setup.ui:1419 setup/python3/setup.ui:1419
 msgid ""
