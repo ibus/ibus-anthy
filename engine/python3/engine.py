@@ -2315,6 +2315,20 @@ class Engine(IBus.EngineSimple):
             self.__invalidate()
             return True
 
+    def __cmd_escape_to_latin(self, keyval, state):
+        """
+        Vi-cooperative variant of cancel_all. When Vi users press Escape, they
+        expect to return to Normal mode where an IME would not make sense. This
+        command automatically switches back to Latin when sending Escape. When
+        converting, Escape will cancel the conversion instead.
+        """
+        if self._chk_mode('0'):
+            if Engine.__input_mode != INPUT_MODE_LATIN:
+                self.__cmd_latin_mode(keyval, state)
+            return False
+        else:
+            return self.__cmd_cancel_all(keyval, state)
+
     def __cmd_reconvert(self, keyval, state):
         if not self.__preedit_ja_string.is_empty():
             # if user has inputed some chars

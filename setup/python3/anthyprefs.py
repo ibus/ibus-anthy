@@ -269,6 +269,7 @@ _cmd_keys = [
     'predict',
     'cancel',
     'cancel_all',
+    'escape_to_latin',
     'reconvert',
 #    'do_nothing',
 
