@@ -9,17 +9,20 @@ msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.10\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2019-04-22 23:08+0900\n"
-"PO-Revision-Date: 2019-04-22 23:08+0900\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-09-09 07:19+0000\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <https://translate.fedoraproject.org/projects/ibus/"
+"ibus-anthy/ka/>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14\n"
 
 #: data/ibus-anthy.appdata.xml.in:7
 msgid "Japanese input method"
-msgstr ""
+msgstr "შეყვანის იაპონური მეთოდი"
 
 #: data/ibus-anthy.appdata.xml.in:9
 msgid "The Anthy input method is designed for entering Japanese text."
@@ -74,21 +77,21 @@ msgstr ""
 #: engine/python3/engine.py:297 engine/python3/engine.py:888
 #: setup/python2/main.py:405 setup/python3/main.py:410
 msgid "Input mode"
-msgstr ""
+msgstr "შეყვანის რეჟიმი"
 
 #: engine/python2/engine.py:302 engine/python3/engine.py:303
 msgid "Switch input mode"
-msgstr ""
+msgstr "შეყვანის რეჟიმის გადართვა"
 
 #: engine/python2/engine.py:312 engine/python3/engine.py:313
 #: setup/python2/setup.ui:17 setup/python3/setup.ui:17
 msgid "Hiragana"
-msgstr ""
+msgstr "ჰირაგანა"
 
 #: engine/python2/engine.py:321 engine/python3/engine.py:322
 #: setup/python2/setup.ui:20 setup/python3/setup.ui:20
 msgid "Katakana"
-msgstr ""
+msgstr "კატაკანა"
 
 #: engine/python2/engine.py:330 engine/python3/engine.py:331
 #: setup/python2/setup.ui:23 setup/python3/setup.ui:23
@@ -98,33 +101,33 @@ msgstr ""
 #: engine/python2/engine.py:339 engine/python3/engine.py:340
 #: setup/python2/setup.ui:26 setup/python3/setup.ui:26
 msgid "Latin"
-msgstr ""
+msgstr "ლათინური"
 
 #: engine/python2/engine.py:348 engine/python3/engine.py:349
 #: setup/python2/setup.ui:29 setup/python3/setup.ui:29
 msgid "Wide Latin"
-msgstr ""
+msgstr "ფართო ლათინური"
 
 #: engine/python2/engine.py:384 engine/python2/engine.py:924
 #: engine/python2/engine.py:948 engine/python3/engine.py:385
 #: engine/python3/engine.py:919 engine/python3/engine.py:943
 #: setup/python2/main.py:408 setup/python3/main.py:413
 msgid "Typing method"
-msgstr ""
+msgstr "აკრეფის მეთოდი"
 
 #: engine/python2/engine.py:390 engine/python3/engine.py:391
 msgid "Switch typing method"
-msgstr ""
+msgstr "აკრეფის მეთოდის გადართვა"
 
 #: engine/python2/engine.py:400 engine/python3/engine.py:401
 #: setup/python2/setup.ui:71 setup/python3/setup.ui:71
 msgid "Romaji"
-msgstr ""
+msgstr "რომაჯი"
 
 #: engine/python2/engine.py:409 engine/python3/engine.py:410
 #: setup/python2/setup.ui:74 setup/python3/setup.ui:74
 msgid "Kana"
-msgstr ""
+msgstr "კანა"
 
 #: engine/python2/engine.py:418 engine/python3/engine.py:419
 #: setup/python2/setup.ui:77 setup/python3/setup.ui:77
@@ -204,7 +207,7 @@ msgstr ""
 #: setup/python2/anthyprefs.py:336 setup/python2/setup.ui:397
 #: setup/python3/anthyprefs.py:329 setup/python3/setup.ui:397
 msgid "General"
-msgstr ""
+msgstr "ზოგადი"
 
 #: setup/python2/anthyprefs.py:337 setup/python3/anthyprefs.py:330
 msgid "Zip Code Conversion"
@@ -212,7 +215,7 @@ msgstr ""
 
 #: setup/python2/anthyprefs.py:338 setup/python3/anthyprefs.py:331
 msgid "Symbol"
-msgstr ""
+msgstr "სიმბოლო"
 
 #: setup/python2/anthyprefs.py:339 setup/python3/anthyprefs.py:332
 msgid "Old Character Style"
@@ -224,7 +227,7 @@ msgstr ""
 
 #: setup/python2/anthyprefs.py:341 setup/python3/anthyprefs.py:334
 msgid "Emoji"
-msgstr ""
+msgstr "ემოჯი"
 
 #: setup/python2/ibus-setup-anthy.desktop.in.in:3
 #: setup/python3/ibus-setup-anthy.desktop.in.in:3
@@ -242,15 +245,15 @@ msgstr ""
 
 #: setup/python2/main.py:198 setup/python3/main.py:201
 msgid "Command"
-msgstr ""
+msgstr "ბრძანება"
 
 #: setup/python2/main.py:202 setup/python3/main.py:205
 msgid "Shortcut"
-msgstr ""
+msgstr "მალსახმობი"
 
 #: setup/python2/main.py:247 setup/python3/main.py:250
 msgid "Description"
-msgstr ""
+msgstr "აღწერა"
 
 #. Translators: "Embd" is an abbreviation of "embedded".
 #: setup/python2/main.py:255 setup/python3/main.py:258
@@ -274,19 +277,19 @@ msgstr ""
 
 #: setup/python2/main.py:499 setup/python3/main.py:504
 msgid "Input"
-msgstr ""
+msgstr "შეყვანა"
 
 #: setup/python2/main.py:501 setup/python3/main.py:506
 msgid "Single"
-msgstr ""
+msgstr "ერთი"
 
 #: setup/python2/main.py:503 setup/python3/main.py:508
 msgid "Left"
-msgstr ""
+msgstr "მარცხენა"
 
 #: setup/python2/main.py:505 setup/python3/main.py:510
 msgid "Right"
-msgstr ""
+msgstr "Right"
 
 #: setup/python2/main.py:587 setup/python3/main.py:592
 msgid "Customize Romaji Key Table"
@@ -340,7 +343,7 @@ msgstr ""
 
 #: setup/python2/main.py:603 setup/python3/main.py:608
 msgid "Base"
-msgstr ""
+msgstr "საბაზისო"
 
 #: setup/python2/main.py:604 setup/python3/main.py:609
 msgid "NICOLA-J key extension"
@@ -441,11 +444,11 @@ msgstr ""
 #: setup/python2/setup.ui:2166 setup/python3/main.py:1381
 #: setup/python3/main.py:1387 setup/python3/setup.ui:2166
 msgid "_Cancel"
-msgstr ""
+msgstr "_გაუქმება"
 
 #: setup/python2/main.py:1388 setup/python3/main.py:1382
 msgid "_Open"
-msgstr ""
+msgstr "_გახსნა"
 
 #: setup/python2/main.py:1391 setup/python3/main.py:1385
 msgid "Edit Dictionary File"
@@ -455,7 +458,7 @@ msgstr ""
 #: setup/python2/setup.ui:2181 setup/python3/main.py:1388
 #: setup/python3/main.py:1477 setup/python3/setup.ui:2181
 msgid "_OK"
-msgstr ""
+msgstr "_დიახ"
 
 #: setup/python2/main.py:1405 setup/python3/main.py:1399
 msgid "Your choosed file is not correct."
@@ -493,19 +496,19 @@ msgstr ""
 
 #: setup/python2/setup.ui:39 setup/python3/setup.ui:39
 msgid "NICOLA-J"
-msgstr ""
+msgstr "NICOLA-J"
 
 #: setup/python2/setup.ui:42 setup/python3/setup.ui:42
 msgid "NICOLA-A"
-msgstr ""
+msgstr "NICOLA-A"
 
 #: setup/python2/setup.ui:45 setup/python3/setup.ui:45
 msgid "NICOLA-F"
-msgstr ""
+msgstr "NICOLA-F"
 
 #: setup/python2/setup.ui:55 setup/python3/setup.ui:55
 msgid "None"
-msgstr ""
+msgstr "არაფერი"
 
 #: setup/python2/setup.ui:58 setup/python3/setup.ui:58
 msgid "FMV KB231 key extension"
@@ -525,7 +528,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:151 setup/python3/setup.ui:151
 msgid "Do nothing"
-msgstr ""
+msgstr "არაფრის გაკეთება"
 
 #: setup/python2/setup.ui:154 setup/python3/setup.ui:154
 msgid "Automatically convert"
@@ -537,15 +540,15 @@ msgstr ""
 
 #: setup/python2/setup.ui:167 setup/python3/setup.ui:167
 msgid "Clear"
-msgstr ""
+msgstr "სუფთა ცა"
 
 #: setup/python2/setup.ui:170 setup/python3/setup.ui:170
 msgid "Commit"
-msgstr ""
+msgstr "გადაცემა"
 
 #: setup/python2/setup.ui:173 setup/python3/setup.ui:173
 msgid "Hold"
-msgstr ""
+msgstr "შეყოვნება"
 
 #: setup/python2/setup.ui:186 setup/python3/setup.ui:186
 msgid "ATOK"
@@ -553,7 +556,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:189 setup/python3/setup.ui:189
 msgid "Wnn"
-msgstr ""
+msgstr "Wnn"
 
 #: setup/python2/setup.ui:197 setup/python3/setup.ui:197
 msgid "Setup - IBus-Anthy"
@@ -627,11 +630,11 @@ msgstr ""
 
 #: setup/python2/setup.ui:726 setup/python3/setup.ui:726
 msgid "<b>Other</b>"
-msgstr ""
+msgstr "<b>სხვა</b>"
 
 #: setup/python2/setup.ui:742 setup/python3/setup.ui:742
 msgid "Conversion"
-msgstr ""
+msgstr "გადაყვანა"
 
 #: setup/python2/setup.ui:764 setup/python3/setup.ui:764
 msgid "_Shortcut Type:"
@@ -639,12 +642,12 @@ msgstr ""
 
 #: setup/python2/setup.ui:831 setup/python3/setup.ui:831
 msgid "De_fault"
-msgstr ""
+msgstr "_ნაგულისხმები"
 
 #: setup/python2/setup.ui:847 setup/python2/setup.ui:1763
 #: setup/python3/setup.ui:847 setup/python3/setup.ui:1763
 msgid "_Edit"
-msgstr ""
+msgstr "_დამუშავება"
 
 #: setup/python2/setup.ui:873 setup/python3/setup.ui:873
 msgid "Key Binding"
@@ -753,22 +756,22 @@ msgstr ""
 
 #: setup/python2/setup.ui:1731 setup/python3/setup.ui:1731
 msgid "_View"
-msgstr ""
+msgstr "_ხედი"
 
 #: setup/python2/setup.ui:1747 setup/python2/setup.ui:2099
 #: setup/python2/setup.ui:2373 setup/python3/setup.ui:1747
 #: setup/python3/setup.ui:2099 setup/python3/setup.ui:2373
 msgid "_Add"
-msgstr ""
+msgstr "_დამატება"
 
 #: setup/python2/setup.ui:1779 setup/python2/setup.ui:2132
 #: setup/python3/setup.ui:1779 setup/python3/setup.ui:2132
 msgid "_Delete"
-msgstr ""
+msgstr "_წაშლა"
 
 #: setup/python2/setup.ui:1808 setup/python3/setup.ui:1808
 msgid "_Up"
-msgstr ""
+msgstr "მაღლა"
 
 #: setup/python2/setup.ui:1810 setup/python2/setup.ui:1827
 #: setup/python3/setup.ui:1810 setup/python3/setup.ui:1827
@@ -777,7 +780,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:1825 setup/python3/setup.ui:1825
 msgid "_Down"
-msgstr ""
+msgstr "_დაბლა"
 
 #: setup/python2/setup.ui:1852 setup/python3/setup.ui:1852
 msgid "<b>Extended Dictionaries</b>"
@@ -785,16 +788,16 @@ msgstr ""
 
 #: setup/python2/setup.ui:1867 setup/python3/setup.ui:1867
 msgid "Dictionary"
-msgstr ""
+msgstr "ლექსიკონი"
 
 #: setup/python2/setup.ui:1888 setup/python3/setup.ui:1888
 msgid "About"
-msgstr ""
+msgstr "შესახებ"
 
 #: setup/python2/setup.ui:1908 setup/python2/setup.ui:2418
 #: setup/python3/setup.ui:1908 setup/python3/setup.ui:2418
 msgid "_Close"
-msgstr ""
+msgstr "და_კეტვა"
 
 #: setup/python2/setup.ui:1938 setup/python3/setup.ui:1938
 msgid "Edit Shortcut"
@@ -822,7 +825,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:2116 setup/python3/setup.ui:2116
 msgid "_Refresh"
-msgstr ""
+msgstr "_განახლება"
 
 #: setup/python2/setup.ui:2293 setup/python3/setup.ui:2293
 msgid "_Input Characters"
@@ -842,7 +845,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:2387 setup/python3/setup.ui:2387
 msgid "_Remove"
-msgstr ""
+msgstr "მოცილება"
 
 #: setup/python2/setup.ui:2607 setup/python3/setup.ui:2607
 msgid "_Short Label:"
@@ -850,7 +853,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:2631 setup/python3/setup.ui:2631
 msgid "_Description:"
-msgstr ""
+msgstr "_აღწერა:"
 
 #: setup/python2/setup.ui:2663 setup/python3/setup.ui:2663
 msgid "_Use your dictionary alone with switching dictionaries"
@@ -870,4 +873,4 @@ msgstr ""
 
 #: setup/python2/setup.ui:2719 setup/python3/setup.ui:2719
 msgid "translator_credits"
-msgstr ""
+msgstr "მთარგმნელის_შესახებ"
