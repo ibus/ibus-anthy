@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.10\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2019-04-22 23:08+0900\n"
-"PO-Revision-Date: 2022-09-09 07:19+0000\n"
+"PO-Revision-Date: 2022-11-23 17:19+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/ka/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: data/ibus-anthy.appdata.xml.in:7
 msgid "Japanese input method"
@@ -310,7 +310,7 @@ msgstr ""
 #: setup/python3/main.py:595 setup/python3/main.py:1065
 #: setup/python3/main.py:1169 setup/python3/setup.ui:183
 msgid "Default"
-msgstr ""
+msgstr "ნაგულისხმები"
 
 #: setup/python2/main.py:593 setup/python3/main.py:598
 msgid "Customize Kana Key Table"
@@ -478,11 +478,11 @@ msgstr ""
 
 #: setup/python2/main.py:1642 setup/python3/main.py:1636
 msgid "Please press a key (or a key combination)"
-msgstr ""
+msgstr "დააწექით ღილაკს (ან მათ კომბინაციას)"
 
 #: setup/python2/main.py:1643 setup/python3/main.py:1637
 msgid "The dialog will be closed when the key is released"
-msgstr ""
+msgstr "ეს ფანჯარა დაიხურება, როცა ღილაკს გაუშვებთ"
 
 #: setup/python2/main.py:1663 setup/python2/main.py:1684
 #: setup/python3/main.py:1657 setup/python3/main.py:1678
@@ -568,7 +568,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:263 setup/python3/setup.ui:263
 msgid "_Typing Method:"
-msgstr ""
+msgstr "_აკრეფის მეთოდი:"
 
 #: setup/python2/setup.ui:297 setup/python3/setup.ui:297
 msgid "Conversion _Mode:"
@@ -608,7 +608,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:629 setup/python3/setup.ui:629
 msgid "Candidate _Window Page Size:"
-msgstr ""
+msgstr "კანდიდატის ფანჯრის გვერდის ზომა:"
 
 #: setup/python2/setup.ui:659 setup/python3/setup.ui:659
 msgid "Convert _symbols with the one column width"
@@ -651,7 +651,7 @@ msgstr "_დამუშავება"
 
 #: setup/python2/setup.ui:873 setup/python3/setup.ui:873
 msgid "Key Binding"
-msgstr ""
+msgstr "კლავიატურის ბმები"
 
 #: setup/python2/setup.ui:951 setup/python3/setup.ui:951
 msgid "<b>Romaji</b>"
@@ -671,7 +671,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:1127 setup/python3/setup.ui:1127
 msgid "Typing Method"
-msgstr ""
+msgstr "აკრეფის მეთოდი"
 
 #: setup/python2/setup.ui:1168 setup/python3/setup.ui:1168
 msgid "_Left Thumb Shift Key:"
@@ -805,11 +805,11 @@ msgstr ""
 
 #: setup/python2/setup.ui:1980 setup/python3/setup.ui:1980
 msgid "Key Code:"
-msgstr ""
+msgstr "ღილაკის კოდი:"
 
 #: setup/python2/setup.ui:2028 setup/python3/setup.ui:2028
 msgid "Modifier:"
-msgstr ""
+msgstr "მოდიფიკატორები:"
 
 #: setup/python2/setup.ui:2042 setup/python3/setup.ui:2042
 msgid "A_lternate"
@@ -817,7 +817,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:2055 setup/python3/setup.ui:2055
 msgid "Co_ntrol"
-msgstr ""
+msgstr "_კონტროლი"
 
 #: setup/python2/setup.ui:2068 setup/python3/setup.ui:2068
 msgid "_Shift"
