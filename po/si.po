@@ -9,17 +9,20 @@ msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.10\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2019-04-22 23:08+0900\n"
-"PO-Revision-Date: 2019-04-22 23:08+0900\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-02-20 00:20+0000\n"
+"Last-Translator: Hela Basa <r45xveza@pm.me>\n"
+"Language-Team: Sinhala <https://translate.fedoraproject.org/projects/ibus/"
+"ibus-anthy/si/>\n"
 "Language: si\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: data/ibus-anthy.appdata.xml.in:7
 msgid "Japanese input method"
-msgstr ""
+msgstr "ජපන් ආදාන ක්‍රමය"
 
 #: data/ibus-anthy.appdata.xml.in:9
 msgid "The Anthy input method is designed for entering Japanese text."
@@ -49,7 +52,7 @@ msgstr ""
 #: engine/python2/engine.py:256 engine/python3/engine.py:257
 #: setup/python2/main.py:420 setup/python3/main.py:425
 msgid "Preferences - Anthy"
-msgstr ""
+msgstr "අභිප්‍රේත - ඇන්ති"
 
 #: engine/python2/engine.py:258 engine/python3/engine.py:259
 msgid "Configure Anthy"
@@ -74,21 +77,21 @@ msgstr ""
 #: engine/python3/engine.py:297 engine/python3/engine.py:888
 #: setup/python2/main.py:405 setup/python3/main.py:410
 msgid "Input mode"
-msgstr ""
+msgstr "ආදාන ක්‍රමය"
 
 #: engine/python2/engine.py:302 engine/python3/engine.py:303
 msgid "Switch input mode"
-msgstr ""
+msgstr "ආදාන ක්‍රමය මාරුව"
 
 #: engine/python2/engine.py:312 engine/python3/engine.py:313
 #: setup/python2/setup.ui:17 setup/python3/setup.ui:17
 msgid "Hiragana"
-msgstr ""
+msgstr "හිරගානා"
 
 #: engine/python2/engine.py:321 engine/python3/engine.py:322
 #: setup/python2/setup.ui:20 setup/python3/setup.ui:20
 msgid "Katakana"
-msgstr ""
+msgstr "කටකානා"
 
 #: engine/python2/engine.py:330 engine/python3/engine.py:331
 #: setup/python2/setup.ui:23 setup/python3/setup.ui:23
@@ -98,33 +101,33 @@ msgstr ""
 #: engine/python2/engine.py:339 engine/python3/engine.py:340
 #: setup/python2/setup.ui:26 setup/python3/setup.ui:26
 msgid "Latin"
-msgstr ""
+msgstr "ලතින්"
 
 #: engine/python2/engine.py:348 engine/python3/engine.py:349
 #: setup/python2/setup.ui:29 setup/python3/setup.ui:29
 msgid "Wide Latin"
-msgstr ""
+msgstr "පුළුල් ලතින්"
 
 #: engine/python2/engine.py:384 engine/python2/engine.py:924
 #: engine/python2/engine.py:948 engine/python3/engine.py:385
 #: engine/python3/engine.py:919 engine/python3/engine.py:943
 #: setup/python2/main.py:408 setup/python3/main.py:413
 msgid "Typing method"
-msgstr ""
+msgstr "ලියන ක්‍රමය"
 
 #: engine/python2/engine.py:390 engine/python3/engine.py:391
 msgid "Switch typing method"
-msgstr ""
+msgstr "ලියන ක්‍රමය මාරුව"
 
 #: engine/python2/engine.py:400 engine/python3/engine.py:401
 #: setup/python2/setup.ui:71 setup/python3/setup.ui:71
 msgid "Romaji"
-msgstr ""
+msgstr "රොමාජි"
 
 #: engine/python2/engine.py:409 engine/python3/engine.py:410
 #: setup/python2/setup.ui:74 setup/python3/setup.ui:74
 msgid "Kana"
-msgstr ""
+msgstr "කනා"
 
 #: engine/python2/engine.py:418 engine/python3/engine.py:419
 #: setup/python2/setup.ui:77 setup/python3/setup.ui:77
