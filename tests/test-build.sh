@@ -63,26 +63,33 @@ parse_args()
     done;
 }
 
+maybe_install_pycotap() {
+    # Red Hat specific hint.
+    if test -f /etc/redhat-release ; then
+        if ! rpm -q --quiet python3-pycotap; then
+            echo "Please install python3-pycotap"
+            exit -1
+        fi
+    fi;
+
+    # Check if pycotap is already available.
+    if ! python3 -m pycotap >/dev/null; then
+        echo "pycotap not found; installing via pip"
+        if ! pip install pycotap --user; then
+            echo "failed to install pycotap"
+            exit -1
+        fi
+    fi
+}
+
 init_environment()
 {
     if test x$FORCE_TEST != x ; then
         RUN_ARGS="$RUN_ARGS --force";
     fi;
-    HAS_TAP=0;
-    if test -f /etc/redhat-release ; then
-        rpm -q --quiet python3-pycotap
-        if test $? -ne 0 ; then
-            echo "Not found python3-pycotap";
-            exit -1;
-	fi;
-        HAS_TAP=1;
-    fi;
-    TAP_DIR=`python -m site --user-site`/pycotap;
-    if test $HAS_TAP -ne 1 && \
-       test x"$TAP_DIR" != x && test ! -d "$TAP_DIR" ; then
-            echo "pip install pycotap --user";
-            pip install pycotap --user;
-    fi;
+
+    maybe_install_pycotap
+
     if test ! -f $BUILDDIR/../data/$ANTHY_SCHEMA_FILE ; then
         echo "Not found $BUILDDIR/../data/$ANTHY_SCHEMA_FILE";
         exit -1;
