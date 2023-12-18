@@ -9,13 +9,14 @@
 # Popolon <popolon@popolon.org>, 2011
 # Dingzhong Chen <wsxy162@gmail.com>, 2021.
 # Liu Tao <lyuutau@outlook.com>, 2021.
+# Jingge Chen <mariocanfly@hotmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: IBus-Anthy\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2017-03-17 13:26+0900\n"
-"PO-Revision-Date: 2021-09-17 07:05+0000\n"
-"Last-Translator: Dingzhong Chen <wsxy162@gmail.com>\n"
+"PO-Revision-Date: 2023-12-19 13:35+0000\n"
+"Last-Translator: Jingge Chen <mariocanfly@hotmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/ibus/ibus-anthy/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -23,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 5.3\n"
 
 #: ../data/ibus-anthy.appdata.xml.in.h:1
 msgid "Japanese input method"
@@ -31,14 +32,15 @@ msgstr "日文输入法"
 
 #: ../data/ibus-anthy.appdata.xml.in.h:2
 msgid "The Anthy input method is designed for entering Japanese text."
-msgstr ""
+msgstr "Anthy输入法专为输入日文文本而设计。"
 
 #: ../data/ibus-anthy.appdata.xml.in.h:3
 msgid ""
 "Input methods are typing systems allowing users to input complex languages. "
 "They are necessary because these contain too many characters to simply be "
 "laid out on a traditional keyboard."
-msgstr ""
+msgstr "输入法是允许用户输入复杂语言的打字系统。之所以需要输入法，是因为这些语言包含"
+"的字符太多，无法在传统键盘上简单地输入。"
 
 #: ../engine/python2/default.xml.in.in.h:1
 #: ../engine/python3/default.xml.in.in.h:1
@@ -52,6 +54,10 @@ msgid ""
 "home directory is not '\\n'. I.e. not correct text format.\n"
 "Please fix the file or remove it by manual and restart IBus."
 msgstr ""
+"无法启用 Anthy。\n"
+"您的主目录中的.anthy/last-record2_default.utf8 文件内容的结尾不是'\\n"
+"'。\n"
+"请修复该文件或手动删除该文件并重启 IBus。"
 
 #: ../engine/python2/engine.py:255 ../engine/python3/engine.py:256
 #: ../setup/python2/main.py:416 ../setup/python3/main.py:421
@@ -60,7 +66,7 @@ msgstr "- Anthy"
 
 #: ../engine/python2/engine.py:257 ../engine/python3/engine.py:258
 msgid "Configure Anthy"
-msgstr ""
+msgstr "配置 Anthy"
 
 #. Translators: Specify the order of %s with your translation.
 #. It will be "Input Mode (A)" for example.
@@ -117,11 +123,11 @@ msgstr "全角英数"
 #: ../engine/python3/engine.py:880 ../engine/python3/engine.py:904
 #: ../setup/python2/main.py:404 ../setup/python3/main.py:409
 msgid "Typing method"
-msgstr ""
+msgstr "打字方法"
 
 #: ../engine/python2/engine.py:389 ../engine/python3/engine.py:390
 msgid "Switch typing method"
-msgstr ""
+msgstr "切换打字方法"
 
 #: ../engine/python2/engine.py:399 ../engine/python3/engine.py:400
 #: ../setup/python2/setup.ui.h:12 ../setup/python3/setup.ui.h:12
@@ -136,47 +142,47 @@ msgstr "假名"
 #: ../engine/python2/engine.py:417 ../engine/python3/engine.py:418
 #: ../setup/python2/setup.ui.h:14 ../setup/python3/setup.ui.h:14
 msgid "Thumb shift"
-msgstr ""
+msgstr "拇指移位"
 
 #: ../engine/python2/engine.py:450 ../engine/python2/engine.py:935
 #: ../engine/python3/engine.py:451 ../engine/python3/engine.py:930
 #: ../setup/python2/main.py:407 ../setup/python3/main.py:412
 msgid "Segment mode"
-msgstr ""
+msgstr "分段模式"
 
 #: ../engine/python2/engine.py:456 ../engine/python3/engine.py:457
 msgid "Switch conversion mode"
-msgstr ""
+msgstr "切换转换模式"
 
 #: ../engine/python2/engine.py:466 ../engine/python3/engine.py:467
 #: ../setup/python2/setup.ui.h:15 ../setup/python3/setup.ui.h:15
 msgid "Multiple segment"
-msgstr ""
+msgstr "连文节"
 
 #: ../engine/python2/engine.py:475 ../engine/python3/engine.py:476
 #: ../setup/python2/setup.ui.h:16 ../setup/python3/setup.ui.h:16
 msgid "Single segment"
-msgstr ""
+msgstr "单文节"
 
 #: ../engine/python2/engine.py:484 ../engine/python3/engine.py:485
 #: ../setup/python2/setup.ui.h:17 ../setup/python3/setup.ui.h:17
 msgid "Immediate conversion (multiple segment)"
-msgstr ""
+msgstr "逐次变换（连文节）"
 
 #: ../engine/python2/engine.py:493 ../engine/python3/engine.py:494
 #: ../setup/python2/setup.ui.h:18 ../setup/python3/setup.ui.h:18
 msgid "Immediate conversion (single segment)"
-msgstr ""
+msgstr "逐次变换（单文节）"
 
 #: ../engine/python2/engine.py:526 ../engine/python2/engine.py:997
 #: ../engine/python3/engine.py:527 ../engine/python3/engine.py:992
 #: ../setup/python2/main.py:410 ../setup/python3/main.py:415
 msgid "Dictionary mode"
-msgstr ""
+msgstr "字典模式"
 
 #: ../engine/python2/engine.py:532 ../engine/python3/engine.py:533
 msgid "Switch dictionary"
-msgstr ""
+msgstr "切换字典"
 
 #: ../engine/python2/engine.py:615 ../engine/python3/engine.py:615
 #: ../setup/python2/main.py:413 ../setup/python3/main.py:418
@@ -186,27 +192,27 @@ msgstr "词典  - Anthy"
 #. Translators: "Dic" means 'dictionary', One kanji may be good.
 #: ../engine/python2/engine.py:621 ../engine/python3/engine.py:620
 msgid "Dic"
-msgstr ""
+msgstr "辞"
 
 #: ../engine/python2/engine.py:628 ../engine/python3/engine.py:627
 msgid "Configure dictionaries"
-msgstr ""
+msgstr "字典设置"
 
 #: ../engine/python2/engine.py:638 ../engine/python3/engine.py:637
 msgid "Edit dictionaries"
-msgstr ""
+msgstr "编辑字典"
 
 #: ../engine/python2/engine.py:640 ../engine/python3/engine.py:639
 msgid "Launch the dictionary tool"
-msgstr ""
+msgstr "启动字典工具"
 
 #: ../engine/python2/engine.py:647 ../engine/python3/engine.py:646
 msgid "Add words"
-msgstr ""
+msgstr "添加单词"
 
 #: ../engine/python2/engine.py:649 ../engine/python3/engine.py:648
 msgid "Add words to the dictionary"
-msgstr ""
+msgstr "添加单词到字典里"
 
 #: ../setup/python2/anthyprefs.py.in:1105 ../setup/python2/setup.ui.h:36
 #: ../setup/python3/anthyprefs.py.in:1098 ../setup/python3/setup.ui.h:36
@@ -216,7 +222,7 @@ msgstr "常规"
 #: ../setup/python2/anthyprefs.py.in:1116
 #: ../setup/python3/anthyprefs.py.in:1109
 msgid "Zip Code Conversion"
-msgstr ""
+msgstr "邮编转换"
 
 #: ../setup/python2/anthyprefs.py.in:1127
 #: ../setup/python3/anthyprefs.py.in:1120
@@ -226,12 +232,12 @@ msgstr "符号"
 #: ../setup/python2/anthyprefs.py.in:1138
 #: ../setup/python3/anthyprefs.py.in:1131
 msgid "Old Character Style"
-msgstr ""
+msgstr "旧字体"
 
 #: ../setup/python2/anthyprefs.py.in:1148
 #: ../setup/python3/anthyprefs.py.in:1141
 msgid "Era"
-msgstr ""
+msgstr "年号"
 
 #: ../setup/python2/anthyprefs.py.in:1158
 #: ../setup/python3/anthyprefs.py.in:1151
@@ -241,21 +247,21 @@ msgstr "表情符号"
 #: ../setup/python2/ibus-setup-anthy.desktop.in.in.h:1
 #: ../setup/python3/ibus-setup-anthy.desktop.in.in.h:1
 msgid "IBus Anthy Setup"
-msgstr ""
+msgstr "IBus Anthy 设置"
 
 #: ../setup/python2/ibus-setup-anthy.desktop.in.in.h:2
 #: ../setup/python3/ibus-setup-anthy.desktop.in.in.h:2
 msgid "Set up IBus Anthy engine"
-msgstr ""
+msgstr "IBus Anthy 引擎设置"
 
 #. self.__run_message_dialog needs self.__builder.
 #: ../setup/python2/main.py:133 ../setup/python3/main.py:136
 msgid "ibus is not running."
-msgstr ""
+msgstr "ibus 没有运行。"
 
 #: ../setup/python2/main.py:188 ../setup/python3/main.py:191
 msgid "Menu label"
-msgstr ""
+msgstr "菜单标签"
 
 #: ../setup/python2/main.py:207 ../setup/python3/main.py:210
 msgid "Command"
@@ -272,22 +278,22 @@ msgstr "描述"
 #. Translators: "Embd" is an abbreviation of "embedded".
 #: ../setup/python2/main.py:264 ../setup/python3/main.py:267
 msgid "Embd"
-msgstr ""
+msgstr "嵌"
 
 #. Translators: "Sgl" is an abbreviation of "single".
 #: ../setup/python2/main.py:272 ../setup/python3/main.py:275
 msgid "Sgl"
-msgstr ""
+msgstr "单"
 
 #: ../setup/python2/main.py:447 ../setup/python2/main.py:483
 #: ../setup/python3/main.py:452 ../setup/python3/main.py:488
 msgid "Input Chars"
-msgstr ""
+msgstr "输入文字"
 
 #: ../setup/python2/main.py:449 ../setup/python2/main.py:485
 #: ../setup/python3/main.py:454 ../setup/python3/main.py:490
 msgid "Output Chars"
-msgstr ""
+msgstr "输出文字"
 
 #: ../setup/python2/main.py:531 ../setup/python3/main.py:536
 msgid "Input"
@@ -295,7 +301,7 @@ msgstr "输入"
 
 #: ../setup/python2/main.py:533 ../setup/python3/main.py:538
 msgid "Single"
-msgstr ""
+msgstr "单"
 
 #: ../setup/python2/main.py:535 ../setup/python3/main.py:540
 msgid "Left"
@@ -307,17 +313,17 @@ msgstr "右"
 
 #: ../setup/python2/main.py:619 ../setup/python3/main.py:624
 msgid "Customize Romaji Key Table"
-msgstr ""
+msgstr "自定义罗马键表"
 
 #: ../setup/python2/main.py:620 ../setup/python2/setup.ui.h:54
 #: ../setup/python3/main.py:625 ../setup/python3/setup.ui.h:54
 msgid "_Romaji Key Table:"
-msgstr ""
+msgstr "罗马键表 (_R):"
 
 #: ../setup/python2/main.py:621 ../setup/python2/main.py:627
 #: ../setup/python3/main.py:626 ../setup/python3/main.py:632
 msgid "_Output Chars"
-msgstr ""
+msgstr "输出文字(_O)"
 
 #: ../setup/python2/main.py:622 ../setup/python2/main.py:1122
 #: ../setup/python2/main.py:1270 ../setup/python2/setup.ui.h:27
@@ -328,96 +334,96 @@ msgstr "默认"
 
 #: ../setup/python2/main.py:625 ../setup/python3/main.py:630
 msgid "Customize Kana Key Table"
-msgstr ""
+msgstr "自定义假名键表"
 
 #: ../setup/python2/main.py:626 ../setup/python2/setup.ui.h:56
 #: ../setup/python3/main.py:631 ../setup/python3/setup.ui.h:56
 msgid "_Kana Key Table:"
-msgstr ""
+msgstr "假名键表 (_K):"
 
 #: ../setup/python2/main.py:628 ../setup/python3/main.py:633
 msgid "Japanese Keyboard Layout"
-msgstr ""
+msgstr "日语键盘布局"
 
 #: ../setup/python2/main.py:629 ../setup/python3/main.py:634
 msgid "U.S. Keyboard Layout"
-msgstr ""
+msgstr "美国键盘布局"
 
 #: ../setup/python2/main.py:632 ../setup/python3/main.py:637
 msgid "Customize Thumb Shift Key Table"
-msgstr ""
+msgstr "自定义拇指移位键表"
 
 #: ../setup/python2/main.py:633 ../setup/python3/main.py:638
 msgid "_Thumb Shift Key Table:"
-msgstr ""
+msgstr "拇指移位键表(_T)："
 
 #: ../setup/python2/main.py:634 ../setup/python3/main.py:639
 msgid "Single _Output Chars"
-msgstr ""
+msgstr "单输出字符(_O)"
 
 #: ../setup/python2/main.py:635 ../setup/python3/main.py:640
 msgid "Base"
-msgstr ""
+msgstr "基本"
 
 #: ../setup/python2/main.py:636 ../setup/python3/main.py:641
 msgid "NICOLA-J key extension"
-msgstr ""
+msgstr "NICOLA-J 按键扩展"
 
 #: ../setup/python2/main.py:637 ../setup/python3/main.py:642
 msgid "NICOLA-A key extension"
-msgstr ""
+msgstr "NICOLA-A 按键扩展"
 
 #: ../setup/python2/main.py:638 ../setup/python3/main.py:643
 msgid "NICOLA-F key extension"
-msgstr ""
+msgstr "NICOLA-F 按键扩展"
 
 #: ../setup/python2/main.py:639 ../setup/python3/main.py:644
 msgid "FMV KB231-J key extension"
-msgstr ""
+msgstr "FMV KB231-J 按键扩展"
 
 #: ../setup/python2/main.py:640 ../setup/python3/main.py:645
 msgid "FMV KB231-A key extension"
-msgstr ""
+msgstr "FMV KB231-A 按键扩展"
 
 #: ../setup/python2/main.py:641 ../setup/python3/main.py:646
 msgid "FMV KB231-F key extension"
-msgstr ""
+msgstr "FMV KB231-F 按键扩展"
 
 #: ../setup/python2/main.py:642 ../setup/python3/main.py:647
 msgid "FMV KB611-J key extension"
-msgstr ""
+msgstr "FMV KB611-J 按键扩展"
 
 #: ../setup/python2/main.py:643 ../setup/python3/main.py:648
 msgid "FMV KB611-A key extension"
-msgstr ""
+msgstr "FMV KB611-A 按键扩展"
 
 #: ../setup/python2/main.py:644 ../setup/python3/main.py:649
 msgid "FMV KB611-F key extension"
-msgstr ""
+msgstr "FMV KB611-F 按键扩展"
 
 #: ../setup/python2/main.py:788 ../setup/python3/main.py:793
 msgid "Your choosed file has already been added: "
-msgstr ""
+msgstr "您选择的文件已被添加： "
 
 #: ../setup/python2/main.py:792 ../setup/python3/main.py:797
 msgid "The file you have chosen does not exist: "
-msgstr ""
+msgstr "您选择的文件不存在： "
 
 #: ../setup/python2/main.py:796 ../setup/python3/main.py:801
 msgid "Your choosed file is a directory: "
-msgstr ""
+msgstr "您选择的文件是一个目录： "
 
 #: ../setup/python2/main.py:800 ../setup/python3/main.py:805
 msgid "You cannot add dictionaries in the anthy private directory: "
-msgstr ""
+msgstr "不能在 anthy 私有目录中添加字典： "
 
 #: ../setup/python2/main.py:807 ../setup/python3/main.py:812
 msgid "Your file path is not good: "
-msgstr ""
+msgstr "您的文件路径不正确： "
 
 #: ../setup/python2/main.py:986 ../setup/python3/main.py:989
 msgid "The engine xml file does not exist: "
-msgstr ""
+msgstr "引擎 xml 文件不存在： "
 
 #: ../setup/python2/main.py:1102 ../setup/python3/main.py:1096
 msgid ""
