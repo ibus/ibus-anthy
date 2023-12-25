@@ -8,15 +8,15 @@
 # Popolon <popolon@popolon.org>, 2011
 # Popolon <popolon@popolon.org>, 2011
 # Dingzhong Chen <wsxy162@gmail.com>, 2021.
-# Liu Tao <lyuutau@outlook.com>, 2021.
+# Liu Tao <lyuutau@outlook.com>, 2021, 2023.
 # Jingge Chen <mariocanfly@hotmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: IBus-Anthy\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2017-03-17 13:26+0900\n"
-"PO-Revision-Date: 2023-12-19 13:35+0000\n"
-"Last-Translator: Jingge Chen <mariocanfly@hotmail.com>\n"
+"PO-Revision-Date: 2023-12-27 14:36+0000\n"
+"Last-Translator: Liu Tao <lyuutau@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/ibus/ibus-anthy/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -32,7 +32,7 @@ msgstr "日文输入法"
 
 #: ../data/ibus-anthy.appdata.xml.in.h:2
 msgid "The Anthy input method is designed for entering Japanese text."
-msgstr "Anthy输入法专为输入日文文本而设计。"
+msgstr "Anthy 输入法专为输入日文文本而设计。"
 
 #: ../data/ibus-anthy.appdata.xml.in.h:3
 msgid ""
@@ -62,7 +62,7 @@ msgstr ""
 #: ../engine/python2/engine.py:255 ../engine/python3/engine.py:256
 #: ../setup/python2/main.py:416 ../setup/python3/main.py:421
 msgid "Preferences - Anthy"
-msgstr "- Anthy"
+msgstr "首选项 - Anthy"
 
 #: ../engine/python2/engine.py:257 ../engine/python3/engine.py:258
 msgid "Configure Anthy"
@@ -123,11 +123,11 @@ msgstr "全角英数"
 #: ../engine/python3/engine.py:880 ../engine/python3/engine.py:904
 #: ../setup/python2/main.py:404 ../setup/python3/main.py:409
 msgid "Typing method"
-msgstr "打字方法"
+msgstr "键入方法"
 
 #: ../engine/python2/engine.py:389 ../engine/python3/engine.py:390
 msgid "Switch typing method"
-msgstr "切换打字方法"
+msgstr "切换键入方法"
 
 #: ../engine/python2/engine.py:399 ../engine/python3/engine.py:400
 #: ../setup/python2/setup.ui.h:12 ../setup/python3/setup.ui.h:12
@@ -142,7 +142,7 @@ msgstr "假名"
 #: ../engine/python2/engine.py:417 ../engine/python3/engine.py:418
 #: ../setup/python2/setup.ui.h:14 ../setup/python3/setup.ui.h:14
 msgid "Thumb shift"
-msgstr "拇指移位"
+msgstr "拇指 Shift"
 
 #: ../engine/python2/engine.py:450 ../engine/python2/engine.py:935
 #: ../engine/python3/engine.py:451 ../engine/python3/engine.py:930
@@ -178,16 +178,16 @@ msgstr "逐次变换（单文节）"
 #: ../engine/python3/engine.py:527 ../engine/python3/engine.py:992
 #: ../setup/python2/main.py:410 ../setup/python3/main.py:415
 msgid "Dictionary mode"
-msgstr "字典模式"
+msgstr "词典模式"
 
 #: ../engine/python2/engine.py:532 ../engine/python3/engine.py:533
 msgid "Switch dictionary"
-msgstr "切换字典"
+msgstr "切换词典"
 
 #: ../engine/python2/engine.py:615 ../engine/python3/engine.py:615
 #: ../setup/python2/main.py:413 ../setup/python3/main.py:418
 msgid "Dictionary - Anthy"
-msgstr "词典  - Anthy"
+msgstr "词典 - Anthy"
 
 #. Translators: "Dic" means 'dictionary', One kanji may be good.
 #: ../engine/python2/engine.py:621 ../engine/python3/engine.py:620
@@ -196,15 +196,15 @@ msgstr "辞"
 
 #: ../engine/python2/engine.py:628 ../engine/python3/engine.py:627
 msgid "Configure dictionaries"
-msgstr "字典设置"
+msgstr "配置词典"
 
 #: ../engine/python2/engine.py:638 ../engine/python3/engine.py:637
 msgid "Edit dictionaries"
-msgstr "编辑字典"
+msgstr "编辑词典"
 
 #: ../engine/python2/engine.py:640 ../engine/python3/engine.py:639
 msgid "Launch the dictionary tool"
-msgstr "启动字典工具"
+msgstr "启动词典工具"
 
 #: ../engine/python2/engine.py:647 ../engine/python3/engine.py:646
 msgid "Add words"
@@ -212,7 +212,7 @@ msgstr "添加单词"
 
 #: ../engine/python2/engine.py:649 ../engine/python3/engine.py:648
 msgid "Add words to the dictionary"
-msgstr "添加单词到字典里"
+msgstr "添加单词到词典里"
 
 #: ../setup/python2/anthyprefs.py.in:1105 ../setup/python2/setup.ui.h:36
 #: ../setup/python3/anthyprefs.py.in:1098 ../setup/python3/setup.ui.h:36
@@ -232,12 +232,12 @@ msgstr "符号"
 #: ../setup/python2/anthyprefs.py.in:1138
 #: ../setup/python3/anthyprefs.py.in:1131
 msgid "Old Character Style"
-msgstr "旧字体"
+msgstr "旧字形"
 
 #: ../setup/python2/anthyprefs.py.in:1148
 #: ../setup/python3/anthyprefs.py.in:1141
 msgid "Era"
-msgstr "年号"
+msgstr "纪年"
 
 #: ../setup/python2/anthyprefs.py.in:1158
 #: ../setup/python3/anthyprefs.py.in:1151
@@ -269,7 +269,7 @@ msgstr "命令"
 
 #: ../setup/python2/main.py:211 ../setup/python3/main.py:214
 msgid "Shortcut"
-msgstr "捷径"
+msgstr "快捷键"
 
 #: ../setup/python2/main.py:256 ../setup/python3/main.py:259
 msgid "Description"
@@ -288,12 +288,12 @@ msgstr "单"
 #: ../setup/python2/main.py:447 ../setup/python2/main.py:483
 #: ../setup/python3/main.py:452 ../setup/python3/main.py:488
 msgid "Input Chars"
-msgstr "输入文字"
+msgstr "输入字符"
 
 #: ../setup/python2/main.py:449 ../setup/python2/main.py:485
 #: ../setup/python3/main.py:454 ../setup/python3/main.py:490
 msgid "Output Chars"
-msgstr "输出文字"
+msgstr "输出字符"
 
 #: ../setup/python2/main.py:531 ../setup/python3/main.py:536
 msgid "Input"
@@ -305,25 +305,25 @@ msgstr "单"
 
 #: ../setup/python2/main.py:535 ../setup/python3/main.py:540
 msgid "Left"
-msgstr "左"
+msgstr "左手"
 
 #: ../setup/python2/main.py:537 ../setup/python3/main.py:542
 msgid "Right"
-msgstr "右"
+msgstr "右手"
 
 #: ../setup/python2/main.py:619 ../setup/python3/main.py:624
 msgid "Customize Romaji Key Table"
-msgstr "自定义罗马键表"
+msgstr "自定义罗马字键表"
 
 #: ../setup/python2/main.py:620 ../setup/python2/setup.ui.h:54
 #: ../setup/python3/main.py:625 ../setup/python3/setup.ui.h:54
 msgid "_Romaji Key Table:"
-msgstr "罗马键表 (_R):"
+msgstr "罗马字键表 (_R)："
 
 #: ../setup/python2/main.py:621 ../setup/python2/main.py:627
 #: ../setup/python3/main.py:626 ../setup/python3/main.py:632
 msgid "_Output Chars"
-msgstr "输出文字(_O)"
+msgstr "输出字符(_O)"
 
 #: ../setup/python2/main.py:622 ../setup/python2/main.py:1122
 #: ../setup/python2/main.py:1270 ../setup/python2/setup.ui.h:27
@@ -339,7 +339,7 @@ msgstr "自定义假名键表"
 #: ../setup/python2/main.py:626 ../setup/python2/setup.ui.h:56
 #: ../setup/python3/main.py:631 ../setup/python3/setup.ui.h:56
 msgid "_Kana Key Table:"
-msgstr "假名键表 (_K):"
+msgstr "假名键表 (_K)："
 
 #: ../setup/python2/main.py:628 ../setup/python3/main.py:633
 msgid "Japanese Keyboard Layout"
@@ -351,11 +351,11 @@ msgstr "美国键盘布局"
 
 #: ../setup/python2/main.py:632 ../setup/python3/main.py:637
 msgid "Customize Thumb Shift Key Table"
-msgstr "自定义拇指移位键表"
+msgstr "自定义拇指 Shift 键表"
 
 #: ../setup/python2/main.py:633 ../setup/python3/main.py:638
 msgid "_Thumb Shift Key Table:"
-msgstr "拇指移位键表(_T)："
+msgstr "拇指 Shift 键表(_T)："
 
 #: ../setup/python2/main.py:634 ../setup/python3/main.py:639
 msgid "Single _Output Chars"
@@ -403,23 +403,23 @@ msgstr "FMV KB611-F 按键扩展"
 
 #: ../setup/python2/main.py:788 ../setup/python3/main.py:793
 msgid "Your choosed file has already been added: "
-msgstr "您选择的文件已被添加： "
+msgstr "所选文件已被添加过： "
 
 #: ../setup/python2/main.py:792 ../setup/python3/main.py:797
 msgid "The file you have chosen does not exist: "
-msgstr "您选择的文件不存在： "
+msgstr "所选文件不存在： "
 
 #: ../setup/python2/main.py:796 ../setup/python3/main.py:801
 msgid "Your choosed file is a directory: "
-msgstr "您选择的文件是一个目录： "
+msgstr "所选文件为目录： "
 
 #: ../setup/python2/main.py:800 ../setup/python3/main.py:805
 msgid "You cannot add dictionaries in the anthy private directory: "
-msgstr "不能在 anthy 私有目录中添加字典： "
+msgstr "不能在 Anthy 私有目录中添加词典： "
 
 #: ../setup/python2/main.py:807 ../setup/python3/main.py:812
 msgid "Your file path is not good: "
-msgstr "您的文件路径不正确： "
+msgstr "文件路径不正确： "
 
 #: ../setup/python2/main.py:986 ../setup/python3/main.py:989
 msgid "The engine xml file does not exist: "
@@ -428,7 +428,7 @@ msgstr "引擎 xml 文件不存在： "
 #: ../setup/python2/main.py:1102 ../setup/python3/main.py:1096
 msgid ""
 "Anthy keyboard layout is changed. Please restart ibus to reload the layout."
-msgstr ""
+msgstr "Anthy 键盘布局已更改。请重启 ibus 以重新加载布局。"
 
 #: ../setup/python2/main.py:1231 ../setup/python3/main.py:1225
 msgid "Confirmation"
@@ -450,19 +450,19 @@ msgstr ""
 
 #: ../setup/python2/main.py:1371 ../setup/python3/main.py:1365
 msgid "Please specify Input Chars"
-msgstr ""
+msgstr "请指定输入字符"
 
 #: ../setup/python2/main.py:1374 ../setup/python3/main.py:1368
 msgid "Please specify Output Chars"
-msgstr ""
+msgstr "请指定输出字符"
 
 #: ../setup/python2/main.py:1377 ../setup/python3/main.py:1371
 msgid "Please specify Left Thumb Shift Chars"
-msgstr ""
+msgstr "请指定左拇指 Shift 字符"
 
 #: ../setup/python2/main.py:1380 ../setup/python3/main.py:1374
 msgid "Please specify Right Thumb Shift Chars"
-msgstr ""
+msgstr "请指定右拇指 Shift 字符"
 
 #: ../setup/python2/main.py:1393 ../setup/python2/main.py:1437
 #: ../setup/python3/main.py:1387 ../setup/python3/main.py:1431
@@ -472,11 +472,11 @@ msgstr ""
 #: ../setup/python2/main.py:1503 ../setup/python2/main.py:1590
 #: ../setup/python3/main.py:1497 ../setup/python3/main.py:1584
 msgid "Your file does not exist: "
-msgstr ""
+msgstr "文件不存在： "
 
 #: ../setup/python2/main.py:1513 ../setup/python3/main.py:1507
 msgid "Open Dictionary File"
-msgstr ""
+msgstr "打开词典文件"
 
 #: ../setup/python2/main.py:1516 ../setup/python2/main.py:1522
 #: ../setup/python2/setup.ui.h:90 ../setup/python3/main.py:1510
@@ -490,7 +490,7 @@ msgstr "打开(_O)"
 
 #: ../setup/python2/main.py:1520 ../setup/python3/main.py:1514
 msgid "Edit Dictionary File"
-msgstr ""
+msgstr "编辑词典文件"
 
 #: ../setup/python2/main.py:1523 ../setup/python2/main.py:1618
 #: ../setup/python2/setup.ui.h:91 ../setup/python3/main.py:1517
@@ -500,19 +500,19 @@ msgstr "确定(_O)"
 
 #: ../setup/python2/main.py:1534 ../setup/python3/main.py:1528
 msgid "Your choosed file is not correct."
-msgstr ""
+msgstr "所选文件不正确。"
 
 #: ../setup/python2/main.py:1563 ../setup/python3/main.py:1557
 msgid "You cannot delete the system dictionary."
-msgstr ""
+msgstr "无法删除系统词典。"
 
 #: ../setup/python2/main.py:1586 ../setup/python3/main.py:1580
 msgid "Your file is not good."
-msgstr ""
+msgstr "文件不正确。"
 
 #: ../setup/python2/main.py:1616 ../setup/python3/main.py:1610
 msgid "View Dictionary File"
-msgstr ""
+msgstr "查看词典文件"
 
 #: ../setup/python2/main.py:1787 ../setup/python3/main.py:1781
 msgid "Please press a key (or a key combination)"
@@ -534,15 +534,15 @@ msgstr ""
 
 #: ../setup/python2/setup.ui.h:6 ../setup/python3/setup.ui.h:6
 msgid "NICOLA-J"
-msgstr ""
+msgstr "NICOLA-J"
 
 #: ../setup/python2/setup.ui.h:7 ../setup/python3/setup.ui.h:7
 msgid "NICOLA-A"
-msgstr ""
+msgstr "NICOLA-A"
 
 #: ../setup/python2/setup.ui.h:8 ../setup/python3/setup.ui.h:8
 msgid "NICOLA-F"
-msgstr ""
+msgstr "NICOLA-F"
 
 #: ../setup/python2/setup.ui.h:9 ../setup/python3/setup.ui.h:9
 msgid "None"
@@ -550,11 +550,11 @@ msgstr "无"
 
 #: ../setup/python2/setup.ui.h:10 ../setup/python3/setup.ui.h:10
 msgid "FMV KB231 key extension"
-msgstr ""
+msgstr "FMV KB231 按键扩展"
 
 #: ../setup/python2/setup.ui.h:11 ../setup/python3/setup.ui.h:11
 msgid "FMV KB611 key extension"
-msgstr ""
+msgstr "FMV KB611 按键扩展"
 
 #: ../setup/python2/setup.ui.h:19 ../setup/python3/setup.ui.h:19
 msgid "Keep numpad codes"
@@ -562,19 +562,19 @@ msgstr ""
 
 #: ../setup/python2/setup.ui.h:20 ../setup/python3/setup.ui.h:20
 msgid "Convert characters"
-msgstr ""
+msgstr "转换字符"
 
 #: ../setup/python2/setup.ui.h:21 ../setup/python3/setup.ui.h:21
 msgid "Do nothing"
-msgstr ""
+msgstr "保持不变"
 
 #: ../setup/python2/setup.ui.h:22 ../setup/python3/setup.ui.h:22
 msgid "Automatically convert"
-msgstr ""
+msgstr "自动转换"
 
 #: ../setup/python2/setup.ui.h:23 ../setup/python3/setup.ui.h:23
 msgid "Automatically commit"
-msgstr ""
+msgstr "自动提交"
 
 #: ../setup/python2/setup.ui.h:24 ../setup/python3/setup.ui.h:24
 msgid "Clear"
@@ -590,75 +590,75 @@ msgstr "保持"
 
 #: ../setup/python2/setup.ui.h:28 ../setup/python3/setup.ui.h:28
 msgid "ATOK"
-msgstr ""
+msgstr "ATOK"
 
 #: ../setup/python2/setup.ui.h:29 ../setup/python3/setup.ui.h:29
 msgid "Wnn"
-msgstr ""
+msgstr "Wnn"
 
 #: ../setup/python2/setup.ui.h:30 ../setup/python3/setup.ui.h:30
 msgid "Setup - IBus-Anthy"
-msgstr ""
+msgstr "设置 - IBus-Anthy"
 
 #: ../setup/python2/setup.ui.h:31 ../setup/python3/setup.ui.h:31
 msgid "_Input Mode:"
-msgstr "输入模式：(_I)"
+msgstr "输入模式(_I)："
 
 #: ../setup/python2/setup.ui.h:32 ../setup/python3/setup.ui.h:32
 msgid "_Typing Method:"
-msgstr ""
+msgstr "键入方法(_T)："
 
 #: ../setup/python2/setup.ui.h:33 ../setup/python3/setup.ui.h:33
 msgid "Conversion _Mode:"
-msgstr ""
+msgstr "转换模式(_M)："
 
 #: ../setup/python2/setup.ui.h:34 ../setup/python3/setup.ui.h:34
 msgid "<b>Initial Setting</b>"
-msgstr ""
+msgstr "<b>初始设置</b>"
 
 #: ../setup/python2/setup.ui.h:35 ../setup/python3/setup.ui.h:35
 msgid "<b>Menu Visibility on Status Icon</b>"
-msgstr ""
+msgstr "<b>状态图标上的菜单显示</b>"
 
 #: ../setup/python2/setup.ui.h:37 ../setup/python3/setup.ui.h:37
 msgid "_Period Style:"
-msgstr ""
+msgstr "点号样式(_P)："
 
 #: ../setup/python2/setup.ui.h:38 ../setup/python3/setup.ui.h:38
 msgid "Symbo_l Style:"
-msgstr ""
+msgstr "标号样式(_L)："
 
 #: ../setup/python2/setup.ui.h:39 ../setup/python3/setup.ui.h:39
 msgid "Numpad _Key Type:"
-msgstr ""
+msgstr "数字键类型(_K)："
 
 #: ../setup/python2/setup.ui.h:40 ../setup/python3/setup.ui.h:40
 msgid "_Behavior on Period:"
-msgstr ""
+msgstr "输入点号时的行为(_B)："
 
 #: ../setup/python2/setup.ui.h:41 ../setup/python3/setup.ui.h:41
 msgid "Behavior on _Focus Out:"
-msgstr ""
+msgstr "失去焦点时的行为(_F)："
 
 #: ../setup/python2/setup.ui.h:42 ../setup/python3/setup.ui.h:42
 msgid "<b>Behavior</b>"
-msgstr ""
+msgstr "<b>行为</b>"
 
 #: ../setup/python2/setup.ui.h:43 ../setup/python3/setup.ui.h:43
 msgid "Candidate _Window Page Size:"
-msgstr ""
+msgstr "候选项窗口条目数(_W)："
 
 #: ../setup/python2/setup.ui.h:44 ../setup/python3/setup.ui.h:44
 msgid "Convert _symbols with the one column width"
-msgstr ""
+msgstr "将符号转换为半角(_S)"
 
 #: ../setup/python2/setup.ui.h:45 ../setup/python3/setup.ui.h:45
 msgid "Convert _numbers with the one column width"
-msgstr ""
+msgstr "将数字转换为半角(_N)"
 
 #: ../setup/python2/setup.ui.h:46 ../setup/python3/setup.ui.h:46
 msgid "Con_vert spaces with the one column width"
-msgstr ""
+msgstr "将空格转换为半角(_V)"
 
 #: ../setup/python2/setup.ui.h:47 ../setup/python3/setup.ui.h:47
 msgid ""
@@ -668,19 +668,19 @@ msgstr ""
 
 #: ../setup/python2/setup.ui.h:48 ../setup/python3/setup.ui.h:48
 msgid "<b>Other</b>"
-msgstr ""
+msgstr "<b>其他</b>"
 
 #: ../setup/python2/setup.ui.h:49 ../setup/python3/setup.ui.h:49
 msgid "Conversion"
-msgstr ""
+msgstr "转换"
 
 #: ../setup/python2/setup.ui.h:50 ../setup/python3/setup.ui.h:50
 msgid "_Shortcut Type:"
-msgstr ""
+msgstr "快捷键类型(_S)："
 
 #: ../setup/python2/setup.ui.h:51 ../setup/python3/setup.ui.h:51
 msgid "De_fault"
-msgstr ""
+msgstr "默认(_F)"
 
 #: ../setup/python2/setup.ui.h:52 ../setup/python3/setup.ui.h:52
 msgid "_Edit"
@@ -688,35 +688,35 @@ msgstr "编辑(_E)"
 
 #: ../setup/python2/setup.ui.h:53 ../setup/python3/setup.ui.h:53
 msgid "Key Binding"
-msgstr ""
+msgstr "快捷键映射"
 
 #: ../setup/python2/setup.ui.h:55 ../setup/python3/setup.ui.h:55
 msgid "<b>Romaji</b>"
-msgstr ""
+msgstr "<b>罗马字</b>"
 
 #: ../setup/python2/setup.ui.h:57 ../setup/python3/setup.ui.h:57
 msgid "<b>Kana</b>"
-msgstr ""
+msgstr "<b>假名</b>"
 
 #: ../setup/python2/setup.ui.h:58 ../setup/python3/setup.ui.h:58
 msgid "Keyboad _layout:"
-msgstr ""
+msgstr "键盘布局(_L)："
 
 #: ../setup/python2/setup.ui.h:59 ../setup/python3/setup.ui.h:59
 msgid "<b>Keyboard layout</b>"
-msgstr ""
+msgstr "<b>键盘布局</b>"
 
 #: ../setup/python2/setup.ui.h:60 ../setup/python3/setup.ui.h:60
 msgid "Typing Method"
-msgstr ""
+msgstr "键入方法"
 
 #: ../setup/python2/setup.ui.h:61 ../setup/python3/setup.ui.h:61
 msgid "_Left Thumb Shift Key:"
-msgstr ""
+msgstr "左拇指 Shift 键(_L)："
 
 #: ../setup/python2/setup.ui.h:62 ../setup/python3/setup.ui.h:62
 msgid "Right _Thumb Shift Key:"
-msgstr ""
+msgstr "右拇指 Shift 键(_T)："
 
 #: ../setup/python2/setup.ui.h:63 ../setup/python3/setup.ui.h:63
 msgid "Adjust _input method layout to system keyboard layout"
@@ -728,11 +728,11 @@ msgstr ""
 
 #: ../setup/python2/setup.ui.h:65 ../setup/python3/setup.ui.h:65
 msgid "Input _Method Layout:"
-msgstr ""
+msgstr "输入法布局(_M)："
 
 #: ../setup/python2/setup.ui.h:66 ../setup/python3/setup.ui.h:66
 msgid "Restart IBus when you change the keyboard layout"
-msgstr ""
+msgstr "请在更改键盘布局后重新启动 IBus"
 
 #: ../setup/python2/setup.ui.h:67 ../setup/python3/setup.ui.h:67
 msgid "Restart IBus when you change XKB"
@@ -767,35 +767,35 @@ msgstr ""
 
 #: ../setup/python2/setup.ui.h:73 ../setup/python3/setup.ui.h:73
 msgid "Seion + Shift can output Handakuon"
-msgstr ""
+msgstr "清音 + Shift 可输出半浊音"
 
 #: ../setup/python2/setup.ui.h:74 ../setup/python3/setup.ui.h:74
 msgid "Thumb _Shift Key Table:"
-msgstr ""
+msgstr "拇指 Shift 键表(_S)："
 
 #: ../setup/python2/setup.ui.h:75 ../setup/python3/setup.ui.h:75
 msgid "<b>Thumb Shift Layout</b>"
-msgstr ""
+msgstr "<b>拇指 Shℹft 布局</b>"
 
 #: ../setup/python2/setup.ui.h:76 ../setup/python3/setup.ui.h:76
 msgid "Thumb Shift"
-msgstr ""
+msgstr "拇指 Shift"
 
 #: ../setup/python2/setup.ui.h:77 ../setup/python3/setup.ui.h:77
 msgid "_Edit Dictionary Command:"
-msgstr ""
+msgstr "编辑词典命令(_E)："
 
 #: ../setup/python2/setup.ui.h:78 ../setup/python3/setup.ui.h:78
 msgid "_Add Word Command:"
-msgstr ""
+msgstr "添加单词命令 (_A)："
 
 #: ../setup/python2/setup.ui.h:79 ../setup/python3/setup.ui.h:79
 msgid "<b>Default Dictionary Configuration</b>"
-msgstr ""
+msgstr "<b>默认词典配置</b>"
 
 #: ../setup/python2/setup.ui.h:80 ../setup/python3/setup.ui.h:80
 msgid "_View"
-msgstr ""
+msgstr "查看(_V)"
 
 #: ../setup/python2/setup.ui.h:81 ../setup/python3/setup.ui.h:81
 msgid "_Add"
@@ -811,7 +811,7 @@ msgstr "向上(_U)"
 
 #: ../setup/python2/setup.ui.h:84 ../setup/python3/setup.ui.h:84
 msgid "You can change the order on language bar"
-msgstr ""
+msgstr "可以更改语言栏上的顺序"
 
 #: ../setup/python2/setup.ui.h:85 ../setup/python3/setup.ui.h:85
 msgid "_Down"
@@ -819,11 +819,11 @@ msgstr "向下(_D)"
 
 #: ../setup/python2/setup.ui.h:86 ../setup/python3/setup.ui.h:86
 msgid "<b>Extended Dictionaries</b>"
-msgstr ""
+msgstr "<b>扩展词典</b>"
 
 #: ../setup/python2/setup.ui.h:87 ../setup/python3/setup.ui.h:87
 msgid "Dictionary"
-msgstr ""
+msgstr "词典"
 
 #: ../setup/python2/setup.ui.h:88 ../setup/python3/setup.ui.h:88
 msgid "About"
@@ -835,27 +835,27 @@ msgstr "应用(_A)"
 
 #: ../setup/python2/setup.ui.h:92 ../setup/python3/setup.ui.h:92
 msgid "Edit Shortcut"
-msgstr ""
+msgstr "编辑快捷键"
 
 #: ../setup/python2/setup.ui.h:93 ../setup/python3/setup.ui.h:93
 msgid "Key Code:"
-msgstr ""
+msgstr "按键："
 
 #: ../setup/python2/setup.ui.h:94 ../setup/python3/setup.ui.h:94
 msgid "Modifier:"
-msgstr ""
+msgstr "修饰键："
 
 #: ../setup/python2/setup.ui.h:95 ../setup/python3/setup.ui.h:95
 msgid "A_lternate"
-msgstr ""
+msgstr "A_lt"
 
 #: ../setup/python2/setup.ui.h:96 ../setup/python3/setup.ui.h:96
 msgid "Co_ntrol"
-msgstr ""
+msgstr "Co_ntrol"
 
 #: ../setup/python2/setup.ui.h:97 ../setup/python3/setup.ui.h:97
 msgid "_Shift"
-msgstr ""
+msgstr "_Shift"
 
 #: ../setup/python2/setup.ui.h:98 ../setup/python3/setup.ui.h:98
 msgid "_Refresh"
@@ -863,19 +863,19 @@ msgstr "刷新(_R)"
 
 #: ../setup/python2/setup.ui.h:99 ../setup/python3/setup.ui.h:99
 msgid "_Input Characters"
-msgstr ""
+msgstr "输入字符(_I)"
 
 #: ../setup/python2/setup.ui.h:100 ../setup/python3/setup.ui.h:100
 msgid "_Output Characters"
-msgstr ""
+msgstr "输入字符(_O)"
 
 #: ../setup/python2/setup.ui.h:101 ../setup/python3/setup.ui.h:101
 msgid "_Left Thumb Shift"
-msgstr ""
+msgstr "左拇指 Shift (_L)"
 
 #: ../setup/python2/setup.ui.h:102 ../setup/python3/setup.ui.h:102
 msgid "_Right Thumb Shift"
-msgstr ""
+msgstr "右拇指 Shift (_R)"
 
 #: ../setup/python2/setup.ui.h:103 ../setup/python3/setup.ui.h:103
 msgid "_Remove"
@@ -887,19 +887,19 @@ msgstr "关闭(_C)"
 
 #: ../setup/python2/setup.ui.h:105 ../setup/python3/setup.ui.h:105
 msgid "_Short Label:"
-msgstr ""
+msgstr "短标签(_S)："
 
 #: ../setup/python2/setup.ui.h:106 ../setup/python3/setup.ui.h:106
 msgid "_Description:"
-msgstr ""
+msgstr "描述(_D)："
 
 #: ../setup/python2/setup.ui.h:107 ../setup/python3/setup.ui.h:107
 msgid "_Use your dictionary alone with switching dictionaries"
-msgstr ""
+msgstr "通过切换词典单独使用所选词典(_U)"
 
 #: ../setup/python2/setup.ui.h:108 ../setup/python3/setup.ui.h:108
 msgid "_Embed your dictionary in the system dictionary"
-msgstr ""
+msgstr "将用户词典嵌入系统词典中(_E)"
 
 #: ../setup/python2/setup.ui.h:109 ../setup/python3/setup.ui.h:109
 msgid "Enable the _reverse conversion"
@@ -907,8 +907,14 @@ msgstr ""
 
 #: ../setup/python2/setup.ui.h:110 ../setup/python3/setup.ui.h:110
 msgid "The Anthy engine for the IBus input platform"
-msgstr ""
+msgstr "用于 IBus 输入平台的 Anthy 引擎"
 
 #: ../setup/python2/setup.ui.h:111 ../setup/python3/setup.ui.h:111
 msgid "translator_credits"
 msgstr ""
+"lexuge <LEXUGEyky@outlook.com>, 2017\n"
+"Qiyu Yan <yanqiyu01@gmail.com>, 2019\n"
+"黄鹏 <shawn.p.huang@gmail.com>\n"
+"Fedora 简体中文组 <trans-zh_cn@lists.fedoraproject.org>\n"
+"Hankel Bao <hankelbao@outlook.com>, 2020\n"
+"刘韬 <lyuutau@outlook.com>, 2023"
