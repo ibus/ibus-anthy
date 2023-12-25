@@ -8,14 +8,14 @@
 # Popolon <popolon@popolon.org>, 2011
 # Popolon <popolon@popolon.org>, 2011
 # Dingzhong Chen <wsxy162@gmail.com>, 2021.
-# Liu Tao <lyuutau@outlook.com>, 2021, 2023.
+# Liu Tao <lyuutau@outlook.com>, 2021, 2023, 2025.
 # Jingge Chen <mariocanfly@hotmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: IBus-Anthy\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2017-03-17 13:26+0900\n"
-"PO-Revision-Date: 2023-12-27 14:36+0000\n"
+"PO-Revision-Date: 2025-02-19 05:16+0000\n"
 "Last-Translator: Liu Tao <lyuutau@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/ibus/ibus-anthy/zh_CN/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.10\n"
 
 #: ../data/ibus-anthy.appdata.xml.in.h:1
 msgid "Japanese input method"
