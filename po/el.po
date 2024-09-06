@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: IBus-Anthy\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2017-03-17 13:26+0900\n"
-"PO-Revision-Date: 2024-08-21 19:38+0000\n"
+"PO-Revision-Date: 2024-09-07 17:38+0000\n"
 "Last-Translator: Giannis Antypas <gianni.antypas@gmail.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/el/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: ../data/ibus-anthy.appdata.xml.in.h:1
 msgid "Japanese input method"
@@ -221,7 +221,7 @@ msgstr "Προσθήκη λέξεων στο λεξικό"
 #: ../setup/python2/anthyprefs.py.in:1105 ../setup/python2/setup.ui.h:36
 #: ../setup/python3/anthyprefs.py.in:1098 ../setup/python3/setup.ui.h:36
 msgid "General"
-msgstr "Γενικό"
+msgstr "Γενικά"
 
 #: ../setup/python2/anthyprefs.py.in:1116
 #: ../setup/python3/anthyprefs.py.in:1109
@@ -827,7 +827,7 @@ msgstr "_Διαγραφή"
 
 #: ../setup/python2/setup.ui.h:83 ../setup/python3/setup.ui.h:83
 msgid "_Up"
-msgstr "Πά_νω"
+msgstr "_Πάνω"
 
 #: ../setup/python2/setup.ui.h:84 ../setup/python3/setup.ui.h:84
 msgid "You can change the order on language bar"
