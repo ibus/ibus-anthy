@@ -3,17 +3,21 @@
 
 from __future__ import print_function
 
-from gi import require_version as gi_require_version
-gi_require_version('GLib', '2.0')
-gi_require_version('Gdk', '3.0')
-gi_require_version('Gio', '2.0')
-gi_require_version('Gtk', '3.0')
-gi_require_version('IBus', '1.0')
+from gi import require_versions as gi_require_versions
+gi_require_versions({'GLib': '2.0', 'Gio': '2.0', 'GObject': '2.0',
+                     'IBus': '1.0'})
 from gi.repository import GLib
-from gi.repository import Gdk
 from gi.repository import Gio
-from gi.repository import Gtk
+from gi.repository import GObject
 from gi.repository import IBus
+
+try:
+    gi_require_versions({'Gdk': '4.0', 'Gtk': '4.0'})
+except ValueError:
+    gi_require_versions({'Gdk': '3.0', 'Gtk': '3.0'})
+
+from gi.repository import Gdk
+from gi.repository import Gtk
 
 import argparse
 import getopt
@@ -70,7 +74,7 @@ sys.path.append('/usr/share/ibus-anthy/engine')
 from anthycases import TestCases
 
 
-@unittest.skipIf(Gdk.Display.open('') == None, 'Display cannot be open.')
+@unittest.skipIf(Gdk.Display.get_default() == None, 'Display cannot be open.')
 class AnthyTest(unittest.TestCase):
     global DONE_EXIT
     ENGINE_PATH = '/com/redhat/IBus/engines/Anthy/Test/Engine'
@@ -81,11 +85,21 @@ class AnthyTest(unittest.TestCase):
 
     def setUp(self):
         self.__id = 0
-        self.__rerun = False
+        self.__engine_is_focused = False
+        self.__idle_count = 0
+        self.__idle_loop = None
         self.__test_index = 0
+        self.__preedit_changes = 0
+        self.__preedit_prev = None
         self.__conversion_index = 0
+        self.__conversion_spaces = 0
         self.__commit_done = False
         self.__engine = None
+        self.__list_toplevel = False
+        self.__is_wayland = False
+        display = Gdk.Display.get_default()
+        if GObject.type_name(display.__gtype__) == 'GdkWaylandDisplay':
+            self.__is_wayland = True
 
     def register_ibus_engine(self):
         printflush('## Registering engine')
@@ -133,6 +147,59 @@ class AnthyTest(unittest.TestCase):
         self.__bus.request_name('org.freedesktop.IBus.Anthy.Test', 0)
         return True
 
+    def create_window(self):
+        match Gtk.MAJOR_VERSION:
+            case 4:
+                self.create_window_gtk4()
+            case 3:
+                self.create_window_gtk3()
+            case _:
+                self.gtk_version_exception()
+
+    def create_window_gtk4(self):
+        window = Gtk.Window()
+        self.__entry = entry = Gtk.Entry()
+        window.connect('destroy', self.__window_destroy_cb)
+        entry.connect('map', self.__entry_map_cb)
+        controller = Gtk.EventControllerFocus()
+        controller.set_propagation_phase(Gtk.PropagationPhase.BUBBLE)
+        controller.connect_after('enter', self.__controller_enter_cb)
+        text = entry.get_delegate()
+        text.add_controller(controller)
+        text.connect('preedit-changed', self.__entry_preedit_changed_cb)
+        buffer = entry.get_buffer()
+        buffer.connect('inserted-text', self.__buffer_inserted_text_cb)
+        window.set_child(entry)
+        window.set_focus(entry)
+        window.present()
+        printflush('## Build GTK4 window')
+
+    def create_window_gtk3(self):
+        window = Gtk.Window(type = Gtk.WindowType.TOPLEVEL)
+        self.__entry = entry = Gtk.Entry()
+        window.connect('destroy', self.__window_destroy_cb)
+        entry.connect('map', self.__entry_map_cb)
+        entry.connect('focus-in-event', self.__entry_focus_in_event_cb)
+        entry.connect('preedit-changed', self.__entry_preedit_changed_cb)
+        buffer = entry.get_buffer()
+        buffer.connect('inserted-text', self.__buffer_inserted_text_cb)
+        window.add(entry)
+        window.show_all()
+        printflush('## Build GTK3 window')
+
+    def gtk_version_exception(self):
+        raise Exception("GTK version %d is not supported" %  Gtk.MAJOR_VERSION)
+
+    def is_integrated_desktop(self):
+        session_name = None
+        if 'XDG_SESSION_DESKTOP' in os.environ:
+            session_name = os.environ['XDG_SESSION_DESKTOP']
+        if session_name == None:
+            return False
+        if len(session_name) >= 4 and session_name[0:5] == 'gnome':
+            return True
+        return False
+
     def __name_owner_changed_cb(self, connection, sender_name, object_path,
                                 interface_name, signal_name, parameters,
                                 user_data):
@@ -142,7 +209,7 @@ class AnthyTest(unittest.TestCase):
             except ModuleNotFoundError as e:
                 with self.subTest(i = 'name-owner-changed'):
                     self.fail('NG: Not installed ibus-anthy %s' % str(e))
-                Gtk.main_quit()
+                self.__window_destroy_cb()
                 return
             engine.Engine.CONFIG_RELOADED()
 
@@ -154,60 +221,101 @@ class AnthyTest(unittest.TestCase):
             except ModuleNotFoundError as e:
                 with self.subTest(i = 'create-engine'):
                     self.fail('NG: Not installed ibus-anthy %s' % str(e))
-                Gtk.main_quit()
+                self.__window_destroy_cb()
                 return
             self.__id += 1
             self.__engine = engine.Engine(self.__bus, '%s/%d' % (self.ENGINE_PATH, self.__id))
+            if hasattr(self.__engine.props, 'has_focus_id'):
+                self.__engine.connect('focus-in-id', self.__engine_focus_in)
+                self.__engine.connect('focus-out-id', self.__engine_focus_out)
+            # The timing of D-Bus signal of Engine.has_focus_id can cause
+            # some 'focus-in' signals earlier and 'focus-in-id' signals later.
             self.__engine.connect('focus-in', self.__engine_focus_in)
             self.__engine.connect('focus-out', self.__engine_focus_out)
             return self.__engine
 
-    def __engine_focus_in(self, engine):
+    def __engine_focus_in(self, engine, object_path=None, client=None):
+        printflush('## Focus in engine %s %s' % (object_path, client))
         if self.__test_index == len(TestCases['tests']):
             if DONE_EXIT:
-                Gtk.main_quit()
+                self.__window_destroy_cb()
             return
-        # Workaround because focus-out resets the preedit text
-        # ibus_bus_set_global_engine() calls bus_input_context_set_engine()
-        # twice and it causes bus_engine_proxy_focus_out()
-        if self.__rerun:
-            self.__main_test()
+        self.__engine_is_focused = True
         pass
 
-    def __engine_focus_out(self, engine):
-        self.__rerun = True
+    def __engine_focus_out(self, engine, object_path=None):
+        printflush('## Focus out engine %s' % object_path)
+        self.__engine_is_focused = False
 
-    def create_window(self):
-        window = Gtk.Window(type = Gtk.WindowType.TOPLEVEL)
-        self.__entry = entry = Gtk.Entry()
-        window.connect('destroy', Gtk.main_quit)
-        entry.connect('map', self.__entry_map_cb)
-        entry.connect('focus-in-event', self.__entry_focus_in_event_cb)
-        entry.connect('preedit-changed', self.__entry_preedit_changed_cb)
-        buffer = entry.get_buffer()
-        buffer.connect('inserted-text', self.__buffer_inserted_text_cb)
-        window.add(entry)
-        window.show_all()
-        printflush('## Build window')
+    def __window_destroy_cb(self):
+        match Gtk.MAJOR_VERSION:
+            case 4:
+                self.__list_toplevel = False
+            case 3:
+                Gtk.main_quit()
+            case _:
+                self.gtk_version_exception()
 
     def __entry_map_cb(self, entry):
         printflush('## Map window')
 
+    def __controller_enter_cb(self, controller):
+        if self.is_integrated_desktop():
+            # Wait for 3 seconds in GNOME Wayland because there is a long time
+            # lag between the "enter" signal on the event controller in GtkText
+            # and the "FocusIn" D-Bus signal in BusInputContext of ibus-daemon.
+            printflush('## Waiting for 3 secs')
+            GLib.timeout_add_seconds(3,
+                                     self.__controller_enter_delay,
+                                     controller)
+        else:
+            printflush('## No Wait')
+            GLib.idle_add(self.__controller_enter_delay,
+                          controller)
+
+    def __controller_enter_delay(self, controller):
+        text = controller.get_widget()
+        if not text.get_realized():
+            return
+        self.__entry_focus_in_event_cb(None, None)
+
     def __entry_focus_in_event_cb(self, entry, event):
-        printflush('## Get focus')
+        printflush('## Focus in entry')
         if self.__test_index == len(TestCases['tests']):
             if DONE_EXIT:
-                Gtk.main_quit()
+                self.__window_destroy_cb()
             return False
         self.__bus.set_global_engine_async('testanthy', -1, None, self.__set_engine_cb)
         return False
 
+    def __idle_cb(self):
+        if self.__engine_is_focused:
+            self.__idle_loop.quit()
+            return GLib.SOURCE_REMOVE
+        elif self.__idle_count < 10:
+            self.__idle_count += 1
+            return GLib.SOURCE_CONTINUE
+        else:
+            self.__idle_loop.quit()
+            return GLib.SOURCE_REMOVE
+
     def __set_engine_cb(self, object, res):
+        printflush('## Set engine')
         if not self.__bus.set_global_engine_async_finish(res):
             with self.subTest(i = self.__test_index):
                 self.fail('set engine failed: ' + error.message)
             return
         self.__enable_hiragana()
+        # ibus_im_context_focus_in() is called after GlobalEngine is set.
+        # The focus-in/out events happen more slowly in a busy system
+        # likes with a TMT tool.
+        if self.is_integrated_desktop():
+            if 'IBUS_DAEMON_WITH_SYSTEMD' in os.environ and \
+               os.environ['IBUS_DAEMON_WITH_SYSTEMD'] != None:
+                self.__idle_loop = GLib.MainLoop(None)
+                self.__idle_count = 0
+                GLib.timeout_add_seconds(1, self.__idle_cb)
+                self.__idle_loop.run()
         self.__main_test()
 
     def __get_test_condition_length(self, tag):
@@ -217,24 +325,48 @@ class AnthyTest(unittest.TestCase):
         return len(cases[type])
 
     def __entry_preedit_changed_cb(self, entry, preedit_str):
-        if len(preedit_str) == 0:
+        # Wait for clearing the preedit before the next __main_test() is called.
+        if self.__commit_done:
+            if len(preedit_str) == 0:
+                self.__preedit_changes = 0
+                self.__main_test()
+            else:
+                self.__preedit_changes += 1
             return
+        if self.__is_wayland:
+            # Need to fix mutter
+            # GTK calls self.__entry_preedit_changed_cb() twice by the actual
+            # preedit update in GNOME Wayland in case the lookup window is not
+            # shown yet and the preedit is changed but not the cursor position
+            # only.
+            #
+            # I.e. GTK receives the struct zwp_text_input_v3_listener.done()
+            # from Wayland text-input protocol when the preedit is updated
+            # and the "preedit-changed" signal is called at first and the
+            # zwp_text_input_v3_listener.done() also calls
+            # zwp_text_input_v3_commit() to notify IM changes to mutter and
+            # mutter receives the struct
+            # zwp_text_input_v3_interface.commit_state() from Wayland text-input
+            # protocol and it causes the zwp_text_input_v3_listener.done() and
+            # the "preedit-changed" signal in GTK.
+            if self.__preedit_changes < 1 and self.__conversion_spaces < 2 \
+               and self.__preedit_prev != preedit_str:
+                self.__preedit_changes += 1
+                return
+            else:
+                self.__preedit_changes = 0
         if self.__test_index == len(TestCases['tests']):
             if DONE_EXIT:
-                Gtk.main_quit()
+                self.__window_destroy_cb()
             return
+        self.__preedit_prev = preedit_str
         conversion_length = self.__get_test_condition_length('conversion')
-        # Need to return again even if all the conversion is finished
-        # until the final Engine.update_preedit() is called.
-        if self.__conversion_index > conversion_length:
-            return
-        self.__run_cases('conversion',
-                         self.__conversion_index,
-                         self.__conversion_index + 1)
         if self.__conversion_index < conversion_length:
+            self.__run_cases('conversion',
+                             self.__conversion_index,
+                             self.__conversion_index + 1)
             self.__conversion_index += 1
             return
-        self.__conversion_index += 1
         self.__run_cases('commit')
 
     def __enable_hiragana(self):
@@ -249,13 +381,12 @@ class AnthyTest(unittest.TestCase):
             printflush('## Already hiragana')
 
     def __main_test(self):
+        printflush('## Run case %d' % self.__test_index)
+        self.__preedit_prev = None
         self.__conversion_index = 0
+        self.__conversion_spaces = 0
         self.__commit_done = False
         self.__run_cases('preedit')
-        self.__run_cases('conversion',
-                         self.__conversion_index,
-                         self.__conversion_index + 1)
-        self.__conversion_index += 1
 
     def __run_cases(self, tag, start=-1, end=-1):
         tests = TestCases['tests'][self.__test_index]
@@ -288,6 +419,10 @@ class AnthyTest(unittest.TestCase):
                 if start != -1 or end != -1:
                     printflush('test step: %s sequences: [0x%X, 0x%X, 0x%X]' \
                                % (tag, key[0], key[1],  key[2]))
+                # Check if the lookup table is shown.
+                if tag == 'conversion' and \
+                   (key[0] == IBus.KEY_Tab or key[0] == IBus.KEY_space):
+                    self.__conversion_spaces += 1
                 self.__typing(key[0], key[1], key[2])
                 i += 1
 
@@ -306,21 +441,30 @@ class AnthyTest(unittest.TestCase):
                 self.fail('NG: %d %s %s' \
                           % (self.__test_index, str(cases['string']), chars))
             if DONE_EXIT:
-                Gtk.main_quit()
+                self.__window_destroy_cb()
         self.__test_index += 1
         if self.__test_index == len(TestCases['tests']):
             if DONE_EXIT:
-                Gtk.main_quit()
+                self.__window_destroy_cb()
             return
         self.__entry.set_text('')
-        self.__main_test()
+        # ibus-anthy updates preedit after commits the text.
+        self.__commit_done = True
 
     def main(self):
-        Gtk.main()
+        match Gtk.MAJOR_VERSION:
+            case 4:
+                while self.__list_toplevel:
+                    GLib.MainContext.default().iteration(True)
+            case 3:
+                Gtk.main()
+            case _:
+                self.gtk_version_exception()
 
     def test_typing(self):
         if not self.register_ibus_engine():
             sys.exit(-1)
+        self.__list_toplevel = True
         self.create_window()
         self.main()
 
