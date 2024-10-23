@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.15\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2023-08-22 13:02+0900\n"
-"PO-Revision-Date: 2024-10-23 08:13+0000\n"
+"PO-Revision-Date: 2024-10-24 08:38+0000\n"
 "Last-Translator: ButterflyOfFire <butterflyoffire@users.noreply.translate."
 "fedoraproject.org>\n"
 "Language-Team: Kabyle <https://translate.fedoraproject.org/projects/ibus/"
@@ -76,13 +76,13 @@ msgstr ""
 #: engine/python3/engine.py:971 engine/python3/engine.py:1033
 #, python-format
 msgid "%(description)s (%(symbol)s)"
-msgstr ""
+msgstr "%(description)s (%(symbol)s)"
 
 #: engine/python2/engine.py:296 engine/python2/engine.py:893
 #: engine/python3/engine.py:297 engine/python3/engine.py:888
 #: setup/python2/main.py:405 setup/python3/main.py:409
 msgid "Input mode"
-msgstr ""
+msgstr "Askar n unekcum"
 
 #: engine/python2/engine.py:302 engine/python3/engine.py:303
 msgid "Switch input mode"
@@ -177,7 +177,7 @@ msgstr ""
 
 #: engine/python2/engine.py:533 engine/python3/engine.py:534
 msgid "Switch dictionary"
-msgstr ""
+msgstr "Beddel asegzawal"
 
 #: engine/python2/engine.py:623 engine/python3/engine.py:623
 #: setup/python2/main.py:417 setup/python3/main.py:421
@@ -203,7 +203,7 @@ msgstr ""
 
 #: engine/python2/engine.py:655 engine/python3/engine.py:654
 msgid "Add words"
-msgstr ""
+msgstr "Rnu awalen imaynuten"
 
 #: engine/python2/engine.py:657 engine/python3/engine.py:656
 msgid "Add words to the dictionary"
@@ -315,7 +315,7 @@ msgstr ""
 #: setup/python3/main.py:594 setup/python3/main.py:1064
 #: setup/python3/main.py:1168 setup/python3/setup.ui:183
 msgid "Default"
-msgstr ""
+msgstr "Amezwer"
 
 #: setup/python2/main.py:593 setup/python3/main.py:597
 msgid "Customize Kana Key Table"
@@ -453,7 +453,7 @@ msgstr "Sefsex (_C)"
 
 #: setup/python2/main.py:1389 setup/python3/main.py:1382
 msgid "_Open"
-msgstr ""
+msgstr "Ldi (_O)"
 
 #: setup/python2/main.py:1392 setup/python3/main.py:1385
 msgid "Edit Dictionary File"
@@ -501,19 +501,19 @@ msgstr ""
 
 #: setup/python2/setup.ui:39 setup/python3/setup.ui:39
 msgid "NICOLA-J"
-msgstr ""
+msgstr "NICOLA-J"
 
 #: setup/python2/setup.ui:42 setup/python3/setup.ui:42
 msgid "NICOLA-A"
-msgstr ""
+msgstr "NICOLA-A"
 
 #: setup/python2/setup.ui:45 setup/python3/setup.ui:45
 msgid "NICOLA-F"
-msgstr ""
+msgstr "NICOLA-F"
 
 #: setup/python2/setup.ui:55 setup/python3/setup.ui:55
 msgid "None"
-msgstr ""
+msgstr "Ula yiwen"
 
 #: setup/python2/setup.ui:58 setup/python3/setup.ui:58
 msgid "FMV KB231 key extension"
@@ -545,7 +545,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:167 setup/python3/setup.ui:167
 msgid "Clear"
-msgstr ""
+msgstr "Sfeḍ"
 
 #: setup/python2/setup.ui:170 setup/python3/setup.ui:170
 msgid "Commit"
@@ -557,11 +557,11 @@ msgstr ""
 
 #: setup/python2/setup.ui:186 setup/python3/setup.ui:186
 msgid "ATOK"
-msgstr ""
+msgstr "ATOK"
 
 #: setup/python2/setup.ui:189 setup/python3/setup.ui:189
 msgid "Wnn"
-msgstr ""
+msgstr "Wnn"
 
 #: setup/python2/setup.ui:197 setup/python3/setup.ui:197
 msgid "Setup - IBus-Anthy"
@@ -652,7 +652,7 @@ msgstr ""
 #: setup/python2/setup.ui:847 setup/python2/setup.ui:1763
 #: setup/python3/setup.ui:847 setup/python3/setup.ui:1763
 msgid "_Edit"
-msgstr ""
+msgstr "Ẓr_eg"
 
 #: setup/python2/setup.ui:873 setup/python3/setup.ui:873
 msgid "Key Binding"
@@ -793,7 +793,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:1867 setup/python3/setup.ui:1867
 msgid "Dictionary"
-msgstr ""
+msgstr "Asegzawal"
 
 #: setup/python2/setup.ui:1888 setup/python3/setup.ui:1888
 msgid "About"
@@ -858,7 +858,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:2631 setup/python3/setup.ui:2631
 msgid "_Description:"
-msgstr ""
+msgstr "Aglam (_D):"
 
 #: setup/python2/setup.ui:2663 setup/python3/setup.ui:2663
 msgid "_Use your dictionary alone with switching dictionaries"
@@ -878,4 +878,4 @@ msgstr ""
 
 #: setup/python2/setup.ui:2719 setup/python3/setup.ui:2719
 msgid "translator_credits"
-msgstr ""
+msgstr "Athmane Mokraoui <butterflyoffire@protonmail.com>, 2024."
