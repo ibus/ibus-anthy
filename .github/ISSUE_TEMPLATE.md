@@ -1,3 +1,5 @@
+*** The template file at the root(.github/foo.md) is no longer used in GitHub issue ***
+
 Please fill in the following items if you don't know the root cause.
 
 Which distribution and version?: 

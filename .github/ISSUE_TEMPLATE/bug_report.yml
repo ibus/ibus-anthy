@@ -1,0 +1,129 @@
+name: Bus Report Template
+description: |
+  Please fill in the following items if you don't know the root cause.
+assignees:
+  - fujiwarat
+body:
+  - type: markdown
+    attributes:
+      value: "Please describe the issue title to be able to identify your issue
+              against others."
+  - type: markdown
+    attributes:
+      value: "Wrong title - \"ibus typing not work with any applications\".
+        Good title - \"Cannot output multi-byte strings with gedit\" or
+        \"Cannot switch keyboard layouts with Super-space in Wayland\" or
+        \"String output is slow with firefox in Cinnamon\""
+  - type: input
+    id: distro
+    attributes:
+      label: Distribution and Version
+      description: Which distribusion and version? Check /etc/fedora-release
+      placeholder: Fedora 41
+    validations:
+      required: true
+  - type: input
+    id: desktop
+    attributes:
+      label: Desktop Environment and Version
+      description: |
+        Which desktop environment and version?
+        Check $XDG_CURRENT_DESKTOP and your ISO image.
+      placeholder: GNOME 3.24
+    validations:
+      required: true
+  - type: dropdown
+    id: session
+    attributes:
+      label: Session Type
+      description: Which session type? Check $XDG_SESSION_TYPE
+      options:
+        - Wayland
+        - X11
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: application
+    attributes:
+      label: Application and Version
+      description: Which application and version?
+      placeholder: gedit 3.24, leafpad, kate, xterm
+    validations:
+      required: true
+  - type: input
+    id: version-core
+    attributes:
+      label: IBus version
+      description: Run `ibus version`
+      placeholder: 1.5.31
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: ibus-anthy Version
+      description: |
+        Open "IBus Anthy preferences" dialog (`ibus-setup-anthy`) from IBus
+        panel menu or ibus-setup, and select "About" tab.
+      placeholder: 1.5.16
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Issue Description
+      description: Please describe the issue summary.
+    validations:
+      required: false
+  - type: textarea
+    id: reproducing
+    attributes:
+      label: Steps to Reproduce
+      description: |
+        How do you trigger this bug? Please walk us through it step by step.
+      value: |
+        1. 
+        2. 
+        3. 
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    id: inevitability
+    attributes:
+      label: |
+        Can you reproduce your problem when you restart ibus-daemon? (yes / no)
+      description: |
+        Please answer "yes" or "no" and also complement your issue as needed.
+        Run `ibus exit` and `ibus-daemon --xim &`
+    validations:
+      required: true
+  - type: textarea
+    id: error_messages
+    attributes:
+      label: |
+        Do you see any errors when you run ibus-daemon with the verbose option?
+      description: |
+        Run `ibus-daemon --xim --verbose &` and look at the output when you
+        encounter your problem.
+        You might need to run `journalctl` for GNOME sessions.
+    validations:
+      required: false
+  - type: textarea
+    id: error_config
+    attributes:
+      label: |
+        Can you reproduce your problem with a new user account instead of the
+        current your account? (yes / no)
+      description: |
+        Please answer "yes" or "no" and also complement your issue as needed.
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: |
+        Add any other context about the problem here.
+    validations:
+      required: false
