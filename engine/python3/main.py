@@ -4,7 +4,7 @@
 # ibus-anthy - The Anthy engine for IBus
 #
 # Copyright (c) 2007-2008 Peng Huang <shawn.p.huang@gmail.com>
-# Copyright (c) 2010-2023 Takao Fujiwara <takao.fujiwara1@gmail.com>
+# Copyright (c) 2010-2025 Takao Fujiwara <takao.fujiwara1@gmail.com>
 # Copyright (c) 2007-2016 Red Hat, Inc.
 #
 # This program is free software; you can redistribute it and/or modify
@@ -41,6 +41,10 @@ GLib.set_prgname('ibus-engine-anthy')
 from gi.repository import IBus
 
 import _config as config
+
+# Need to call IBus.init() before IBus.EngineSimple() is loaded.
+# factory -> engine -> IBus.EngineSimple
+IBus.init()
 import factory
 
 class IMApp:
@@ -177,7 +181,6 @@ def main():
             print('Unknown argument: %s' % o, file=sys.stderr)
             print_help(sys.stderr, 1)
 
-    IBus.init()
     if daemonize:
         if os.fork():
             sys.exit()
