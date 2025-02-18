@@ -3,8 +3,8 @@
 # ibus-anthy - The Anthy engine for IBus
 #
 # Copyright (c) 2007-2008 Peng Huang <shawn.p.huang@gmail.com>
-# Copyright (c) 2010-2019 Takao Fujiwara <takao.fujiwara1@gmail.com>
-# Copyright (c) 2007-2019 Red Hat, Inc.
+# Copyright (c) 2010-2025 Takao Fujiwara <takao.fujiwara1@gmail.com>
+# Copyright (c) 2007-2025 Red Hat, Inc.
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -80,6 +80,14 @@ srpm: dist @PACKAGE_NAME@.spec
 			--define "_rpmdir `pwd`" \
 			--define "_specdir `pwd`" \
 			@PACKAGE_NAME@.spec
+
+@PACKAGE_NAME@-@PACKAGE_VERSION@.%.sum: @PACKAGE_NAME@-@PACKAGE_VERSION@.%
+	f=`basename $@ .sum`; \
+	printf "cksum %s %s %s\n"      `cksum $$f`     >  $@; \
+	printf "sha1sum %s %s\n"       `sha1sum $$f`   >> $@; \
+	printf "sha256sum %s %s\n"     `sha256sum $$f` >> $@; \
+	printf "sha512sum %s %s\n"     `sha512sum $$f` >> $@; \
+	$(NULL)
 
 clean-rpm:
 	$(RM) -r "`uname -i`"
