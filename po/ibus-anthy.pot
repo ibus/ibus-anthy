@@ -1,14 +1,14 @@
 # Source translation of ibus-anthy.
 # Copyright (C) 2008 Peng Huang <shawn.p.huang@gmail.com>
-# Copyright (C) 2008-2023 Takao Fujiwara <takao.fujiwara1@gmail.com>
+# Copyright (C) 2008-2025 Takao Fujiwara <takao.fujiwara1@gmail.com>
 # This file is distributed under the same license as the ibus-anthy package.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: ibus-anthy 1.5.15\n"
+"Project-Id-Version: ibus-anthy 1.5.16\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
-"POT-Creation-Date: 2023-08-22 13:02+0900\n"
-"PO-Revision-Date: 2023-08-22 13:02+0900\n"
+"POT-Creation-Date: 2025-02-17 17:13+0900\n"
+"PO-Revision-Date: 2025-02-17 17:12+0900\n"
 "Last-Translator: Takao Fujiwara <takao.fujiwara1@gmail.com>\n"
 "Language-Team: Source\n"
 "Language: English\n"
@@ -31,16 +31,19 @@ msgid ""
 "laid out on a traditional keyboard."
 msgstr ""
 
+#: data/ibus-anthy.appdata.xml.in:21
+msgid "input-method"
+msgstr ""
+
+#: data/ibus-anthy.appdata.xml.in:22
+msgid "Japanese"
+msgstr ""
+
 #: data/ibus-anthy.appdata.xml.in:31
 msgid "See the upstream release list."
 msgstr ""
 
-#: engine/python2/default.inputMethod.xml.in.in:13
-#: engine/python3/default.inputMethod.xml.in.in:13
-msgid "Anthy Input Method"
-msgstr ""
-
-#: engine/python2/engine.py:208 engine/python3/engine.py:209
+#: engine/python2/engine.py:219 engine/python3/engine.py:220
 #, python-format
 msgid ""
 "Could not enable Anthy.\n"
@@ -49,193 +52,193 @@ msgid ""
 "Please fix the file or remove it by manual and restart IBus."
 msgstr ""
 
-#: engine/python2/engine.py:256 engine/python3/engine.py:257
+#: engine/python2/engine.py:267 engine/python3/engine.py:268
 #: setup/python2/main.py:420 setup/python3/main.py:424
 msgid "Preferences - Anthy"
 msgstr ""
 
-#: engine/python2/engine.py:258 engine/python3/engine.py:259
+#: engine/python2/engine.py:269 engine/python3/engine.py:270
 msgid "Configure Anthy"
 msgstr ""
 
 #. Translators: Specify the order of %s with your translation.
 #. It will be "Input Mode (A)" for example.
-#: engine/python2/engine.py:295 engine/python2/engine.py:383
-#: engine/python2/engine.py:450 engine/python2/engine.py:526
-#: engine/python2/engine.py:892 engine/python2/engine.py:923
-#: engine/python2/engine.py:947 engine/python2/engine.py:976
-#: engine/python2/engine.py:1038 engine/python3/engine.py:296
-#: engine/python3/engine.py:384 engine/python3/engine.py:451
-#: engine/python3/engine.py:527 engine/python3/engine.py:887
-#: engine/python3/engine.py:918 engine/python3/engine.py:942
-#: engine/python3/engine.py:971 engine/python3/engine.py:1033
+#: engine/python2/engine.py:306 engine/python2/engine.py:394
+#: engine/python2/engine.py:461 engine/python2/engine.py:537
+#: engine/python2/engine.py:909 engine/python2/engine.py:940
+#: engine/python2/engine.py:964 engine/python2/engine.py:993
+#: engine/python2/engine.py:1055 engine/python3/engine.py:307
+#: engine/python3/engine.py:395 engine/python3/engine.py:462
+#: engine/python3/engine.py:538 engine/python3/engine.py:904
+#: engine/python3/engine.py:935 engine/python3/engine.py:959
+#: engine/python3/engine.py:988 engine/python3/engine.py:1050
 #, python-format
 msgid "%(description)s (%(symbol)s)"
 msgstr ""
 
-#: engine/python2/engine.py:296 engine/python2/engine.py:893
-#: engine/python3/engine.py:297 engine/python3/engine.py:888
+#: engine/python2/engine.py:307 engine/python2/engine.py:910
+#: engine/python3/engine.py:308 engine/python3/engine.py:905
 #: setup/python2/main.py:405 setup/python3/main.py:409
 msgid "Input mode"
 msgstr ""
 
-#: engine/python2/engine.py:302 engine/python3/engine.py:303
+#: engine/python2/engine.py:313 engine/python3/engine.py:314
 msgid "Switch input mode"
 msgstr ""
 
-#: engine/python2/engine.py:312 engine/python3/engine.py:313
+#: engine/python2/engine.py:323 engine/python3/engine.py:324
 #: setup/python2/setup.ui:17 setup/python3/setup.ui:17
 msgid "Hiragana"
 msgstr ""
 
-#: engine/python2/engine.py:321 engine/python3/engine.py:322
+#: engine/python2/engine.py:332 engine/python3/engine.py:333
 #: setup/python2/setup.ui:20 setup/python3/setup.ui:20
 msgid "Katakana"
 msgstr ""
 
-#: engine/python2/engine.py:330 engine/python3/engine.py:331
+#: engine/python2/engine.py:341 engine/python3/engine.py:342
 #: setup/python2/setup.ui:23 setup/python3/setup.ui:23
 msgid "Halfwidth Katakana"
 msgstr ""
 
-#: engine/python2/engine.py:339 engine/python3/engine.py:340
+#: engine/python2/engine.py:350 engine/python3/engine.py:351
 #: setup/python2/setup.ui:26 setup/python3/setup.ui:26
 msgid "Latin"
 msgstr ""
 
-#: engine/python2/engine.py:348 engine/python3/engine.py:349
+#: engine/python2/engine.py:359 engine/python3/engine.py:360
 #: setup/python2/setup.ui:29 setup/python3/setup.ui:29
 msgid "Wide Latin"
 msgstr ""
 
-#: engine/python2/engine.py:384 engine/python2/engine.py:924
-#: engine/python2/engine.py:948 engine/python3/engine.py:385
-#: engine/python3/engine.py:919 engine/python3/engine.py:943
+#: engine/python2/engine.py:395 engine/python2/engine.py:941
+#: engine/python2/engine.py:965 engine/python3/engine.py:396
+#: engine/python3/engine.py:936 engine/python3/engine.py:960
 #: setup/python2/main.py:408 setup/python3/main.py:412
 msgid "Typing method"
 msgstr ""
 
-#: engine/python2/engine.py:390 engine/python3/engine.py:391
+#: engine/python2/engine.py:401 engine/python3/engine.py:402
 msgid "Switch typing method"
 msgstr ""
 
-#: engine/python2/engine.py:400 engine/python3/engine.py:401
+#: engine/python2/engine.py:411 engine/python3/engine.py:412
 #: setup/python2/setup.ui:71 setup/python3/setup.ui:71
 msgid "Romaji"
 msgstr ""
 
-#: engine/python2/engine.py:409 engine/python3/engine.py:410
+#: engine/python2/engine.py:420 engine/python3/engine.py:421
 #: setup/python2/setup.ui:74 setup/python3/setup.ui:74
 msgid "Kana"
 msgstr ""
 
-#: engine/python2/engine.py:418 engine/python3/engine.py:419
+#: engine/python2/engine.py:429 engine/python3/engine.py:430
 #: setup/python2/setup.ui:77 setup/python3/setup.ui:77
 msgid "Thumb shift"
 msgstr ""
 
-#: engine/python2/engine.py:451 engine/python2/engine.py:977
-#: engine/python3/engine.py:452 engine/python3/engine.py:972
+#: engine/python2/engine.py:462 engine/python2/engine.py:994
+#: engine/python3/engine.py:463 engine/python3/engine.py:989
 #: setup/python2/main.py:411 setup/python3/main.py:415
 msgid "Segment mode"
 msgstr ""
 
-#: engine/python2/engine.py:457 engine/python3/engine.py:458
+#: engine/python2/engine.py:468 engine/python3/engine.py:469
 msgid "Switch conversion mode"
 msgstr ""
 
-#: engine/python2/engine.py:467 engine/python3/engine.py:468
+#: engine/python2/engine.py:478 engine/python3/engine.py:479
 #: setup/python2/setup.ui:87 setup/python3/setup.ui:87
 msgid "Multiple segment"
 msgstr ""
 
-#: engine/python2/engine.py:476 engine/python3/engine.py:477
+#: engine/python2/engine.py:487 engine/python3/engine.py:488
 #: setup/python2/setup.ui:90 setup/python3/setup.ui:90
 msgid "Single segment"
 msgstr ""
 
-#: engine/python2/engine.py:485 engine/python3/engine.py:486
+#: engine/python2/engine.py:496 engine/python3/engine.py:497
 #: setup/python2/setup.ui:93 setup/python3/setup.ui:93
 msgid "Immediate conversion (multiple segment)"
 msgstr ""
 
-#: engine/python2/engine.py:494 engine/python3/engine.py:495
+#: engine/python2/engine.py:505 engine/python3/engine.py:506
 #: setup/python2/setup.ui:96 setup/python3/setup.ui:96
 msgid "Immediate conversion (single segment)"
 msgstr ""
 
-#: engine/python2/engine.py:527 engine/python2/engine.py:1039
-#: engine/python3/engine.py:528 engine/python3/engine.py:1034
+#: engine/python2/engine.py:538 engine/python2/engine.py:1056
+#: engine/python3/engine.py:539 engine/python3/engine.py:1051
 #: setup/python2/main.py:414 setup/python3/main.py:418
 msgid "Dictionary mode"
 msgstr ""
 
-#: engine/python2/engine.py:533 engine/python3/engine.py:534
+#: engine/python2/engine.py:544 engine/python3/engine.py:545
 msgid "Switch dictionary"
 msgstr ""
 
-#: engine/python2/engine.py:623 engine/python3/engine.py:623
+#: engine/python2/engine.py:634 engine/python3/engine.py:634
 #: setup/python2/main.py:417 setup/python3/main.py:421
 msgid "Dictionary - Anthy"
 msgstr ""
 
 #. Translators: "Dic" means 'dictionary', One kanji may be good.
-#: engine/python2/engine.py:629 engine/python3/engine.py:628
+#: engine/python2/engine.py:640 engine/python3/engine.py:639
 msgid "Dic"
 msgstr ""
 
-#: engine/python2/engine.py:636 engine/python3/engine.py:635
+#: engine/python2/engine.py:647 engine/python3/engine.py:646
 msgid "Configure dictionaries"
 msgstr ""
 
-#: engine/python2/engine.py:646 engine/python3/engine.py:645
+#: engine/python2/engine.py:657 engine/python3/engine.py:656
 msgid "Edit dictionaries"
 msgstr ""
 
-#: engine/python2/engine.py:648 engine/python3/engine.py:647
+#: engine/python2/engine.py:659 engine/python3/engine.py:658
 msgid "Launch the dictionary tool"
 msgstr ""
 
-#: engine/python2/engine.py:655 engine/python3/engine.py:654
+#: engine/python2/engine.py:666 engine/python3/engine.py:665
 msgid "Add words"
 msgstr ""
 
-#: engine/python2/engine.py:657 engine/python3/engine.py:656
+#: engine/python2/engine.py:668 engine/python3/engine.py:667
 msgid "Add words to the dictionary"
 msgstr ""
 
-#: setup/python2/anthyprefs.py:336 setup/python2/setup.ui:397
-#: setup/python3/anthyprefs.py:329 setup/python3/setup.ui:397
+#: setup/python2/anthyprefs.py:337 setup/python2/setup.ui:397
+#: setup/python3/anthyprefs.py:330 setup/python3/setup.ui:397
 msgid "General"
 msgstr ""
 
-#: setup/python2/anthyprefs.py:337 setup/python3/anthyprefs.py:330
+#: setup/python2/anthyprefs.py:338 setup/python3/anthyprefs.py:331
 msgid "Zip Code Conversion"
 msgstr ""
 
-#: setup/python2/anthyprefs.py:338 setup/python3/anthyprefs.py:331
+#: setup/python2/anthyprefs.py:339 setup/python3/anthyprefs.py:332
 msgid "Symbol"
 msgstr ""
 
-#: setup/python2/anthyprefs.py:339 setup/python3/anthyprefs.py:332
+#: setup/python2/anthyprefs.py:340 setup/python3/anthyprefs.py:333
 msgid "Old Character Style"
 msgstr ""
 
-#: setup/python2/anthyprefs.py:340 setup/python3/anthyprefs.py:333
+#: setup/python2/anthyprefs.py:341 setup/python3/anthyprefs.py:334
 msgid "Era"
 msgstr ""
 
-#: setup/python2/anthyprefs.py:341 setup/python3/anthyprefs.py:334
+#: setup/python2/anthyprefs.py:342 setup/python3/anthyprefs.py:335
 msgid "Emoji"
+msgstr ""
+
+#: setup/python2/ibus-setup-anthy.desktop.in.in:2
+#: setup/python3/ibus-setup-anthy.desktop.in.in:2
+msgid "IBus Anthy Setup"
 msgstr ""
 
 #: setup/python2/ibus-setup-anthy.desktop.in.in:3
 #: setup/python3/ibus-setup-anthy.desktop.in.in:3
-msgid "IBus Anthy Setup"
-msgstr ""
-
-#: setup/python2/ibus-setup-anthy.desktop.in.in:4
-#: setup/python3/ibus-setup-anthy.desktop.in.in:4
 msgid "Set up IBus Anthy engine"
 msgstr ""
 
