@@ -1,32 +1,37 @@
 # Greek translation of ibus-anthy.
 # Copyright (C) 2008 Peng Huang <shawn.p.huang@gmail.com>
-# Copyright (C) 2009-2014 Takao Fujiwara <takao.fujiwara1@gmail.com>
+# Copyright (C) 2009-2025 Takao Fujiwara <takao.fujiwara1@gmail.com>
 # This file is distributed under the same license as the ibus-anthy package.
 #
 # Translators:
 # dm3k <meidei@windowslive.com>, 2012
 # dm3k <meidei@windowslive.com>, 2012
+# Giannis Antypas <gianni.antypas@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: IBus-Anthy\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2017-03-17 13:26+0900\n"
-"PO-Revision-Date: 2014-02-18 08:42+0000\n"
-"Last-Translator: dm3k <meidei@windowslive.com>\n"
-"Language-Team: Greek\n"
+"PO-Revision-Date: 2024-09-07 17:38+0000\n"
+"Last-Translator: Giannis Antypas <gianni.antypas@gmail.com>\n"
+"Language-Team: Greek <https://translate.fedoraproject.org/projects/ibus/"
+"ibus-anthy/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: ../data/ibus-anthy.appdata.xml.in.h:1
 msgid "Japanese input method"
-msgstr ""
+msgstr "Μέθοδος εισαγωγής Ιαπωνικών"
 
 #: ../data/ibus-anthy.appdata.xml.in.h:2
 msgid "The Anthy input method is designed for entering Japanese text."
 msgstr ""
+"Η μέθοδος εισαγωγής Anthy είναι σχεδιασμένη για καταχώρηση κειμένου "
+"Ιαπωνικών."
 
 #: ../data/ibus-anthy.appdata.xml.in.h:3
 msgid ""
@@ -34,11 +39,15 @@ msgid ""
 "They are necessary because these contain too many characters to simply be "
 "laid out on a traditional keyboard."
 msgstr ""
+"Οι μέθοδοι εισαγωγής είναι συστήματα πληκτρολόγησης που επιτρέπουν στους "
+"χρήστες να εισάγουν πολύπλοκες γλώσσες. Είναι απαραίτητες επειδή περιέχουν "
+"πάρα πολλούς χαρακτήρες ώστε να είναι απλά διαθέσιμες σε ένα παραδοσιακό "
+"πληκτρολόγιο."
 
 #: ../engine/python2/default.xml.in.in.h:1
 #: ../engine/python3/default.xml.in.in.h:1
 msgid "Anthy Input Method"
-msgstr ""
+msgstr "Μέθοδος εισαγωγής Anthy"
 
 #: ../engine/python2/engine.py:207 ../engine/python3/engine.py:208
 msgid ""
@@ -47,11 +56,17 @@ msgid ""
 "home directory is not '\\n'. I.e. not correct text format.\n"
 "Please fix the file or remove it by manual and restart IBus."
 msgstr ""
+"Αδυναμία ενεργοποίησης του Anthy.\n"
+"Το τέλος του περιεχομένου του αρχείου .anthy/last-record2_default.utf8 στον "
+"αρχικό σας κατάλογο δεν είναι '\\n"
+"'. Δηλαδή μη ορθή μορφή κειμένου.\n"
+"Παρακαλούμε φτιάξτε το αρχείο ή αφαιρέστε το χειροκίνητα και επανεκκινήστε "
+"το IBus."
 
 #: ../engine/python2/engine.py:255 ../engine/python3/engine.py:256
 #: ../setup/python2/main.py:416 ../setup/python3/main.py:421
 msgid "Preferences - Anthy"
-msgstr "Προτιμήσεις - Anthy "
+msgstr "Προτιμήσεις - Anthy"
 
 #: ../engine/python2/engine.py:257 ../engine/python3/engine.py:258
 msgid "Configure Anthy"
@@ -70,13 +85,13 @@ msgstr "Ρυθμίσεις Anthy"
 #: ../engine/python3/engine.py:929 ../engine/python3/engine.py:991
 #, python-format
 msgid "%(description)s (%(symbol)s)"
-msgstr ""
+msgstr "%(description)s (%(symbol)s)"
 
 #: ../engine/python2/engine.py:295 ../engine/python2/engine.py:857
 #: ../engine/python3/engine.py:296 ../engine/python3/engine.py:852
 #: ../setup/python2/main.py:401 ../setup/python3/main.py:406
 msgid "Input mode"
-msgstr ""
+msgstr "Μέθοδος εισαγωγής"
 
 #: ../engine/python2/engine.py:301 ../engine/python3/engine.py:302
 msgid "Switch input mode"
@@ -95,7 +110,7 @@ msgstr "Κατακάνα"
 #: ../engine/python2/engine.py:329 ../engine/python3/engine.py:330
 #: ../setup/python2/setup.ui.h:3 ../setup/python3/setup.ui.h:3
 msgid "Halfwidth Katakana"
-msgstr ""
+msgstr "Κατακάνα μισού πλάτους"
 
 #: ../engine/python2/engine.py:338 ../engine/python3/engine.py:339
 #: ../setup/python2/setup.ui.h:4 ../setup/python3/setup.ui.h:4
@@ -112,11 +127,11 @@ msgstr "Λατινικοί πλήρους πλάτους"
 #: ../engine/python3/engine.py:880 ../engine/python3/engine.py:904
 #: ../setup/python2/main.py:404 ../setup/python3/main.py:409
 msgid "Typing method"
-msgstr ""
+msgstr "Μέθοδος πληκτρολόγησης"
 
 #: ../engine/python2/engine.py:389 ../engine/python3/engine.py:390
 msgid "Switch typing method"
-msgstr ""
+msgstr "Αλλαγή μεθόδου πληκτρολόγησης"
 
 #: ../engine/python2/engine.py:399 ../engine/python3/engine.py:400
 #: ../setup/python2/setup.ui.h:12 ../setup/python3/setup.ui.h:12
@@ -137,7 +152,7 @@ msgstr "Μέθοδος thumb shift"
 #: ../engine/python3/engine.py:451 ../engine/python3/engine.py:930
 #: ../setup/python2/main.py:407 ../setup/python3/main.py:412
 msgid "Segment mode"
-msgstr ""
+msgstr "Λειτουργία τμήματος"
 
 #: ../engine/python2/engine.py:456 ../engine/python3/engine.py:457
 msgid "Switch conversion mode"
@@ -156,22 +171,22 @@ msgstr "Μοναδικό τμήμα"
 #: ../engine/python2/engine.py:484 ../engine/python3/engine.py:485
 #: ../setup/python2/setup.ui.h:17 ../setup/python3/setup.ui.h:17
 msgid "Immediate conversion (multiple segment)"
-msgstr ""
+msgstr "Άμεση μετατροπή (πολαπλά τμήματα)"
 
 #: ../engine/python2/engine.py:493 ../engine/python3/engine.py:494
 #: ../setup/python2/setup.ui.h:18 ../setup/python3/setup.ui.h:18
 msgid "Immediate conversion (single segment)"
-msgstr ""
+msgstr "Άμεση μετατροπή (μοναδικό τμήμα)"
 
 #: ../engine/python2/engine.py:526 ../engine/python2/engine.py:997
 #: ../engine/python3/engine.py:527 ../engine/python3/engine.py:992
 #: ../setup/python2/main.py:410 ../setup/python3/main.py:415
 msgid "Dictionary mode"
-msgstr ""
+msgstr "Λειτουργία λεξικού"
 
 #: ../engine/python2/engine.py:532 ../engine/python3/engine.py:533
 msgid "Switch dictionary"
-msgstr ""
+msgstr "Αλλαγή λεξικού"
 
 #: ../engine/python2/engine.py:615 ../engine/python3/engine.py:615
 #: ../setup/python2/main.py:413 ../setup/python3/main.py:418
@@ -201,12 +216,12 @@ msgstr "Προσθήκη λέξεων"
 
 #: ../engine/python2/engine.py:649 ../engine/python3/engine.py:648
 msgid "Add words to the dictionary"
-msgstr ""
+msgstr "Προσθήκη λέξεων στο λεξικό"
 
 #: ../setup/python2/anthyprefs.py.in:1105 ../setup/python2/setup.ui.h:36
 #: ../setup/python3/anthyprefs.py.in:1098 ../setup/python3/setup.ui.h:36
 msgid "General"
-msgstr "Γενικό"
+msgstr "Γενικά"
 
 #: ../setup/python2/anthyprefs.py.in:1116
 #: ../setup/python3/anthyprefs.py.in:1109
@@ -226,31 +241,31 @@ msgstr "Παλιές μορφές χαρακτήρων"
 #: ../setup/python2/anthyprefs.py.in:1148
 #: ../setup/python3/anthyprefs.py.in:1141
 msgid "Era"
-msgstr ""
+msgstr "Περίοδος"
 
 #: ../setup/python2/anthyprefs.py.in:1158
 #: ../setup/python3/anthyprefs.py.in:1151
 msgid "Emoji"
-msgstr ""
+msgstr "Εμότζι"
 
 #: ../setup/python2/ibus-setup-anthy.desktop.in.in.h:1
 #: ../setup/python3/ibus-setup-anthy.desktop.in.in.h:1
 msgid "IBus Anthy Setup"
-msgstr ""
+msgstr "Ρύθμιση IBus Anthy"
 
 #: ../setup/python2/ibus-setup-anthy.desktop.in.in.h:2
 #: ../setup/python3/ibus-setup-anthy.desktop.in.in.h:2
 msgid "Set up IBus Anthy engine"
-msgstr ""
+msgstr "Ρύθμιση μηχανής IBus Anthy"
 
 #. self.__run_message_dialog needs self.__builder.
 #: ../setup/python2/main.py:133 ../setup/python3/main.py:136
 msgid "ibus is not running."
-msgstr ""
+msgstr "Το ibus δεν εκτελείται."
 
 #: ../setup/python2/main.py:188 ../setup/python3/main.py:191
 msgid "Menu label"
-msgstr ""
+msgstr "Ετικέτα μενού"
 
 #: ../setup/python2/main.py:207 ../setup/python3/main.py:210
 msgid "Command"
@@ -262,7 +277,7 @@ msgstr "Συντόμευση"
 
 #: ../setup/python2/main.py:256 ../setup/python3/main.py:259
 msgid "Description"
-msgstr "Περιγραφή "
+msgstr "Περιγραφή"
 
 #. Translators: "Embd" is an abbreviation of "embedded".
 #: ../setup/python2/main.py:264 ../setup/python3/main.py:267
@@ -307,7 +322,7 @@ msgstr "Προσαρμογή πληκτρολογίου Ρομάτζι"
 #: ../setup/python2/main.py:620 ../setup/python2/setup.ui.h:54
 #: ../setup/python3/main.py:625 ../setup/python3/setup.ui.h:54
 msgid "_Romaji Key Table:"
-msgstr "Πίνακας πλήκτρων _Ρομάτζι"
+msgstr "Πίνακας πλήκτρων _Ρομάτζι:"
 
 #: ../setup/python2/main.py:621 ../setup/python2/main.py:627
 #: ../setup/python3/main.py:626 ../setup/python3/main.py:632
@@ -328,15 +343,15 @@ msgstr "Προσαρμογή πληκτρολογίου Κάνα"
 #: ../setup/python2/main.py:626 ../setup/python2/setup.ui.h:56
 #: ../setup/python3/main.py:631 ../setup/python3/setup.ui.h:56
 msgid "_Kana Key Table:"
-msgstr "Πίνακας πλήκτρων _Κάνα"
+msgstr "Πίνακας πλήκτρων _Κάνα:"
 
 #: ../setup/python2/main.py:628 ../setup/python3/main.py:633
 msgid "Japanese Keyboard Layout"
-msgstr ""
+msgstr "Διάταξη πληκτρολογίου Ιαπωνικών"
 
 #: ../setup/python2/main.py:629 ../setup/python3/main.py:634
 msgid "U.S. Keyboard Layout"
-msgstr ""
+msgstr "Διάταξη πληκτρολογίου Η.Π.Α."
 
 #: ../setup/python2/main.py:632 ../setup/python3/main.py:637
 msgid "Customize Thumb Shift Key Table"
@@ -344,7 +359,7 @@ msgstr "Προσαρμογή πληκτρολογίου Thumb Shift"
 
 #: ../setup/python2/main.py:633 ../setup/python3/main.py:638
 msgid "_Thumb Shift Key Table:"
-msgstr "Πίνακας πλήκτρων _Thumb Shift"
+msgstr "Πίνακας πλήκτρων _Thumb Shift:"
 
 #: ../setup/python2/main.py:634 ../setup/python3/main.py:639
 msgid "Single _Output Chars"
@@ -380,92 +395,98 @@ msgstr "Επεκτάσεις πλήκτρων FMV KB231-F"
 
 #: ../setup/python2/main.py:642 ../setup/python3/main.py:647
 msgid "FMV KB611-J key extension"
-msgstr ""
+msgstr "Επεκτάσεις πλήκτρων FMV KB611-J"
 
 #: ../setup/python2/main.py:643 ../setup/python3/main.py:648
 msgid "FMV KB611-A key extension"
-msgstr ""
+msgstr "Επεκτάσεις πλήκτρων FMV KB611-A"
 
 #: ../setup/python2/main.py:644 ../setup/python3/main.py:649
 msgid "FMV KB611-F key extension"
-msgstr ""
+msgstr "Επεκτάσεις πλήκτρων FMV KB611-F"
 
 #: ../setup/python2/main.py:788 ../setup/python3/main.py:793
 msgid "Your choosed file has already been added: "
-msgstr ""
+msgstr "Το επιλεγμένο σας αρχείο έχει ήδη προστεθεί: "
 
 #: ../setup/python2/main.py:792 ../setup/python3/main.py:797
 msgid "The file you have chosen does not exist: "
-msgstr ""
+msgstr "Το αρχείο που έχετε επιλέξει δεν υπάρχει: "
 
 #: ../setup/python2/main.py:796 ../setup/python3/main.py:801
 msgid "Your choosed file is a directory: "
-msgstr ""
+msgstr "Το επιλεγμένο σας αρχείο είναι ένας κατάλογος: "
 
 #: ../setup/python2/main.py:800 ../setup/python3/main.py:805
 msgid "You cannot add dictionaries in the anthy private directory: "
-msgstr ""
+msgstr "Δε μπορείτε να προσθέσετε λεξικά στον ιδιαίτερο κατάλογο του anthy: "
 
 #: ../setup/python2/main.py:807 ../setup/python3/main.py:812
 msgid "Your file path is not good: "
-msgstr ""
+msgstr "Η διαδρομή αρχείου σας δεν είναι ορθή: "
 
 #: ../setup/python2/main.py:986 ../setup/python3/main.py:989
 msgid "The engine xml file does not exist: "
-msgstr ""
+msgstr "Το αρχείο μηχανής xml δεν υπάρχει: "
 
 #: ../setup/python2/main.py:1102 ../setup/python3/main.py:1096
 msgid ""
 "Anthy keyboard layout is changed. Please restart ibus to reload the layout."
 msgstr ""
+"Η διάταξη πληκτρολογίου Anthy είναι αλλαγμένη. Παρακαλούμε επανεκκινήστε το "
+"ibus για να φορτώσετε ξανά τη διάταξη."
 
 #: ../setup/python2/main.py:1231 ../setup/python3/main.py:1225
 msgid "Confirmation"
-msgstr ""
+msgstr "Επιβεβαίωση"
 
 #: ../setup/python2/main.py:1233 ../setup/python3/main.py:1227
 msgid "You are about to close the setup dialog, is that OK?"
-msgstr ""
+msgstr "Πρόκειται να κλείσετε το διάλογο ρύθμισης, είναι εντάξει;"
 
 #: ../setup/python2/main.py:1248 ../setup/python3/main.py:1242
 msgid "Notice!"
-msgstr ""
+msgstr "Ειδοποίηση!"
 
 #: ../setup/python2/main.py:1250 ../setup/python3/main.py:1244
 msgid ""
 "You are about to close the setup dialog without saving your changes, is that "
 "OK?"
 msgstr ""
+"Πρόκειται να κλείσετε το διάλογο ρύθμισης χωρίς να αποθηκεύσετε τις αλλαγές "
+"σας, είναι εντάξει;"
 
 #: ../setup/python2/main.py:1371 ../setup/python3/main.py:1365
 msgid "Please specify Input Chars"
-msgstr ""
+msgstr "Παρακαλούμε προσδιορίστε Χαρακτήρες Εισαγωγής"
 
 #: ../setup/python2/main.py:1374 ../setup/python3/main.py:1368
 msgid "Please specify Output Chars"
-msgstr ""
+msgstr "Παρακαλούμε προσδιορίστε Χαρακτήρες Εξαγωγής"
 
 #: ../setup/python2/main.py:1377 ../setup/python3/main.py:1371
 msgid "Please specify Left Thumb Shift Chars"
-msgstr ""
+msgstr "Παρακαλώ προσδιορίστε τους χαρακτήρες αριστερού Thumb Shift"
 
 #: ../setup/python2/main.py:1380 ../setup/python3/main.py:1374
 msgid "Please specify Right Thumb Shift Chars"
-msgstr ""
+msgstr "Παρακαλώ προσδιορίστε τους χαρακτήρες δεξιού Thumb Shift"
 
 #: ../setup/python2/main.py:1393 ../setup/python2/main.py:1437
 #: ../setup/python3/main.py:1387 ../setup/python3/main.py:1431
 msgid "Your custom key is not assigned in any sections. Maybe a bug."
 msgstr ""
+"Το προσαρμοσμένο σας πλήκτρο δεν είναι εκχωρημένο σε καμία ενότητα. Πιθανώς "
+"σφάλμα."
 
 #: ../setup/python2/main.py:1503 ../setup/python2/main.py:1590
 #: ../setup/python3/main.py:1497 ../setup/python3/main.py:1584
 msgid "Your file does not exist: "
-msgstr ""
+msgstr "Το αρχείο σας δεν υπάρχει: "
 
 #: ../setup/python2/main.py:1513 ../setup/python3/main.py:1507
 msgid "Open Dictionary File"
-msgstr ""
+msgstr "Άνοιγμα αρχείου λεξικού"
 
 #: ../setup/python2/main.py:1516 ../setup/python2/main.py:1522
 #: ../setup/python2/setup.ui.h:90 ../setup/python3/main.py:1510
@@ -479,7 +500,7 @@ msgstr "Άν_οιγμα"
 
 #: ../setup/python2/main.py:1520 ../setup/python3/main.py:1514
 msgid "Edit Dictionary File"
-msgstr ""
+msgstr "Επεξεργασία αρχείου λεξικού"
 
 #: ../setup/python2/main.py:1523 ../setup/python2/main.py:1618
 #: ../setup/python2/setup.ui.h:91 ../setup/python3/main.py:1517
@@ -489,101 +510,101 @@ msgstr "_Εντάξει"
 
 #: ../setup/python2/main.py:1534 ../setup/python3/main.py:1528
 msgid "Your choosed file is not correct."
-msgstr ""
+msgstr "Το επιλεγμένο σας αρχείο δεν είναι σωστό."
 
 #: ../setup/python2/main.py:1563 ../setup/python3/main.py:1557
 msgid "You cannot delete the system dictionary."
-msgstr ""
+msgstr "Δε μπορείτε να διαγράψετε το λεξικό συστήματος."
 
 #: ../setup/python2/main.py:1586 ../setup/python3/main.py:1580
 msgid "Your file is not good."
-msgstr ""
+msgstr "Το αρχείο σας δεν είναι σωστό."
 
 #: ../setup/python2/main.py:1616 ../setup/python3/main.py:1610
 msgid "View Dictionary File"
-msgstr ""
+msgstr "Εμφάνιση αρχείου λεξικού"
 
 #: ../setup/python2/main.py:1787 ../setup/python3/main.py:1781
 msgid "Please press a key (or a key combination)"
-msgstr ""
+msgstr "Παρακαλούμε πατήστε ένα κουμπί (ή ένα συνδυασμό κουμπιών)"
 
 #: ../setup/python2/main.py:1788 ../setup/python3/main.py:1782
 msgid "The dialog will be closed when the key is released"
-msgstr ""
+msgstr "Το παράθυρο διαλόγου θα κλείσει όταν απελευθερωθεί το κουμπί"
 
 #: ../setup/python2/main.py:1808 ../setup/python2/main.py:1829
 #: ../setup/python3/main.py:1802 ../setup/python3/main.py:1823
 msgid "Invalid keysym"
-msgstr ""
+msgstr "Άκυρο keysym"
 
 #: ../setup/python2/main.py:1809 ../setup/python2/main.py:1830
 #: ../setup/python3/main.py:1803 ../setup/python3/main.py:1824
 msgid "This keysym is not valid"
-msgstr ""
+msgstr "Αυτό το keysym δεν είναι έγκυρο"
 
 #: ../setup/python2/setup.ui.h:6 ../setup/python3/setup.ui.h:6
 msgid "NICOLA-J"
-msgstr ""
+msgstr "NICOLA-J"
 
 #: ../setup/python2/setup.ui.h:7 ../setup/python3/setup.ui.h:7
 msgid "NICOLA-A"
-msgstr ""
+msgstr "NICOLA-A"
 
 #: ../setup/python2/setup.ui.h:8 ../setup/python3/setup.ui.h:8
 msgid "NICOLA-F"
-msgstr ""
+msgstr "NICOLA-F"
 
 #: ../setup/python2/setup.ui.h:9 ../setup/python3/setup.ui.h:9
 msgid "None"
-msgstr ""
+msgstr "Κανένα"
 
 #: ../setup/python2/setup.ui.h:10 ../setup/python3/setup.ui.h:10
 msgid "FMV KB231 key extension"
-msgstr ""
+msgstr "Επεκτάσεις πλήκτρων FMV KB231"
 
 #: ../setup/python2/setup.ui.h:11 ../setup/python3/setup.ui.h:11
 msgid "FMV KB611 key extension"
-msgstr ""
+msgstr "Επεκτάσεις πλήκτρων FMV KB611"
 
 #: ../setup/python2/setup.ui.h:19 ../setup/python3/setup.ui.h:19
 msgid "Keep numpad codes"
-msgstr ""
+msgstr "Διατήρηση κωδικών αριθμητικού πληκτρολογίου"
 
 #: ../setup/python2/setup.ui.h:20 ../setup/python3/setup.ui.h:20
 msgid "Convert characters"
-msgstr ""
+msgstr "Μετατροπή χαρακτήρων"
 
 #: ../setup/python2/setup.ui.h:21 ../setup/python3/setup.ui.h:21
 msgid "Do nothing"
-msgstr ""
+msgstr "Να μη γίνει τίποτε"
 
 #: ../setup/python2/setup.ui.h:22 ../setup/python3/setup.ui.h:22
 msgid "Automatically convert"
-msgstr ""
+msgstr "Αυτόματη μετατροπή"
 
 #: ../setup/python2/setup.ui.h:23 ../setup/python3/setup.ui.h:23
 msgid "Automatically commit"
-msgstr ""
+msgstr "Αυτόματη υποβολή"
 
 #: ../setup/python2/setup.ui.h:24 ../setup/python3/setup.ui.h:24
 msgid "Clear"
-msgstr ""
+msgstr "Εκκαθάριση"
 
 #: ../setup/python2/setup.ui.h:25 ../setup/python3/setup.ui.h:25
 msgid "Commit"
-msgstr ""
+msgstr "Υποβολή"
 
 #: ../setup/python2/setup.ui.h:26 ../setup/python3/setup.ui.h:26
 msgid "Hold"
-msgstr ""
+msgstr "Κράτηση"
 
 #: ../setup/python2/setup.ui.h:28 ../setup/python3/setup.ui.h:28
 msgid "ATOK"
-msgstr ""
+msgstr "ATOK"
 
 #: ../setup/python2/setup.ui.h:29 ../setup/python3/setup.ui.h:29
 msgid "Wnn"
-msgstr ""
+msgstr "Wnn"
 
 #: ../setup/python2/setup.ui.h:30 ../setup/python3/setup.ui.h:30
 msgid "Setup - IBus-Anthy"
@@ -591,27 +612,27 @@ msgstr "Ρύθμιση - IBus-Anthy"
 
 #: ../setup/python2/setup.ui.h:31 ../setup/python3/setup.ui.h:31
 msgid "_Input Mode:"
-msgstr ""
+msgstr "Λειτουργία _Εισαγωγής:"
 
 #: ../setup/python2/setup.ui.h:32 ../setup/python3/setup.ui.h:32
 msgid "_Typing Method:"
-msgstr ""
+msgstr "Μέθοδος _Πληκτρολόγησης:"
 
 #: ../setup/python2/setup.ui.h:33 ../setup/python3/setup.ui.h:33
 msgid "Conversion _Mode:"
-msgstr ""
+msgstr "_Λειτουργία Μετατροπής:"
 
 #: ../setup/python2/setup.ui.h:34 ../setup/python3/setup.ui.h:34
 msgid "<b>Initial Setting</b>"
-msgstr ""
+msgstr "<b>Αρχική ρύθμιση</b>"
 
 #: ../setup/python2/setup.ui.h:35 ../setup/python3/setup.ui.h:35
 msgid "<b>Menu Visibility on Status Icon</b>"
-msgstr ""
+msgstr "<b>Ορατότητα μενού στο εικονίδιο κατάστασης</b>"
 
 #: ../setup/python2/setup.ui.h:37 ../setup/python3/setup.ui.h:37
 msgid "_Period Style:"
-msgstr ""
+msgstr "Στυλ _τελείας:"
 
 #: ../setup/python2/setup.ui.h:38 ../setup/python3/setup.ui.h:38
 msgid "Symbo_l Style:"
@@ -623,53 +644,55 @@ msgstr "Συμπεριφορά _αριθμητικού πληκτρολογίο�
 
 #: ../setup/python2/setup.ui.h:40 ../setup/python3/setup.ui.h:40
 msgid "_Behavior on Period:"
-msgstr ""
+msgstr "_Συμπεριφορά στην τελεία:"
 
 #: ../setup/python2/setup.ui.h:41 ../setup/python3/setup.ui.h:41
 msgid "Behavior on _Focus Out:"
-msgstr ""
+msgstr "Συμπεριφορά κατά την απώλεια εστίασης:"
 
 #: ../setup/python2/setup.ui.h:42 ../setup/python3/setup.ui.h:42
 msgid "<b>Behavior</b>"
-msgstr ""
+msgstr "<b>Συμπεριφορά</b>"
 
 #: ../setup/python2/setup.ui.h:43 ../setup/python3/setup.ui.h:43
 msgid "Candidate _Window Page Size:"
-msgstr ""
+msgstr "Μέγεθος σελίδας υποψήφιου _παραθύρου:"
 
 #: ../setup/python2/setup.ui.h:44 ../setup/python3/setup.ui.h:44
 msgid "Convert _symbols with the one column width"
-msgstr ""
+msgstr "Μετατροπή _συμβόλων με το πλάτος μιας στήλης"
 
 #: ../setup/python2/setup.ui.h:45 ../setup/python3/setup.ui.h:45
 msgid "Convert _numbers with the one column width"
-msgstr ""
+msgstr "Μετατροπή _αριθμών με το πλάτος μιας στήλης"
 
 #: ../setup/python2/setup.ui.h:46 ../setup/python3/setup.ui.h:46
 msgid "Con_vert spaces with the one column width"
-msgstr ""
+msgstr "Μετατροπή _κενών με το πλάτος μιας στήλης"
 
 #: ../setup/python2/setup.ui.h:47 ../setup/python3/setup.ui.h:47
 msgid ""
 "Swi_tch “Hiragana” and “Latin” with Shift key and Hiragana–Katakana key in "
 "preedit"
 msgstr ""
+"Εναλλαγή «Χιραγκάνα» και «Λατινικών» με το πλήκτρο Shift και το πλήκτρο "
+"Χιραγκάνα-Κατακάνα στην προεπεξεργασία"
 
 #: ../setup/python2/setup.ui.h:48 ../setup/python3/setup.ui.h:48
 msgid "<b>Other</b>"
-msgstr ""
+msgstr "<b>Λοιπά</b>"
 
 #: ../setup/python2/setup.ui.h:49 ../setup/python3/setup.ui.h:49
 msgid "Conversion"
-msgstr ""
+msgstr "Μετατροπή"
 
 #: ../setup/python2/setup.ui.h:50 ../setup/python3/setup.ui.h:50
 msgid "_Shortcut Type:"
-msgstr ""
+msgstr "Τύπος _συντόμευσης:"
 
 #: ../setup/python2/setup.ui.h:51 ../setup/python3/setup.ui.h:51
 msgid "De_fault"
-msgstr ""
+msgstr "Προε_πιλογή"
 
 #: ../setup/python2/setup.ui.h:52 ../setup/python3/setup.ui.h:52
 msgid "_Edit"
@@ -677,31 +700,31 @@ msgstr "_Επεξεργασία"
 
 #: ../setup/python2/setup.ui.h:53 ../setup/python3/setup.ui.h:53
 msgid "Key Binding"
-msgstr ""
+msgstr "Σύνδεση πλήκτρου"
 
 #: ../setup/python2/setup.ui.h:55 ../setup/python3/setup.ui.h:55
 msgid "<b>Romaji</b>"
-msgstr ""
+msgstr "<b>Ρομάτζι</b>"
 
 #: ../setup/python2/setup.ui.h:57 ../setup/python3/setup.ui.h:57
 msgid "<b>Kana</b>"
-msgstr ""
+msgstr "<b>Κάνα</b>"
 
 #: ../setup/python2/setup.ui.h:58 ../setup/python3/setup.ui.h:58
 msgid "Keyboad _layout:"
-msgstr ""
+msgstr "_Διάταξη πληκτρολογίου:"
 
 #: ../setup/python2/setup.ui.h:59 ../setup/python3/setup.ui.h:59
 msgid "<b>Keyboard layout</b>"
-msgstr ""
+msgstr "<b>Διάταξη πληκτρολογίου</b>"
 
 #: ../setup/python2/setup.ui.h:60 ../setup/python3/setup.ui.h:60
 msgid "Typing Method"
-msgstr ""
+msgstr "Μέθοδος πληκτρολόγησης"
 
 #: ../setup/python2/setup.ui.h:61 ../setup/python3/setup.ui.h:61
 msgid "_Left Thumb Shift Key:"
-msgstr ""
+msgstr "Πλήκτρο _αριστερού Thumb Shift:"
 
 #: ../setup/python2/setup.ui.h:62 ../setup/python3/setup.ui.h:62
 msgid "Right _Thumb Shift Key:"
@@ -710,32 +733,35 @@ msgstr "Δεξί _Thumb Shift:"
 #: ../setup/python2/setup.ui.h:63 ../setup/python3/setup.ui.h:63
 msgid "Adjust _input method layout to system keyboard layout"
 msgstr ""
+"Προσαρμογή διάταξης μεθόδου _εισαγωγής στη διάταξη πληκτρολογίου συστήματος"
 
 #: ../setup/python2/setup.ui.h:64 ../setup/python3/setup.ui.h:64
 msgid "Adjust IM layout to XKB layout"
-msgstr ""
+msgstr "Προσαρμογή διάταξης IM στη διάταξη XKB"
 
 #: ../setup/python2/setup.ui.h:65 ../setup/python3/setup.ui.h:65
 msgid "Input _Method Layout:"
-msgstr ""
+msgstr "Διάταξη _μεθόδου εισαγωγής:"
 
 #: ../setup/python2/setup.ui.h:66 ../setup/python3/setup.ui.h:66
 msgid "Restart IBus when you change the keyboard layout"
-msgstr ""
+msgstr "Επανεκκίνηση IBus όταν αλλάξετε τη διάταξη πληκτρολογίου"
 
 #: ../setup/python2/setup.ui.h:67 ../setup/python3/setup.ui.h:67
 msgid "Restart IBus when you change XKB"
-msgstr ""
+msgstr "Επανεκκίνηση IBus όταν αλλάξετε το XKB"
 
 #: ../setup/python2/setup.ui.h:68 ../setup/python3/setup.ui.h:68
 msgid "_Additional Key Arrangement:"
-msgstr ""
+msgstr "Διαρρύθμιση _πρόσθετων πλήκτρων:"
 
 #: ../setup/python2/setup.ui.h:69 ../setup/python3/setup.ui.h:69
 msgid ""
 "'&#xFF5E;', '&#x300E;', '&#xA2;', '&#xA3;' and so on can be output with "
 "Thumb Shift key"
 msgstr ""
+"Τα '&#xFF5E;', '&#x300E;', '&#xA2;', '&#xA3;' και ούτω καθεξής μπορούν να "
+"παραχθούν με το πλήκτρο Thumb Shift"
 
 #: ../setup/python2/setup.ui.h:70 ../setup/python3/setup.ui.h:70
 msgid ""
@@ -743,16 +769,21 @@ msgid ""
 "Key Arrangement\" since this option changes input method layout only in case "
 "input method is turned on."
 msgstr ""
+"Δε χρειάζεται να επαναδιαμορφώσετε τη διάταξη πληκτρολογίου συστήματος για "
+"τη «Διαρρύθμιση πρόσθετων πλήκτρων» αφού αυτή η επιλογή αλλάζει τη διάταξη "
+"μεθόδου εισαγωγής μόνο στην περίπτωση που ενεργοποιηθεί η μέθοδος εισαγωγής."
 
 #: ../setup/python2/setup.ui.h:71 ../setup/python3/setup.ui.h:71
 msgid ""
 "You do not have to reconfigure XKB since this option changes IM layout only "
 "with IM on."
 msgstr ""
+"Δε χρειάζεται να επαναδιαμορφώσετε το XKB αφού αυτή η επιλογή αλλάζει τη "
+"διάταξη IM μόνο με το IM ενεργοποιημένο."
 
 #: ../setup/python2/setup.ui.h:72 ../setup/python3/setup.ui.h:72
 msgid "_Enable semi-voiced sound mark with Shift key"
-msgstr ""
+msgstr "_Ενεργοποίηση ημιφωνικού ηχητικού σήματος με το πλήκτρο Shift"
 
 #: ../setup/python2/setup.ui.h:73 ../setup/python3/setup.ui.h:73
 msgid "Seion + Shift can output Handakuon"
@@ -764,27 +795,27 @@ msgstr "Πίνακας πλήκτρων Thumb _Shift:"
 
 #: ../setup/python2/setup.ui.h:75 ../setup/python3/setup.ui.h:75
 msgid "<b>Thumb Shift Layout</b>"
-msgstr ""
+msgstr "<b>Διάταξη Thumb Shift</b>"
 
 #: ../setup/python2/setup.ui.h:76 ../setup/python3/setup.ui.h:76
 msgid "Thumb Shift"
-msgstr ""
+msgstr "Thumb Shift"
 
 #: ../setup/python2/setup.ui.h:77 ../setup/python3/setup.ui.h:77
 msgid "_Edit Dictionary Command:"
-msgstr ""
+msgstr "Εντολή _επεξεργασίας λεξικού:"
 
 #: ../setup/python2/setup.ui.h:78 ../setup/python3/setup.ui.h:78
 msgid "_Add Word Command:"
-msgstr ""
+msgstr "Εντολή _προσθήκης λέξης:"
 
 #: ../setup/python2/setup.ui.h:79 ../setup/python3/setup.ui.h:79
 msgid "<b>Default Dictionary Configuration</b>"
-msgstr ""
+msgstr "<b>Διαμόρφωση προεπιλεγμένου λεξικού</b>"
 
 #: ../setup/python2/setup.ui.h:80 ../setup/python3/setup.ui.h:80
 msgid "_View"
-msgstr ""
+msgstr "_Προβολή"
 
 #: ../setup/python2/setup.ui.h:81 ../setup/python3/setup.ui.h:81
 msgid "_Add"
@@ -796,11 +827,11 @@ msgstr "_Διαγραφή"
 
 #: ../setup/python2/setup.ui.h:83 ../setup/python3/setup.ui.h:83
 msgid "_Up"
-msgstr "Πά_νω"
+msgstr "_Πάνω"
 
 #: ../setup/python2/setup.ui.h:84 ../setup/python3/setup.ui.h:84
 msgid "You can change the order on language bar"
-msgstr ""
+msgstr "Μπορείτε να αλλάξετε τη σειρά στη γραμμή γλωσσών"
 
 #: ../setup/python2/setup.ui.h:85 ../setup/python3/setup.ui.h:85
 msgid "_Down"
@@ -808,15 +839,15 @@ msgstr "_Κάτω"
 
 #: ../setup/python2/setup.ui.h:86 ../setup/python3/setup.ui.h:86
 msgid "<b>Extended Dictionaries</b>"
-msgstr ""
+msgstr "<b>Εκτεταμένα λεξικά</b>"
 
 #: ../setup/python2/setup.ui.h:87 ../setup/python3/setup.ui.h:87
 msgid "Dictionary"
-msgstr ""
+msgstr "Λεξικό"
 
 #: ../setup/python2/setup.ui.h:88 ../setup/python3/setup.ui.h:88
 msgid "About"
-msgstr ""
+msgstr "Σχετικά"
 
 #: ../setup/python2/setup.ui.h:89 ../setup/python3/setup.ui.h:89
 msgid "_Apply"
@@ -824,27 +855,27 @@ msgstr "_Εφαρμογή"
 
 #: ../setup/python2/setup.ui.h:92 ../setup/python3/setup.ui.h:92
 msgid "Edit Shortcut"
-msgstr ""
+msgstr "Επεξεργασία συντόμευσης"
 
 #: ../setup/python2/setup.ui.h:93 ../setup/python3/setup.ui.h:93
 msgid "Key Code:"
-msgstr ""
+msgstr "Κωδικός πλήκτρων:"
 
 #: ../setup/python2/setup.ui.h:94 ../setup/python3/setup.ui.h:94
 msgid "Modifier:"
-msgstr ""
+msgstr "Τροποποιητής:"
 
 #: ../setup/python2/setup.ui.h:95 ../setup/python3/setup.ui.h:95
 msgid "A_lternate"
-msgstr ""
+msgstr "A_lternate"
 
 #: ../setup/python2/setup.ui.h:96 ../setup/python3/setup.ui.h:96
 msgid "Co_ntrol"
-msgstr ""
+msgstr "Co_ntrol"
 
 #: ../setup/python2/setup.ui.h:97 ../setup/python3/setup.ui.h:97
 msgid "_Shift"
-msgstr ""
+msgstr "_Shift"
 
 #: ../setup/python2/setup.ui.h:98 ../setup/python3/setup.ui.h:98
 msgid "_Refresh"
@@ -852,19 +883,19 @@ msgstr "_Ανανέωση"
 
 #: ../setup/python2/setup.ui.h:99 ../setup/python3/setup.ui.h:99
 msgid "_Input Characters"
-msgstr ""
+msgstr "Χαρακτήρες εισαγωγής"
 
 #: ../setup/python2/setup.ui.h:100 ../setup/python3/setup.ui.h:100
 msgid "_Output Characters"
-msgstr ""
+msgstr "Χαρακτήρες εξαγωγής"
 
 #: ../setup/python2/setup.ui.h:101 ../setup/python3/setup.ui.h:101
 msgid "_Left Thumb Shift"
-msgstr ""
+msgstr "_αριστερό Thumb Shift"
 
 #: ../setup/python2/setup.ui.h:102 ../setup/python3/setup.ui.h:102
 msgid "_Right Thumb Shift"
-msgstr ""
+msgstr "_δεξί Thumb Shift"
 
 #: ../setup/python2/setup.ui.h:103 ../setup/python3/setup.ui.h:103
 msgid "_Remove"
@@ -876,28 +907,28 @@ msgstr "_Κλείσιμο"
 
 #: ../setup/python2/setup.ui.h:105 ../setup/python3/setup.ui.h:105
 msgid "_Short Label:"
-msgstr ""
+msgstr "_Σύντομη ετικέτα:"
 
 #: ../setup/python2/setup.ui.h:106 ../setup/python3/setup.ui.h:106
 msgid "_Description:"
-msgstr ""
+msgstr "_Περιγραφή:"
 
 #: ../setup/python2/setup.ui.h:107 ../setup/python3/setup.ui.h:107
 msgid "_Use your dictionary alone with switching dictionaries"
-msgstr ""
+msgstr "_Χρήση μόνου του λεξικού σας με εναλλαγή λεξικών"
 
 #: ../setup/python2/setup.ui.h:108 ../setup/python3/setup.ui.h:108
 msgid "_Embed your dictionary in the system dictionary"
-msgstr ""
+msgstr "_Ενσωμάτωση του λεξικού σας στο λεξικό συστήματος"
 
 #: ../setup/python2/setup.ui.h:109 ../setup/python3/setup.ui.h:109
 msgid "Enable the _reverse conversion"
-msgstr ""
+msgstr "Ενεργοποίηση της _αντίστροφης μετατροπής"
 
 #: ../setup/python2/setup.ui.h:110 ../setup/python3/setup.ui.h:110
 msgid "The Anthy engine for the IBus input platform"
-msgstr ""
+msgstr "Η μηχανή Anthy για την πλατφόρμα εισαγωγής IBus"
 
 #: ../setup/python2/setup.ui.h:111 ../setup/python3/setup.ui.h:111
 msgid "translator_credits"
-msgstr ""
+msgstr "μνεία μεταφραστών"
