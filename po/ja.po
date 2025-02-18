@@ -1,6 +1,6 @@
 # Japanese translation of ibus-anthy.
 # Copyright (C) 2008 Peng Huang <shawn.p.huang@gmail.com>
-# Copyright (C) 2009-2023 Takao Fujiwara <takao.fujiwara1@gmail.com>
+# Copyright (C) 2009-2025 Takao Fujiwara <takao.fujiwara1@gmail.com>
 # This file is distributed under the same license as the ibus-anthy package.
 #
 # Translators:
@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.10\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
-"POT-Creation-Date: 2019-04-22 23:08+0900\n"
-"PO-Revision-Date: 2022-10-01 17:30+0000\n"
+"POT-Creation-Date: 2025-02-17 16:13+0900\n"
+"PO-Revision-Date: 2025-02-17 16:14+0900\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/ja/>\n"
@@ -25,29 +25,37 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.14.1\n"
 
-#: data/ibus-anthy.appdata.xml.in:7
+#: data/ibus-anthy.appdata.xml.in:8
 msgid "Japanese input method"
 msgstr "日本語入力方式"
 
-#: data/ibus-anthy.appdata.xml.in:9
+#: data/ibus-anthy.appdata.xml.in:11 data/ibus-anthy.appdata.xml.in:39
 msgid "The Anthy input method is designed for entering Japanese text."
 msgstr "Anthy 入力方式は日本語のテキストを入力するために設計されています。"
 
-#: data/ibus-anthy.appdata.xml.in:12
+#: data/ibus-anthy.appdata.xml.in:14
 msgid ""
 "Input methods are typing systems allowing users to input complex languages. "
 "They are necessary because these contain too many characters to simply be "
 "laid out on a traditional keyboard."
 msgstr ""
-"入力方式はユーザーに複雑な言語入力を可能にさせる文字入力システムです。 "
-"入力方式は従来のキーボード上で簡単に割り当てられた多くの文字を含んでいるために必要とされています。"
+"入力方式はユーザーに複雑な言語入力を可能にさせる文字入力システムです。入力方"
+"式は従来のキーボード上で簡単に割り当てられた多くの文字を含んでいるために必要"
+"とされています。"
 
-#: engine/python2/default.inputMethod.xml.in.in:13
-#: engine/python3/default.inputMethod.xml.in.in:13
-msgid "Anthy Input Method"
-msgstr "Anthy 入力方式"
+#: data/ibus-anthy.appdata.xml.in:21
+msgid "input-method"
+msgstr "入力方式"
 
-#: engine/python2/engine.py:208 engine/python3/engine.py:209
+#: data/ibus-anthy.appdata.xml.in:22
+msgid "Japanese"
+msgstr "日本語"
+
+#: data/ibus-anthy.appdata.xml.in:31
+msgid "See the upstream release list."
+msgstr "開発元のリリースリストを見てください。"
+
+#: engine/python2/engine.py:219 engine/python3/engine.py:220
 #, python-format
 msgid ""
 "Could not enable Anthy.\n"
@@ -56,452 +64,455 @@ msgid ""
 "Please fix the file or remove it by manual and restart IBus."
 msgstr ""
 "Anthy を有効にできませんでした。\n"
-"ホームディレクトリにある %s/last-record2_default.utf8 の中身の最後が '\\n' "
-"でありません。つまり正しくないテキストフォーマットです。\n"
+"ホームディレクトリにある %s/last-record2_default.utf8 の中身の最後が '\\n' で"
+"ありません。つまり正しくないテキストフォーマットです。\n"
 "手動でファイルを修正するか削除して IBus をリスタートしてください。"
 
-#: engine/python2/engine.py:256 engine/python3/engine.py:257
-#: setup/python2/main.py:420 setup/python3/main.py:425
+#: engine/python2/engine.py:267 engine/python3/engine.py:268
+#: setup/python2/main.py:420 setup/python3/main.py:424
 msgid "Preferences - Anthy"
 msgstr "設定 - Anthy"
 
-#: engine/python2/engine.py:258 engine/python3/engine.py:259
+#: engine/python2/engine.py:269 engine/python3/engine.py:270
 msgid "Configure Anthy"
 msgstr "Anthy を構成します"
 
 #. Translators: Specify the order of %s with your translation.
 #. It will be "Input Mode (A)" for example.
-#: engine/python2/engine.py:295 engine/python2/engine.py:383
-#: engine/python2/engine.py:450 engine/python2/engine.py:526
-#: engine/python2/engine.py:892 engine/python2/engine.py:923
-#: engine/python2/engine.py:947 engine/python2/engine.py:976
-#: engine/python2/engine.py:1038 engine/python3/engine.py:296
-#: engine/python3/engine.py:384 engine/python3/engine.py:451
-#: engine/python3/engine.py:527 engine/python3/engine.py:887
-#: engine/python3/engine.py:918 engine/python3/engine.py:942
-#: engine/python3/engine.py:971 engine/python3/engine.py:1033
+#: engine/python2/engine.py:306 engine/python2/engine.py:394
+#: engine/python2/engine.py:461 engine/python2/engine.py:537
+#: engine/python2/engine.py:909 engine/python2/engine.py:940
+#: engine/python2/engine.py:964 engine/python2/engine.py:993
+#: engine/python2/engine.py:1055 engine/python3/engine.py:307
+#: engine/python3/engine.py:395 engine/python3/engine.py:462
+#: engine/python3/engine.py:538 engine/python3/engine.py:904
+#: engine/python3/engine.py:935 engine/python3/engine.py:959
+#: engine/python3/engine.py:988 engine/python3/engine.py:1050
 #, python-format
 msgid "%(description)s (%(symbol)s)"
 msgstr "%(description)s (%(symbol)s)"
 
-#: engine/python2/engine.py:296 engine/python2/engine.py:893
-#: engine/python3/engine.py:297 engine/python3/engine.py:888
-#: setup/python2/main.py:405 setup/python3/main.py:410
+#: engine/python2/engine.py:307 engine/python2/engine.py:910
+#: engine/python3/engine.py:308 engine/python3/engine.py:905
+#: setup/python2/main.py:405 setup/python3/main.py:409
 msgid "Input mode"
 msgstr "入力モード"
 
-#: engine/python2/engine.py:302 engine/python3/engine.py:303
+#: engine/python2/engine.py:313 engine/python3/engine.py:314
 msgid "Switch input mode"
 msgstr "入力モードを切り替えます"
 
-#: engine/python2/engine.py:312 engine/python3/engine.py:313
+#: engine/python2/engine.py:323 engine/python3/engine.py:324
 #: setup/python2/setup.ui:17 setup/python3/setup.ui:17
 msgid "Hiragana"
 msgstr "ひらがな"
 
-#: engine/python2/engine.py:321 engine/python3/engine.py:322
+#: engine/python2/engine.py:332 engine/python3/engine.py:333
 #: setup/python2/setup.ui:20 setup/python3/setup.ui:20
 msgid "Katakana"
 msgstr "カタカナ"
 
-#: engine/python2/engine.py:330 engine/python3/engine.py:331
+#: engine/python2/engine.py:341 engine/python3/engine.py:342
 #: setup/python2/setup.ui:23 setup/python3/setup.ui:23
 msgid "Halfwidth Katakana"
 msgstr "半角カタカナ"
 
-#: engine/python2/engine.py:339 engine/python3/engine.py:340
+#: engine/python2/engine.py:350 engine/python3/engine.py:351
 #: setup/python2/setup.ui:26 setup/python3/setup.ui:26
 msgid "Latin"
 msgstr "英数"
 
-#: engine/python2/engine.py:348 engine/python3/engine.py:349
+#: engine/python2/engine.py:359 engine/python3/engine.py:360
 #: setup/python2/setup.ui:29 setup/python3/setup.ui:29
 msgid "Wide Latin"
 msgstr "全角英数"
 
-#: engine/python2/engine.py:384 engine/python2/engine.py:924
-#: engine/python2/engine.py:948 engine/python3/engine.py:385
-#: engine/python3/engine.py:919 engine/python3/engine.py:943
-#: setup/python2/main.py:408 setup/python3/main.py:413
+#: engine/python2/engine.py:395 engine/python2/engine.py:941
+#: engine/python2/engine.py:965 engine/python3/engine.py:396
+#: engine/python3/engine.py:936 engine/python3/engine.py:960
+#: setup/python2/main.py:408 setup/python3/main.py:412
 msgid "Typing method"
 msgstr "入力タイプ"
 
-#: engine/python2/engine.py:390 engine/python3/engine.py:391
+#: engine/python2/engine.py:401 engine/python3/engine.py:402
 msgid "Switch typing method"
 msgstr "入力タイプを切り替えます"
 
-#: engine/python2/engine.py:400 engine/python3/engine.py:401
+#: engine/python2/engine.py:411 engine/python3/engine.py:412
 #: setup/python2/setup.ui:71 setup/python3/setup.ui:71
 msgid "Romaji"
 msgstr "ローマ字"
 
-#: engine/python2/engine.py:409 engine/python3/engine.py:410
+#: engine/python2/engine.py:420 engine/python3/engine.py:421
 #: setup/python2/setup.ui:74 setup/python3/setup.ui:74
 msgid "Kana"
 msgstr "かな"
 
-#: engine/python2/engine.py:418 engine/python3/engine.py:419
+#: engine/python2/engine.py:429 engine/python3/engine.py:430
 #: setup/python2/setup.ui:77 setup/python3/setup.ui:77
 msgid "Thumb shift"
 msgstr "親指シフト"
 
-#: engine/python2/engine.py:451 engine/python2/engine.py:977
-#: engine/python3/engine.py:452 engine/python3/engine.py:972
-#: setup/python2/main.py:411 setup/python3/main.py:416
+#: engine/python2/engine.py:462 engine/python2/engine.py:994
+#: engine/python3/engine.py:463 engine/python3/engine.py:989
+#: setup/python2/main.py:411 setup/python3/main.py:415
 msgid "Segment mode"
 msgstr "文節モード"
 
-#: engine/python2/engine.py:457 engine/python3/engine.py:458
+#: engine/python2/engine.py:468 engine/python3/engine.py:469
 msgid "Switch conversion mode"
 msgstr "変換モードを切り替えます"
 
-#: engine/python2/engine.py:467 engine/python3/engine.py:468
+#: engine/python2/engine.py:478 engine/python3/engine.py:479
 #: setup/python2/setup.ui:87 setup/python3/setup.ui:87
 msgid "Multiple segment"
 msgstr "連文節"
 
-#: engine/python2/engine.py:476 engine/python3/engine.py:477
+#: engine/python2/engine.py:487 engine/python3/engine.py:488
 #: setup/python2/setup.ui:90 setup/python3/setup.ui:90
 msgid "Single segment"
 msgstr "単文節"
 
-#: engine/python2/engine.py:485 engine/python3/engine.py:486
+#: engine/python2/engine.py:496 engine/python3/engine.py:497
 #: setup/python2/setup.ui:93 setup/python3/setup.ui:93
 msgid "Immediate conversion (multiple segment)"
 msgstr "逐次変換 (連文節)"
 
-#: engine/python2/engine.py:494 engine/python3/engine.py:495
+#: engine/python2/engine.py:505 engine/python3/engine.py:506
 #: setup/python2/setup.ui:96 setup/python3/setup.ui:96
 msgid "Immediate conversion (single segment)"
 msgstr "逐次変換 (単文節)"
 
-#: engine/python2/engine.py:527 engine/python2/engine.py:1039
-#: engine/python3/engine.py:528 engine/python3/engine.py:1034
-#: setup/python2/main.py:414 setup/python3/main.py:419
+#: engine/python2/engine.py:538 engine/python2/engine.py:1056
+#: engine/python3/engine.py:539 engine/python3/engine.py:1051
+#: setup/python2/main.py:414 setup/python3/main.py:418
 msgid "Dictionary mode"
 msgstr "辞書モード"
 
-#: engine/python2/engine.py:533 engine/python3/engine.py:534
+#: engine/python2/engine.py:544 engine/python3/engine.py:545
 msgid "Switch dictionary"
 msgstr "辞書を切り替えます"
 
-#: engine/python2/engine.py:623 engine/python3/engine.py:623
-#: setup/python2/main.py:417 setup/python3/main.py:422
+#: engine/python2/engine.py:634 engine/python3/engine.py:634
+#: setup/python2/main.py:417 setup/python3/main.py:421
 msgid "Dictionary - Anthy"
 msgstr "辞書 - Anthy"
 
 #. Translators: "Dic" means 'dictionary', One kanji may be good.
-#: engine/python2/engine.py:629 engine/python3/engine.py:628
+#: engine/python2/engine.py:640 engine/python3/engine.py:639
 msgid "Dic"
 msgstr "辞"
 
-#: engine/python2/engine.py:636 engine/python3/engine.py:635
+#: engine/python2/engine.py:647 engine/python3/engine.py:646
 msgid "Configure dictionaries"
 msgstr "辞書を構成します"
 
-#: engine/python2/engine.py:646 engine/python3/engine.py:645
+#: engine/python2/engine.py:657 engine/python3/engine.py:656
 msgid "Edit dictionaries"
 msgstr "辞書を編集する"
 
-#: engine/python2/engine.py:648 engine/python3/engine.py:647
+#: engine/python2/engine.py:659 engine/python3/engine.py:658
 msgid "Launch the dictionary tool"
 msgstr "辞書ツールを起動する"
 
-#: engine/python2/engine.py:655 engine/python3/engine.py:654
+#: engine/python2/engine.py:666 engine/python3/engine.py:665
 msgid "Add words"
 msgstr "単語を追加する"
 
-#: engine/python2/engine.py:657 engine/python3/engine.py:656
+#: engine/python2/engine.py:668 engine/python3/engine.py:667
 msgid "Add words to the dictionary"
 msgstr "辞書に単語を追加する"
 
-#: setup/python2/anthyprefs.py:336 setup/python2/setup.ui:397
-#: setup/python3/anthyprefs.py:329 setup/python3/setup.ui:397
+#: setup/python2/anthyprefs.py:337 setup/python2/setup.ui:397
+#: setup/python3/anthyprefs.py:330 setup/python3/setup.ui:397
 msgid "General"
 msgstr "一般"
 
-#: setup/python2/anthyprefs.py:337 setup/python3/anthyprefs.py:330
+#: setup/python2/anthyprefs.py:338 setup/python3/anthyprefs.py:331
 msgid "Zip Code Conversion"
 msgstr "郵便番号変換"
 
-#: setup/python2/anthyprefs.py:338 setup/python3/anthyprefs.py:331
+#: setup/python2/anthyprefs.py:339 setup/python3/anthyprefs.py:332
 msgid "Symbol"
 msgstr "記号"
 
-#: setup/python2/anthyprefs.py:339 setup/python3/anthyprefs.py:332
+#: setup/python2/anthyprefs.py:340 setup/python3/anthyprefs.py:333
 msgid "Old Character Style"
 msgstr "旧字体"
 
-#: setup/python2/anthyprefs.py:340 setup/python3/anthyprefs.py:333
+#: setup/python2/anthyprefs.py:341 setup/python3/anthyprefs.py:334
 msgid "Era"
 msgstr "年号"
 
-#: setup/python2/anthyprefs.py:341 setup/python3/anthyprefs.py:334
+#: setup/python2/anthyprefs.py:342 setup/python3/anthyprefs.py:335
 msgid "Emoji"
 msgstr "絵文字"
 
-#: setup/python2/ibus-setup-anthy.desktop.in.in:3
-#: setup/python3/ibus-setup-anthy.desktop.in.in:3
+#: setup/python2/ibus-setup-anthy.desktop.in.in:2
+#: setup/python3/ibus-setup-anthy.desktop.in.in:2
 msgid "IBus Anthy Setup"
 msgstr "IBus Anthy の設定"
 
-#: setup/python2/ibus-setup-anthy.desktop.in.in:4
-#: setup/python3/ibus-setup-anthy.desktop.in.in:4
+#: setup/python2/ibus-setup-anthy.desktop.in.in:3
+#: setup/python3/ibus-setup-anthy.desktop.in.in:3
 msgid "Set up IBus Anthy engine"
 msgstr "IBus Anthy エンジンの設定"
 
-#: setup/python2/main.py:177 setup/python3/main.py:180
+#: setup/python2/main.py:177 setup/python3/main.py:179
 msgid "Menu label"
 msgstr "メニューラベル"
 
-#: setup/python2/main.py:198 setup/python3/main.py:201
+#: setup/python2/main.py:198 setup/python3/main.py:200
 msgid "Command"
 msgstr "コマンド"
 
-#: setup/python2/main.py:202 setup/python3/main.py:205
+#: setup/python2/main.py:202 setup/python3/main.py:204
 msgid "Shortcut"
 msgstr "ショートカット"
 
-#: setup/python2/main.py:247 setup/python3/main.py:250
+#: setup/python2/main.py:247 setup/python3/main.py:249
 msgid "Description"
 msgstr "説明"
 
 #. Translators: "Embd" is an abbreviation of "embedded".
-#: setup/python2/main.py:255 setup/python3/main.py:258
+#: setup/python2/main.py:255 setup/python3/main.py:257
 msgid "Embd"
 msgstr "組"
 
 #. Translators: "Sgl" is an abbreviation of "single".
-#: setup/python2/main.py:263 setup/python3/main.py:266
+#: setup/python2/main.py:263 setup/python3/main.py:265
 msgid "Sgl"
 msgstr "単"
 
 #: setup/python2/main.py:441 setup/python2/main.py:467
-#: setup/python3/main.py:446 setup/python3/main.py:472
+#: setup/python3/main.py:445 setup/python3/main.py:471
 msgid "Input Chars"
 msgstr "入力文字"
 
 #: setup/python2/main.py:443 setup/python2/main.py:469
-#: setup/python3/main.py:448 setup/python3/main.py:474
+#: setup/python3/main.py:447 setup/python3/main.py:473
 msgid "Output Chars"
 msgstr "出力文字"
 
-#: setup/python2/main.py:499 setup/python3/main.py:504
+#: setup/python2/main.py:499 setup/python3/main.py:503
 msgid "Input"
 msgstr "入力"
 
-#: setup/python2/main.py:501 setup/python3/main.py:506
+#: setup/python2/main.py:501 setup/python3/main.py:505
 msgid "Single"
 msgstr "単"
 
-#: setup/python2/main.py:503 setup/python3/main.py:508
+#: setup/python2/main.py:503 setup/python3/main.py:507
 msgid "Left"
 msgstr "左"
 
-#: setup/python2/main.py:505 setup/python3/main.py:510
+#: setup/python2/main.py:505 setup/python3/main.py:509
 msgid "Right"
 msgstr "右"
 
-#: setup/python2/main.py:587 setup/python3/main.py:592
+#: setup/python2/main.py:587 setup/python3/main.py:591
 msgid "Customize Romaji Key Table"
 msgstr "ローマ字キーテーブルのカスタマイズ"
 
 #: setup/python2/main.py:588 setup/python2/setup.ui:910
-#: setup/python3/main.py:593 setup/python3/setup.ui:910
+#: setup/python3/main.py:592 setup/python3/setup.ui:910
 msgid "_Romaji Key Table:"
 msgstr "ローマ字キーテーブル(_R):"
 
 #: setup/python2/main.py:589 setup/python2/main.py:595
-#: setup/python3/main.py:594 setup/python3/main.py:600
+#: setup/python3/main.py:593 setup/python3/main.py:599
 msgid "_Output Chars"
 msgstr "出力文字(_O)"
 
 #: setup/python2/main.py:590 setup/python2/main.py:1071
 #: setup/python2/main.py:1175 setup/python2/setup.ui:183
-#: setup/python3/main.py:595 setup/python3/main.py:1065
-#: setup/python3/main.py:1169 setup/python3/setup.ui:183
+#: setup/python3/main.py:594 setup/python3/main.py:1064
+#: setup/python3/main.py:1168 setup/python3/setup.ui:183
 msgid "Default"
 msgstr "デフォルト"
 
-#: setup/python2/main.py:593 setup/python3/main.py:598
+#: setup/python2/main.py:593 setup/python3/main.py:597
 msgid "Customize Kana Key Table"
 msgstr "かなキーテーブルのカスタマイズ"
 
 #: setup/python2/main.py:594 setup/python2/setup.ui:988
-#: setup/python3/main.py:599 setup/python3/setup.ui:988
+#: setup/python3/main.py:598 setup/python3/setup.ui:988
 msgid "_Kana Key Table:"
 msgstr "かなキーテーブル(_K):"
 
-#: setup/python2/main.py:596 setup/python3/main.py:601
+#: setup/python2/main.py:596 setup/python3/main.py:600
 msgid "Japanese Keyboard Layout"
 msgstr "日本語キーボードレイアウト"
 
-#: setup/python2/main.py:597 setup/python3/main.py:602
+#: setup/python2/main.py:597 setup/python3/main.py:601
 msgid "U.S. Keyboard Layout"
 msgstr "U.S. キーボードレイアウト"
 
-#: setup/python2/main.py:600 setup/python3/main.py:605
+#: setup/python2/main.py:600 setup/python3/main.py:604
 msgid "Customize Thumb Shift Key Table"
 msgstr "親指シフトキーテーブルのカスタマイズ"
 
-#: setup/python2/main.py:601 setup/python3/main.py:606
+#: setup/python2/main.py:601 setup/python3/main.py:605
 msgid "_Thumb Shift Key Table:"
 msgstr "親指シフトキーテーブル(_T):"
 
-#: setup/python2/main.py:602 setup/python3/main.py:607
+#: setup/python2/main.py:602 setup/python3/main.py:606
 msgid "Single _Output Chars"
 msgstr "単出力文字(_O)"
 
-#: setup/python2/main.py:603 setup/python3/main.py:608
+#: setup/python2/main.py:603 setup/python3/main.py:607
 msgid "Base"
 msgstr "基本"
 
-#: setup/python2/main.py:604 setup/python3/main.py:609
+#: setup/python2/main.py:604 setup/python3/main.py:608
 msgid "NICOLA-J key extension"
 msgstr "NICOLA-J キー拡張"
 
-#: setup/python2/main.py:605 setup/python3/main.py:610
+#: setup/python2/main.py:605 setup/python3/main.py:609
 msgid "NICOLA-A key extension"
 msgstr "NICOLA-A キー拡張"
 
-#: setup/python2/main.py:606 setup/python3/main.py:611
+#: setup/python2/main.py:606 setup/python3/main.py:610
 msgid "NICOLA-F key extension"
 msgstr "NICOLA-F キー拡張"
 
-#: setup/python2/main.py:607 setup/python3/main.py:612
+#: setup/python2/main.py:607 setup/python3/main.py:611
 msgid "FMV KB231-J key extension"
 msgstr "FMV KB231-J キー拡張"
 
-#: setup/python2/main.py:608 setup/python3/main.py:613
+#: setup/python2/main.py:608 setup/python3/main.py:612
 msgid "FMV KB231-A key extension"
 msgstr "FMV KB231-A キー拡張"
 
-#: setup/python2/main.py:609 setup/python3/main.py:614
+#: setup/python2/main.py:609 setup/python3/main.py:613
 msgid "FMV KB231-F key extension"
 msgstr "FMV KB231-F キー拡張"
 
-#: setup/python2/main.py:610 setup/python3/main.py:615
+#: setup/python2/main.py:610 setup/python3/main.py:614
 msgid "FMV KB611-J key extension"
 msgstr "FMV KB611-J キー拡張"
 
-#: setup/python2/main.py:611 setup/python3/main.py:616
+#: setup/python2/main.py:611 setup/python3/main.py:615
 msgid "FMV KB611-A key extension"
 msgstr "FMV KB611-A キー拡張"
 
-#: setup/python2/main.py:612 setup/python3/main.py:617
+#: setup/python2/main.py:612 setup/python3/main.py:616
 msgid "FMV KB611-F key extension"
 msgstr "FMV KB611-F キー拡張"
 
-#: setup/python2/main.py:753 setup/python3/main.py:758
+#: setup/python2/main.py:753 setup/python3/main.py:757
 msgid "Your choosed file has already been added: "
 msgstr "選択したファイルはすでに追加されています: "
 
-#: setup/python2/main.py:757 setup/python3/main.py:762
+#: setup/python2/main.py:757 setup/python3/main.py:761
 msgid "The file you have chosen does not exist: "
 msgstr "選択したファイルは存在しません: "
 
-#: setup/python2/main.py:761 setup/python3/main.py:766
+#: setup/python2/main.py:761 setup/python3/main.py:765
 msgid "Your choosed file is a directory: "
 msgstr "選択したファイルはディレクトリです: "
 
-#: setup/python2/main.py:765 setup/python3/main.py:770
+#: setup/python2/main.py:765 setup/python3/main.py:769
 msgid "You cannot add dictionaries in the anthy private directory: "
 msgstr "Anthy 私用ディレクトリにあるファイルを追加することはできません: "
 
-#: setup/python2/main.py:774 setup/python3/main.py:779
+#: setup/python2/main.py:774 setup/python3/main.py:778
 msgid "Your file path is not good: "
 msgstr "ファイルパスはよくないです: "
 
-#: setup/python2/main.py:935 setup/python3/main.py:938
+#: setup/python2/main.py:935 setup/python3/main.py:937
 msgid "The engine xml file does not exist: "
 msgstr "エンジン xml ファイルは存在しません: "
 
-#: setup/python2/main.py:1051 setup/python3/main.py:1045
+#: setup/python2/main.py:1051 setup/python3/main.py:1044
 msgid ""
 "Anthy keyboard layout is changed. Please restart ibus to reload the layout."
-msgstr "Anthy キーボードレイアウトが変更されました。レイアウトを再読み込みするために ibus を再起動してください。"
+msgstr ""
+"Anthy キーボードレイアウトが変更されました。レイアウトを再読み込みするために "
+"ibus を再起動してください。"
 
-#: setup/python2/main.py:1263 setup/python3/main.py:1257
+#: setup/python2/main.py:1263 setup/python3/main.py:1256
 msgid "Please specify Input Chars"
 msgstr "入力文字を指定してください"
 
-#: setup/python2/main.py:1266 setup/python3/main.py:1260
+#: setup/python2/main.py:1266 setup/python3/main.py:1259
 msgid "Please specify Output Chars"
 msgstr "出力文字を指定してください"
 
-#: setup/python2/main.py:1269 setup/python3/main.py:1263
+#: setup/python2/main.py:1269 setup/python3/main.py:1262
 msgid "Please specify Left Thumb Shift Chars"
 msgstr "左親指シフト文字を指定してください"
 
-#: setup/python2/main.py:1272 setup/python3/main.py:1266
+#: setup/python2/main.py:1272 setup/python3/main.py:1265
 msgid "Please specify Right Thumb Shift Chars"
 msgstr "右親指シフト文字を指定してください"
 
 #: setup/python2/main.py:1285 setup/python2/main.py:1319
-#: setup/python3/main.py:1279 setup/python3/main.py:1313
+#: setup/python3/main.py:1278 setup/python3/main.py:1312
 msgid "Your custom key is not assigned in any sections. Maybe a bug."
-msgstr "カスタムキーがどのセクションにも割り当てられていません。たぶんバグです。"
+msgstr ""
+"カスタムキーがどのセクションにも割り当てられていません。たぶんバグです。"
 
-#: setup/python2/main.py:1374 setup/python2/main.py:1463
-#: setup/python3/main.py:1368 setup/python3/main.py:1457
+#: setup/python2/main.py:1374 setup/python2/main.py:1465
+#: setup/python3/main.py:1367 setup/python3/main.py:1458
 msgid "Your file does not exist: "
 msgstr "ファイルは存在しません: "
 
-#: setup/python2/main.py:1384 setup/python3/main.py:1378
+#: setup/python2/main.py:1385 setup/python3/main.py:1378
 msgid "Open Dictionary File"
 msgstr "辞書ファイルを開く"
 
-#: setup/python2/main.py:1387 setup/python2/main.py:1393
+#: setup/python2/main.py:1388 setup/python2/main.py:1394
 #: setup/python2/setup.ui:2166 setup/python3/main.py:1381
 #: setup/python3/main.py:1387 setup/python3/setup.ui:2166
 msgid "_Cancel"
 msgstr "キャンセル(_C)"
 
-#: setup/python2/main.py:1388 setup/python3/main.py:1382
+#: setup/python2/main.py:1389 setup/python3/main.py:1382
 msgid "_Open"
 msgstr "開く(_O)"
 
-#: setup/python2/main.py:1391 setup/python3/main.py:1385
+#: setup/python2/main.py:1392 setup/python3/main.py:1385
 msgid "Edit Dictionary File"
 msgstr "辞書ファイルの編集"
 
-#: setup/python2/main.py:1394 setup/python2/main.py:1483
+#: setup/python2/main.py:1395 setup/python2/main.py:1485
 #: setup/python2/setup.ui:2181 setup/python3/main.py:1388
-#: setup/python3/main.py:1477 setup/python3/setup.ui:2181
+#: setup/python3/main.py:1478 setup/python3/setup.ui:2181
 msgid "_OK"
 msgstr "OK(_O)"
 
-#: setup/python2/main.py:1405 setup/python3/main.py:1399
+#: setup/python2/main.py:1407 setup/python3/main.py:1400
 msgid "Your choosed file is not correct."
 msgstr "選択したファイルは正しくありません。"
 
-#: setup/python2/main.py:1435 setup/python3/main.py:1429
+#: setup/python2/main.py:1437 setup/python3/main.py:1430
 msgid "You cannot delete the system dictionary."
 msgstr "システム辞書を削除することはできません。"
 
-#: setup/python2/main.py:1459 setup/python3/main.py:1453
+#: setup/python2/main.py:1461 setup/python3/main.py:1454
 msgid "Your file is not good."
 msgstr "ファイルは良くないです。"
 
-#: setup/python2/main.py:1481 setup/python3/main.py:1475
+#: setup/python2/main.py:1483 setup/python3/main.py:1476
 msgid "View Dictionary File"
 msgstr "辞書ファイルの表示"
 
-#: setup/python2/main.py:1642 setup/python3/main.py:1636
+#: setup/python2/main.py:1644 setup/python3/main.py:1637
 msgid "Please press a key (or a key combination)"
 msgstr "キー (もしくはキーの組み合わせ) を入力してください"
 
-#: setup/python2/main.py:1643 setup/python3/main.py:1637
+#: setup/python2/main.py:1645 setup/python3/main.py:1638
 msgid "The dialog will be closed when the key is released"
 msgstr "このダイアログはキーリリース時に閉じられます"
 
-#: setup/python2/main.py:1663 setup/python2/main.py:1684
-#: setup/python3/main.py:1657 setup/python3/main.py:1678
+#: setup/python2/main.py:1665 setup/python2/main.py:1686
+#: setup/python3/main.py:1658 setup/python3/main.py:1679
 msgid "Invalid keysym"
 msgstr "無効なキーシンボル"
 
-#: setup/python2/main.py:1664 setup/python2/main.py:1685
-#: setup/python3/main.py:1658 setup/python3/main.py:1679
+#: setup/python2/main.py:1666 setup/python2/main.py:1687
+#: setup/python3/main.py:1659 setup/python3/main.py:1680
 msgid "This keysym is not valid"
 msgstr "このキーシンボルは有効ではありません"
 
@@ -637,7 +648,9 @@ msgstr "空白を半角で変換する(_V)"
 msgid ""
 "Swi_tch “Hiragana” and “Latin” with Shift key and Hiragana–Katakana key in "
 "preedit"
-msgstr "前変換候補において「ひらがな」と「英数」をシフトキーとひらがな・カタカナキーで切り替える(_T)"
+msgstr ""
+"前変換候補において「ひらがな」と「英数」をシフトキーとひらがな・カタカナキー"
+"で切り替える(_T)"
 
 #: setup/python2/setup.ui:726 setup/python3/setup.ui:726
 msgid "<b>Other</b>"
@@ -694,7 +707,8 @@ msgstr "右親指シフトキー(_T):"
 
 #: setup/python2/setup.ui:1262 setup/python3/setup.ui:1262
 msgid "Adjust _input method layout to system keyboard layout"
-msgstr "インプットメソッドレイアウトをシステムキーボードレイアウトに合わせる(_I)"
+msgstr ""
+"インプットメソッドレイアウトをシステムキーボードレイアウトに合わせる(_I)"
 
 #: setup/python2/setup.ui:1263 setup/python3/setup.ui:1263
 msgid "Adjust IM layout to XKB layout"
@@ -726,13 +740,17 @@ msgid ""
 "Key Arrangement\" since this option changes input method layout only in case "
 "input method is turned on."
 msgstr ""
-"このオプションはインプットメソッドがオンの場合にインプットメソッドレイアウトのみを変更するので「追加のキー割り当て」のためにシステムキーボードレイアウトを再構成する必要はありません。"
+"このオプションはインプットメソッドがオンの場合にインプットメソッドレイアウト"
+"のみを変更するので「追加のキー割り当て」のためにシステムキーボードレイアウト"
+"を再構成する必要はありません。"
 
 #: setup/python2/setup.ui:1420 setup/python3/setup.ui:1420
 msgid ""
 "You do not have to reconfigure XKB since this option changes IM layout only "
 "with IM on."
-msgstr "このオプションは IM オンで IM レイアウトのみを変更するので XKB を再構成する必要はありません。"
+msgstr ""
+"このオプションは IM オンで IM レイアウトのみを変更するので XKB を再構成する必"
+"要はありません。"
 
 #: setup/python2/setup.ui:1437 setup/python3/setup.ui:1437
 msgid "_Enable semi-voiced sound mark with Shift key"
