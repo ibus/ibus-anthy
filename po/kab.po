@@ -3,15 +3,15 @@
 # Copyright (C) 2008-2025 Takao Fujiwara <takao.fujiwara1@gmail.com>
 # This file is distributed under the same license as the ibus-anthy package.
 #
-# ButterflyOfFire <butterflyoffire@users.noreply.translate.fedoraproject.org>, 2024.
+# ButterflyOfFire <butterflyoffire@users.noreply.translate.fedoraproject.org>, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.15\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2023-08-22 13:02+0900\n"
-"PO-Revision-Date: 2024-12-10 09:43+0000\n"
-"Last-Translator: ButterflyOfFire <butterflyoffire@users.noreply.translate."
-"fedoraproject.org>\n"
+"PO-Revision-Date: 2025-02-19 05:16+0000\n"
+"Last-Translator: ButterflyOfFire "
+"<butterflyoffire@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Kabyle <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/kab/>\n"
 "Language: kab\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.8.4\n"
+"X-Generator: Weblate 5.10\n"
 
 #: data/ibus-anthy.appdata.xml.in:8
 msgid "Japanese input method"

@@ -4,14 +4,14 @@
 # This file is distributed under the same license as the ibus-anthy package.
 #
 # Oğuz Ersen <oguzersen@protonmail.com>, 2020, 2021.
-# Oğuz Ersen <oguz@ersen.moe>, 2022.
+# Oğuz Ersen <oguz@ersen.moe>, 2022, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.10\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2019-04-22 23:08+0900\n"
-"PO-Revision-Date: 2022-09-24 15:19+0000\n"
-"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
+"PO-Revision-Date: 2025-02-19 05:16+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/tr/>\n"
 "Language: tr\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 5.10\n"
 
 #: data/ibus-anthy.appdata.xml.in:7
 msgid "Japanese input method"
@@ -53,8 +53,8 @@ msgid ""
 "Please fix the file or remove it by manual and restart IBus."
 msgstr ""
 "Anthy etkinleştirilemedi.\n"
-"Ana dizininizdeki %s/last-record2_default.utf8 dosyasının içeriğinin sonu '\\"
-"n"
+"Ana dizininizdeki %s/last-record2_default.utf8 dosyasının içeriğinin sonu '"
+"\\n"
 "' değil. Yani metin biçimi doğru değil.\n"
 "Lütfen dosyayı düzeltin veya manuel olarak kaldırın ve IBus'u yeniden "
 "başlatın."

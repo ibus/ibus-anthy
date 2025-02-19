@@ -4,8 +4,8 @@
 # This file is distributed under the same license as the ibus-anthy package.
 #
 # Translators:
-# Yuri Chornoivan <yurchor@ukr.net>, 2015. #zanata, 2020.
-# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata, 2020.
+# Yuri Chornoivan <yurchor@ukr.net>, 2015. #zanata, 2020, 2025.
+# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata, 2020, 2025.
 # fujiwara <takao.fujiwara1@gmail.com>, 2017. #zanata
 # fujiwara <takao.fujiwara1@gmail.com>, 2019. #zanata
 msgid ""
@@ -13,17 +13,17 @@ msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.10\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2019-04-22 23:08+0900\n"
-"PO-Revision-Date: 2020-01-08 10:40+0000\n"
+"PO-Revision-Date: 2025-02-19 05:16+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
-"Language-Team: Ukrainian <https://translate.stg.fedoraproject.org/projects/"
-"ibus/ibus-anthy/uk/>\n"
+"Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/ibus/"
+"ibus-anthy/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.9.1\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.10\n"
 
 #: data/ibus-anthy.appdata.xml.in:7
 msgid "Japanese input method"
@@ -33,7 +33,6 @@ msgstr "Спосіб введення японської"
 msgid "The Anthy input method is designed for entering Japanese text."
 msgstr ""
 "Спосіб введення Anthy розроблено для введення текстів японськими ієрогліфами."
-""
 
 #: data/ibus-anthy.appdata.xml.in:12
 msgid ""
@@ -61,7 +60,8 @@ msgid ""
 msgstr ""
 "Не вдалося увімкнути Anthy.\n"
 "Дані у файлі %s/last-record2_default.utf8 вашого домашнього каталогу не "
-"завершуються на «\\n». Тобто текст файла є некоректним.\n"
+"завершуються на «\\n"
+"». Тобто текст файла є некоректним.\n"
 "Будь ласка, виправте файл або вилучіть його вручну і перезапустіть IBus."
 
 #: engine/python2/engine.py:256 engine/python3/engine.py:257
@@ -704,8 +704,7 @@ msgstr "Права _додаткова клавіша Shift:"
 
 #: setup/python2/setup.ui:1262 setup/python3/setup.ui:1262
 msgid "Adjust _input method layout to system keyboard layout"
-msgstr ""
-"Коригувати с_посіб введення за загальносистемною розкладкою клавіатури"
+msgstr "Коригувати с_посіб введення за загальносистемною розкладкою клавіатури"
 
 #: setup/python2/setup.ui:1263 setup/python3/setup.ui:1263
 msgid "Adjust IM layout to XKB layout"
@@ -739,8 +738,8 @@ msgid ""
 "Key Arrangement\" since this option changes input method layout only in case "
 "input method is turned on."
 msgstr ""
-"Вам не потрібно змінювати налаштування розкладки клавіатури системи для "
-"«Додаткового упорядковування клавіш», оскільки за допомогою цього пункту "
+"Вам не потрібно змінювати налаштування розкладки клавіатури системи для «"
+"Додаткового упорядковування клавіш», оскільки за допомогою цього пункту "
 "можна змінити розкладку способу введення, коли увімкнено відповідний спосіб "
 "введення."
 

@@ -7,22 +7,22 @@
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2016. #zanata
 # fujiwara <takao.fujiwara1@gmail.com>, 2017. #zanata
 # fujiwara <takao.fujiwara1@gmail.com>, 2019. #zanata
-# Antoni Bella Pérez <antonibella5@yahoo.com>, 2020.
+# Antoni Bella Pérez <antonibella5@yahoo.com>, 2020, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.10\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2019-04-22 23:08+0900\n"
-"PO-Revision-Date: 2020-01-08 20:18+0000\n"
+"PO-Revision-Date: 2025-02-19 05:16+0000\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
-"Language-Team: Catalan <https://translate.stg.fedoraproject.org/projects/"
-"ibus/ibus-anthy/ca/>\n"
+"Language-Team: Catalan <https://translate.fedoraproject.org/projects/ibus/"
+"ibus-anthy/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 5.10\n"
 
 #: data/ibus-anthy.appdata.xml.in:7
 msgid "Japanese input method"
@@ -59,7 +59,8 @@ msgid ""
 msgstr ""
 "No es pot habilitar l'Anthy.\n"
 "El final del contingut del fitxer %s/last-record2_default.utf8 del vostre "
-"directori d'inici no és '\\n'. p. ex. format de text no correcte.\n"
+"directori d'inici no és '\\n"
+"'. p. ex. format de text no correcte.\n"
 "Si us plau, corregiu el fitxer o elimineu-lo manualment i torneu a iniciar "
 "l'IBus."
 

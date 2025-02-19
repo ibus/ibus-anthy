@@ -8,13 +8,13 @@
 # fujiwara <takao.fujiwara1@gmail.com>, 2016. #zanata
 # fujiwara <takao.fujiwara1@gmail.com>, 2017. #zanata
 # fujiwara <takao.fujiwara1@gmail.com>, 2019. #zanata
-# 김인수 <simmon@nplob.com>, 2022.
+# 김인수 <simmon@nplob.com>, 2022, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.10\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 16:13+0900\n"
-"PO-Revision-Date: 2025-02-17 16:14+0900\n"
+"PO-Revision-Date: 2025-02-19 05:16+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/ja/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 5.10\n"
 
 #: data/ibus-anthy.appdata.xml.in:8
 msgid "Japanese input method"
@@ -64,8 +64,8 @@ msgid ""
 "Please fix the file or remove it by manual and restart IBus."
 msgstr ""
 "Anthy を有効にできませんでした。\n"
-"ホームディレクトリにある %s/last-record2_default.utf8 の中身の最後が '\\n' で"
-"ありません。つまり正しくないテキストフォーマットです。\n"
+"ホームディレクトリにある %s/last-record2_default.utf8 の中身の最後が '\\n"
+"' でありません。つまり正しくないテキストフォーマットです。\n"
 "手動でファイルを修正するか削除して IBus をリスタートしてください。"
 
 #: engine/python2/engine.py:267 engine/python3/engine.py:268
@@ -427,8 +427,7 @@ msgstr "エンジン xml ファイルは存在しません: "
 #: setup/python2/main.py:1051 setup/python3/main.py:1044
 msgid ""
 "Anthy keyboard layout is changed. Please restart ibus to reload the layout."
-msgstr ""
-"Anthy キーボードレイアウトが変更されました。レイアウトを再読み込みするために "
+msgstr "Anthy キーボードレイアウトが変更されました。レイアウトを再読み込みするために "
 "ibus を再起動してください。"
 
 #: setup/python2/main.py:1263 setup/python3/main.py:1256
@@ -450,8 +449,7 @@ msgstr "右親指シフト文字を指定してください"
 #: setup/python2/main.py:1285 setup/python2/main.py:1319
 #: setup/python3/main.py:1278 setup/python3/main.py:1312
 msgid "Your custom key is not assigned in any sections. Maybe a bug."
-msgstr ""
-"カスタムキーがどのセクションにも割り当てられていません。たぶんバグです。"
+msgstr "カスタムキーがどのセクションにも割り当てられていません。たぶんバグです。"
 
 #: setup/python2/main.py:1374 setup/python2/main.py:1465
 #: setup/python3/main.py:1367 setup/python3/main.py:1458
@@ -648,8 +646,7 @@ msgstr "空白を半角で変換する(_V)"
 msgid ""
 "Swi_tch “Hiragana” and “Latin” with Shift key and Hiragana–Katakana key in "
 "preedit"
-msgstr ""
-"前変換候補において「ひらがな」と「英数」をシフトキーとひらがな・カタカナキー"
+msgstr "前変換候補において「ひらがな」と「英数」をシフトキーとひらがな・カタカナキー"
 "で切り替える(_T)"
 
 #: setup/python2/setup.ui:726 setup/python3/setup.ui:726
@@ -707,8 +704,7 @@ msgstr "右親指シフトキー(_T):"
 
 #: setup/python2/setup.ui:1262 setup/python3/setup.ui:1262
 msgid "Adjust _input method layout to system keyboard layout"
-msgstr ""
-"インプットメソッドレイアウトをシステムキーボードレイアウトに合わせる(_I)"
+msgstr "インプットメソッドレイアウトをシステムキーボードレイアウトに合わせる(_I)"
 
 #: setup/python2/setup.ui:1263 setup/python3/setup.ui:1263
 msgid "Adjust IM layout to XKB layout"
@@ -748,9 +744,8 @@ msgstr ""
 msgid ""
 "You do not have to reconfigure XKB since this option changes IM layout only "
 "with IM on."
-msgstr ""
-"このオプションは IM オンで IM レイアウトのみを変更するので XKB を再構成する必"
-"要はありません。"
+msgstr "このオプションは IM オンで IM レイアウトのみを変更するので XKB "
+"を再構成する必要はありません。"
 
 #: setup/python2/setup.ui:1437 setup/python3/setup.ui:1437
 msgid "_Enable semi-voiced sound mark with Shift key"
