@@ -4,13 +4,14 @@
 # This file is distributed under the same license as the ibus-anthy package.
 #
 # Jan Kuparinen <copper_fin@hotmail.com>, 2021, 2023.
+# Ricky Tigg <ricky.tigg@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.10\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2019-04-22 23:08+0900\n"
-"PO-Revision-Date: 2023-02-18 19:20+0000\n"
-"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
+"PO-Revision-Date: 2025-03-26 03:37+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/fi/>\n"
 "Language: fi\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: data/ibus-anthy.appdata.xml.in:7
 msgid "Japanese input method"
@@ -178,41 +179,41 @@ msgstr "Välitön muunnos (yksittäinen segmentti)"
 #: engine/python3/engine.py:528 engine/python3/engine.py:1034
 #: setup/python2/main.py:414 setup/python3/main.py:419
 msgid "Dictionary mode"
-msgstr ""
+msgstr "Sanakirjatila"
 
 #: engine/python2/engine.py:533 engine/python3/engine.py:534
 msgid "Switch dictionary"
-msgstr ""
+msgstr "Vaihda sanakirjaa"
 
 #: engine/python2/engine.py:623 engine/python3/engine.py:623
 #: setup/python2/main.py:417 setup/python3/main.py:422
 msgid "Dictionary - Anthy"
-msgstr ""
+msgstr "Sanakirja - Anthy"
 
 #. Translators: "Dic" means 'dictionary', One kanji may be good.
 #: engine/python2/engine.py:629 engine/python3/engine.py:628
 msgid "Dic"
-msgstr ""
+msgstr "San"
 
 #: engine/python2/engine.py:636 engine/python3/engine.py:635
 msgid "Configure dictionaries"
-msgstr ""
+msgstr "Määritä sanastot"
 
 #: engine/python2/engine.py:646 engine/python3/engine.py:645
 msgid "Edit dictionaries"
-msgstr ""
+msgstr "Muokkaa sanakirjoja"
 
 #: engine/python2/engine.py:648 engine/python3/engine.py:647
 msgid "Launch the dictionary tool"
-msgstr ""
+msgstr "Käynnistä sanakirjatyökalu"
 
 #: engine/python2/engine.py:655 engine/python3/engine.py:654
 msgid "Add words"
-msgstr ""
+msgstr "Lisää sanoja"
 
 #: engine/python2/engine.py:657 engine/python3/engine.py:656
 msgid "Add words to the dictionary"
-msgstr ""
+msgstr "Lisää sanat sanakirjaan"
 
 #: setup/python2/anthyprefs.py:336 setup/python2/setup.ui:397
 #: setup/python3/anthyprefs.py:329 setup/python3/setup.ui:397
@@ -225,15 +226,15 @@ msgstr ""
 
 #: setup/python2/anthyprefs.py:338 setup/python3/anthyprefs.py:331
 msgid "Symbol"
-msgstr ""
+msgstr "Symboli"
 
 #: setup/python2/anthyprefs.py:339 setup/python3/anthyprefs.py:332
 msgid "Old Character Style"
-msgstr ""
+msgstr "Vanha kirjaimen tyyli"
 
 #: setup/python2/anthyprefs.py:340 setup/python3/anthyprefs.py:333
 msgid "Era"
-msgstr ""
+msgstr "Aikakausi"
 
 #: setup/python2/anthyprefs.py:341 setup/python3/anthyprefs.py:334
 msgid "Emoji"
@@ -242,16 +243,16 @@ msgstr "Emoji"
 #: setup/python2/ibus-setup-anthy.desktop.in.in:3
 #: setup/python3/ibus-setup-anthy.desktop.in.in:3
 msgid "IBus Anthy Setup"
-msgstr ""
+msgstr "IBus Anthy:n asettaminen"
 
 #: setup/python2/ibus-setup-anthy.desktop.in.in:4
 #: setup/python3/ibus-setup-anthy.desktop.in.in:4
 msgid "Set up IBus Anthy engine"
-msgstr ""
+msgstr "Aseta IBus Anthy:n moottori"
 
 #: setup/python2/main.py:177 setup/python3/main.py:180
 msgid "Menu label"
-msgstr ""
+msgstr "Valikon nimiö"
 
 #: setup/python2/main.py:198 setup/python3/main.py:201
 msgid "Command"
@@ -259,7 +260,7 @@ msgstr "Komento"
 
 #: setup/python2/main.py:202 setup/python3/main.py:205
 msgid "Shortcut"
-msgstr ""
+msgstr "Pikanäppäin"
 
 #: setup/python2/main.py:247 setup/python3/main.py:250
 msgid "Description"
@@ -268,22 +269,22 @@ msgstr "Kuvaus"
 #. Translators: "Embd" is an abbreviation of "embedded".
 #: setup/python2/main.py:255 setup/python3/main.py:258
 msgid "Embd"
-msgstr ""
+msgstr "Upot"
 
 #. Translators: "Sgl" is an abbreviation of "single".
 #: setup/python2/main.py:263 setup/python3/main.py:266
 msgid "Sgl"
-msgstr ""
+msgstr "Ykst"
 
 #: setup/python2/main.py:441 setup/python2/main.py:467
 #: setup/python3/main.py:446 setup/python3/main.py:472
 msgid "Input Chars"
-msgstr ""
+msgstr "Syötä merkit"
 
 #: setup/python2/main.py:443 setup/python2/main.py:469
 #: setup/python3/main.py:448 setup/python3/main.py:474
 msgid "Output Chars"
-msgstr ""
+msgstr "Lähdön merkit"
 
 #: setup/python2/main.py:499 setup/python3/main.py:504
 msgid "Input"
@@ -295,7 +296,7 @@ msgstr "Yksittäinen"
 
 #: setup/python2/main.py:503 setup/python3/main.py:508
 msgid "Left"
-msgstr ""
+msgstr "Vasen"
 
 #: setup/python2/main.py:505 setup/python3/main.py:510
 msgid "Right"
@@ -303,17 +304,17 @@ msgstr "Oikeudet"
 
 #: setup/python2/main.py:587 setup/python3/main.py:592
 msgid "Customize Romaji Key Table"
-msgstr ""
+msgstr "Mukauta Romaji-avaintaulukko"
 
 #: setup/python2/main.py:588 setup/python2/setup.ui:910
 #: setup/python3/main.py:593 setup/python3/setup.ui:910
 msgid "_Romaji Key Table:"
-msgstr ""
+msgstr "_Romaji-avaintaulukko:"
 
 #: setup/python2/main.py:589 setup/python2/main.py:595
 #: setup/python3/main.py:594 setup/python3/main.py:600
 msgid "_Output Chars"
-msgstr ""
+msgstr "_Lähdön merkit"
 
 #: setup/python2/main.py:590 setup/python2/main.py:1071
 #: setup/python2/main.py:1175 setup/python2/setup.ui:183
@@ -324,20 +325,20 @@ msgstr "Oletus"
 
 #: setup/python2/main.py:593 setup/python3/main.py:598
 msgid "Customize Kana Key Table"
-msgstr ""
+msgstr "Mukauta Kana-avaintaulukkoa"
 
 #: setup/python2/main.py:594 setup/python2/setup.ui:988
 #: setup/python3/main.py:599 setup/python3/setup.ui:988
 msgid "_Kana Key Table:"
-msgstr ""
+msgstr "_Kana-avaintaulukko:"
 
 #: setup/python2/main.py:596 setup/python3/main.py:601
 msgid "Japanese Keyboard Layout"
-msgstr ""
+msgstr "Japanilainen näppäimistöasettelu"
 
 #: setup/python2/main.py:597 setup/python3/main.py:602
 msgid "U.S. Keyboard Layout"
-msgstr ""
+msgstr "Yhdysvaltain näppäimistöasettelu"
 
 #: setup/python2/main.py:600 setup/python3/main.py:605
 msgid "Customize Thumb Shift Key Table"
@@ -640,7 +641,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:726 setup/python3/setup.ui:726
 msgid "<b>Other</b>"
-msgstr ""
+msgstr "<b>Muu</b>"
 
 #: setup/python2/setup.ui:742 setup/python3/setup.ui:742
 msgid "Conversion"
