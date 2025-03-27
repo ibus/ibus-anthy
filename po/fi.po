@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.10\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
-"PO-Revision-Date: 2025-03-27 07:54+0000\n"
+"PO-Revision-Date: 2025-03-27 10:40+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/fi/>\n"
@@ -646,6 +646,8 @@ msgid ""
 "Swi_tch “Hiragana” and “Latin” with Shift key and Hiragana–Katakana key in "
 "preedit"
 msgstr ""
+"Vaihda \"Hiragana\" ja \"Latin\" Vaihto-näppäimellä ja Hiragana-Katakana -"
+"näppäimellä esimuokkaamisessa"
 
 #: setup/python2/setup.ui:726 setup/python3/setup.ui:726
 msgid "<b>Other</b>"
@@ -653,11 +655,11 @@ msgstr "<b>Muu</b>"
 
 #: setup/python2/setup.ui:742 setup/python3/setup.ui:742
 msgid "Conversion"
-msgstr ""
+msgstr "Muunnos"
 
 #: setup/python2/setup.ui:764 setup/python3/setup.ui:764
 msgid "_Shortcut Type:"
-msgstr ""
+msgstr "_Pikanäppäimen tyyppi:"
 
 #: setup/python2/setup.ui:831 setup/python3/setup.ui:831
 msgid "De_fault"
@@ -670,19 +672,19 @@ msgstr "_Muokkaa"
 
 #: setup/python2/setup.ui:873 setup/python3/setup.ui:873
 msgid "Key Binding"
-msgstr ""
+msgstr "Avainten sidonta"
 
 #: setup/python2/setup.ui:951 setup/python3/setup.ui:951
 msgid "<b>Romaji</b>"
-msgstr ""
+msgstr "<b>Romaji</b>"
 
 #: setup/python2/setup.ui:1029 setup/python3/setup.ui:1029
 msgid "<b>Kana</b>"
-msgstr ""
+msgstr "<b>Kana</b>"
 
 #: setup/python2/setup.ui:1066 setup/python3/setup.ui:1066
 msgid "Keyboad _layout:"
-msgstr ""
+msgstr "Näppäimistön asettelu:"
 
 #: setup/python2/setup.ui:1108 setup/python3/setup.ui:1108
 msgid "<b>Keyboard layout</b>"
@@ -694,39 +696,41 @@ msgstr "Kirjoitusmenetelmä"
 
 #: setup/python2/setup.ui:1168 setup/python3/setup.ui:1168
 msgid "_Left Thumb Shift Key:"
-msgstr ""
+msgstr "_Vasen Thumb:n vaihtonäppäin:"
 
 #: setup/python2/setup.ui:1210 setup/python3/setup.ui:1210
 msgid "Right _Thumb Shift Key:"
-msgstr ""
+msgstr "_Oikea Thumb:n vaihtonäppäin:"
 
 #: setup/python2/setup.ui:1262 setup/python3/setup.ui:1262
 msgid "Adjust _input method layout to system keyboard layout"
-msgstr ""
+msgstr "Säädä _syöttötavan asettelu järjestelmän näppäimistön asetteluksi"
 
 #: setup/python2/setup.ui:1263 setup/python3/setup.ui:1263
 msgid "Adjust IM layout to XKB layout"
-msgstr ""
+msgstr "Säädä IM-asettelu XKB-asetteluksi"
 
 #: setup/python2/setup.ui:1287 setup/python3/setup.ui:1287
 msgid "Input _Method Layout:"
-msgstr ""
+msgstr "Syöttö_tapa-asettelu:"
 
 #: setup/python2/setup.ui:1339 setup/python3/setup.ui:1339
 msgid "Restart IBus when you change the keyboard layout"
-msgstr ""
+msgstr "Käynnistä IBus uudelleen, kun muutat näppäimistön asettelua"
 
 #: setup/python2/setup.ui:1340 setup/python3/setup.ui:1340
 msgid "Restart IBus when you change XKB"
-msgstr ""
+msgstr "Käynnistä IBus uudelleen, kun vaihdat XKB:ta"
 
 #: setup/python2/setup.ui:1365 setup/python3/setup.ui:1365
 msgid "_Additional Key Arrangement:"
-msgstr ""
+msgstr "_Lisäavainten järjestely:"
 
 #: setup/python2/setup.ui:1377 setup/python3/setup.ui:1377
 msgid "'～', '『', '¢', '£' and so on can be output with Thumb Shift key"
 msgstr ""
+"'～', '『', '¢', '£' ja niin edelleen voidaan tulostaa Thumb:n "
+"vaihtonäppäimellä"
 
 #: setup/python2/setup.ui:1419 setup/python3/setup.ui:1419
 msgid ""
@@ -734,28 +738,33 @@ msgid ""
 "Key Arrangement\" since this option changes input method layout only in case "
 "input method is turned on."
 msgstr ""
+"Sinun ei tarvitse määrittää uudelleen järjestelmän näppäimistöasettelua "
+"\"Lisäavainten järjestely\":ä varten, koska tämä vaihtoehto muuttaa "
+"syöttötavan asettelua vain, jos syöttötapa on käytössä."
 
 #: setup/python2/setup.ui:1420 setup/python3/setup.ui:1420
 msgid ""
 "You do not have to reconfigure XKB since this option changes IM layout only "
 "with IM on."
 msgstr ""
+"Sinun ei tarvitse määrittää XKB:ta uudelleen, koska tämä vaihtoehto muuttaa "
+"IMin asettelua vain IM ollessa päällä."
 
 #: setup/python2/setup.ui:1437 setup/python3/setup.ui:1437
 msgid "_Enable semi-voiced sound mark with Shift key"
-msgstr ""
+msgstr "_Ota puoliääninen merkki käyttöön vaihtonäppäimellä"
 
 #: setup/python2/setup.ui:1438 setup/python3/setup.ui:1438
 msgid "Seion + Shift can output Handakuon"
-msgstr ""
+msgstr "Seion + Vaihto voi tulostaa Handakuonin"
 
 #: setup/python2/setup.ui:1463 setup/python3/setup.ui:1463
 msgid "Thumb _Shift Key Table:"
-msgstr ""
+msgstr "Thumb_vaihto -näppäintaulukko:"
 
 #: setup/python2/setup.ui:1507 setup/python3/setup.ui:1507
 msgid "<b>Thumb Shift Layout</b>"
-msgstr ""
+msgstr "<b>Thumb Vaihto -asettelu</b>"
 
 #: setup/python2/setup.ui:1522 setup/python3/setup.ui:1522
 msgid "Thumb Shift"
@@ -763,15 +772,15 @@ msgstr "Peukalo muutos"
 
 #: setup/python2/setup.ui:1560 setup/python3/setup.ui:1560
 msgid "_Edit Dictionary Command:"
-msgstr ""
+msgstr "_Muokkaa sanakirjakomentoa:"
 
 #: setup/python2/setup.ui:1611 setup/python3/setup.ui:1611
 msgid "_Add Word Command:"
-msgstr ""
+msgstr "_Lisää sanakomento:"
 
 #: setup/python2/setup.ui:1680 setup/python3/setup.ui:1680
 msgid "<b>Default Dictionary Configuration</b>"
-msgstr ""
+msgstr "<b>Sanakirjan oletuskokoonpano</b>"
 
 #: setup/python2/setup.ui:1731 setup/python3/setup.ui:1731
 msgid "_View"
@@ -795,7 +804,7 @@ msgstr "_Ylös"
 #: setup/python2/setup.ui:1810 setup/python2/setup.ui:1827
 #: setup/python3/setup.ui:1810 setup/python3/setup.ui:1827
 msgid "You can change the order on language bar"
-msgstr ""
+msgstr "Voit muuttaa järjestystä kielipalkissa"
 
 #: setup/python2/setup.ui:1825 setup/python3/setup.ui:1825
 msgid "_Down"
@@ -803,11 +812,11 @@ msgstr "_Alas"
 
 #: setup/python2/setup.ui:1852 setup/python3/setup.ui:1852
 msgid "<b>Extended Dictionaries</b>"
-msgstr ""
+msgstr "<b>Laajennetut sanakirjat</b>"
 
 #: setup/python2/setup.ui:1867 setup/python3/setup.ui:1867
 msgid "Dictionary"
-msgstr ""
+msgstr "Sanakirja"
 
 #: setup/python2/setup.ui:1888 setup/python3/setup.ui:1888
 msgid "About"
@@ -820,7 +829,7 @@ msgstr "_Sulje"
 
 #: setup/python2/setup.ui:1938 setup/python3/setup.ui:1938
 msgid "Edit Shortcut"
-msgstr ""
+msgstr "Muokkaa pikanäppäintä"
 
 #: setup/python2/setup.ui:1980 setup/python3/setup.ui:1980
 msgid "Key Code:"
@@ -832,7 +841,7 @@ msgstr "Muokkaajat:"
 
 #: setup/python2/setup.ui:2042 setup/python3/setup.ui:2042
 msgid "A_lternate"
-msgstr ""
+msgstr "_Vaihtele"
 
 #: setup/python2/setup.ui:2055 setup/python3/setup.ui:2055
 msgid "Co_ntrol"
@@ -840,7 +849,7 @@ msgstr "Hallinta"
 
 #: setup/python2/setup.ui:2068 setup/python3/setup.ui:2068
 msgid "_Shift"
-msgstr ""
+msgstr "_Vaihto"
 
 #: setup/python2/setup.ui:2116 setup/python3/setup.ui:2116
 msgid "_Refresh"
@@ -848,19 +857,19 @@ msgstr "_Päivitä"
 
 #: setup/python2/setup.ui:2293 setup/python3/setup.ui:2293
 msgid "_Input Characters"
-msgstr ""
+msgstr "_Syöttömerkit"
 
 #: setup/python2/setup.ui:2313 setup/python3/setup.ui:2313
 msgid "_Output Characters"
-msgstr ""
+msgstr "_Lähtömerkit"
 
 #: setup/python2/setup.ui:2333 setup/python3/setup.ui:2333
 msgid "_Left Thumb Shift"
-msgstr ""
+msgstr "_Vasen Thumb Vaihto"
 
 #: setup/python2/setup.ui:2353 setup/python3/setup.ui:2353
 msgid "_Right Thumb Shift"
-msgstr ""
+msgstr "_Oikea Thumb Vaihto"
 
 #: setup/python2/setup.ui:2387 setup/python3/setup.ui:2387
 msgid "_Remove"
@@ -868,7 +877,7 @@ msgstr "P_oista"
 
 #: setup/python2/setup.ui:2607 setup/python3/setup.ui:2607
 msgid "_Short Label:"
-msgstr ""
+msgstr "_Lyhyt nimike:"
 
 #: setup/python2/setup.ui:2631 setup/python3/setup.ui:2631
 msgid "_Description:"
@@ -876,19 +885,19 @@ msgstr "_Kuvaus:"
 
 #: setup/python2/setup.ui:2663 setup/python3/setup.ui:2663
 msgid "_Use your dictionary alone with switching dictionaries"
-msgstr ""
+msgstr "_Käytä sanakirjaasi yksin vaihtaessasi sanakirjoja"
 
 #: setup/python2/setup.ui:2679 setup/python3/setup.ui:2679
 msgid "_Embed your dictionary in the system dictionary"
-msgstr ""
+msgstr "_Upota sanakirjasi järjestelmäsanakirjaan"
 
 #: setup/python2/setup.ui:2695 setup/python3/setup.ui:2695
 msgid "Enable the _reverse conversion"
-msgstr ""
+msgstr "Ota _käänteinen muunnos käyttöön"
 
 #: setup/python2/setup.ui:2715 setup/python3/setup.ui:2715
 msgid "The Anthy engine for the IBus input platform"
-msgstr ""
+msgstr "Anthy-moottori IBus-syöttöalustalle"
 
 #: setup/python2/setup.ui:2719 setup/python3/setup.ui:2719
 msgid "translator_credits"
