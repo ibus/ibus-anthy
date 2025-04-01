@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.10\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
-"PO-Revision-Date: 2025-03-28 11:09+0000\n"
+"PO-Revision-Date: 2025-04-02 03:07+0000\n"
 "Last-Translator: Mike FABIAN <mfabian@redhat.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/de/>\n"
@@ -40,7 +40,7 @@ msgstr ""
 
 #: data/ibus-anthy.appdata.xml.in:21
 msgid "input-method"
-msgstr "Inputmethode"
+msgstr "Eingabemethode"
 
 #: data/ibus-anthy.appdata.xml.in:22
 msgid "Japanese"
@@ -48,7 +48,7 @@ msgstr "Japanisch"
 
 #: data/ibus-anthy.appdata.xml.in:31
 msgid "See the upstream release list."
-msgstr ""
+msgstr "Siehe die Upstream-Release-Liste."
 
 #: engine/python2/engine.py:219 engine/python3/engine.py:220
 #, python-format
