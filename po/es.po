@@ -8,13 +8,14 @@
 # fujiwara <takao.fujiwara1@gmail.com>, 2019. #zanata
 # Mike FABIAN <mfabian@redhat.com>, 2020.
 # Emilio Herrera <ehespinosa57@gmail.com>, 2020.
+# Javier Francisco <fserrador@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.10\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
-"POT-Creation-Date: 2019-04-22 23:08+0900\n"
-"PO-Revision-Date: 2020-10-23 12:15+0000\n"
-"Last-Translator: Emilio Herrera <ehespinosa57@gmail.com>\n"
+"POT-Creation-Date: 2025-02-17 17:13+0900\n"
+"PO-Revision-Date: 2025-04-05 03:25+0000\n"
+"Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/es/>\n"
 "Language: es\n"
@@ -22,18 +23,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3.1\n"
+"X-Generator: Weblate 5.10.4\n"
 
-#: data/ibus-anthy.appdata.xml.in:7
+#: data/ibus-anthy.appdata.xml.in:8
 msgid "Japanese input method"
 msgstr "Método de entrada japonés"
 
-#: data/ibus-anthy.appdata.xml.in:9
+#: data/ibus-anthy.appdata.xml.in:11 data/ibus-anthy.appdata.xml.in:39
 msgid "The Anthy input method is designed for entering Japanese text."
 msgstr ""
 "El método de entrada Anthy está diseñado para usarlo con texto japonés."
 
-#: data/ibus-anthy.appdata.xml.in:12
+#: data/ibus-anthy.appdata.xml.in:14
 msgid ""
 "Input methods are typing systems allowing users to input complex languages. "
 "They are necessary because these contain too many characters to simply be "
@@ -43,12 +44,19 @@ msgstr ""
 "complejos. Son necesarios porque estos idiomas tienen demasiados caracteres "
 "como para ponerlos de forma sencilla en un teclado tradicional."
 
-#: engine/python2/default.inputMethod.xml.in.in:13
-#: engine/python3/default.inputMethod.xml.in.in:13
-msgid "Anthy Input Method"
-msgstr "Método de entrada Anthy"
+#: data/ibus-anthy.appdata.xml.in:21
+msgid "input-method"
+msgstr "método-entrada"
 
-#: engine/python2/engine.py:208 engine/python3/engine.py:209
+#: data/ibus-anthy.appdata.xml.in:22
+msgid "Japanese"
+msgstr "Japonés"
+
+#: data/ibus-anthy.appdata.xml.in:31
+msgid "See the upstream release list."
+msgstr "Vea el listado de publicación última."
+
+#: engine/python2/engine.py:219 engine/python3/engine.py:220
 #, python-format
 msgid ""
 "Could not enable Anthy.\n"
@@ -57,455 +65,454 @@ msgid ""
 "Please fix the file or remove it by manual and restart IBus."
 msgstr ""
 "No se pudo activar Anthy.\n"
-"El archivo %s/last-record2_default.utf8 del directorio de usuario no '\\n"
-"'.l.e. termina con una línea nueva; es decir, no tiene el formato correcto.\n"
+"El archivo %s/last-record2_default.utf8 del directorio de usuario no '\\n'.l."
+"e. termina con una línea nueva; es decir, no tiene el formato correcto.\n"
 "Corrija el fichero o bórrelo y reinicie IBus."
 
-#: engine/python2/engine.py:256 engine/python3/engine.py:257
-#: setup/python2/main.py:420 setup/python3/main.py:425
+#: engine/python2/engine.py:267 engine/python3/engine.py:268
+#: setup/python2/main.py:420 setup/python3/main.py:424
 msgid "Preferences - Anthy"
 msgstr "Ajustes - Anthy"
 
-#: engine/python2/engine.py:258 engine/python3/engine.py:259
+#: engine/python2/engine.py:269 engine/python3/engine.py:270
 msgid "Configure Anthy"
 msgstr "Configura Anthy"
 
 #. Translators: Specify the order of %s with your translation.
 #. It will be "Input Mode (A)" for example.
-#: engine/python2/engine.py:295 engine/python2/engine.py:383
-#: engine/python2/engine.py:450 engine/python2/engine.py:526
-#: engine/python2/engine.py:892 engine/python2/engine.py:923
-#: engine/python2/engine.py:947 engine/python2/engine.py:976
-#: engine/python2/engine.py:1038 engine/python3/engine.py:296
-#: engine/python3/engine.py:384 engine/python3/engine.py:451
-#: engine/python3/engine.py:527 engine/python3/engine.py:887
-#: engine/python3/engine.py:918 engine/python3/engine.py:942
-#: engine/python3/engine.py:971 engine/python3/engine.py:1033
+#: engine/python2/engine.py:306 engine/python2/engine.py:394
+#: engine/python2/engine.py:461 engine/python2/engine.py:537
+#: engine/python2/engine.py:909 engine/python2/engine.py:940
+#: engine/python2/engine.py:964 engine/python2/engine.py:993
+#: engine/python2/engine.py:1055 engine/python3/engine.py:307
+#: engine/python3/engine.py:395 engine/python3/engine.py:462
+#: engine/python3/engine.py:538 engine/python3/engine.py:904
+#: engine/python3/engine.py:935 engine/python3/engine.py:959
+#: engine/python3/engine.py:988 engine/python3/engine.py:1050
 #, python-format
 msgid "%(description)s (%(symbol)s)"
 msgstr "%(description)s (%(symbol)s)"
 
-#: engine/python2/engine.py:296 engine/python2/engine.py:893
-#: engine/python3/engine.py:297 engine/python3/engine.py:888
-#: setup/python2/main.py:405 setup/python3/main.py:410
+#: engine/python2/engine.py:307 engine/python2/engine.py:910
+#: engine/python3/engine.py:308 engine/python3/engine.py:905
+#: setup/python2/main.py:405 setup/python3/main.py:409
 msgid "Input mode"
 msgstr "Modo de entrada"
 
-#: engine/python2/engine.py:302 engine/python3/engine.py:303
+#: engine/python2/engine.py:313 engine/python3/engine.py:314
 msgid "Switch input mode"
 msgstr "Cambia el modo de entrada"
 
-#: engine/python2/engine.py:312 engine/python3/engine.py:313
+#: engine/python2/engine.py:323 engine/python3/engine.py:324
 #: setup/python2/setup.ui:17 setup/python3/setup.ui:17
 msgid "Hiragana"
 msgstr "Hiragana"
 
-#: engine/python2/engine.py:321 engine/python3/engine.py:322
+#: engine/python2/engine.py:332 engine/python3/engine.py:333
 #: setup/python2/setup.ui:20 setup/python3/setup.ui:20
 msgid "Katakana"
 msgstr "Katakana"
 
-#: engine/python2/engine.py:330 engine/python3/engine.py:331
+#: engine/python2/engine.py:341 engine/python3/engine.py:342
 #: setup/python2/setup.ui:23 setup/python3/setup.ui:23
 msgid "Halfwidth Katakana"
 msgstr "Katakana de medio ancho"
 
-#: engine/python2/engine.py:339 engine/python3/engine.py:340
+#: engine/python2/engine.py:350 engine/python3/engine.py:351
 #: setup/python2/setup.ui:26 setup/python3/setup.ui:26
 msgid "Latin"
 msgstr "Latino"
 
-#: engine/python2/engine.py:348 engine/python3/engine.py:349
+#: engine/python2/engine.py:359 engine/python3/engine.py:360
 #: setup/python2/setup.ui:29 setup/python3/setup.ui:29
 msgid "Wide Latin"
 msgstr "Latino ancho"
 
-#: engine/python2/engine.py:384 engine/python2/engine.py:924
-#: engine/python2/engine.py:948 engine/python3/engine.py:385
-#: engine/python3/engine.py:919 engine/python3/engine.py:943
-#: setup/python2/main.py:408 setup/python3/main.py:413
+#: engine/python2/engine.py:395 engine/python2/engine.py:941
+#: engine/python2/engine.py:965 engine/python3/engine.py:396
+#: engine/python3/engine.py:936 engine/python3/engine.py:960
+#: setup/python2/main.py:408 setup/python3/main.py:412
 msgid "Typing method"
 msgstr "Método mecanográfico"
 
-#: engine/python2/engine.py:390 engine/python3/engine.py:391
+#: engine/python2/engine.py:401 engine/python3/engine.py:402
 msgid "Switch typing method"
 msgstr "Cambia el método de mecanografiado"
 
-#: engine/python2/engine.py:400 engine/python3/engine.py:401
+#: engine/python2/engine.py:411 engine/python3/engine.py:412
 #: setup/python2/setup.ui:71 setup/python3/setup.ui:71
 msgid "Romaji"
 msgstr "Romaji"
 
-#: engine/python2/engine.py:409 engine/python3/engine.py:410
+#: engine/python2/engine.py:420 engine/python3/engine.py:421
 #: setup/python2/setup.ui:74 setup/python3/setup.ui:74
 msgid "Kana"
 msgstr "Kana"
 
-#: engine/python2/engine.py:418 engine/python3/engine.py:419
+#: engine/python2/engine.py:429 engine/python3/engine.py:430
 #: setup/python2/setup.ui:77 setup/python3/setup.ui:77
 msgid "Thumb shift"
 msgstr "Selección con pulgares"
 
-#: engine/python2/engine.py:451 engine/python2/engine.py:977
-#: engine/python3/engine.py:452 engine/python3/engine.py:972
-#: setup/python2/main.py:411 setup/python3/main.py:416
+#: engine/python2/engine.py:462 engine/python2/engine.py:994
+#: engine/python3/engine.py:463 engine/python3/engine.py:989
+#: setup/python2/main.py:411 setup/python3/main.py:415
 msgid "Segment mode"
 msgstr "Modo de segmento"
 
-#: engine/python2/engine.py:457 engine/python3/engine.py:458
+#: engine/python2/engine.py:468 engine/python3/engine.py:469
 msgid "Switch conversion mode"
 msgstr "Cambia el modo de conversión"
 
-#: engine/python2/engine.py:467 engine/python3/engine.py:468
+#: engine/python2/engine.py:478 engine/python3/engine.py:479
 #: setup/python2/setup.ui:87 setup/python3/setup.ui:87
 msgid "Multiple segment"
 msgstr "Segmento múltiple"
 
-#: engine/python2/engine.py:476 engine/python3/engine.py:477
+#: engine/python2/engine.py:487 engine/python3/engine.py:488
 #: setup/python2/setup.ui:90 setup/python3/setup.ui:90
 msgid "Single segment"
 msgstr "Segmento individual"
 
-#: engine/python2/engine.py:485 engine/python3/engine.py:486
+#: engine/python2/engine.py:496 engine/python3/engine.py:497
 #: setup/python2/setup.ui:93 setup/python3/setup.ui:93
 msgid "Immediate conversion (multiple segment)"
 msgstr "Conversión inmediata (segmento múltiple)"
 
-#: engine/python2/engine.py:494 engine/python3/engine.py:495
+#: engine/python2/engine.py:505 engine/python3/engine.py:506
 #: setup/python2/setup.ui:96 setup/python3/setup.ui:96
 msgid "Immediate conversion (single segment)"
 msgstr "Conversión inmediata (segmento individual)"
 
-#: engine/python2/engine.py:527 engine/python2/engine.py:1039
-#: engine/python3/engine.py:528 engine/python3/engine.py:1034
-#: setup/python2/main.py:414 setup/python3/main.py:419
+#: engine/python2/engine.py:538 engine/python2/engine.py:1056
+#: engine/python3/engine.py:539 engine/python3/engine.py:1051
+#: setup/python2/main.py:414 setup/python3/main.py:418
 msgid "Dictionary mode"
 msgstr "Modo de diccionario"
 
-#: engine/python2/engine.py:533 engine/python3/engine.py:534
+#: engine/python2/engine.py:544 engine/python3/engine.py:545
 msgid "Switch dictionary"
 msgstr "Cambia el diccionario"
 
-#: engine/python2/engine.py:623 engine/python3/engine.py:623
-#: setup/python2/main.py:417 setup/python3/main.py:422
+#: engine/python2/engine.py:634 engine/python3/engine.py:634
+#: setup/python2/main.py:417 setup/python3/main.py:421
 msgid "Dictionary - Anthy"
 msgstr "Diccionario - Anthy"
 
 #. Translators: "Dic" means 'dictionary', One kanji may be good.
-#: engine/python2/engine.py:629 engine/python3/engine.py:628
+#: engine/python2/engine.py:640 engine/python3/engine.py:639
 msgid "Dic"
 msgstr "Diccionario"
 
-#: engine/python2/engine.py:636 engine/python3/engine.py:635
+#: engine/python2/engine.py:647 engine/python3/engine.py:646
 msgid "Configure dictionaries"
 msgstr "Configura diccionarios"
 
-#: engine/python2/engine.py:646 engine/python3/engine.py:645
+#: engine/python2/engine.py:657 engine/python3/engine.py:656
 msgid "Edit dictionaries"
 msgstr "Editar diccionarios"
 
-#: engine/python2/engine.py:648 engine/python3/engine.py:647
+#: engine/python2/engine.py:659 engine/python3/engine.py:658
 msgid "Launch the dictionary tool"
 msgstr "Ejecuta la herramienta de diccionarios"
 
-#: engine/python2/engine.py:655 engine/python3/engine.py:654
+#: engine/python2/engine.py:666 engine/python3/engine.py:665
 msgid "Add words"
 msgstr "Añadir palabras"
 
-#: engine/python2/engine.py:657 engine/python3/engine.py:656
+#: engine/python2/engine.py:668 engine/python3/engine.py:667
 msgid "Add words to the dictionary"
 msgstr "Añade palabras al diccionario"
 
-#: setup/python2/anthyprefs.py:336 setup/python2/setup.ui:397
-#: setup/python3/anthyprefs.py:329 setup/python3/setup.ui:397
+#: setup/python2/anthyprefs.py:337 setup/python2/setup.ui:397
+#: setup/python3/anthyprefs.py:330 setup/python3/setup.ui:397
 msgid "General"
 msgstr "General"
 
-#: setup/python2/anthyprefs.py:337 setup/python3/anthyprefs.py:330
+#: setup/python2/anthyprefs.py:338 setup/python3/anthyprefs.py:331
 msgid "Zip Code Conversion"
 msgstr "Conversión de código postal"
 
-#: setup/python2/anthyprefs.py:338 setup/python3/anthyprefs.py:331
+#: setup/python2/anthyprefs.py:339 setup/python3/anthyprefs.py:332
 msgid "Symbol"
 msgstr "Símbolo"
 
-#: setup/python2/anthyprefs.py:339 setup/python3/anthyprefs.py:332
+#: setup/python2/anthyprefs.py:340 setup/python3/anthyprefs.py:333
 msgid "Old Character Style"
 msgstr "Estilo antiguo"
 
-#: setup/python2/anthyprefs.py:340 setup/python3/anthyprefs.py:333
+#: setup/python2/anthyprefs.py:341 setup/python3/anthyprefs.py:334
 msgid "Era"
 msgstr "Era"
 
-#: setup/python2/anthyprefs.py:341 setup/python3/anthyprefs.py:334
+#: setup/python2/anthyprefs.py:342 setup/python3/anthyprefs.py:335
 msgid "Emoji"
 msgstr "Emoji"
 
-#: setup/python2/ibus-setup-anthy.desktop.in.in:3
-#: setup/python3/ibus-setup-anthy.desktop.in.in:3
+#: setup/python2/ibus-setup-anthy.desktop.in.in:2
+#: setup/python3/ibus-setup-anthy.desktop.in.in:2
 msgid "IBus Anthy Setup"
 msgstr "Ajustes de IBus Anthy"
 
-#: setup/python2/ibus-setup-anthy.desktop.in.in:4
-#: setup/python3/ibus-setup-anthy.desktop.in.in:4
+#: setup/python2/ibus-setup-anthy.desktop.in.in:3
+#: setup/python3/ibus-setup-anthy.desktop.in.in:3
 msgid "Set up IBus Anthy engine"
 msgstr "Configura el motor Anthy de IBus"
 
-#: setup/python2/main.py:177 setup/python3/main.py:180
+#: setup/python2/main.py:177 setup/python3/main.py:179
 msgid "Menu label"
 msgstr "Etiqueta de menú"
 
-#: setup/python2/main.py:198 setup/python3/main.py:201
+#: setup/python2/main.py:198 setup/python3/main.py:200
 msgid "Command"
 msgstr "Comando"
 
-#: setup/python2/main.py:202 setup/python3/main.py:205
+#: setup/python2/main.py:202 setup/python3/main.py:204
 msgid "Shortcut"
 msgstr "Atajo"
 
-#: setup/python2/main.py:247 setup/python3/main.py:250
+#: setup/python2/main.py:247 setup/python3/main.py:249
 msgid "Description"
 msgstr "Descripción"
 
 #. Translators: "Embd" is an abbreviation of "embedded".
-#: setup/python2/main.py:255 setup/python3/main.py:258
+#: setup/python2/main.py:255 setup/python3/main.py:257
 msgid "Embd"
 msgstr "Incl"
 
 #. Translators: "Sgl" is an abbreviation of "single".
-#: setup/python2/main.py:263 setup/python3/main.py:266
+#: setup/python2/main.py:263 setup/python3/main.py:265
 msgid "Sgl"
 msgstr "Indv"
 
 #: setup/python2/main.py:441 setup/python2/main.py:467
-#: setup/python3/main.py:446 setup/python3/main.py:472
+#: setup/python3/main.py:445 setup/python3/main.py:471
 msgid "Input Chars"
 msgstr "Caracteres de entrada"
 
 #: setup/python2/main.py:443 setup/python2/main.py:469
-#: setup/python3/main.py:448 setup/python3/main.py:474
+#: setup/python3/main.py:447 setup/python3/main.py:473
 msgid "Output Chars"
 msgstr "Caracteres de salida"
 
-#: setup/python2/main.py:499 setup/python3/main.py:504
+#: setup/python2/main.py:499 setup/python3/main.py:503
 msgid "Input"
 msgstr "Entrada"
 
-#: setup/python2/main.py:501 setup/python3/main.py:506
+#: setup/python2/main.py:501 setup/python3/main.py:505
 msgid "Single"
 msgstr "Individual"
 
-#: setup/python2/main.py:503 setup/python3/main.py:508
+#: setup/python2/main.py:503 setup/python3/main.py:507
 msgid "Left"
 msgstr "Izquierdo"
 
-#: setup/python2/main.py:505 setup/python3/main.py:510
+#: setup/python2/main.py:505 setup/python3/main.py:509
 msgid "Right"
 msgstr "Derecho"
 
-#: setup/python2/main.py:587 setup/python3/main.py:592
+#: setup/python2/main.py:587 setup/python3/main.py:591
 msgid "Customize Romaji Key Table"
 msgstr "Personalización de la tabla de teclas romaji"
 
 #: setup/python2/main.py:588 setup/python2/setup.ui:910
-#: setup/python3/main.py:593 setup/python3/setup.ui:910
+#: setup/python3/main.py:592 setup/python3/setup.ui:910
 msgid "_Romaji Key Table:"
 msgstr "Tabla de teclas _romaji:"
 
 #: setup/python2/main.py:589 setup/python2/main.py:595
-#: setup/python3/main.py:594 setup/python3/main.py:600
+#: setup/python3/main.py:593 setup/python3/main.py:599
 msgid "_Output Chars"
 msgstr "Caracteres de _salida"
 
 #: setup/python2/main.py:590 setup/python2/main.py:1071
 #: setup/python2/main.py:1175 setup/python2/setup.ui:183
-#: setup/python3/main.py:595 setup/python3/main.py:1065
-#: setup/python3/main.py:1169 setup/python3/setup.ui:183
+#: setup/python3/main.py:594 setup/python3/main.py:1064
+#: setup/python3/main.py:1168 setup/python3/setup.ui:183
 msgid "Default"
 msgstr "Predeterminado"
 
-#: setup/python2/main.py:593 setup/python3/main.py:598
+#: setup/python2/main.py:593 setup/python3/main.py:597
 msgid "Customize Kana Key Table"
 msgstr "Personalización de la tabla de teclas kana"
 
 #: setup/python2/main.py:594 setup/python2/setup.ui:988
-#: setup/python3/main.py:599 setup/python3/setup.ui:988
+#: setup/python3/main.py:598 setup/python3/setup.ui:988
 msgid "_Kana Key Table:"
 msgstr "Tabla de teclas _kana:"
 
-#: setup/python2/main.py:596 setup/python3/main.py:601
+#: setup/python2/main.py:596 setup/python3/main.py:600
 msgid "Japanese Keyboard Layout"
 msgstr "Teclado japonés"
 
-#: setup/python2/main.py:597 setup/python3/main.py:602
+#: setup/python2/main.py:597 setup/python3/main.py:601
 msgid "U.S. Keyboard Layout"
 msgstr "Teclado de EEUU"
 
-#: setup/python2/main.py:600 setup/python3/main.py:605
+#: setup/python2/main.py:600 setup/python3/main.py:604
 msgid "Customize Thumb Shift Key Table"
 msgstr "Personalización de la tabla de selección con pulgares"
 
-#: setup/python2/main.py:601 setup/python3/main.py:606
+#: setup/python2/main.py:601 setup/python3/main.py:605
 msgid "_Thumb Shift Key Table:"
 msgstr "_Tabla de teclas de selección con pulgares:"
 
-#: setup/python2/main.py:602 setup/python3/main.py:607
+#: setup/python2/main.py:602 setup/python3/main.py:606
 msgid "Single _Output Chars"
 msgstr "Caracteres de _salida individuales"
 
-#: setup/python2/main.py:603 setup/python3/main.py:608
+#: setup/python2/main.py:603 setup/python3/main.py:607
 msgid "Base"
 msgstr "Base"
 
-#: setup/python2/main.py:604 setup/python3/main.py:609
+#: setup/python2/main.py:604 setup/python3/main.py:608
 msgid "NICOLA-J key extension"
 msgstr "Extensión de teclas NICOLA-J"
 
-#: setup/python2/main.py:605 setup/python3/main.py:610
+#: setup/python2/main.py:605 setup/python3/main.py:609
 msgid "NICOLA-A key extension"
 msgstr "Extensión de teclas NICOLA-A"
 
-#: setup/python2/main.py:606 setup/python3/main.py:611
+#: setup/python2/main.py:606 setup/python3/main.py:610
 msgid "NICOLA-F key extension"
 msgstr "Extensión de teclas NICOLA-F"
 
-#: setup/python2/main.py:607 setup/python3/main.py:612
+#: setup/python2/main.py:607 setup/python3/main.py:611
 msgid "FMV KB231-J key extension"
 msgstr "Extensión de teclas FMV KB231-J"
 
-#: setup/python2/main.py:608 setup/python3/main.py:613
+#: setup/python2/main.py:608 setup/python3/main.py:612
 msgid "FMV KB231-A key extension"
 msgstr "Extensión de teclas FMV KB231-A"
 
-#: setup/python2/main.py:609 setup/python3/main.py:614
+#: setup/python2/main.py:609 setup/python3/main.py:613
 msgid "FMV KB231-F key extension"
 msgstr "Extensión de teclas FMV KB231-F"
 
-#: setup/python2/main.py:610 setup/python3/main.py:615
+#: setup/python2/main.py:610 setup/python3/main.py:614
 msgid "FMV KB611-J key extension"
 msgstr "Extensión de teclas FMV KB611-J"
 
-#: setup/python2/main.py:611 setup/python3/main.py:616
+#: setup/python2/main.py:611 setup/python3/main.py:615
 msgid "FMV KB611-A key extension"
 msgstr "Extensión de teclas FMV KB611-A"
 
-#: setup/python2/main.py:612 setup/python3/main.py:617
+#: setup/python2/main.py:612 setup/python3/main.py:616
 msgid "FMV KB611-F key extension"
 msgstr "Extensión de teclas FMV KB611-F"
 
-#: setup/python2/main.py:753 setup/python3/main.py:758
+#: setup/python2/main.py:753 setup/python3/main.py:757
 msgid "Your choosed file has already been added: "
 msgstr "El archivo ya estaba en la lista: "
 
-#: setup/python2/main.py:757 setup/python3/main.py:762
+#: setup/python2/main.py:757 setup/python3/main.py:761
 msgid "The file you have chosen does not exist: "
 msgstr "El archivo no existe: "
 
-#: setup/python2/main.py:761 setup/python3/main.py:766
+#: setup/python2/main.py:761 setup/python3/main.py:765
 msgid "Your choosed file is a directory: "
 msgstr "Ha seleccionado un directorio: "
 
-#: setup/python2/main.py:765 setup/python3/main.py:770
+#: setup/python2/main.py:765 setup/python3/main.py:769
 msgid "You cannot add dictionaries in the anthy private directory: "
 msgstr "No puede añadir diccionario del directorio privado de anthy: "
 
-#: setup/python2/main.py:774 setup/python3/main.py:779
+#: setup/python2/main.py:774 setup/python3/main.py:778
 msgid "Your file path is not good: "
 msgstr "Ruta incorrecta: "
 
-#: setup/python2/main.py:935 setup/python3/main.py:938
+#: setup/python2/main.py:935 setup/python3/main.py:937
 msgid "The engine xml file does not exist: "
 msgstr "No existe el archivo xml del motor: "
 
-#: setup/python2/main.py:1051 setup/python3/main.py:1045
+#: setup/python2/main.py:1051 setup/python3/main.py:1044
 msgid ""
 "Anthy keyboard layout is changed. Please restart ibus to reload the layout."
-msgstr ""
-"La disposición del teclado ha cambiado. Reinicie ibus para recargarla."
+msgstr "La disposición del teclado ha cambiado. Reinicie ibus para recargarla."
 
-#: setup/python2/main.py:1263 setup/python3/main.py:1257
+#: setup/python2/main.py:1263 setup/python3/main.py:1256
 msgid "Please specify Input Chars"
 msgstr "Indique los caracteres de entrada"
 
-#: setup/python2/main.py:1266 setup/python3/main.py:1260
+#: setup/python2/main.py:1266 setup/python3/main.py:1259
 msgid "Please specify Output Chars"
 msgstr "Indique los caracteres de salida"
 
-#: setup/python2/main.py:1269 setup/python3/main.py:1263
+#: setup/python2/main.py:1269 setup/python3/main.py:1262
 msgid "Please specify Left Thumb Shift Chars"
 msgstr "Indique los caracteres con pulgar izquierdo"
 
-#: setup/python2/main.py:1272 setup/python3/main.py:1266
+#: setup/python2/main.py:1272 setup/python3/main.py:1265
 msgid "Please specify Right Thumb Shift Chars"
 msgstr "Indique los caracteres con pulgar derecho"
 
 #: setup/python2/main.py:1285 setup/python2/main.py:1319
-#: setup/python3/main.py:1279 setup/python3/main.py:1313
+#: setup/python3/main.py:1278 setup/python3/main.py:1312
 msgid "Your custom key is not assigned in any sections. Maybe a bug."
 msgstr ""
 "Su tecla no aparece asignada en ninguna sección. Podría ser un error del "
 "programa."
 
-#: setup/python2/main.py:1374 setup/python2/main.py:1463
-#: setup/python3/main.py:1368 setup/python3/main.py:1457
+#: setup/python2/main.py:1374 setup/python2/main.py:1465
+#: setup/python3/main.py:1367 setup/python3/main.py:1458
 msgid "Your file does not exist: "
 msgstr "El archivo no existe: "
 
-#: setup/python2/main.py:1384 setup/python3/main.py:1378
+#: setup/python2/main.py:1385 setup/python3/main.py:1378
 msgid "Open Dictionary File"
 msgstr "Abrir archivo de diccionario"
 
-#: setup/python2/main.py:1387 setup/python2/main.py:1393
+#: setup/python2/main.py:1388 setup/python2/main.py:1394
 #: setup/python2/setup.ui:2166 setup/python3/main.py:1381
 #: setup/python3/main.py:1387 setup/python3/setup.ui:2166
 msgid "_Cancel"
 msgstr "_Cancelar"
 
-#: setup/python2/main.py:1388 setup/python3/main.py:1382
+#: setup/python2/main.py:1389 setup/python3/main.py:1382
 msgid "_Open"
 msgstr "_Abrir"
 
-#: setup/python2/main.py:1391 setup/python3/main.py:1385
+#: setup/python2/main.py:1392 setup/python3/main.py:1385
 msgid "Edit Dictionary File"
 msgstr "Editar archivo de diccionario"
 
-#: setup/python2/main.py:1394 setup/python2/main.py:1483
+#: setup/python2/main.py:1395 setup/python2/main.py:1485
 #: setup/python2/setup.ui:2181 setup/python3/main.py:1388
-#: setup/python3/main.py:1477 setup/python3/setup.ui:2181
+#: setup/python3/main.py:1478 setup/python3/setup.ui:2181
 msgid "_OK"
 msgstr "_Aceptar"
 
-#: setup/python2/main.py:1405 setup/python3/main.py:1399
+#: setup/python2/main.py:1407 setup/python3/main.py:1400
 msgid "Your choosed file is not correct."
 msgstr "El archivo seleccionado no es válido."
 
-#: setup/python2/main.py:1435 setup/python3/main.py:1429
+#: setup/python2/main.py:1437 setup/python3/main.py:1430
 msgid "You cannot delete the system dictionary."
 msgstr "No puede eliminar el diccionario del sistema."
 
-#: setup/python2/main.py:1459 setup/python3/main.py:1453
+#: setup/python2/main.py:1461 setup/python3/main.py:1454
 msgid "Your file is not good."
 msgstr "El archivo no es correcto."
 
-#: setup/python2/main.py:1481 setup/python3/main.py:1475
+#: setup/python2/main.py:1483 setup/python3/main.py:1476
 msgid "View Dictionary File"
 msgstr "Ver archivos de diccionario"
 
-#: setup/python2/main.py:1642 setup/python3/main.py:1636
+#: setup/python2/main.py:1644 setup/python3/main.py:1637
 msgid "Please press a key (or a key combination)"
 msgstr "Por favor, presione una tecla (o una combinación de teclas)"
 
-#: setup/python2/main.py:1643 setup/python3/main.py:1637
+#: setup/python2/main.py:1645 setup/python3/main.py:1638
 msgid "The dialog will be closed when the key is released"
 msgstr "El cuadro de diálogo se cerrará cuando la suelte"
 
-#: setup/python2/main.py:1663 setup/python2/main.py:1684
-#: setup/python3/main.py:1657 setup/python3/main.py:1678
+#: setup/python2/main.py:1665 setup/python2/main.py:1686
+#: setup/python3/main.py:1658 setup/python3/main.py:1679
 msgid "Invalid keysym"
 msgstr "Keysym incorrecto"
 
-#: setup/python2/main.py:1664 setup/python2/main.py:1685
-#: setup/python3/main.py:1658 setup/python3/main.py:1679
+#: setup/python2/main.py:1666 setup/python2/main.py:1687
+#: setup/python3/main.py:1659 setup/python3/main.py:1680
 msgid "This keysym is not valid"
 msgstr "Este keysym no es válido"
 
@@ -523,7 +530,7 @@ msgstr "NICOLA-F"
 
 #: setup/python2/setup.ui:55 setup/python3/setup.ui:55
 msgid "None"
-msgstr "Ninguno"
+msgstr "Ninguna"
 
 #: setup/python2/setup.ui:58 setup/python3/setup.ui:58
 msgid "FMV KB231 key extension"
@@ -900,3 +907,6 @@ msgstr "El motor Anthy para la plataforma de entrada IBus"
 #: setup/python2/setup.ui:2719 setup/python3/setup.ui:2719
 msgid "translator_credits"
 msgstr "traductores"
+
+#~ msgid "Anthy Input Method"
+#~ msgstr "Método de entrada Anthy"
