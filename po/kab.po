@@ -11,8 +11,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
 "PO-Revision-Date: 2025-04-29 11:46+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: ButterflyOfFire "
+"<butterflyoffire@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Kabyle <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/kab/>\n"
 "Language: kab\n"
@@ -38,8 +38,6 @@ msgid ""
 msgstr ""
 
 #: data/ibus-anthy.appdata.xml.in:21
-#, fuzzy
-#| msgid "Input mode"
 msgid "input-method"
 msgstr "Askar n unekcum"
 
@@ -820,7 +818,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:2028 setup/python3/setup.ui:2028
 msgid "Modifier:"
-msgstr ""
+msgstr "Asenfal:"
 
 #: setup/python2/setup.ui:2042 setup/python3/setup.ui:2042
 msgid "A_lternate"
