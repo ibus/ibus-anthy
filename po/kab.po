@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.15\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
-"PO-Revision-Date: 2025-04-29 11:46+0000\n"
+"PO-Revision-Date: 2025-04-29 19:21+0000\n"
 "Last-Translator: ButterflyOfFire "
 "<butterflyoffire@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Kabyle <https://translate.fedoraproject.org/projects/ibus/"
@@ -110,7 +110,7 @@ msgstr ""
 #: engine/python2/engine.py:350 engine/python3/engine.py:351
 #: setup/python2/setup.ui:26 setup/python3/setup.ui:26
 msgid "Latin"
-msgstr ""
+msgstr "Talatinit"
 
 #: engine/python2/engine.py:359 engine/python3/engine.py:360
 #: setup/python2/setup.ui:29 setup/python3/setup.ui:29
@@ -186,7 +186,7 @@ msgstr "Beddel asegzawal"
 #: engine/python2/engine.py:634 engine/python3/engine.py:634
 #: setup/python2/main.py:417 setup/python3/main.py:421
 msgid "Dictionary - Anthy"
-msgstr ""
+msgstr "Amawal - Anthy"
 
 #. Translators: "Dic" means 'dictionary', One kanji may be good.
 #: engine/python2/engine.py:640 engine/python3/engine.py:639
@@ -211,7 +211,7 @@ msgstr "Rnu awalen imaynuten"
 
 #: engine/python2/engine.py:668 engine/python3/engine.py:667
 msgid "Add words to the dictionary"
-msgstr ""
+msgstr "Rnu awalen ar umawal"
 
 #: setup/python2/anthyprefs.py:337 setup/python2/setup.ui:397
 #: setup/python3/anthyprefs.py:330 setup/python3/setup.ui:397
@@ -294,11 +294,11 @@ msgstr "Asuf"
 
 #: setup/python2/main.py:503 setup/python3/main.py:507
 msgid "Left"
-msgstr ""
+msgstr "Azelmaḍ"
 
 #: setup/python2/main.py:505 setup/python3/main.py:509
 msgid "Right"
-msgstr ""
+msgstr "Ayeffus"
 
 #: setup/python2/main.py:587 setup/python3/main.py:591
 msgid "Customize Romaji Key Table"
@@ -332,7 +332,7 @@ msgstr ""
 
 #: setup/python2/main.py:596 setup/python3/main.py:600
 msgid "Japanese Keyboard Layout"
-msgstr ""
+msgstr "Taneɣruft n unasiw ajapuni"
 
 #: setup/python2/main.py:597 setup/python3/main.py:601
 msgid "U.S. Keyboard Layout"
@@ -396,7 +396,7 @@ msgstr ""
 
 #: setup/python2/main.py:757 setup/python3/main.py:761
 msgid "The file you have chosen does not exist: "
-msgstr ""
+msgstr "Afaylu i tferneḍ ulac-it: "
 
 #: setup/python2/main.py:761 setup/python3/main.py:765
 msgid "Your choosed file is a directory: "
@@ -443,7 +443,7 @@ msgstr ""
 #: setup/python2/main.py:1374 setup/python2/main.py:1465
 #: setup/python3/main.py:1367 setup/python3/main.py:1458
 msgid "Your file does not exist: "
-msgstr ""
+msgstr "Afaylu-inek·inem ulac-it: "
 
 #: setup/python2/main.py:1385 setup/python3/main.py:1378
 msgid "Open Dictionary File"
@@ -471,15 +471,15 @@ msgstr "IH (_O)"
 
 #: setup/python2/main.py:1407 setup/python3/main.py:1400
 msgid "Your choosed file is not correct."
-msgstr ""
+msgstr "Afaylu-inek·inem ufrin ur iṣeḥḥa ara."
 
 #: setup/python2/main.py:1437 setup/python3/main.py:1430
 msgid "You cannot delete the system dictionary."
-msgstr ""
+msgstr "Ur tezmireḍ ara ad tsefḍeḍ asegzawal n unagraw."
 
 #: setup/python2/main.py:1461 setup/python3/main.py:1454
 msgid "Your file is not good."
-msgstr ""
+msgstr "Ur yelhi ara ufaylu-inek·inem."
 
 #: setup/python2/main.py:1483 setup/python3/main.py:1476
 msgid "View Dictionary File"
@@ -643,7 +643,7 @@ msgstr "<b>Wayeḍ</b>"
 
 #: setup/python2/setup.ui:742 setup/python3/setup.ui:742
 msgid "Conversion"
-msgstr ""
+msgstr "Aselket"
 
 #: setup/python2/setup.ui:764 setup/python3/setup.ui:764
 msgid "_Shortcut Type:"
@@ -672,11 +672,11 @@ msgstr ""
 
 #: setup/python2/setup.ui:1066 setup/python3/setup.ui:1066
 msgid "Keyboad _layout:"
-msgstr ""
+msgstr "Taneɣru_ft n unasiw:"
 
 #: setup/python2/setup.ui:1108 setup/python3/setup.ui:1108
 msgid "<b>Keyboard layout</b>"
-msgstr ""
+msgstr "<b>Taneɣruft n unasiw</b>"
 
 #: setup/python2/setup.ui:1127 setup/python3/setup.ui:1127
 msgid "Typing Method"
@@ -834,7 +834,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:2116 setup/python3/setup.ui:2116
 msgid "_Refresh"
-msgstr "Smiren"
+msgstr "Smi_ren"
 
 #: setup/python2/setup.ui:2293 setup/python3/setup.ui:2293
 msgid "_Input Characters"
