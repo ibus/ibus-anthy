@@ -4,14 +4,15 @@
 # This file is distributed under the same license as the ibus-anthy package.
 #
 # ButterflyOfFire <butterflyoffire@users.noreply.translate.fedoraproject.org>, 2024, 2025.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.15\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
-"PO-Revision-Date: 2025-04-17 23:29+0000\n"
-"Last-Translator: ButterflyOfFire "
-"<butterflyoffire@users.noreply.translate.fedoraproject.org>\n"
+"PO-Revision-Date: 2025-04-29 11:46+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Kabyle <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/kab/>\n"
 "Language: kab\n"
@@ -291,7 +292,7 @@ msgstr ""
 
 #: setup/python2/main.py:501 setup/python3/main.py:505
 msgid "Single"
-msgstr ""
+msgstr "Asuf"
 
 #: setup/python2/main.py:503 setup/python3/main.py:507
 msgid "Left"
@@ -488,11 +489,11 @@ msgstr ""
 
 #: setup/python2/main.py:1644 setup/python3/main.py:1637
 msgid "Please press a key (or a key combination)"
-msgstr ""
+msgstr "Ttxil-k sit ɣef tqeffalt (neɣ taggayt n tqeffalin)"
 
 #: setup/python2/main.py:1645 setup/python3/main.py:1638
 msgid "The dialog will be closed when the key is released"
-msgstr ""
+msgstr "Adiwenni ad yemdel mi ara d-teffeɣ tqeffalt"
 
 #: setup/python2/main.py:1665 setup/python2/main.py:1686
 #: setup/python3/main.py:1658 setup/python3/main.py:1679
@@ -640,7 +641,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:726 setup/python3/setup.ui:726
 msgid "<b>Other</b>"
-msgstr ""
+msgstr "<b>Wayeḍ</b>"
 
 #: setup/python2/setup.ui:742 setup/python3/setup.ui:742
 msgid "Conversion"
@@ -835,7 +836,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:2116 setup/python3/setup.ui:2116
 msgid "_Refresh"
-msgstr ""
+msgstr "Smiren"
 
 #: setup/python2/setup.ui:2293 setup/python3/setup.ui:2293
 msgid "_Input Characters"
