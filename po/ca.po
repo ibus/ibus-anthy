@@ -9,13 +9,15 @@
 # fujiwara <takao.fujiwara1@gmail.com>, 2019. #zanata
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2020.
 # naly zzwd <xeanhort007@gmail.com>, 2025.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.10\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
 "PO-Revision-Date: 2025-05-18 10:45+0000\n"
-"Last-Translator: naly zzwd <xeanhort007@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/ca/>\n"
 "Language: ca\n"
@@ -51,7 +53,7 @@ msgstr "mètode d'entrada"
 
 #: data/ibus-anthy.appdata.xml.in:22
 msgid "Japanese"
-msgstr ""
+msgstr "Japonès"
 
 #: data/ibus-anthy.appdata.xml.in:31
 #, fuzzy
