@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.15\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
-"PO-Revision-Date: 2025-04-29 19:21+0000\n"
+"PO-Revision-Date: 2025-05-25 19:52+0000\n"
 "Last-Translator: ButterflyOfFire "
 "<butterflyoffire@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Kabyle <https://translate.fedoraproject.org/projects/ibus/"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.11\n"
+"X-Generator: Weblate 5.11.3\n"
 
 #: data/ibus-anthy.appdata.xml.in:8
 msgid "Japanese input method"
@@ -43,7 +43,7 @@ msgstr "Askar n unekcum"
 
 #: data/ibus-anthy.appdata.xml.in:22
 msgid "Japanese"
-msgstr ""
+msgstr "Ajapuni"
 
 #: data/ibus-anthy.appdata.xml.in:31
 msgid "See the upstream release list."
@@ -65,7 +65,7 @@ msgstr ""
 
 #: engine/python2/engine.py:269 engine/python3/engine.py:270
 msgid "Configure Anthy"
-msgstr ""
+msgstr "Swel Anthy"
 
 #. Translators: Specify the order of %s with your translation.
 #. It will be "Input Mode (A)" for example.
@@ -122,7 +122,7 @@ msgstr ""
 #: engine/python3/engine.py:936 engine/python3/engine.py:960
 #: setup/python2/main.py:408 setup/python3/main.py:412
 msgid "Typing method"
-msgstr ""
+msgstr "Tarrayt n usekcem"
 
 #: engine/python2/engine.py:401 engine/python3/engine.py:402
 msgid "Switch typing method"
@@ -177,7 +177,7 @@ msgstr ""
 #: engine/python3/engine.py:539 engine/python3/engine.py:1051
 #: setup/python2/main.py:414 setup/python3/main.py:418
 msgid "Dictionary mode"
-msgstr ""
+msgstr "Askar n umawal"
 
 #: engine/python2/engine.py:544 engine/python3/engine.py:545
 msgid "Switch dictionary"
@@ -195,11 +195,11 @@ msgstr ""
 
 #: engine/python2/engine.py:647 engine/python3/engine.py:646
 msgid "Configure dictionaries"
-msgstr ""
+msgstr "Swel imawalen"
 
 #: engine/python2/engine.py:657 engine/python3/engine.py:656
 msgid "Edit dictionaries"
-msgstr ""
+msgstr "Ẓreg imawalen"
 
 #: engine/python2/engine.py:659 engine/python3/engine.py:658
 msgid "Launch the dictionary tool"
@@ -254,7 +254,7 @@ msgstr ""
 
 #: setup/python2/main.py:198 setup/python3/main.py:200
 msgid "Command"
-msgstr ""
+msgstr "Anzaḍ"
 
 #: setup/python2/main.py:202 setup/python3/main.py:204
 msgid "Shortcut"
@@ -517,7 +517,7 @@ msgstr "NICOLA-F"
 
 #: setup/python2/setup.ui:55 setup/python3/setup.ui:55
 msgid "None"
-msgstr "Ula yiwen"
+msgstr "Ula yiwet"
 
 #: setup/python2/setup.ui:58 setup/python3/setup.ui:58
 msgid "FMV KB231 key extension"
@@ -765,7 +765,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:1731 setup/python3/setup.ui:1731
 msgid "_View"
-msgstr ""
+msgstr "_Wali"
 
 #: setup/python2/setup.ui:1747 setup/python2/setup.ui:2099
 #: setup/python2/setup.ui:2373 setup/python3/setup.ui:1747
