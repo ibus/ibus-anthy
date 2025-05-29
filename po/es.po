@@ -10,14 +10,14 @@
 # Emilio Herrera <ehespinosa57@gmail.com>, 2020.
 # Javier Francisco <fserrador@gmail.com>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
+# "Fco. Javier F. Serrador" <fserrador@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.10\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
-"PO-Revision-Date: 2025-04-06 20:16+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-05-29 12:28+0000\n"
+"Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/es/>\n"
 "Language: es\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/ibus-anthy.appdata.xml.in:8
 msgid "Japanese input method"
@@ -154,7 +154,7 @@ msgstr "Kana"
 #: engine/python2/engine.py:429 engine/python3/engine.py:430
 #: setup/python2/setup.ui:77 setup/python3/setup.ui:77
 msgid "Thumb shift"
-msgstr "Selección con pulgares"
+msgstr "Cambio de pulgar"
 
 #: engine/python2/engine.py:462 engine/python2/engine.py:994
 #: engine/python3/engine.py:463 engine/python3/engine.py:989
@@ -775,7 +775,7 @@ msgstr "<b>Disposición de la selección con pulgares</b>"
 
 #: setup/python2/setup.ui:1522 setup/python3/setup.ui:1522
 msgid "Thumb Shift"
-msgstr "Selección con pulgares"
+msgstr "Cambio de Pulgar"
 
 #: setup/python2/setup.ui:1560 setup/python3/setup.ui:1560
 msgid "_Edit Dictionary Command:"
