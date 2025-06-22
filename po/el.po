@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: IBus-Anthy\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
-"PO-Revision-Date: 2025-06-16 14:34+0000\n"
+"PO-Revision-Date: 2025-06-22 09:26+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/el/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.4\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: data/ibus-anthy.appdata.xml.in:8
 msgid "Japanese input method"
@@ -46,14 +46,12 @@ msgstr ""
 "πληκτρολόγιο."
 
 #: data/ibus-anthy.appdata.xml.in:21
-#, fuzzy
-#| msgid "Japanese input method"
 msgid "input-method"
-msgstr "Μέθοδος εισαγωγής Ιαπωνικών"
+msgstr "μέθοδος εισαγωγής"
 
 #: data/ibus-anthy.appdata.xml.in:22
 msgid "Japanese"
-msgstr ""
+msgstr "Ιαπωνικά"
 
 #: data/ibus-anthy.appdata.xml.in:31
 msgid "See the upstream release list."
