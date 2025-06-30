@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: IBus-Anthy\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
-"PO-Revision-Date: 2025-06-22 09:26+0000\n"
+"PO-Revision-Date: 2025-06-30 11:03+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/el/>\n"
@@ -735,14 +735,10 @@ msgid "_Additional Key Arrangement:"
 msgstr "Διαρρύθμιση _πρόσθετων πλήκτρων:"
 
 #: setup/python2/setup.ui:1377 setup/python3/setup.ui:1377
-#, fuzzy
-#| msgid ""
-#| "'&#xFF5E;', '&#x300E;', '&#xA2;', '&#xA3;' and so on can be output with "
-#| "Thumb Shift key"
 msgid "'～', '『', '¢', '£' and so on can be output with Thumb Shift key"
 msgstr ""
-"Τα '&#xFF5E;', '&#x300E;', '&#xA2;', '&#xA3;' και ούτω καθεξής μπορούν να "
-"παραχθούν με το πλήκτρο Thumb Shift"
+"Τα «～», «『», «¢», «£» και άλλα μπορούν να πληκτρολογηθούν με το πλήκτρο "
+"Thumb Shift"
 
 #: setup/python2/setup.ui:1419 setup/python3/setup.ui:1419
 msgid ""
@@ -853,7 +849,7 @@ msgstr "Τροποποιητής:"
 
 #: setup/python2/setup.ui:2042 setup/python3/setup.ui:2042
 msgid "A_lternate"
-msgstr "A_lternate"
+msgstr "A_lt"
 
 #: setup/python2/setup.ui:2055 setup/python3/setup.ui:2055
 msgid "Co_ntrol"
