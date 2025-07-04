@@ -27,6 +27,8 @@ import os
 from os import environ, path
 import signal
 import sys
+import threading
+from dataclasses import dataclass, field
 from gettext import dgettext
 
 from main import get_userhome
@@ -115,6 +117,46 @@ for k, v in zip(['KEY_KP_Add', 'KEY_KP_Decimal', 'KEY_KP_Divide', 'KEY_KP_Enter'
                  'KEY_space', 'KEY_minus']):
     KP_Table[getattr(IBus, k)] = getattr(IBus, v)
 
+@dataclass
+class SurroundingText:
+    '''
+    A dataclass containing the information about surrounding text
+
+    text: str = ''              The text
+    cursor_pos: int = 0         The cursor position
+    anchor_pos: int = 0         The anchor position. It should be different from
+                                the cursor position if a selection is active.
+    event: threading.event = field(default_factory=threading.Event)
+                                Used to check whether an update of this
+                                surrounding text object happened since
+                                the last trigger requesting an update
+    '''
+    text: str = ''
+    cursor_pos: int = 0
+    anchor_pos: int = 0
+    # Do **not** use `event: threading.Event = threading.Event()`!
+    # That would reuse the same Event instance across all SurroundingText objects!
+    event: threading.Event = field(default_factory=threading.Event)
+
+    def copy(self) -> 'SurroundingText':
+        '''Create a copy of a Surrounding text object
+
+        copy.deepcopy() fails on threading.Event because
+        a threading.Event contains a _thread.lock internally
+        and _thread.lock is not picklable.
+        And copy.deepcopy() relies on pickle under the hood to clone
+        objects with internal state. So Python raises:
+        TypeError: cannot pickle '_thread.lock' object
+        '''
+        new_event = threading.Event()
+        if self.event.is_set():
+            new_event.set()
+        return SurroundingText(
+            text=self.text,
+            cursor_pos=self.cursor_pos,
+            anchor_pos=self.anchor_pos,
+            event=new_event)
+
 class Engine(IBus.EngineSimple):
     __input_mode = None
     __typing_mode = None
@@ -155,6 +197,7 @@ class Engine(IBus.EngineSimple):
         # IBus lookup window prior to the preedit and selecting a candidate
         # causes the commmit instead of the selection.
         self.__osk_mode = False
+        self.__surrounding_text_supported = False
         self.__selected_preedit_commit = False
         if hasattr(IBus, 'InputPurpose'):
             self.__has_input_purpose = True
@@ -194,6 +237,7 @@ class Engine(IBus.EngineSimple):
         self.__init_signal()
         # use reset to init values
         self.__reset()
+        self.connect('set-surrounding-text', self._on_set_surrounding_text)
 
 
     def __ibus_check_version(self, v):
@@ -251,6 +295,7 @@ class Engine(IBus.EngineSimple):
         if self.__idle_id != 0:
             GLib.source_remove(self.__idle_id)
             self.__idle_id = 0
+        self._surrounding_text = SurroundingText()
 
     def __init_props(self):
         anthy_props = IBus.PropList()
@@ -679,14 +724,6 @@ class Engine(IBus.EngineSimple):
         dict_prop.set_sub_props(props)
         anthy_props.append(dict_prop)
 
-    def __get_clipboard(self, clipboard, text, data):
-        clipboard_text = clipboard.wait_for_text ()
-
-        if data == CLIPBOARD_RECONVERT:
-            self.__update_reconvert(clipboard_text)
-
-        return clipboard_text
-
     def __get_single_dict_files(self):
         order = self.__prefs.get_value('dict', 'order')
         if len(order) == 0:
@@ -1066,6 +1103,8 @@ class Engine(IBus.EngineSimple):
         self.do_focus_out_id(None)
 
     def do_focus_in_id(self, object_path, client):
+        self._surrounding_text = SurroundingText()
+        self._trigger_surrounding_text_update()
         self.register_properties(self.__prop_list)
         self.__refresh_typing_mode_property()
         mode = self.__prefs.get_value('common', 'behavior-on-focus-out')
@@ -1094,6 +1133,8 @@ class Engine(IBus.EngineSimple):
         self.__invalidate()
 
     def do_reset(self):
+        self._surrounding_text = SurroundingText()
+        self._trigger_surrounding_text_update()
         mode = self.__prefs.get_value('common', 'behavior-on-focus-out')
         if mode == 2:
             return
@@ -1102,6 +1143,7 @@ class Engine(IBus.EngineSimple):
 
     def do_set_capabilities(self, caps):
         self.__osk_mode = True if caps & IBus.Capabilite.OSK else False
+        self.__surrounding_text_supported = True if caps & IBus.Capabilite.SURROUNDING_TEXT else False
 
     def __destroy(self, obj):
         if self.__idle_id != 0:
@@ -2373,33 +2415,36 @@ class Engine(IBus.EngineSimple):
         if not self.__preedit_ja_string.is_empty():
             # if user has inputed some chars
             return False
-
-        # Move importing Gtk into Engine from the header
-        # because ibus-engine-anthy --xml does not requre to open X.
-        try:
-            from gi.repository import Gtk
-            clipboard_get = Gtk.Clipboard.get
-        except ImportError:
-            clipboard_get = lambda a : None
-        except RuntimeError:
-            # Do we support the engine without display?
-            printerr("Gtk couldn't be initialized")
-            printerr('Could not open display')
-            clipboard_get = lambda a : None
-
-        # Use Gtk.Clipboard.request_text() instead of
-        # Gtk.Clipboard.wait_for_text() because DBus is timed out.
-        clipboard = clipboard_get ('PRIMARY')
-        if clipboard:
-            clipboard.request_text (self.__get_clipboard, CLIPBOARD_RECONVERT)
-
+        if not self.__surrounding_text_supported:
+            if config.DEBUG:
+                print('Surrounding text not supported, cannot get selection')
+            return False
+        if not self._surrounding_text.event.is_set():
+            print('Surrounding text not set since last trigger.')
+        if config.DEBUG:
+            print('self._surrounding_text=%r', self._surrounding_text)
+        text = self._surrounding_text.text
+        cursor_pos = self._surrounding_text.cursor_pos
+        anchor_pos = self._surrounding_text.anchor_pos
+        selection_start = min(cursor_pos, anchor_pos)
+        selection_end = max(cursor_pos, anchor_pos)
+        selection_text = text[selection_start:selection_end]
+        if config.DEBUG:
+            print('selection_text = %r', selection_text)
+        if selection_text == '':
+            return False
+        if cursor_pos > anchor_pos:
+            self.delete_surrounding_text(-len(selection_text), len(selection_text))
+        else:
+            self.delete_surrounding_text(0, len(selection_text))
+        self.__update_reconvert(selection_text)
         return True
 
-    def __update_reconvert(self, clipboard_text):
-        if clipboard_text == None:
+    def __update_reconvert(self, text):
+        if text == None:
             return False
 
-        self.__convert_chars = clipboard_text
+        self.__convert_chars = text
         for i in range(0, len(self.__convert_chars)):
             keyval = self.__convert_chars[i]
             self.__preedit_ja_string.insert(chr(ord(keyval)))
@@ -2894,3 +2939,27 @@ class Engine(IBus.EngineSimple):
     def __cmd_hiragana_for_latin_with_shift(self, keyval, state):
         self.__preedit_ja_string.set_hiragana_katakana(True)
 
+
+    def _on_set_surrounding_text(self,
+                                 _engine: IBus.Engine,
+                                text: IBus.Text,
+                                cursor_pos: int,
+                                anchor_pos: int) -> None:
+        '''Called when the surrounding text has changed.'''
+        if config.DEBUG:
+            print('text=%r cursor_pos=%s anchor_pos=%s',
+                  text.get_text(), cursor_pos, anchor_pos)
+        self._surrounding_text.text = text.get_text()
+        self._surrounding_text.cursor_pos = cursor_pos
+        self._surrounding_text.anchor_pos = anchor_pos
+        self._surrounding_text.event.set()
+
+    def _trigger_surrounding_text_update(self) -> None:
+        '''Trigger surrounding text update by calling get_surrounding_text()
+
+        Also clears the event in the self._surrounding_text object
+        which indicates that an update happened since the last
+        trigger. But keeps the rest of the data.
+        '''
+        self._surrounding_text.event.clear()
+        self.get_surrounding_text() # trigger surrounding text update
