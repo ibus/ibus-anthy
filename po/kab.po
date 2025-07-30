@@ -11,9 +11,9 @@ msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.15\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
-"PO-Revision-Date: 2025-05-26 07:36+0000\n"
-"Last-Translator: Moonshadow "
-"<starlight@users.noreply.translate.fedoraproject.org>\n"
+"PO-Revision-Date: 2025-07-30 10:15+0000\n"
+"Last-Translator: ButterflyOfFire "
+"<butterflyoffire@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Kabyle <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/kab/>\n"
 "Language: kab\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.11.3\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: data/ibus-anthy.appdata.xml.in:8
 msgid "Japanese input method"
@@ -40,7 +40,7 @@ msgstr ""
 
 #: data/ibus-anthy.appdata.xml.in:21
 msgid "input-method"
-msgstr "Askar n unekcum"
+msgstr "tarrayt n usekcem"
 
 #: data/ibus-anthy.appdata.xml.in:22
 msgid "Japanese"
@@ -87,7 +87,7 @@ msgstr "%(description)s (%(symbol)s)"
 #: engine/python3/engine.py:308 engine/python3/engine.py:905
 #: setup/python2/main.py:405 setup/python3/main.py:409
 msgid "Input mode"
-msgstr "Askar n unekcum"
+msgstr "Tarrayt n usekcem"
 
 #: engine/python2/engine.py:313 engine/python3/engine.py:314
 msgid "Switch input mode"
