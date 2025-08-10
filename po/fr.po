@@ -11,13 +11,15 @@
 # José Fournier <jaaf64@zoraldia.com>, 2018. #zanata
 # fujiwara <takao.fujiwara1@gmail.com>, 2019. #zanata
 # Léane GRASSER <leane.grasser@proton.me>, 2024, 2025.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.10\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
-"PO-Revision-Date: 2025-04-23 17:32+0000\n"
-"Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
+"PO-Revision-Date: 2025-08-10 11:51+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/fr/>\n"
 "Language: fr\n"
@@ -25,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.11\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: data/ibus-anthy.appdata.xml.in:8
 msgid "Japanese input method"
@@ -49,11 +51,11 @@ msgstr ""
 
 #: data/ibus-anthy.appdata.xml.in:21
 msgid "input-method"
-msgstr "saisie"
+msgstr "Méthode de saisie"
 
 #: data/ibus-anthy.appdata.xml.in:22
 msgid "Japanese"
-msgstr "japonais"
+msgstr "Japonais"
 
 #: data/ibus-anthy.appdata.xml.in:31
 msgid "See the upstream release list."
