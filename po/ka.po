@@ -3,7 +3,7 @@
 # Copyright (C) 2008-2025 Takao Fujiwara <takao.fujiwara1@gmail.com>
 # This file is distributed under the same license as the ibus-anthy package.
 #
-# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022, 2025.
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022, 2025, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2025, 2026.
 msgid ""
 msgstr ""
@@ -11,8 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
 "PO-Revision-Date: 2026-01-21 11:58+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/ka/>\n"
 "Language: ka\n"
@@ -38,10 +37,8 @@ msgid ""
 msgstr ""
 
 #: data/ibus-anthy.appdata.xml.in:21
-#, fuzzy
-#| msgid "Japanese input method"
 msgid "input-method"
-msgstr "შეყვანის იაპონური მეთოდი"
+msgstr "შეყვანის-მეთოდი"
 
 #: data/ibus-anthy.appdata.xml.in:22
 msgid "Japanese"
@@ -149,7 +146,7 @@ msgstr ""
 #: engine/python3/engine.py:463 engine/python3/engine.py:989
 #: setup/python2/main.py:411 setup/python3/main.py:415
 msgid "Segment mode"
-msgstr ""
+msgstr "სეგმენტის რეჟიმი"
 
 #: engine/python2/engine.py:468 engine/python3/engine.py:469
 msgid "Switch conversion mode"
@@ -179,7 +176,7 @@ msgstr ""
 #: engine/python3/engine.py:539 engine/python3/engine.py:1051
 #: setup/python2/main.py:414 setup/python3/main.py:418
 msgid "Dictionary mode"
-msgstr ""
+msgstr "ლექსიკონის რეჟიმი"
 
 #: engine/python2/engine.py:544 engine/python3/engine.py:545
 msgid "Switch dictionary"
@@ -248,7 +245,7 @@ msgstr ""
 #: setup/python2/ibus-setup-anthy.desktop.in.in:3
 #: setup/python3/ibus-setup-anthy.desktop.in.in:3
 msgid "Set up IBus Anthy engine"
-msgstr ""
+msgstr "IBus Anthy ძრავის მორგება"
 
 #: setup/python2/main.py:177 setup/python3/main.py:179
 msgid "Menu label"
@@ -338,7 +335,7 @@ msgstr ""
 
 #: setup/python2/main.py:597 setup/python3/main.py:601
 msgid "U.S. Keyboard Layout"
-msgstr ""
+msgstr "აშშ კლავიატურის განლაგება"
 
 #: setup/python2/main.py:600 setup/python3/main.py:604
 msgid "Customize Thumb Shift Key Table"
@@ -498,7 +495,7 @@ msgstr "ეს ფანჯარა დაიხურება, როცა �
 #: setup/python2/main.py:1665 setup/python2/main.py:1686
 #: setup/python3/main.py:1658 setup/python3/main.py:1679
 msgid "Invalid keysym"
-msgstr ""
+msgstr "არასწორი keysym"
 
 #: setup/python2/main.py:1666 setup/python2/main.py:1687
 #: setup/python3/main.py:1659 setup/python3/main.py:1680
@@ -587,7 +584,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:332 setup/python3/setup.ui:332
 msgid "<b>Initial Setting</b>"
-msgstr "<b>საწყისი მდგომარეობა</b>"
+msgstr "<b>საწყისი პარამეტრი</b>"
 
 #: setup/python2/setup.ui:381 setup/python3/setup.ui:381
 msgid "<b>Menu Visibility on Status Icon</b>"
@@ -832,7 +829,7 @@ msgstr "_კონტროლი"
 
 #: setup/python2/setup.ui:2068 setup/python3/setup.ui:2068
 msgid "_Shift"
-msgstr ""
+msgstr "_Shift"
 
 #: setup/python2/setup.ui:2116 setup/python3/setup.ui:2116
 msgid "_Refresh"
