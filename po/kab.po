@@ -3,7 +3,7 @@
 # Copyright (C) 2008-2025 Takao Fujiwara <takao.fujiwara1@gmail.com>
 # This file is distributed under the same license as the ibus-anthy package.
 #
-# ButterflyOfFire <butterflyoffire@users.noreply.translate.fedoraproject.org>, 2024, 2025.
+# ButterflyOfFire <butterflyoffire@users.noreply.translate.fedoraproject.org>, 2024, 2025, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 # Moonshadow <starlight@users.noreply.translate.fedoraproject.org>, 2025.
 msgid ""
@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.15\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
-"PO-Revision-Date: 2025-07-30 10:15+0000\n"
+"PO-Revision-Date: 2026-01-30 18:58+0000\n"
 "Last-Translator: ButterflyOfFire "
 "<butterflyoffire@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Kabyle <https://translate.fedoraproject.org/projects/ibus/"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: data/ibus-anthy.appdata.xml.in:8
 msgid "Japanese input method"
@@ -448,7 +448,7 @@ msgstr "Afaylu-inek·inem ulac-it: "
 
 #: setup/python2/main.py:1385 setup/python3/main.py:1378
 msgid "Open Dictionary File"
-msgstr ""
+msgstr "Ldi-d afaylu n umawal"
 
 #: setup/python2/main.py:1388 setup/python2/main.py:1394
 #: setup/python2/setup.ui:2166 setup/python3/main.py:1381
@@ -462,7 +462,7 @@ msgstr "Ldi (_O)"
 
 #: setup/python2/main.py:1392 setup/python3/main.py:1385
 msgid "Edit Dictionary File"
-msgstr ""
+msgstr "Senfel afaylu n umawal"
 
 #: setup/python2/main.py:1395 setup/python2/main.py:1485
 #: setup/python2/setup.ui:2181 setup/python3/main.py:1388
@@ -484,7 +484,7 @@ msgstr "Ur yelhi ara ufaylu-inek·inem."
 
 #: setup/python2/main.py:1483 setup/python3/main.py:1476
 msgid "View Dictionary File"
-msgstr ""
+msgstr "Wali afaylu n umawal"
 
 #: setup/python2/main.py:1644 setup/python3/main.py:1637
 msgid "Please press a key (or a key combination)"
