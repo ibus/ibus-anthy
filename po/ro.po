@@ -4,20 +4,23 @@
 # This file is distributed under the same license as the ibus-anthy package.
 #
 # Languages add-on <noreply-addon-languages@weblate.org>, 2026.
+# Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.16\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
-"PO-Revision-Date: 2025-02-17 17:12+0900\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-02-08 11:12+0000\n"
+"Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
+"Language-Team: Romanian <https://translate.fedoraproject.org/projects/ibus/"
+"ibus-anthy/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: data/ibus-anthy.appdata.xml.in:8
 msgid "Japanese input method"
@@ -92,12 +95,12 @@ msgstr ""
 #: engine/python2/engine.py:323 engine/python3/engine.py:324
 #: setup/python2/setup.ui:17 setup/python3/setup.ui:17
 msgid "Hiragana"
-msgstr ""
+msgstr "Hiragana"
 
 #: engine/python2/engine.py:332 engine/python3/engine.py:333
 #: setup/python2/setup.ui:20 setup/python3/setup.ui:20
 msgid "Katakana"
-msgstr ""
+msgstr "Katakana"
 
 #: engine/python2/engine.py:341 engine/python3/engine.py:342
 #: setup/python2/setup.ui:23 setup/python3/setup.ui:23
@@ -213,7 +216,7 @@ msgstr ""
 #: setup/python2/anthyprefs.py:337 setup/python2/setup.ui:397
 #: setup/python3/anthyprefs.py:330 setup/python3/setup.ui:397
 msgid "General"
-msgstr ""
+msgstr "Generale"
 
 #: setup/python2/anthyprefs.py:338 setup/python3/anthyprefs.py:331
 msgid "Zip Code Conversion"
@@ -233,7 +236,7 @@ msgstr ""
 
 #: setup/python2/anthyprefs.py:342 setup/python3/anthyprefs.py:335
 msgid "Emoji"
-msgstr ""
+msgstr "Emoji"
 
 #: setup/python2/ibus-setup-anthy.desktop.in.in:2
 #: setup/python3/ibus-setup-anthy.desktop.in.in:2
@@ -450,7 +453,7 @@ msgstr ""
 #: setup/python2/setup.ui:2166 setup/python3/main.py:1381
 #: setup/python3/main.py:1387 setup/python3/setup.ui:2166
 msgid "_Cancel"
-msgstr ""
+msgstr "_Renunță"
 
 #: setup/python2/main.py:1389 setup/python3/main.py:1382
 msgid "_Open"
@@ -464,7 +467,7 @@ msgstr ""
 #: setup/python2/setup.ui:2181 setup/python3/main.py:1388
 #: setup/python3/main.py:1478 setup/python3/setup.ui:2181
 msgid "_OK"
-msgstr ""
+msgstr "_Ok"
 
 #: setup/python2/main.py:1407 setup/python3/main.py:1400
 msgid "Your choosed file is not correct."
@@ -484,7 +487,7 @@ msgstr ""
 
 #: setup/python2/main.py:1644 setup/python3/main.py:1637
 msgid "Please press a key (or a key combination)"
-msgstr ""
+msgstr "Apăsați o tastă (sau o combinație de taste)"
 
 #: setup/python2/main.py:1645 setup/python3/main.py:1638
 msgid "The dialog will be closed when the key is released"
@@ -514,7 +517,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:55 setup/python3/setup.ui:55
 msgid "None"
-msgstr ""
+msgstr "Niciuna"
 
 #: setup/python2/setup.ui:58 setup/python3/setup.ui:58
 msgid "FMV KB231 key extension"
@@ -768,16 +771,16 @@ msgstr ""
 #: setup/python2/setup.ui:2373 setup/python3/setup.ui:1747
 #: setup/python3/setup.ui:2099 setup/python3/setup.ui:2373
 msgid "_Add"
-msgstr ""
+msgstr "_Adaugă"
 
 #: setup/python2/setup.ui:1779 setup/python2/setup.ui:2132
 #: setup/python3/setup.ui:1779 setup/python3/setup.ui:2132
 msgid "_Delete"
-msgstr ""
+msgstr "Șt_erge"
 
 #: setup/python2/setup.ui:1808 setup/python3/setup.ui:1808
 msgid "_Up"
-msgstr ""
+msgstr "S_us"
 
 #: setup/python2/setup.ui:1810 setup/python2/setup.ui:1827
 #: setup/python3/setup.ui:1810 setup/python3/setup.ui:1827
@@ -786,7 +789,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:1825 setup/python3/setup.ui:1825
 msgid "_Down"
-msgstr ""
+msgstr "_Jos"
 
 #: setup/python2/setup.ui:1852 setup/python3/setup.ui:1852
 msgid "<b>Extended Dictionaries</b>"
@@ -798,12 +801,12 @@ msgstr ""
 
 #: setup/python2/setup.ui:1888 setup/python3/setup.ui:1888
 msgid "About"
-msgstr ""
+msgstr "Despre"
 
 #: setup/python2/setup.ui:1908 setup/python2/setup.ui:2418
 #: setup/python3/setup.ui:1908 setup/python3/setup.ui:2418
 msgid "_Close"
-msgstr ""
+msgstr "În_chide"
 
 #: setup/python2/setup.ui:1938 setup/python3/setup.ui:1938
 msgid "Edit Shortcut"
@@ -851,7 +854,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:2387 setup/python3/setup.ui:2387
 msgid "_Remove"
-msgstr ""
+msgstr "_Elimină"
 
 #: setup/python2/setup.ui:2607 setup/python3/setup.ui:2607
 msgid "_Short Label:"
