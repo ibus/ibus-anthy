@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.15\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
-"PO-Revision-Date: 2026-01-30 18:58+0000\n"
+"PO-Revision-Date: 2026-02-09 17:58+0000\n"
 "Last-Translator: ButterflyOfFire "
 "<butterflyoffire@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Kabyle <https://translate.fedoraproject.org/projects/ibus/"
@@ -25,7 +25,7 @@ msgstr ""
 
 #: data/ibus-anthy.appdata.xml.in:8
 msgid "Japanese input method"
-msgstr ""
+msgstr "Tarrayt n usekcem s japunit"
 
 #: data/ibus-anthy.appdata.xml.in:11 data/ibus-anthy.appdata.xml.in:39
 msgid "The Anthy input method is designed for entering Japanese text."
@@ -62,7 +62,7 @@ msgstr ""
 #: engine/python2/engine.py:267 engine/python3/engine.py:268
 #: setup/python2/main.py:420 setup/python3/main.py:424
 msgid "Preferences - Anthy"
-msgstr ""
+msgstr "Imenyafen – Anthy"
 
 #: engine/python2/engine.py:269 engine/python3/engine.py:270
 msgid "Configure Anthy"
@@ -574,19 +574,19 @@ msgstr ""
 
 #: setup/python2/setup.ui:233 setup/python3/setup.ui:233
 msgid "_Input Mode:"
-msgstr ""
+msgstr "A_naw n usekcem:"
 
 #: setup/python2/setup.ui:263 setup/python3/setup.ui:263
 msgid "_Typing Method:"
-msgstr ""
+msgstr "_Tarrayt n usekcem:"
 
 #: setup/python2/setup.ui:297 setup/python3/setup.ui:297
 msgid "Conversion _Mode:"
-msgstr ""
+msgstr "Askar n udi_wenni:"
 
 #: setup/python2/setup.ui:332 setup/python3/setup.ui:332
 msgid "<b>Initial Setting</b>"
-msgstr ""
+msgstr "<b>Tawila tamezwarut</b>"
 
 #: setup/python2/setup.ui:381 setup/python3/setup.ui:381
 msgid "<b>Menu Visibility on Status Icon</b>"
@@ -811,11 +811,11 @@ msgstr "Mdel (_C)"
 
 #: setup/python2/setup.ui:1938 setup/python3/setup.ui:1938
 msgid "Edit Shortcut"
-msgstr ""
+msgstr "Ẓreg anegzum"
 
 #: setup/python2/setup.ui:1980 setup/python3/setup.ui:1980
 msgid "Key Code:"
-msgstr ""
+msgstr "Angal n tqeffalt:"
 
 #: setup/python2/setup.ui:2028 setup/python3/setup.ui:2028
 msgid "Modifier:"
