@@ -4,23 +4,26 @@
 # This file is distributed under the same license as the ibus-anthy package.
 #
 # Languages add-on <noreply-addon-languages@weblate.org>, 2026.
+# A S Alam <aalam@users.noreply.translate.fedoraproject.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.16\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
-"PO-Revision-Date: 2025-02-17 17:12+0900\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-02-11 11:58+0000\n"
+"Last-Translator: A S Alam <aalam@users.noreply.translate.fedoraproject.org>\n"
+"Language-Team: Punjabi <https://translate.fedoraproject.org/projects/ibus/"
+"ibus-anthy/pa/>\n"
 "Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: data/ibus-anthy.appdata.xml.in:8
 msgid "Japanese input method"
-msgstr ""
+msgstr "ਜਾਪਾਨੀ ਇਨਪੁੱਟ ਢੰਗ"
 
 #: data/ibus-anthy.appdata.xml.in:11 data/ibus-anthy.appdata.xml.in:39
 msgid "The Anthy input method is designed for entering Japanese text."
@@ -35,11 +38,11 @@ msgstr ""
 
 #: data/ibus-anthy.appdata.xml.in:21
 msgid "input-method"
-msgstr ""
+msgstr "ਇਨਪੁੱਟ-ਢੰਗ"
 
 #: data/ibus-anthy.appdata.xml.in:22
 msgid "Japanese"
-msgstr ""
+msgstr "ਜਾਪਾਨੀ"
 
 #: data/ibus-anthy.appdata.xml.in:31
 msgid "See the upstream release list."
@@ -82,11 +85,11 @@ msgstr ""
 #: engine/python3/engine.py:308 engine/python3/engine.py:905
 #: setup/python2/main.py:405 setup/python3/main.py:409
 msgid "Input mode"
-msgstr ""
+msgstr "ਇਨਪੁੱਟ ਢੰਗ"
 
 #: engine/python2/engine.py:313 engine/python3/engine.py:314
 msgid "Switch input mode"
-msgstr ""
+msgstr "ਇਨਪੁੱਟ ਢੰਗ ਨੂੰ ਬਦਲੋ"
 
 #: engine/python2/engine.py:323 engine/python3/engine.py:324
 #: setup/python2/setup.ui:17 setup/python3/setup.ui:17
@@ -118,11 +121,11 @@ msgstr ""
 #: engine/python3/engine.py:936 engine/python3/engine.py:960
 #: setup/python2/main.py:408 setup/python3/main.py:412
 msgid "Typing method"
-msgstr ""
+msgstr "ਲਿਖਣ ਦਾ ਢੰਗ"
 
 #: engine/python2/engine.py:401 engine/python3/engine.py:402
 msgid "Switch typing method"
-msgstr ""
+msgstr "ਲਿਖਣ ਦੇ ਢੰਗ ਨੂੰ ਬਦਲੋ"
 
 #: engine/python2/engine.py:411 engine/python3/engine.py:412
 #: setup/python2/setup.ui:71 setup/python3/setup.ui:71
@@ -761,22 +764,22 @@ msgstr ""
 
 #: setup/python2/setup.ui:1731 setup/python3/setup.ui:1731
 msgid "_View"
-msgstr ""
+msgstr "ਵੇਖੋ(_V)"
 
 #: setup/python2/setup.ui:1747 setup/python2/setup.ui:2099
 #: setup/python2/setup.ui:2373 setup/python3/setup.ui:1747
 #: setup/python3/setup.ui:2099 setup/python3/setup.ui:2373
 msgid "_Add"
-msgstr ""
+msgstr "ਜੋੜੋ(_A)"
 
 #: setup/python2/setup.ui:1779 setup/python2/setup.ui:2132
 #: setup/python3/setup.ui:1779 setup/python3/setup.ui:2132
 msgid "_Delete"
-msgstr ""
+msgstr "ਹਟਾਓ(_D)"
 
 #: setup/python2/setup.ui:1808 setup/python3/setup.ui:1808
 msgid "_Up"
-msgstr ""
+msgstr "ਉੱਤੇ(_U)"
 
 #: setup/python2/setup.ui:1810 setup/python2/setup.ui:1827
 #: setup/python3/setup.ui:1810 setup/python3/setup.ui:1827
@@ -793,16 +796,16 @@ msgstr ""
 
 #: setup/python2/setup.ui:1867 setup/python3/setup.ui:1867
 msgid "Dictionary"
-msgstr ""
+msgstr "ਸ਼ਬਦ-ਕੋਸ਼"
 
 #: setup/python2/setup.ui:1888 setup/python3/setup.ui:1888
 msgid "About"
-msgstr ""
+msgstr "ਇਸ ਬਾਰੇ"
 
 #: setup/python2/setup.ui:1908 setup/python2/setup.ui:2418
 #: setup/python3/setup.ui:1908 setup/python3/setup.ui:2418
 msgid "_Close"
-msgstr ""
+msgstr "ਬੰਦ ਕਰੋ(_C)"
 
 #: setup/python2/setup.ui:1938 setup/python3/setup.ui:1938
 msgid "Edit Shortcut"
@@ -850,7 +853,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:2387 setup/python3/setup.ui:2387
 msgid "_Remove"
-msgstr ""
+msgstr "ਹਟਾਓ(_R)"
 
 #: setup/python2/setup.ui:2607 setup/python3/setup.ui:2607
 msgid "_Short Label:"
