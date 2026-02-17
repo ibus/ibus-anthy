@@ -6,13 +6,15 @@
 # Zdenek <chmelarz@gmail.com>, 2017. #zanata
 # Zdenek <chmelarz@gmail.com>, 2018. #zanata
 # Jonas Hubeny <jonas.hubeny@gmail.com>, 2026.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: ibus-anthy master\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
-"PO-Revision-Date: 2026-02-17 18:58+0000\n"
-"Last-Translator: Jonas Hubeny <jonas.hubeny@gmail.com>\n"
+"PO-Revision-Date: 2026-02-18 19:58+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/ibus/ibus-"
 "anthy/cs/>\n"
 "Language: cs\n"
@@ -518,7 +520,7 @@ msgstr ""
 #: setup/python2/main.py:1665 setup/python2/main.py:1686
 #: setup/python3/main.py:1658 setup/python3/main.py:1679
 msgid "Invalid keysym"
-msgstr ""
+msgstr "Neplatný klíč"
 
 #: setup/python2/main.py:1666 setup/python2/main.py:1687
 #: setup/python3/main.py:1659 setup/python3/main.py:1680
@@ -698,7 +700,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:1066 setup/python3/setup.ui:1066
 msgid "Keyboad _layout:"
-msgstr ""
+msgstr "Rozvržení klávesnice: %s"
 
 #: setup/python2/setup.ui:1108 setup/python3/setup.ui:1108
 msgid "<b>Keyboard layout</b>"
