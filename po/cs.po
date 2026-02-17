@@ -13,8 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
 "PO-Revision-Date: 2026-02-18 19:58+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Jonas Hubeny <jonas.hubeny@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/ibus/ibus-"
 "anthy/cs/>\n"
 "Language: cs\n"
@@ -396,85 +395,87 @@ msgstr "Klávesové rozšíření FMV KB231-A"
 
 #: setup/python2/main.py:609 setup/python3/main.py:613
 msgid "FMV KB231-F key extension"
-msgstr ""
+msgstr "Klávesové rozšíření FMV KB231-F"
 
 #: setup/python2/main.py:610 setup/python3/main.py:614
 msgid "FMV KB611-J key extension"
-msgstr ""
+msgstr "Klávesové rozšíření FMV KB611-J"
 
 #: setup/python2/main.py:611 setup/python3/main.py:615
 msgid "FMV KB611-A key extension"
-msgstr ""
+msgstr "Klávesové rozšíření FMV KB611-A"
 
 #: setup/python2/main.py:612 setup/python3/main.py:616
 msgid "FMV KB611-F key extension"
-msgstr ""
+msgstr "Klávesové rozšíření FMV KB611-F"
 
 #: setup/python2/main.py:753 setup/python3/main.py:757
 msgid "Your choosed file has already been added: "
-msgstr ""
+msgstr "Váš vybraný soubor je už přidaný: "
 
 #: setup/python2/main.py:757 setup/python3/main.py:761
 msgid "The file you have chosen does not exist: "
-msgstr ""
+msgstr "Soubor, který jste vybrali neexistuje: "
 
 #: setup/python2/main.py:761 setup/python3/main.py:765
 msgid "Your choosed file is a directory: "
-msgstr ""
+msgstr "Váš vybraný soubor je složka: "
 
 #: setup/python2/main.py:765 setup/python3/main.py:769
 msgid "You cannot add dictionaries in the anthy private directory: "
-msgstr ""
+msgstr "Nemůžete přidávat slovníky do anthy soukromého slovníku: "
 
 #: setup/python2/main.py:774 setup/python3/main.py:778
 msgid "Your file path is not good: "
-msgstr ""
+msgstr "Zadaná cesta k souboru není platná: "
 
 #: setup/python2/main.py:935 setup/python3/main.py:937
 msgid "The engine xml file does not exist: "
-msgstr ""
+msgstr "Soubor xml modulu neexituje: "
 
 #: setup/python2/main.py:1051 setup/python3/main.py:1044
 msgid ""
 "Anthy keyboard layout is changed. Please restart ibus to reload the layout."
 msgstr ""
+"Rozložení klávesnice Anthy bylo změněno. Prosím restartujte ibus pro načtení "
+"tohoto rozložení."
 
 #: setup/python2/main.py:1263 setup/python3/main.py:1256
 msgid "Please specify Input Chars"
-msgstr ""
+msgstr "Prosím specifikujte vstupní znaky"
 
 #: setup/python2/main.py:1266 setup/python3/main.py:1259
 msgid "Please specify Output Chars"
-msgstr ""
+msgstr "Prosím specifikujte výstupní znaky"
 
 #: setup/python2/main.py:1269 setup/python3/main.py:1262
 msgid "Please specify Left Thumb Shift Chars"
-msgstr ""
+msgstr "Prosím specifikujte znaky levého palcového řazení"
 
 #: setup/python2/main.py:1272 setup/python3/main.py:1265
 msgid "Please specify Right Thumb Shift Chars"
-msgstr ""
+msgstr "Prosím specifikujte znaky pravého palcového řazení"
 
 #: setup/python2/main.py:1285 setup/python2/main.py:1319
 #: setup/python3/main.py:1278 setup/python3/main.py:1312
 msgid "Your custom key is not assigned in any sections. Maybe a bug."
-msgstr ""
+msgstr "Váše vlastní klávesa není přiřazena k žádné sekci. Možná chyba."
 
 #: setup/python2/main.py:1374 setup/python2/main.py:1465
 #: setup/python3/main.py:1367 setup/python3/main.py:1458
 msgid "Your file does not exist: "
-msgstr ""
+msgstr "Váš soubor neexistuje: "
 
 #: setup/python2/main.py:1385 setup/python3/main.py:1378
 msgid "Open Dictionary File"
-msgstr ""
+msgstr "Otevřít slovníkový soubor"
 
 # auto translated by TM merge from project: blivet-gui, version: master, DocId: po/blivet-gui
 #: setup/python2/main.py:1388 setup/python2/main.py:1394
 #: setup/python2/setup.ui:2166 setup/python3/main.py:1381
 #: setup/python3/main.py:1387 setup/python3/setup.ui:2166
 msgid "_Cancel"
-msgstr "_Ukončit"
+msgstr "_Zrušit"
 
 # auto translated by TM merge from project: virt-manager, version: master, DocId: virt-manager
 #: setup/python2/main.py:1389 setup/python3/main.py:1382
@@ -483,7 +484,7 @@ msgstr "_Otevřít"
 
 #: setup/python2/main.py:1392 setup/python3/main.py:1385
 msgid "Edit Dictionary File"
-msgstr ""
+msgstr "Upravit slovníkový soubor"
 
 # auto translated by TM merge from project: virt-viewer, version: master, DocId: virt-viewer
 #: setup/python2/main.py:1395 setup/python2/main.py:1485
@@ -494,19 +495,19 @@ msgstr "_OK"
 
 #: setup/python2/main.py:1407 setup/python3/main.py:1400
 msgid "Your choosed file is not correct."
-msgstr ""
+msgstr "Váš vybraný soubor není správný."
 
 #: setup/python2/main.py:1437 setup/python3/main.py:1430
 msgid "You cannot delete the system dictionary."
-msgstr ""
+msgstr "Nemůžete odstranit systémový slovník."
 
 #: setup/python2/main.py:1461 setup/python3/main.py:1454
 msgid "Your file is not good."
-msgstr ""
+msgstr "Váš soubor není platný."
 
 #: setup/python2/main.py:1483 setup/python3/main.py:1476
 msgid "View Dictionary File"
-msgstr ""
+msgstr "Zobrazit slovníkový soubor"
 
 # auto translated by TM merge from project: ibus, version: head, DocId: ibus10
 #: setup/python2/main.py:1644 setup/python3/main.py:1637
@@ -515,7 +516,7 @@ msgstr "Stiskněte prosím klávesu (či kombinaci kláves)."
 
 #: setup/python2/main.py:1645 setup/python3/main.py:1638
 msgid "The dialog will be closed when the key is released"
-msgstr ""
+msgstr "Po uvolnění klávesy bude dialog zavřen"
 
 #: setup/python2/main.py:1665 setup/python2/main.py:1686
 #: setup/python3/main.py:1658 setup/python3/main.py:1679
@@ -525,19 +526,19 @@ msgstr "Neplatný klíč"
 #: setup/python2/main.py:1666 setup/python2/main.py:1687
 #: setup/python3/main.py:1659 setup/python3/main.py:1680
 msgid "This keysym is not valid"
-msgstr ""
+msgstr "Tento klávesový symbol není platný"
 
 #: setup/python2/setup.ui:39 setup/python3/setup.ui:39
 msgid "NICOLA-J"
-msgstr ""
+msgstr "NICOLA-J"
 
 #: setup/python2/setup.ui:42 setup/python3/setup.ui:42
 msgid "NICOLA-A"
-msgstr ""
+msgstr "NICOLA-A"
 
 #: setup/python2/setup.ui:45 setup/python3/setup.ui:45
 msgid "NICOLA-F"
-msgstr ""
+msgstr "NICOLA-F"
 
 # auto translated by TM merge from project: ibus, version: head, DocId: ibus10
 #: setup/python2/setup.ui:55 setup/python3/setup.ui:55
@@ -546,31 +547,31 @@ msgstr "Žádný"
 
 #: setup/python2/setup.ui:58 setup/python3/setup.ui:58
 msgid "FMV KB231 key extension"
-msgstr ""
+msgstr "klávesové rozšíření FMV KB231"
 
 #: setup/python2/setup.ui:61 setup/python3/setup.ui:61
 msgid "FMV KB611 key extension"
-msgstr ""
+msgstr "klávesové rozšíření FMV KB611"
 
 #: setup/python2/setup.ui:106 setup/python3/setup.ui:106
 msgid "Keep numpad codes"
-msgstr ""
+msgstr "Zachovat kódy numerické klávesnice"
 
 #: setup/python2/setup.ui:109 setup/python3/setup.ui:109
 msgid "Convert characters"
-msgstr ""
+msgstr "Převést znaky"
 
 #: setup/python2/setup.ui:151 setup/python3/setup.ui:151
 msgid "Do nothing"
-msgstr ""
+msgstr "Nedělat nic"
 
 #: setup/python2/setup.ui:154 setup/python3/setup.ui:154
 msgid "Automatically convert"
-msgstr ""
+msgstr "Automaticky převést"
 
 #: setup/python2/setup.ui:157 setup/python3/setup.ui:157
 msgid "Automatically commit"
-msgstr ""
+msgstr "Automaticky odeslat"
 
 # auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId: po/ipa
 #: setup/python2/setup.ui:167 setup/python3/setup.ui:167
@@ -579,89 +580,91 @@ msgstr "Vymazat"
 
 #: setup/python2/setup.ui:170 setup/python3/setup.ui:170
 msgid "Commit"
-msgstr ""
+msgstr "Odeslat"
 
 #: setup/python2/setup.ui:173 setup/python3/setup.ui:173
 msgid "Hold"
-msgstr ""
+msgstr "Pozastavit"
 
 #: setup/python2/setup.ui:186 setup/python3/setup.ui:186
 msgid "ATOK"
-msgstr ""
+msgstr "ATOK"
 
 #: setup/python2/setup.ui:189 setup/python3/setup.ui:189
 msgid "Wnn"
-msgstr ""
+msgstr "Wnn"
 
 #: setup/python2/setup.ui:197 setup/python3/setup.ui:197
 msgid "Setup - IBus-Anthy"
-msgstr ""
+msgstr "Nastavení - IBus-Anthy"
 
 #: setup/python2/setup.ui:233 setup/python3/setup.ui:233
 msgid "_Input Mode:"
-msgstr ""
+msgstr "_Vstupní režim:"
 
 #: setup/python2/setup.ui:263 setup/python3/setup.ui:263
 msgid "_Typing Method:"
-msgstr ""
+msgstr "_Psací metoda:"
 
 #: setup/python2/setup.ui:297 setup/python3/setup.ui:297
 msgid "Conversion _Mode:"
-msgstr ""
+msgstr "Převáděcí_metoda:"
 
 #: setup/python2/setup.ui:332 setup/python3/setup.ui:332
 msgid "<b>Initial Setting</b>"
-msgstr ""
+msgstr "<b>Počáteční nastavení</b>"
 
 #: setup/python2/setup.ui:381 setup/python3/setup.ui:381
 msgid "<b>Menu Visibility on Status Icon</b>"
-msgstr ""
+msgstr "<b>Viditelnost nabídky na ikoně stavu</b>"
 
 #: setup/python2/setup.ui:428 setup/python3/setup.ui:428
 msgid "_Period Style:"
-msgstr ""
+msgstr "_Styl období:"
 
 #: setup/python2/setup.ui:441 setup/python3/setup.ui:441
 msgid "Symbo_l Style:"
-msgstr ""
+msgstr "Styl symbo_lu:"
 
 #: setup/python2/setup.ui:456 setup/python3/setup.ui:456
 msgid "Numpad _Key Type:"
-msgstr ""
+msgstr "Typ klávesy na numerické klávesnici:"
 
 #: setup/python2/setup.ui:526 setup/python3/setup.ui:526
 msgid "_Behavior on Period:"
-msgstr ""
+msgstr "_Chování v období:"
 
 #: setup/python2/setup.ui:541 setup/python3/setup.ui:541
 msgid "Behavior on _Focus Out:"
-msgstr ""
+msgstr "Chování při _Focus Out:"
 
 #: setup/python2/setup.ui:595 setup/python3/setup.ui:595
 msgid "<b>Behavior</b>"
-msgstr ""
+msgstr "<b>Chování</b>"
 
 #: setup/python2/setup.ui:629 setup/python3/setup.ui:629
 msgid "Candidate _Window Page Size:"
-msgstr ""
+msgstr "Velikost stránky okna s kandidáty:"
 
 #: setup/python2/setup.ui:659 setup/python3/setup.ui:659
 msgid "Convert _symbols with the one column width"
-msgstr ""
+msgstr "Převést_symboly s šířkou jednoho sloupce"
 
 #: setup/python2/setup.ui:675 setup/python3/setup.ui:675
 msgid "Convert _numbers with the one column width"
-msgstr ""
+msgstr "Převést čísla s šířkou jednoho sloupce"
 
 #: setup/python2/setup.ui:691 setup/python3/setup.ui:691
 msgid "Con_vert spaces with the one column width"
-msgstr ""
+msgstr "Převést mezery s šířkou jednoho sloupce"
 
 #: setup/python2/setup.ui:707 setup/python3/setup.ui:707
 msgid ""
 "Swi_tch “Hiragana” and “Latin” with Shift key and Hiragana–Katakana key in "
 "preedit"
 msgstr ""
+"Přepínat mezi „Hiragana“ a „Latin“ pomocí klávesy Shift a klávesy Hiragana–"
+"Katakana během přededitace"
 
 # auto translated by TM merge from project: ibus-libpinyin, version: master, DocId: ibus-libpinyin
 #: setup/python2/setup.ui:726 setup/python3/setup.ui:726
@@ -670,15 +673,15 @@ msgstr "<b>Jiné</b>"
 
 #: setup/python2/setup.ui:742 setup/python3/setup.ui:742
 msgid "Conversion"
-msgstr ""
+msgstr "Převod"
 
 #: setup/python2/setup.ui:764 setup/python3/setup.ui:764
 msgid "_Shortcut Type:"
-msgstr ""
+msgstr "_Typ zkratky:"
 
 #: setup/python2/setup.ui:831 setup/python3/setup.ui:831
 msgid "De_fault"
-msgstr ""
+msgstr "Výchozí"
 
 # auto translated by TM merge from project: ibus-libpinyin, version: master, DocId: ibus-libpinyin
 #: setup/python2/setup.ui:847 setup/python2/setup.ui:1763
@@ -688,63 +691,63 @@ msgstr "_Upravit"
 
 #: setup/python2/setup.ui:873 setup/python3/setup.ui:873
 msgid "Key Binding"
-msgstr ""
+msgstr "Přiřazení kláves"
 
 #: setup/python2/setup.ui:951 setup/python3/setup.ui:951
 msgid "<b>Romaji</b>"
-msgstr ""
+msgstr "<b>Romaji</b>"
 
 #: setup/python2/setup.ui:1029 setup/python3/setup.ui:1029
 msgid "<b>Kana</b>"
-msgstr ""
+msgstr "<b>Kana</b>"
 
 #: setup/python2/setup.ui:1066 setup/python3/setup.ui:1066
 msgid "Keyboad _layout:"
-msgstr "Rozvržení klávesnice: %s"
+msgstr "Rozvržení klávesnice:"
 
 #: setup/python2/setup.ui:1108 setup/python3/setup.ui:1108
 msgid "<b>Keyboard layout</b>"
-msgstr ""
+msgstr "<b>Rozložení klávesnice</b>"
 
 #: setup/python2/setup.ui:1127 setup/python3/setup.ui:1127
 msgid "Typing Method"
-msgstr ""
+msgstr "Psací metoda"
 
 #: setup/python2/setup.ui:1168 setup/python3/setup.ui:1168
 msgid "_Left Thumb Shift Key:"
-msgstr ""
+msgstr "_Levá klávesa pro palcové řazení:"
 
 #: setup/python2/setup.ui:1210 setup/python3/setup.ui:1210
 msgid "Right _Thumb Shift Key:"
-msgstr ""
+msgstr "Pravá klávesa pro palcové řazení:"
 
 #: setup/python2/setup.ui:1262 setup/python3/setup.ui:1262
 msgid "Adjust _input method layout to system keyboard layout"
-msgstr ""
+msgstr "Upravit rozložení vstupní metody podle systémového rozložení klávesnice"
 
 #: setup/python2/setup.ui:1263 setup/python3/setup.ui:1263
 msgid "Adjust IM layout to XKB layout"
-msgstr ""
+msgstr "Upravit IM rozložení podle XKB layout"
 
 #: setup/python2/setup.ui:1287 setup/python3/setup.ui:1287
 msgid "Input _Method Layout:"
-msgstr ""
+msgstr "Rozložení pro vstupní metodu:"
 
 #: setup/python2/setup.ui:1339 setup/python3/setup.ui:1339
 msgid "Restart IBus when you change the keyboard layout"
-msgstr ""
+msgstr "Restartujte IBus když změníte rozložení klávesnice"
 
 #: setup/python2/setup.ui:1340 setup/python3/setup.ui:1340
 msgid "Restart IBus when you change XKB"
-msgstr ""
+msgstr "Restartujte IBus když změníte XKB"
 
 #: setup/python2/setup.ui:1365 setup/python3/setup.ui:1365
 msgid "_Additional Key Arrangement:"
-msgstr ""
+msgstr "Dodatečné uspořádání kláves:"
 
 #: setup/python2/setup.ui:1377 setup/python3/setup.ui:1377
 msgid "'～', '『', '¢', '£' and so on can be output with Thumb Shift key"
-msgstr ""
+msgstr "'～', '『', '¢', '£' a další lze zadat pomocí klávesy palcového řazení"
 
 #: setup/python2/setup.ui:1419 setup/python3/setup.ui:1419
 msgid ""
@@ -752,44 +755,49 @@ msgid ""
 "Key Arrangement\" since this option changes input method layout only in case "
 "input method is turned on."
 msgstr ""
+"Není nutné přenastavovat rozložení klávesnice systému pro „Dodatečné "
+"rozložení kláves“, protože tato volba mění rozložení vstupní metody pouze v "
+"případě, že je vstupní metoda zapnutá."
 
 #: setup/python2/setup.ui:1420 setup/python3/setup.ui:1420
 msgid ""
 "You do not have to reconfigure XKB since this option changes IM layout only "
 "with IM on."
 msgstr ""
+"Není nutné přenastavovat XKB, protože tato možnost mění IM rozložení pouze "
+"při zapnutém IM."
 
 #: setup/python2/setup.ui:1437 setup/python3/setup.ui:1437
 msgid "_Enable semi-voiced sound mark with Shift key"
-msgstr ""
+msgstr "_Povolit polohlasné zvukové značky pomocí klávesy Shift"
 
 #: setup/python2/setup.ui:1438 setup/python3/setup.ui:1438
 msgid "Seion + Shift can output Handakuon"
-msgstr ""
+msgstr "Seion + Shift může generovat Handakuon"
 
 #: setup/python2/setup.ui:1463 setup/python3/setup.ui:1463
 msgid "Thumb _Shift Key Table:"
-msgstr ""
+msgstr "Tabulka kláves palcového řazení:"
 
 #: setup/python2/setup.ui:1507 setup/python3/setup.ui:1507
 msgid "<b>Thumb Shift Layout</b>"
-msgstr ""
+msgstr "<b>Rozložení palcového řazení</b>"
 
 #: setup/python2/setup.ui:1522 setup/python3/setup.ui:1522
 msgid "Thumb Shift"
-msgstr ""
+msgstr "Palcové řazení"
 
 #: setup/python2/setup.ui:1560 setup/python3/setup.ui:1560
 msgid "_Edit Dictionary Command:"
-msgstr ""
+msgstr "_Upravit slovníkový příkaz:"
 
 #: setup/python2/setup.ui:1611 setup/python3/setup.ui:1611
 msgid "_Add Word Command:"
-msgstr ""
+msgstr "_Přidat slovní příkaz:"
 
 #: setup/python2/setup.ui:1680 setup/python3/setup.ui:1680
 msgid "<b>Default Dictionary Configuration</b>"
-msgstr ""
+msgstr "<b>Výchozí nastavení slovníku</b>"
 
 # auto translated by TM merge from project: virt-viewer, version: master, DocId: virt-viewer
 #: setup/python2/setup.ui:1731 setup/python3/setup.ui:1731
@@ -801,7 +809,7 @@ msgstr "_Zobrazit"
 #: setup/python2/setup.ui:2373 setup/python3/setup.ui:1747
 #: setup/python3/setup.ui:2099 setup/python3/setup.ui:2373
 msgid "_Add"
-msgstr "Př_idat"
+msgstr "Přid_at"
 
 # auto translated by TM merge from project: ibus, version: head, DocId: ibus10
 #: setup/python2/setup.ui:1779 setup/python2/setup.ui:2132
@@ -817,7 +825,7 @@ msgstr "_Výše"
 #: setup/python2/setup.ui:1810 setup/python2/setup.ui:1827
 #: setup/python3/setup.ui:1810 setup/python3/setup.ui:1827
 msgid "You can change the order on language bar"
-msgstr ""
+msgstr "Můžete změnit pořadí v jazykové liště"
 
 # auto translated by TM merge from project: ibus, version: head, DocId: ibus10
 #: setup/python2/setup.ui:1825 setup/python3/setup.ui:1825
@@ -826,7 +834,7 @@ msgstr "_Níže"
 
 #: setup/python2/setup.ui:1852 setup/python3/setup.ui:1852
 msgid "<b>Extended Dictionaries</b>"
-msgstr ""
+msgstr "<b>Rozšířené slovníky</b>"
 
 # auto translated by TM merge from project: ibus-libpinyin, version: master, DocId: ibus-libpinyin
 #: setup/python2/setup.ui:1867 setup/python3/setup.ui:1867
@@ -835,37 +843,39 @@ msgstr "Slovník"
 
 #: setup/python2/setup.ui:1888 setup/python3/setup.ui:1888
 msgid "About"
-msgstr ""
+msgstr "O nás"
 
 # auto translated by TM merge from project: virt-viewer, version: master, DocId: virt-viewer
 #: setup/python2/setup.ui:1908 setup/python2/setup.ui:2418
 #: setup/python3/setup.ui:1908 setup/python3/setup.ui:2418
 msgid "_Close"
-msgstr "Z_avřít"
+msgstr "_Zavřít"
 
 #: setup/python2/setup.ui:1938 setup/python3/setup.ui:1938
 msgid "Edit Shortcut"
-msgstr ""
+msgstr "Upravit zkratku"
 
 #: setup/python2/setup.ui:1980 setup/python3/setup.ui:1980
 msgid "Key Code:"
-msgstr ""
+msgstr "Klávesa:"
 
 #: setup/python2/setup.ui:2028 setup/python3/setup.ui:2028
 msgid "Modifier:"
-msgstr ""
+msgstr "Modifikátor:"
 
 #: setup/python2/setup.ui:2042 setup/python3/setup.ui:2042
 msgid "A_lternate"
-msgstr ""
+msgstr "A_lt"
 
 #: setup/python2/setup.ui:2055 setup/python3/setup.ui:2055
+#, fuzzy
 msgid "Co_ntrol"
-msgstr ""
+msgstr "Co_ntrol"
 
 #: setup/python2/setup.ui:2068 setup/python3/setup.ui:2068
+#, fuzzy
 msgid "_Shift"
-msgstr ""
+msgstr "_Shift"
 
 # auto translated by TM merge from project: system-config-printer, version: master, DocId: system-config-printer
 #: setup/python2/setup.ui:2116 setup/python3/setup.ui:2116
@@ -874,19 +884,19 @@ msgstr "_Obnovit"
 
 #: setup/python2/setup.ui:2293 setup/python3/setup.ui:2293
 msgid "_Input Characters"
-msgstr ""
+msgstr "_Vstupní znaky"
 
 #: setup/python2/setup.ui:2313 setup/python3/setup.ui:2313
 msgid "_Output Characters"
-msgstr ""
+msgstr "_Výstupní znaky"
 
 #: setup/python2/setup.ui:2333 setup/python3/setup.ui:2333
 msgid "_Left Thumb Shift"
-msgstr ""
+msgstr "_Levé palcové řazení"
 
 #: setup/python2/setup.ui:2353 setup/python3/setup.ui:2353
 msgid "_Right Thumb Shift"
-msgstr ""
+msgstr "_Pravé palcové řazení"
 
 # auto translated by TM merge from project: ibus, version: head, DocId: ibus10
 #: setup/python2/setup.ui:2387 setup/python3/setup.ui:2387
@@ -895,27 +905,27 @@ msgstr "_Odebrat"
 
 #: setup/python2/setup.ui:2607 setup/python3/setup.ui:2607
 msgid "_Short Label:"
-msgstr ""
+msgstr "_Krátký název:"
 
 #: setup/python2/setup.ui:2631 setup/python3/setup.ui:2631
 msgid "_Description:"
-msgstr ""
+msgstr "_Popis:"
 
 #: setup/python2/setup.ui:2663 setup/python3/setup.ui:2663
 msgid "_Use your dictionary alone with switching dictionaries"
-msgstr ""
+msgstr "_Používejte slovník samostatně s přepínáním slovníků"
 
 #: setup/python2/setup.ui:2679 setup/python3/setup.ui:2679
 msgid "_Embed your dictionary in the system dictionary"
-msgstr ""
+msgstr "_Vložte svůj slovník do systémového slovníku"
 
 #: setup/python2/setup.ui:2695 setup/python3/setup.ui:2695
 msgid "Enable the _reverse conversion"
-msgstr ""
+msgstr "Povolte _reverzní převod"
 
 #: setup/python2/setup.ui:2715 setup/python3/setup.ui:2715
 msgid "The Anthy engine for the IBus input platform"
-msgstr ""
+msgstr "Modul Anthy pro vstupní platformu IBus"
 
 # auto translated by TM merge from project: ibus-input-pad, version: head, DocId: ibus-input-pad
 #: setup/python2/setup.ui:2719 setup/python3/setup.ui:2719
