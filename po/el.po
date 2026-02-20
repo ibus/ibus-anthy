@@ -7,22 +7,22 @@
 # dm3k <meidei@windowslive.com>, 2012
 # dm3k <meidei@windowslive.com>, 2012
 # Giannis Antypas <gianni.antypas@gmail.com>, 2024.
-# Jim Spentzos <jimspentzos2000@gmail.com>, 2025.
+# Jim Spentzos <jimspentzos2000@gmail.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: IBus-Anthy\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
-"PO-Revision-Date: 2025-06-30 11:03+0000\n"
+"PO-Revision-Date: 2026-02-21 11:58+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
-"Language-Team: Greek <https://translate.fedoraproject.org/projects/ibus/"
-"ibus-anthy/el/>\n"
+"Language-Team: Greek <https://translate.fedoraproject.org/projects/ibus/ibus-"
+"anthy/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.16\n"
 
 #: data/ibus-anthy.appdata.xml.in:8
 msgid "Japanese input method"
@@ -55,7 +55,7 @@ msgstr "Ιαπωνικά"
 
 #: data/ibus-anthy.appdata.xml.in:31
 msgid "See the upstream release list."
-msgstr ""
+msgstr "Δείτε τη λίστα της πρωτόλειας κυκλοφορίας."
 
 #: engine/python2/engine.py:219 engine/python3/engine.py:220
 #, python-format
