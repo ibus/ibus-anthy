@@ -4,13 +4,14 @@
 # This file is distributed under the same license as the ibus-anthy package.
 #
 # Salvatore Cocuzza <info@salvatorecocuzza.it>, 2025.
+# Ali Ciloqlu <ali.ciloqlu@murena.io>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.16\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
-"PO-Revision-Date: 2025-04-28 13:53+0000\n"
-"Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
+"PO-Revision-Date: 2026-04-08 09:58+0000\n"
+"Last-Translator: Ali Ciloqlu <ali.ciloqlu@murena.io>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/it/>\n"
 "Language: it\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: data/ibus-anthy.appdata.xml.in:8
 msgid "Japanese input method"
@@ -41,7 +42,7 @@ msgstr ""
 
 #: data/ibus-anthy.appdata.xml.in:21
 msgid "input-method"
-msgstr "input-method"
+msgstr "metodo di immissione"
 
 #: data/ibus-anthy.appdata.xml.in:22
 msgid "Japanese"
