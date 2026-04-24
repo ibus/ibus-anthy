@@ -275,7 +275,7 @@ msgstr ""
 #: setup/python2/main.py:443 setup/python2/main.py:469
 #: setup/python3/main.py:448 setup/python3/main.py:474
 msgid "Output Chars"
-msgstr ""
+msgstr "Carateres de _Saída"
 
 #: setup/python2/main.py:499 setup/python3/main.py:504
 msgid "Input"
