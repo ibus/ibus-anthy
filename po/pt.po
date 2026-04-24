@@ -480,11 +480,11 @@ msgstr ""
 
 #: setup/python2/main.py:1642 setup/python3/main.py:1636
 msgid "Please press a key (or a key combination)"
-msgstr ""
+msgstr "Por favor prima uma tecla (ou uma combinação de teclas)"
 
 #: setup/python2/main.py:1643 setup/python3/main.py:1637
 msgid "The dialog will be closed when the key is released"
-msgstr ""
+msgstr "A caixa de diálogo será fechada quando a tecla for solta"
 
 #: setup/python2/main.py:1663 setup/python2/main.py:1684
 #: setup/python3/main.py:1657 setup/python3/main.py:1678
