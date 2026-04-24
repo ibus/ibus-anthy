@@ -510,7 +510,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:55 setup/python3/setup.ui:55
 msgid "None"
-msgstr ""
+msgstr "Nenhum"
 
 #: setup/python2/setup.ui:58 setup/python3/setup.ui:58
 msgid "FMV KB231 key extension"
@@ -550,7 +550,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:173 setup/python3/setup.ui:173
 msgid "Hold"
-msgstr ""
+msgstr "_Manter"
 
 #: setup/python2/setup.ui:186 setup/python3/setup.ui:186
 msgid "ATOK"
