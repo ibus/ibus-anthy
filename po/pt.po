@@ -279,11 +279,11 @@ msgstr "Carateres de _Saída"
 
 #: setup/python2/main.py:499 setup/python3/main.py:504
 msgid "Input"
-msgstr ""
+msgstr "Entrada"
 
 #: setup/python2/main.py:501 setup/python3/main.py:506
 msgid "Single"
-msgstr ""
+msgstr "Único"
 
 #: setup/python2/main.py:503 setup/python3/main.py:508
 msgid "Left"
@@ -446,15 +446,15 @@ msgstr ""
 #: setup/python2/setup.ui:2166 setup/python3/main.py:1381
 #: setup/python3/main.py:1387 setup/python3/setup.ui:2166
 msgid "_Cancel"
-msgstr ""
+msgstr "_Cancelar"
 
 #: setup/python2/main.py:1388 setup/python3/main.py:1382
 msgid "_Open"
-msgstr ""
+msgstr "_Abrir"
 
 #: setup/python2/main.py:1391 setup/python3/main.py:1385
 msgid "Edit Dictionary File"
-msgstr ""
+msgstr "Editar dicionários"
 
 #: setup/python2/main.py:1394 setup/python2/main.py:1483
 #: setup/python2/setup.ui:2181 setup/python3/main.py:1388
