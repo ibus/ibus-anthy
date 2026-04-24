@@ -782,7 +782,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:1825 setup/python3/setup.ui:1825
 msgid "_Down"
-msgstr ""
+msgstr "Para _Baixo"
 
 #: setup/python2/setup.ui:1852 setup/python3/setup.ui:1852
 msgid "<b>Extended Dictionaries</b>"
