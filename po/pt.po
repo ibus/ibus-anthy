@@ -460,7 +460,7 @@ msgstr "Editar dicionários"
 #: setup/python2/setup.ui:2181 setup/python3/main.py:1388
 #: setup/python3/main.py:1477 setup/python3/setup.ui:2181
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #: setup/python2/main.py:1405 setup/python3/main.py:1399
 msgid "Your choosed file is not correct."
@@ -472,7 +472,7 @@ msgstr ""
 
 #: setup/python2/main.py:1459 setup/python3/main.py:1453
 msgid "Your file is not good."
-msgstr ""
+msgstr "O caminho do seu ficheiro não é bom:"
 
 #: setup/python2/main.py:1481 setup/python3/main.py:1475
 msgid "View Dictionary File"
