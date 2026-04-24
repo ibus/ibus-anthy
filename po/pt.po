@@ -649,7 +649,7 @@ msgstr ""
 #: setup/python2/setup.ui:847 setup/python2/setup.ui:1763
 #: setup/python3/setup.ui:847 setup/python3/setup.ui:1763
 msgid "_Edit"
-msgstr ""
+msgstr "Editar"
 
 #: setup/python2/setup.ui:873 setup/python3/setup.ui:873
 msgid "Key Binding"
