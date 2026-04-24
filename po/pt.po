@@ -610,7 +610,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:629 setup/python3/setup.ui:629
 msgid "Candidate _Window Page Size:"
-msgstr ""
+msgstr "Tamanho da página da janela do candidato:"
 
 #: setup/python2/setup.ui:659 setup/python3/setup.ui:659
 msgid "Convert _symbols with the one column width"
