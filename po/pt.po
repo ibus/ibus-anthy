@@ -835,7 +835,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:2313 setup/python3/setup.ui:2313
 msgid "_Output Characters"
-msgstr ""
+msgstr "Carateres de _Saída"
 
 #: setup/python2/setup.ui:2333 setup/python3/setup.ui:2333
 msgid "_Left Thumb Shift"
