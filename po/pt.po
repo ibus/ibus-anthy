@@ -665,7 +665,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:1066 setup/python3/setup.ui:1066
 msgid "Keyboad _layout:"
-msgstr ""
+msgstr "Disposição do teclado: %s"
 
 #: setup/python2/setup.ui:1108 setup/python3/setup.ui:1108
 msgid "<b>Keyboard layout</b>"
