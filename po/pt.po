@@ -758,7 +758,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:1731 setup/python3/setup.ui:1731
 msgid "_View"
-msgstr ""
+msgstr "Ver"
 
 #: setup/python2/setup.ui:1747 setup/python2/setup.ui:2099
 #: setup/python2/setup.ui:2373 setup/python3/setup.ui:1747
