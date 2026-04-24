@@ -566,7 +566,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:233 setup/python3/setup.ui:233
 msgid "_Input Mode:"
-msgstr ""
+msgstr "Modo de entrada"
 
 #: setup/python2/setup.ui:263 setup/python3/setup.ui:263
 msgid "_Typing Method:"
