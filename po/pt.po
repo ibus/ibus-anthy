@@ -673,7 +673,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:1127 setup/python3/setup.ui:1127
 msgid "Typing Method"
-msgstr ""
+msgstr "Método de digitação"
 
 #: setup/python2/setup.ui:1168 setup/python3/setup.ui:1168
 msgid "_Left Thumb Shift Key:"
