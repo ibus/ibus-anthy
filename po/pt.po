@@ -764,7 +764,7 @@ msgstr "Ver"
 #: setup/python2/setup.ui:2373 setup/python3/setup.ui:1747
 #: setup/python3/setup.ui:2099 setup/python3/setup.ui:2373
 msgid "_Add"
-msgstr ""
+msgstr "_Adicionar"
 
 #: setup/python2/setup.ui:1779 setup/python2/setup.ui:2132
 #: setup/python3/setup.ui:1779 setup/python3/setup.ui:2132
@@ -773,7 +773,7 @@ msgstr ""
 
 #: setup/python2/setup.ui:1808 setup/python3/setup.ui:1808
 msgid "_Up"
-msgstr ""
+msgstr "Para _Cima"
 
 #: setup/python2/setup.ui:1810 setup/python2/setup.ui:1827
 #: setup/python3/setup.ui:1810 setup/python3/setup.ui:1827
