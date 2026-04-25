@@ -11,9 +11,8 @@ msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.10\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2019-04-22 23:08+0900\n"
-"PO-Revision-Date: 2026-04-24 23:58+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2026-04-26 21:02+0000\n"
+"Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
 "Language-Team: Portuguese <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/pt/>\n"
 "Language: pt\n"
@@ -55,6 +54,10 @@ msgid ""
 "directory is not '\\n'. I.e. not correct text format.\n"
 "Please fix the file or remove it by manual and restart IBus."
 msgstr ""
+"Não pude ativar o Anthy.\n"
+" fim do conteúdo do ficheiro %s/last-record2_default.utf8 no seu diretório "
+"home não é '\\n'. Isto é, formato de texto não corrigido.\n"
+"Por favor corrija o ficheiro ou remova-o manualmente e reinicie o IBus."
 
 #: engine/python2/engine.py:256 engine/python3/engine.py:257
 #: setup/python2/main.py:420 setup/python3/main.py:425
@@ -113,7 +116,7 @@ msgstr "Latim"
 #: engine/python2/engine.py:348 engine/python3/engine.py:349
 #: setup/python2/setup.ui:29 setup/python3/setup.ui:29
 msgid "Wide Latin"
-msgstr ""
+msgstr "Latin Largo"
 
 #: engine/python2/engine.py:384 engine/python2/engine.py:924
 #: engine/python2/engine.py:948 engine/python3/engine.py:385
@@ -139,7 +142,7 @@ msgstr "Kana"
 #: engine/python2/engine.py:418 engine/python3/engine.py:419
 #: setup/python2/setup.ui:77 setup/python3/setup.ui:77
 msgid "Thumb shift"
-msgstr ""
+msgstr "Mudança de polegar"
 
 #: engine/python2/engine.py:451 engine/python2/engine.py:977
 #: engine/python3/engine.py:452 engine/python3/engine.py:972
@@ -239,12 +242,12 @@ msgstr "Emoji"
 #: setup/python2/ibus-setup-anthy.desktop.in.in:3
 #: setup/python3/ibus-setup-anthy.desktop.in.in:3
 msgid "IBus Anthy Setup"
-msgstr ""
+msgstr "Configuração Anthy do IBus"
 
 #: setup/python2/ibus-setup-anthy.desktop.in.in:4
 #: setup/python3/ibus-setup-anthy.desktop.in.in:4
 msgid "Set up IBus Anthy engine"
-msgstr ""
+msgstr "Configurar o motor Anthy do IBus"
 
 #: setup/python2/main.py:177 setup/python3/main.py:180
 msgid "Menu label"
@@ -265,17 +268,17 @@ msgstr "Descrição"
 #. Translators: "Embd" is an abbreviation of "embedded".
 #: setup/python2/main.py:255 setup/python3/main.py:258
 msgid "Embd"
-msgstr ""
+msgstr "Embebido"
 
 #. Translators: "Sgl" is an abbreviation of "single".
 #: setup/python2/main.py:263 setup/python3/main.py:266
 msgid "Sgl"
-msgstr ""
+msgstr "Singular"
 
 #: setup/python2/main.py:441 setup/python2/main.py:467
 #: setup/python3/main.py:446 setup/python3/main.py:472
 msgid "Input Chars"
-msgstr ""
+msgstr "Caracteres de Entrada"
 
 #: setup/python2/main.py:443 setup/python2/main.py:469
 #: setup/python3/main.py:448 setup/python3/main.py:474
@@ -300,12 +303,12 @@ msgstr "Direita"
 
 #: setup/python2/main.py:587 setup/python3/main.py:592
 msgid "Customize Romaji Key Table"
-msgstr ""
+msgstr "Personalizar Tabela de Teclas Romaji"
 
 #: setup/python2/main.py:588 setup/python2/setup.ui:910
 #: setup/python3/main.py:593 setup/python3/setup.ui:910
 msgid "_Romaji Key Table:"
-msgstr ""
+msgstr "Tabela de Teclas _Romaji:"
 
 #: setup/python2/main.py:589 setup/python2/main.py:595
 #: setup/python3/main.py:594 setup/python3/main.py:600
@@ -330,11 +333,11 @@ msgstr "Tabela de Teclas _Kana:"
 
 #: setup/python2/main.py:596 setup/python3/main.py:601
 msgid "Japanese Keyboard Layout"
-msgstr ""
+msgstr "Disposição de Teclado Japonês"
 
 #: setup/python2/main.py:597 setup/python3/main.py:602
 msgid "U.S. Keyboard Layout"
-msgstr ""
+msgstr "Disposição de Teclado U.S."
 
 #: setup/python2/main.py:600 setup/python3/main.py:605
 msgid "Customize Thumb Shift Key Table"
