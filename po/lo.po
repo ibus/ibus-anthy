@@ -9,22 +9,24 @@ msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.16\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
-"PO-Revision-Date: 2025-02-17 17:12+0900\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-05-11 17:59+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.fedoraproject.org/projects/ibus/ibus-"
+"anthy/lo/>\n"
 "Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: data/ibus-anthy.appdata.xml.in:8
 msgid "Japanese input method"
-msgstr ""
+msgstr "ວິທີປ້ອນຂໍ້ມູນພາສາຢີ່ປຸ່ນ"
 
 #: data/ibus-anthy.appdata.xml.in:11 data/ibus-anthy.appdata.xml.in:39
 msgid "The Anthy input method is designed for entering Japanese text."
-msgstr ""
+msgstr "ວິທີປ້ອນຂໍ້ມູນ Anthy ຖືກອອກແບບມາເພື່ອປ້ອນຂໍ້ຄວາມພາສາຢີ່ປຸ່ນ."
 
 #: data/ibus-anthy.appdata.xml.in:14
 msgid ""
@@ -32,18 +34,20 @@ msgid ""
 "They are necessary because these contain too many characters to simply be "
 "laid out on a traditional keyboard."
 msgstr ""
+"ວິທີປ້ອນຂໍ້ມູນແມ່ນລະບົບການພິມທີ່ຊ່ວຍໃຫ້ຜູ້ໃຊ້ສາມາດປ້ອນພາສາທີ່ຊັບຊ້ອນໄດ້. ສິ່ງເຫຼົ່ານີ້ແມ່ນຈຳເປັນຍ້ອນພາສາດັ່ງກ່າວ"
+"ມີຕົວອັກສອນຫຼາຍເກີນກວ່າທີ່ຈະຈັດວາງໄວ້ໃນແປ້ນພິມແບບທຳມະດາໄດ້."
 
 #: data/ibus-anthy.appdata.xml.in:21
 msgid "input-method"
-msgstr ""
+msgstr "ວິທີປ້ອນຂໍ້ມູນ"
 
 #: data/ibus-anthy.appdata.xml.in:22
 msgid "Japanese"
-msgstr ""
+msgstr "ພາສາຢີ່ປຸ່ນ"
 
 #: data/ibus-anthy.appdata.xml.in:31
 msgid "See the upstream release list."
-msgstr ""
+msgstr "ເບິ່ງລາຍການການປ່ອຍເວີຊັນຕົ້ນທາງ."
 
 #: engine/python2/engine.py:219 engine/python3/engine.py:220
 #, python-format
@@ -53,15 +57,19 @@ msgid ""
 "directory is not '\\n'. I.e. not correct text format.\n"
 "Please fix the file or remove it by manual and restart IBus."
 msgstr ""
+"ບໍ່ສາມາດເປີດໃຊ້ Anthy ໄດ້.\n"
+"ຕອນທ້າຍຂອງເນື້ອໃນໄຟລ໌ %s/last-record2_default.utf8 ໃນໂຟນເດີຫຼັກຂອງທ່ານບໍ່ແມ່ນ '\\n'. ເຊິ່ງ"
+"ໝາຍຄວາມວ່າຮູບແບບຂໍ້ຄວາມບໍ່ຖືກຕ້ອງ.\n"
+"ກະລຸນາແກ້ໄຂໄຟລ໌ ຫຼື ລຶບມັນອອກດ້ວຍຕົນເອງແລ້ວເລີ່ມ IBus ໃໝ່."
 
 #: engine/python2/engine.py:267 engine/python3/engine.py:268
 #: setup/python2/main.py:420 setup/python3/main.py:424
 msgid "Preferences - Anthy"
-msgstr ""
+msgstr "ການຕັ້ງຄ່າ - Anthy"
 
 #: engine/python2/engine.py:269 engine/python3/engine.py:270
 msgid "Configure Anthy"
-msgstr ""
+msgstr "ຕັ້ງຄ່າ Anthy"
 
 #. Translators: Specify the order of %s with your translation.
 #. It will be "Input Mode (A)" for example.
@@ -76,643 +84,647 @@ msgstr ""
 #: engine/python3/engine.py:988 engine/python3/engine.py:1050
 #, python-format
 msgid "%(description)s (%(symbol)s)"
-msgstr ""
+msgstr "%(description)s (%(symbol)s)"
 
 #: engine/python2/engine.py:307 engine/python2/engine.py:910
 #: engine/python3/engine.py:308 engine/python3/engine.py:905
 #: setup/python2/main.py:405 setup/python3/main.py:409
 msgid "Input mode"
-msgstr ""
+msgstr "ໂໝດການປ້ອນ"
 
 #: engine/python2/engine.py:313 engine/python3/engine.py:314
 msgid "Switch input mode"
-msgstr ""
+msgstr "ສະຫຼັບໂໝດການປ້ອນ"
 
 #: engine/python2/engine.py:323 engine/python3/engine.py:324
 #: setup/python2/setup.ui:17 setup/python3/setup.ui:17
 msgid "Hiragana"
-msgstr ""
+msgstr "ຮີຣາການະ"
 
 #: engine/python2/engine.py:332 engine/python3/engine.py:333
 #: setup/python2/setup.ui:20 setup/python3/setup.ui:20
 msgid "Katakana"
-msgstr ""
+msgstr "ຄາຕາການະ"
 
 #: engine/python2/engine.py:341 engine/python3/engine.py:342
 #: setup/python2/setup.ui:23 setup/python3/setup.ui:23
 msgid "Halfwidth Katakana"
-msgstr ""
+msgstr "ຄາຕາການະເຄິ່ງຄວາມກວ້າງ"
 
 #: engine/python2/engine.py:350 engine/python3/engine.py:351
 #: setup/python2/setup.ui:26 setup/python3/setup.ui:26
 msgid "Latin"
-msgstr ""
+msgstr "ລາຕິນ"
 
 #: engine/python2/engine.py:359 engine/python3/engine.py:360
 #: setup/python2/setup.ui:29 setup/python3/setup.ui:29
 msgid "Wide Latin"
-msgstr ""
+msgstr "ລາຕິນແບບກວ້າງ"
 
 #: engine/python2/engine.py:395 engine/python2/engine.py:941
 #: engine/python2/engine.py:965 engine/python3/engine.py:396
 #: engine/python3/engine.py:936 engine/python3/engine.py:960
 #: setup/python2/main.py:408 setup/python3/main.py:412
 msgid "Typing method"
-msgstr ""
+msgstr "ວິທີການພິມ"
 
 #: engine/python2/engine.py:401 engine/python3/engine.py:402
 msgid "Switch typing method"
-msgstr ""
+msgstr "ສະຫຼັບວິທີການພິມ"
 
 #: engine/python2/engine.py:411 engine/python3/engine.py:412
 #: setup/python2/setup.ui:71 setup/python3/setup.ui:71
 msgid "Romaji"
-msgstr ""
+msgstr "ໂຣມາຈິ"
 
 #: engine/python2/engine.py:420 engine/python3/engine.py:421
 #: setup/python2/setup.ui:74 setup/python3/setup.ui:74
 msgid "Kana"
-msgstr ""
+msgstr "ຄານະ"
 
 #: engine/python2/engine.py:429 engine/python3/engine.py:430
 #: setup/python2/setup.ui:77 setup/python3/setup.ui:77
 msgid "Thumb shift"
-msgstr ""
+msgstr "ທຳຊິບ (Thumb shift)"
 
 #: engine/python2/engine.py:462 engine/python2/engine.py:994
 #: engine/python3/engine.py:463 engine/python3/engine.py:989
 #: setup/python2/main.py:411 setup/python3/main.py:415
 msgid "Segment mode"
-msgstr ""
+msgstr "ໂໝດສ່ວນຂໍ້ຄວາມ"
 
 #: engine/python2/engine.py:468 engine/python3/engine.py:469
 msgid "Switch conversion mode"
-msgstr ""
+msgstr "ສະຫຼັບໂໝດການແປງ"
 
 #: engine/python2/engine.py:478 engine/python3/engine.py:479
 #: setup/python2/setup.ui:87 setup/python3/setup.ui:87
 msgid "Multiple segment"
-msgstr ""
+msgstr "ຫຼາຍສ່ວນຂໍ້ຄວາມ"
 
 #: engine/python2/engine.py:487 engine/python3/engine.py:488
 #: setup/python2/setup.ui:90 setup/python3/setup.ui:90
 msgid "Single segment"
-msgstr ""
+msgstr "ສ່ວນຂໍ້ຄວາມດຽວ"
 
 #: engine/python2/engine.py:496 engine/python3/engine.py:497
 #: setup/python2/setup.ui:93 setup/python3/setup.ui:93
 msgid "Immediate conversion (multiple segment)"
-msgstr ""
+msgstr "ການແປງທັນທີ (ຫຼາຍສ່ວນຂໍ້ຄວາມ)"
 
 #: engine/python2/engine.py:505 engine/python3/engine.py:506
 #: setup/python2/setup.ui:96 setup/python3/setup.ui:96
 msgid "Immediate conversion (single segment)"
-msgstr ""
+msgstr "ການແປງທັນທີ (ສ່ວນຂໍ້ຄວາມດຽວ)"
 
 #: engine/python2/engine.py:538 engine/python2/engine.py:1056
 #: engine/python3/engine.py:539 engine/python3/engine.py:1051
 #: setup/python2/main.py:414 setup/python3/main.py:418
 msgid "Dictionary mode"
-msgstr ""
+msgstr "ໂໝດວັດຈະນານຸກົມ"
 
 #: engine/python2/engine.py:544 engine/python3/engine.py:545
 msgid "Switch dictionary"
-msgstr ""
+msgstr "ສະຫຼັບວັດຈະນານຸກົມ"
 
 #: engine/python2/engine.py:634 engine/python3/engine.py:634
 #: setup/python2/main.py:417 setup/python3/main.py:421
 msgid "Dictionary - Anthy"
-msgstr ""
+msgstr "ວັດຈະນານຸກົມ - Anthy"
 
 #. Translators: "Dic" means 'dictionary', One kanji may be good.
 #: engine/python2/engine.py:640 engine/python3/engine.py:639
 msgid "Dic"
-msgstr ""
+msgstr "ວັດຈະນານຸກົມ"
 
 #: engine/python2/engine.py:647 engine/python3/engine.py:646
 msgid "Configure dictionaries"
-msgstr ""
+msgstr "ຕັ້ງຄ່າວັດຈະນານຸກົມ"
 
 #: engine/python2/engine.py:657 engine/python3/engine.py:656
 msgid "Edit dictionaries"
-msgstr ""
+msgstr "ແກ້ໄຂວັດຈະນານຸກົມ"
 
 #: engine/python2/engine.py:659 engine/python3/engine.py:658
 msgid "Launch the dictionary tool"
-msgstr ""
+msgstr "ເປີດເຄື່ອງມືວັດຈະນານຸກົມ"
 
 #: engine/python2/engine.py:666 engine/python3/engine.py:665
 msgid "Add words"
-msgstr ""
+msgstr "ເພີ່ມຄຳສັບ"
 
 #: engine/python2/engine.py:668 engine/python3/engine.py:667
 msgid "Add words to the dictionary"
-msgstr ""
+msgstr "ເພີ່ມຄຳສັບເຂົ້າໃນວັດຈະນານຸກົມ"
 
 #: setup/python2/anthyprefs.py:337 setup/python2/setup.ui:397
 #: setup/python3/anthyprefs.py:330 setup/python3/setup.ui:397
 msgid "General"
-msgstr ""
+msgstr "ທົ່ວໄປ"
 
 #: setup/python2/anthyprefs.py:338 setup/python3/anthyprefs.py:331
 msgid "Zip Code Conversion"
-msgstr ""
+msgstr "ການແປງລະຫັດໄປສະນີ"
 
 #: setup/python2/anthyprefs.py:339 setup/python3/anthyprefs.py:332
 msgid "Symbol"
-msgstr ""
+msgstr "ສັນຍະລັກ"
 
 #: setup/python2/anthyprefs.py:340 setup/python3/anthyprefs.py:333
 msgid "Old Character Style"
-msgstr ""
+msgstr "ຮູບແບບຕົວອັກສອນແບບເກົ່າ"
 
 #: setup/python2/anthyprefs.py:341 setup/python3/anthyprefs.py:334
 msgid "Era"
-msgstr ""
+msgstr "ສັກກະຣາດ"
 
 #: setup/python2/anthyprefs.py:342 setup/python3/anthyprefs.py:335
 msgid "Emoji"
-msgstr ""
+msgstr "ອີໂມຈິ"
 
 #: setup/python2/ibus-setup-anthy.desktop.in.in:2
 #: setup/python3/ibus-setup-anthy.desktop.in.in:2
 msgid "IBus Anthy Setup"
-msgstr ""
+msgstr "ການຕັ້ງຄ່າ IBus Anthy"
 
 #: setup/python2/ibus-setup-anthy.desktop.in.in:3
 #: setup/python3/ibus-setup-anthy.desktop.in.in:3
 msgid "Set up IBus Anthy engine"
-msgstr ""
+msgstr "ຕັ້ງຄ່າເຄື່ອງຈັກ IBus Anthy"
 
 #: setup/python2/main.py:177 setup/python3/main.py:179
 msgid "Menu label"
-msgstr ""
+msgstr "ປ້າຍຊື່ເມນູ"
 
 #: setup/python2/main.py:198 setup/python3/main.py:200
 msgid "Command"
-msgstr ""
+msgstr "ຄຳສັ່ງ"
 
 #: setup/python2/main.py:202 setup/python3/main.py:204
 msgid "Shortcut"
-msgstr ""
+msgstr "ປຸ່ມລັດ"
 
 #: setup/python2/main.py:247 setup/python3/main.py:249
 msgid "Description"
-msgstr ""
+msgstr "ຄຳອະທິບາຍ"
 
 #. Translators: "Embd" is an abbreviation of "embedded".
 #: setup/python2/main.py:255 setup/python3/main.py:257
 msgid "Embd"
-msgstr ""
+msgstr "ຝັງ"
 
 #. Translators: "Sgl" is an abbreviation of "single".
 #: setup/python2/main.py:263 setup/python3/main.py:265
 msgid "Sgl"
-msgstr ""
+msgstr "ດ່ຽວ"
 
 #: setup/python2/main.py:441 setup/python2/main.py:467
 #: setup/python3/main.py:445 setup/python3/main.py:471
 msgid "Input Chars"
-msgstr ""
+msgstr "ຕົວອັກສອນຂາເຂົ້າ"
 
 #: setup/python2/main.py:443 setup/python2/main.py:469
 #: setup/python3/main.py:447 setup/python3/main.py:473
 msgid "Output Chars"
-msgstr ""
+msgstr "ຕົວອັກສອນຂາອອກ"
 
 #: setup/python2/main.py:499 setup/python3/main.py:503
 msgid "Input"
-msgstr ""
+msgstr "ການປ້ອນ"
 
 #: setup/python2/main.py:501 setup/python3/main.py:505
 msgid "Single"
-msgstr ""
+msgstr "ດ່ຽວ"
 
 #: setup/python2/main.py:503 setup/python3/main.py:507
 msgid "Left"
-msgstr ""
+msgstr "ຊ້າຍ"
 
 #: setup/python2/main.py:505 setup/python3/main.py:509
 msgid "Right"
-msgstr ""
+msgstr "ຂວາ"
 
 #: setup/python2/main.py:587 setup/python3/main.py:591
 msgid "Customize Romaji Key Table"
-msgstr ""
+msgstr "ປັບແຕ່ງຕາຕະລາງປຸ່ມໂຣມາຈິ"
 
 #: setup/python2/main.py:588 setup/python2/setup.ui:910
 #: setup/python3/main.py:592 setup/python3/setup.ui:910
 msgid "_Romaji Key Table:"
-msgstr ""
+msgstr "ຕາຕະລາງປຸ່ມ_ໂຣມາຈິ:"
 
 #: setup/python2/main.py:589 setup/python2/main.py:595
 #: setup/python3/main.py:593 setup/python3/main.py:599
 msgid "_Output Chars"
-msgstr ""
+msgstr "ຕົວອັກສອນຂາ_ອອກ"
 
 #: setup/python2/main.py:590 setup/python2/main.py:1071
 #: setup/python2/main.py:1175 setup/python2/setup.ui:183
 #: setup/python3/main.py:594 setup/python3/main.py:1064
 #: setup/python3/main.py:1168 setup/python3/setup.ui:183
 msgid "Default"
-msgstr ""
+msgstr "ຄ່າເລີ່ມຕົ້ນ"
 
 #: setup/python2/main.py:593 setup/python3/main.py:597
 msgid "Customize Kana Key Table"
-msgstr ""
+msgstr "ປັບແຕ່ງຕາຕະລາງປຸ່ມຄານະ"
 
 #: setup/python2/main.py:594 setup/python2/setup.ui:988
 #: setup/python3/main.py:598 setup/python3/setup.ui:988
 msgid "_Kana Key Table:"
-msgstr ""
+msgstr "ຕາຕະລາງປຸ່ມ_ຄານະ:"
 
 #: setup/python2/main.py:596 setup/python3/main.py:600
 msgid "Japanese Keyboard Layout"
-msgstr ""
+msgstr "ຜັງແປ້ນພິມພາສາຢີ່ປຸ່ນ"
 
 #: setup/python2/main.py:597 setup/python3/main.py:601
 msgid "U.S. Keyboard Layout"
-msgstr ""
+msgstr "ຜັງແປ້ນພິມສະຫະລັດ"
 
 #: setup/python2/main.py:600 setup/python3/main.py:604
 msgid "Customize Thumb Shift Key Table"
-msgstr ""
+msgstr "ປັບແຕ່ງຕາຕະລາງປຸ່ມ Thumb Shift"
 
 #: setup/python2/main.py:601 setup/python3/main.py:605
 msgid "_Thumb Shift Key Table:"
-msgstr ""
+msgstr "ຕາຕະລາງປຸ່ມ _Thumb Shift:"
 
 #: setup/python2/main.py:602 setup/python3/main.py:606
 msgid "Single _Output Chars"
-msgstr ""
+msgstr "ຕົວອັກສອນຂາອອກ_ດ່ຽວ"
 
 #: setup/python2/main.py:603 setup/python3/main.py:607
 msgid "Base"
-msgstr ""
+msgstr "ພື້ນຖານ"
 
 #: setup/python2/main.py:604 setup/python3/main.py:608
 msgid "NICOLA-J key extension"
-msgstr ""
+msgstr "ສ່ວນຂະຫຍາຍປຸ່ມ NICOLA-J"
 
 #: setup/python2/main.py:605 setup/python3/main.py:609
 msgid "NICOLA-A key extension"
-msgstr ""
+msgstr "ສ່ວນຂະຫຍາຍປຸ່ມ NICOLA-A"
 
 #: setup/python2/main.py:606 setup/python3/main.py:610
 msgid "NICOLA-F key extension"
-msgstr ""
+msgstr "ສ່ວນຂະຫຍາຍປຸ່ມ NICOLA-F"
 
 #: setup/python2/main.py:607 setup/python3/main.py:611
 msgid "FMV KB231-J key extension"
-msgstr ""
+msgstr "ສ່ວນຂະຫຍາຍປຸ່ມ FMV KB231-J"
 
 #: setup/python2/main.py:608 setup/python3/main.py:612
 msgid "FMV KB231-A key extension"
-msgstr ""
+msgstr "ສ່ວນຂະຫຍາຍປຸ່ມ FMV KB231-A"
 
 #: setup/python2/main.py:609 setup/python3/main.py:613
 msgid "FMV KB231-F key extension"
-msgstr ""
+msgstr "ສ່ວນຂະຫຍາຍປຸ່ມ FMV KB231-F"
 
 #: setup/python2/main.py:610 setup/python3/main.py:614
 msgid "FMV KB611-J key extension"
-msgstr ""
+msgstr "ສ່ວນຂະຫຍາຍປຸ່ມ FMV KB611-J"
 
 #: setup/python2/main.py:611 setup/python3/main.py:615
 msgid "FMV KB611-A key extension"
-msgstr ""
+msgstr "ສ່ວນຂະຫຍາຍປຸ່ມ FMV KB611-A"
 
 #: setup/python2/main.py:612 setup/python3/main.py:616
 msgid "FMV KB611-F key extension"
-msgstr ""
+msgstr "ສ່ວນຂະຫຍາຍປຸ່ມ FMV KB611-F"
 
 #: setup/python2/main.py:753 setup/python3/main.py:757
 msgid "Your choosed file has already been added: "
-msgstr ""
+msgstr "ໄຟລ໌ທີ່ທ່ານເລືອກໄດ້ຖືກເພີ່ມເຂົ້າໄປແລ້ວ: "
 
 #: setup/python2/main.py:757 setup/python3/main.py:761
 msgid "The file you have chosen does not exist: "
-msgstr ""
+msgstr "ໄຟລ໌ທີ່ທ່ານເລືອກບໍ່ມີຢູ່: "
 
 #: setup/python2/main.py:761 setup/python3/main.py:765
 msgid "Your choosed file is a directory: "
-msgstr ""
+msgstr "ໄຟລ໌ທີ່ທ່ານເລືອກແມ່ນໂຟນເດີ: "
 
 #: setup/python2/main.py:765 setup/python3/main.py:769
 msgid "You cannot add dictionaries in the anthy private directory: "
-msgstr ""
+msgstr "ທ່ານບໍ່ສາມາດເພີ່ມວັດຈະນານຸກົມໃນໂຟນເດີສ່ວນຕົວຂອງ anthy ໄດ້: "
 
 #: setup/python2/main.py:774 setup/python3/main.py:778
 msgid "Your file path is not good: "
-msgstr ""
+msgstr "ເສັ້ນທາງໄຟລ໌ຂອງທ່ານບໍ່ຖືກຕ້ອງ: "
 
 #: setup/python2/main.py:935 setup/python3/main.py:937
 msgid "The engine xml file does not exist: "
-msgstr ""
+msgstr "ໄຟລ໌ xml ຂອງເຄື່ອງຈັກບໍ່ມີຢູ່: "
 
 #: setup/python2/main.py:1051 setup/python3/main.py:1044
 msgid ""
 "Anthy keyboard layout is changed. Please restart ibus to reload the layout."
 msgstr ""
+"ຜັງແປ້ນພິມ Anthy ຖືກປ່ຽນແປງ. ກະລຸນາເລີ່ມ ibus ໃໝ່ເພື່ອໂຫຼດຜັງແປ້ນພິມຄືນໃໝ່."
 
 #: setup/python2/main.py:1263 setup/python3/main.py:1256
 msgid "Please specify Input Chars"
-msgstr ""
+msgstr "ກະລຸນາລະບຸຕົວອັກສອນຂາເຂົ້າ"
 
 #: setup/python2/main.py:1266 setup/python3/main.py:1259
 msgid "Please specify Output Chars"
-msgstr ""
+msgstr "ກະລຸນາລະບຸຕົວອັກສອນຂາອອກ"
 
 #: setup/python2/main.py:1269 setup/python3/main.py:1262
 msgid "Please specify Left Thumb Shift Chars"
-msgstr ""
+msgstr "ກະລຸນາລະບຸຕົວອັກສອນ Left Thumb Shift"
 
 #: setup/python2/main.py:1272 setup/python3/main.py:1265
 msgid "Please specify Right Thumb Shift Chars"
-msgstr ""
+msgstr "ກະລຸນາລະບຸຕົວອັກສອນ Right Thumb Shift"
 
 #: setup/python2/main.py:1285 setup/python2/main.py:1319
 #: setup/python3/main.py:1278 setup/python3/main.py:1312
 msgid "Your custom key is not assigned in any sections. Maybe a bug."
 msgstr ""
+"ປຸ່ມທີ່ທ່ານກຳນົດເອງບໍ່ໄດ້ຖືກມອບໝາຍໃນສ່ວນໃດໆ. ອາດຈະແມ່ນຂໍ້ຜິດພາດຂອງໂປຣແກຣມ."
 
 #: setup/python2/main.py:1374 setup/python2/main.py:1465
 #: setup/python3/main.py:1367 setup/python3/main.py:1458
 msgid "Your file does not exist: "
-msgstr ""
+msgstr "ໄຟລ໌ຂອງທ່ານບໍ່ມີຢູ່: "
 
 #: setup/python2/main.py:1385 setup/python3/main.py:1378
 msgid "Open Dictionary File"
-msgstr ""
+msgstr "ເປີດໄຟລ໌ວັດຈະນານຸກົມ"
 
 #: setup/python2/main.py:1388 setup/python2/main.py:1394
 #: setup/python2/setup.ui:2166 setup/python3/main.py:1381
 #: setup/python3/main.py:1387 setup/python3/setup.ui:2166
 msgid "_Cancel"
-msgstr ""
+msgstr "_ຍົກເລີກ"
 
 #: setup/python2/main.py:1389 setup/python3/main.py:1382
 msgid "_Open"
-msgstr ""
+msgstr "_ເປີດ"
 
 #: setup/python2/main.py:1392 setup/python3/main.py:1385
 msgid "Edit Dictionary File"
-msgstr ""
+msgstr "ແກ້ໄຂໄຟລ໌ວັດຈະນານຸກົມ"
 
 #: setup/python2/main.py:1395 setup/python2/main.py:1485
 #: setup/python2/setup.ui:2181 setup/python3/main.py:1388
 #: setup/python3/main.py:1478 setup/python3/setup.ui:2181
 msgid "_OK"
-msgstr ""
+msgstr "_ຕົກລົງ"
 
 #: setup/python2/main.py:1407 setup/python3/main.py:1400
 msgid "Your choosed file is not correct."
-msgstr ""
+msgstr "ໄຟລ໌ທີ່ທ່ານເລືອກບໍ່ຖືກຕ້ອງ."
 
 #: setup/python2/main.py:1437 setup/python3/main.py:1430
 msgid "You cannot delete the system dictionary."
-msgstr ""
+msgstr "ທ່ານບໍ່ສາມາດລຶບວັດຈະນານຸກົມລະບົບໄດ້."
 
 #: setup/python2/main.py:1461 setup/python3/main.py:1454
 msgid "Your file is not good."
-msgstr ""
+msgstr "ໄຟລ໌ຂອງທ່ານບໍ່ດີ."
 
 #: setup/python2/main.py:1483 setup/python3/main.py:1476
 msgid "View Dictionary File"
-msgstr ""
+msgstr "ເບິ່ງໄຟລ໌ວັດຈະນານຸກົມ"
 
 #: setup/python2/main.py:1644 setup/python3/main.py:1637
 msgid "Please press a key (or a key combination)"
-msgstr ""
+msgstr "ກະລຸນາກົດປຸ່ມ (ຫຼື ກົດປຸ່ມປະສົມ)"
 
 #: setup/python2/main.py:1645 setup/python3/main.py:1638
 msgid "The dialog will be closed when the key is released"
-msgstr ""
+msgstr "ກ່ອງຂໍ້ຄວາມຈະຖືກປິດເມື່ອປ່ອຍປຸ່ມ"
 
 #: setup/python2/main.py:1665 setup/python2/main.py:1686
 #: setup/python3/main.py:1658 setup/python3/main.py:1679
 msgid "Invalid keysym"
-msgstr ""
+msgstr "ຊື່ປຸ່ມ (keysym) ບໍ່ຖືກຕ້ອງ"
 
 #: setup/python2/main.py:1666 setup/python2/main.py:1687
 #: setup/python3/main.py:1659 setup/python3/main.py:1680
 msgid "This keysym is not valid"
-msgstr ""
+msgstr "ຊື່ປຸ່ມນີ້ບໍ່ຖືກຕ້ອງ"
 
 #: setup/python2/setup.ui:39 setup/python3/setup.ui:39
 msgid "NICOLA-J"
-msgstr ""
+msgstr "NICOLA-J"
 
 #: setup/python2/setup.ui:42 setup/python3/setup.ui:42
 msgid "NICOLA-A"
-msgstr ""
+msgstr "NICOLA-A"
 
 #: setup/python2/setup.ui:45 setup/python3/setup.ui:45
 msgid "NICOLA-F"
-msgstr ""
+msgstr "NICOLA-F"
 
 #: setup/python2/setup.ui:55 setup/python3/setup.ui:55
 msgid "None"
-msgstr ""
+msgstr "ບໍ່ມີ"
 
 #: setup/python2/setup.ui:58 setup/python3/setup.ui:58
 msgid "FMV KB231 key extension"
-msgstr ""
+msgstr "ສ່ວນຂະຫຍາຍປຸ່ມ FMV KB231"
 
 #: setup/python2/setup.ui:61 setup/python3/setup.ui:61
 msgid "FMV KB611 key extension"
-msgstr ""
+msgstr "ສ່ວນຂະຫຍາຍປຸ່ມ FMV KB611"
 
 #: setup/python2/setup.ui:106 setup/python3/setup.ui:106
 msgid "Keep numpad codes"
-msgstr ""
+msgstr "ຮັກສາລະຫັດແປ້ນຕົວເລກ"
 
 #: setup/python2/setup.ui:109 setup/python3/setup.ui:109
 msgid "Convert characters"
-msgstr ""
+msgstr "ແປງຕົວອັກສອນ"
 
 #: setup/python2/setup.ui:151 setup/python3/setup.ui:151
 msgid "Do nothing"
-msgstr ""
+msgstr "ບໍ່ຕ້ອງເຮັດຫຍັງ"
 
 #: setup/python2/setup.ui:154 setup/python3/setup.ui:154
 msgid "Automatically convert"
-msgstr ""
+msgstr "ແປງໂດຍອັດຕະໂນມັດ"
 
 #: setup/python2/setup.ui:157 setup/python3/setup.ui:157
 msgid "Automatically commit"
-msgstr ""
+msgstr "ຢືນຢັນໂດຍອັດຕະໂນມັດ"
 
 #: setup/python2/setup.ui:167 setup/python3/setup.ui:167
 msgid "Clear"
-msgstr ""
+msgstr "ລ້າງອອກ"
 
 #: setup/python2/setup.ui:170 setup/python3/setup.ui:170
 msgid "Commit"
-msgstr ""
+msgstr "ຢືນຢັນ"
 
 #: setup/python2/setup.ui:173 setup/python3/setup.ui:173
 msgid "Hold"
-msgstr ""
+msgstr "ຄ້າງໄວ້"
 
 #: setup/python2/setup.ui:186 setup/python3/setup.ui:186
 msgid "ATOK"
-msgstr ""
+msgstr "ATOK"
 
 #: setup/python2/setup.ui:189 setup/python3/setup.ui:189
 msgid "Wnn"
-msgstr ""
+msgstr "Wnn"
 
 #: setup/python2/setup.ui:197 setup/python3/setup.ui:197
 msgid "Setup - IBus-Anthy"
-msgstr ""
+msgstr "ການຕັ້ງຄ່າ - IBus-Anthy"
 
 #: setup/python2/setup.ui:233 setup/python3/setup.ui:233
 msgid "_Input Mode:"
-msgstr ""
+msgstr "ໂໝດການ_ປ້ອນ:"
 
 #: setup/python2/setup.ui:263 setup/python3/setup.ui:263
 msgid "_Typing Method:"
-msgstr ""
+msgstr "ວິທີການ_ພິມ:"
 
 #: setup/python2/setup.ui:297 setup/python3/setup.ui:297
 msgid "Conversion _Mode:"
-msgstr ""
+msgstr "ໂໝດການ_ແປງ:"
 
 #: setup/python2/setup.ui:332 setup/python3/setup.ui:332
 msgid "<b>Initial Setting</b>"
-msgstr ""
+msgstr "<b>ການຕັ້ງຄ່າເລີ່ມຕົ້ນ</b>"
 
 #: setup/python2/setup.ui:381 setup/python3/setup.ui:381
 msgid "<b>Menu Visibility on Status Icon</b>"
-msgstr ""
+msgstr "<b>ການສະແດງເມນູເທິງໄອຄອນສະຖານະ</b>"
 
 #: setup/python2/setup.ui:428 setup/python3/setup.ui:428
 msgid "_Period Style:"
-msgstr ""
+msgstr "ຮູບແບບເຄື່ອງໝາຍ_ຈ້ຳ:"
 
 #: setup/python2/setup.ui:441 setup/python3/setup.ui:441
 msgid "Symbo_l Style:"
-msgstr ""
+msgstr "ຮູບແບບ_ສັນຍະລັກ:"
 
 #: setup/python2/setup.ui:456 setup/python3/setup.ui:456
 msgid "Numpad _Key Type:"
-msgstr ""
+msgstr "ປະເພດ_ປຸ່ມຕົວເລກ:"
 
 #: setup/python2/setup.ui:526 setup/python3/setup.ui:526
 msgid "_Behavior on Period:"
-msgstr ""
+msgstr "_ພຶດຕິກຳເມື່ອຈ້ຳ:"
 
 #: setup/python2/setup.ui:541 setup/python3/setup.ui:541
 msgid "Behavior on _Focus Out:"
-msgstr ""
+msgstr "ພຶດຕິກຳເມື່ອ_ອອກຈາກໂຟກັສ:"
 
 #: setup/python2/setup.ui:595 setup/python3/setup.ui:595
 msgid "<b>Behavior</b>"
-msgstr ""
+msgstr "<b>ພຶດຕິກຳ</b>"
 
 #: setup/python2/setup.ui:629 setup/python3/setup.ui:629
 msgid "Candidate _Window Page Size:"
-msgstr ""
+msgstr "ຂະໜາດໜ້າຂອງ_ໜ້າຕ່າງຕົວເລືອກ:"
 
 #: setup/python2/setup.ui:659 setup/python3/setup.ui:659
 msgid "Convert _symbols with the one column width"
-msgstr ""
+msgstr "ແປງ_ສັນຍະລັກດ້ວຍຄວາມກວ້າງຖັນດຽວ"
 
 #: setup/python2/setup.ui:675 setup/python3/setup.ui:675
 msgid "Convert _numbers with the one column width"
-msgstr ""
+msgstr "ແປງ_ຕົວເລກດ້ວຍຄວາມກວ້າງຖັນດຽວ"
 
 #: setup/python2/setup.ui:691 setup/python3/setup.ui:691
 msgid "Con_vert spaces with the one column width"
-msgstr ""
+msgstr "ແປງ_ຍະຫວ່າງດ້ວຍຄວາມກວ້າງຖັນດຽວ"
 
 #: setup/python2/setup.ui:707 setup/python3/setup.ui:707
 msgid ""
 "Swi_tch “Hiragana” and “Latin” with Shift key and Hiragana–Katakana key in "
 "preedit"
 msgstr ""
+"ສະ_ຫຼັບ “Hiragana” ແລະ “Latin” ດ້ວຍປຸ່ມ Shift ແລະ ປຸ່ມ Hiragana–Katakana ໃນຂະນະແກ້ໄຂກ່"
+"ອນ"
 
 #: setup/python2/setup.ui:726 setup/python3/setup.ui:726
 msgid "<b>Other</b>"
-msgstr ""
+msgstr "<b>ອື່ນໆ</b>"
 
 #: setup/python2/setup.ui:742 setup/python3/setup.ui:742
 msgid "Conversion"
-msgstr ""
+msgstr "ການແປງ"
 
 #: setup/python2/setup.ui:764 setup/python3/setup.ui:764
 msgid "_Shortcut Type:"
-msgstr ""
+msgstr "ປະເພດ_ປຸ່ມລັດ:"
 
 #: setup/python2/setup.ui:831 setup/python3/setup.ui:831
 msgid "De_fault"
-msgstr ""
+msgstr "ຄ່າເລີ່ມ_ຕົ້ນ"
 
 #: setup/python2/setup.ui:847 setup/python2/setup.ui:1763
 #: setup/python3/setup.ui:847 setup/python3/setup.ui:1763
 msgid "_Edit"
-msgstr ""
+msgstr "_ແກ້ໄຂ"
 
 #: setup/python2/setup.ui:873 setup/python3/setup.ui:873
 msgid "Key Binding"
-msgstr ""
+msgstr "ການກຳນົດປຸ່ມ"
 
 #: setup/python2/setup.ui:951 setup/python3/setup.ui:951
 msgid "<b>Romaji</b>"
-msgstr ""
+msgstr "<b>ໂຣມາຈິ</b>"
 
 #: setup/python2/setup.ui:1029 setup/python3/setup.ui:1029
 msgid "<b>Kana</b>"
-msgstr ""
+msgstr "<b>ຄານະ</b>"
 
 #: setup/python2/setup.ui:1066 setup/python3/setup.ui:1066
 msgid "Keyboad _layout:"
-msgstr ""
+msgstr "ຜັງ_ແປ້ນພິມ:"
 
 #: setup/python2/setup.ui:1108 setup/python3/setup.ui:1108
 msgid "<b>Keyboard layout</b>"
-msgstr ""
+msgstr "<b>ຜັງແປ້ນພິມ</b>"
 
 #: setup/python2/setup.ui:1127 setup/python3/setup.ui:1127
 msgid "Typing Method"
-msgstr ""
+msgstr "ວິທີການພິມ"
 
 #: setup/python2/setup.ui:1168 setup/python3/setup.ui:1168
 msgid "_Left Thumb Shift Key:"
-msgstr ""
+msgstr "ປຸ່ມ _Left Thumb Shift:"
 
 #: setup/python2/setup.ui:1210 setup/python3/setup.ui:1210
 msgid "Right _Thumb Shift Key:"
-msgstr ""
+msgstr "ປຸ່ມ Right _Thumb Shift:"
 
 #: setup/python2/setup.ui:1262 setup/python3/setup.ui:1262
 msgid "Adjust _input method layout to system keyboard layout"
-msgstr ""
+msgstr "ປັບຜັງ_ວິທີປ້ອນໃຫ້ເຂົ້າກັບຜັງແປ້ນພິມຂອງລະບົບ"
 
 #: setup/python2/setup.ui:1263 setup/python3/setup.ui:1263
 msgid "Adjust IM layout to XKB layout"
-msgstr ""
+msgstr "ປັບຜັງ IM ໃຫ້ເຂົ້າກັບຜັງ XKB"
 
 #: setup/python2/setup.ui:1287 setup/python3/setup.ui:1287
 msgid "Input _Method Layout:"
-msgstr ""
+msgstr "ຜັງ_ວິທີປ້ອນຂໍ້ມູນ:"
 
 #: setup/python2/setup.ui:1339 setup/python3/setup.ui:1339
 msgid "Restart IBus when you change the keyboard layout"
-msgstr ""
+msgstr "ເລີ່ມ IBus ໃໝ່ເມື່ອທ່ານປ່ຽນຜັງແປ້ນພິມ"
 
 #: setup/python2/setup.ui:1340 setup/python3/setup.ui:1340
 msgid "Restart IBus when you change XKB"
-msgstr ""
+msgstr "ເລີ່ມ IBus ໃໝ່ເມື່ອທ່ານປ່ຽນ XKB"
 
 #: setup/python2/setup.ui:1365 setup/python3/setup.ui:1365
 msgid "_Additional Key Arrangement:"
-msgstr ""
+msgstr "ການຈັດວາງປຸ່ມ_ເພີ່ມເຕີມ:"
 
 #: setup/python2/setup.ui:1377 setup/python3/setup.ui:1377
 msgid "'～', '『', '¢', '£' and so on can be output with Thumb Shift key"
-msgstr ""
+msgstr "'～', '『', '¢', '£' ແລະ ອື່ນໆ ສາມາດພິມອອກໄດ້ດ້ວຍປຸ່ມ Thumb Shift"
 
 #: setup/python2/setup.ui:1419 setup/python3/setup.ui:1419
 msgid ""
@@ -720,162 +732,165 @@ msgid ""
 "Key Arrangement\" since this option changes input method layout only in case "
 "input method is turned on."
 msgstr ""
+"ທ່ານບໍ່ຈຳເປັນຕ້ອງຕັ້ງຄ່າຜັງແປ້ນພິມລະບົບໃໝ່ສຳລັບ \"ການຈັດວາງປຸ່ມເພີ່ມເຕີມ\" ຍ້ອນຕົວເລືອກນີ້ຈະປ່ຽນແປງຜັງວິທີ"
+"ປ້ອນຂໍ້ມູນສະເພາະຕອນທີ່ເປີດໃຊ້ວິທີປ້ອນຂໍ້ມູນເທົ່ານັ້ນ."
 
 #: setup/python2/setup.ui:1420 setup/python3/setup.ui:1420
 msgid ""
 "You do not have to reconfigure XKB since this option changes IM layout only "
 "with IM on."
 msgstr ""
+"ທ່ານບໍ່ຈຳເປັນຕ້ອງຕັ້ງຄ່າ XKB ໃໝ່ ຍ້ອນຕົວເລືອກນີ້ຈະປ່ຽນຜັງ IM ເມື່ອເປີດໃຊ້ IM ເທົ່ານັ້ນ."
 
 #: setup/python2/setup.ui:1437 setup/python3/setup.ui:1437
 msgid "_Enable semi-voiced sound mark with Shift key"
-msgstr ""
+msgstr "_ເປີດໃຊ້ເຄື່ອງໝາຍສຽງກຶ່ງສັ່ນດ້ວຍປຸ່ມ Shift"
 
 #: setup/python2/setup.ui:1438 setup/python3/setup.ui:1438
 msgid "Seion + Shift can output Handakuon"
-msgstr ""
+msgstr "Seion + Shift ສາມາດພິມ Handakuon ອອກໄດ້"
 
 #: setup/python2/setup.ui:1463 setup/python3/setup.ui:1463
 msgid "Thumb _Shift Key Table:"
-msgstr ""
+msgstr "ຕາຕະລາງປຸ່ມ Thumb _Shift:"
 
 #: setup/python2/setup.ui:1507 setup/python3/setup.ui:1507
 msgid "<b>Thumb Shift Layout</b>"
-msgstr ""
+msgstr "<b>ຜັງ Thumb Shift</b>"
 
 #: setup/python2/setup.ui:1522 setup/python3/setup.ui:1522
 msgid "Thumb Shift"
-msgstr ""
+msgstr "Thumb Shift"
 
 #: setup/python2/setup.ui:1560 setup/python3/setup.ui:1560
 msgid "_Edit Dictionary Command:"
-msgstr ""
+msgstr "ຄຳສັ່ງ_ແກ້ໄຂວັດຈະນານຸກົມ:"
 
 #: setup/python2/setup.ui:1611 setup/python3/setup.ui:1611
 msgid "_Add Word Command:"
-msgstr ""
+msgstr "ຄຳສັ່ງ_ເພີ່ມຄຳສັບ:"
 
 #: setup/python2/setup.ui:1680 setup/python3/setup.ui:1680
 msgid "<b>Default Dictionary Configuration</b>"
-msgstr ""
+msgstr "<b>ການຕັ້ງຄ່າວັດຈະນານຸກົມເລີ່ມຕົ້ນ</b>"
 
 #: setup/python2/setup.ui:1731 setup/python3/setup.ui:1731
 msgid "_View"
-msgstr ""
+msgstr "_ເບິ່ງ"
 
 #: setup/python2/setup.ui:1747 setup/python2/setup.ui:2099
 #: setup/python2/setup.ui:2373 setup/python3/setup.ui:1747
 #: setup/python3/setup.ui:2099 setup/python3/setup.ui:2373
 msgid "_Add"
-msgstr ""
+msgstr "_ເພີ່ມ"
 
 #: setup/python2/setup.ui:1779 setup/python2/setup.ui:2132
 #: setup/python3/setup.ui:1779 setup/python3/setup.ui:2132
 msgid "_Delete"
-msgstr ""
+msgstr "_ລຶບ"
 
 #: setup/python2/setup.ui:1808 setup/python3/setup.ui:1808
 msgid "_Up"
-msgstr ""
+msgstr "_ຂຶ້ນ"
 
 #: setup/python2/setup.ui:1810 setup/python2/setup.ui:1827
 #: setup/python3/setup.ui:1810 setup/python3/setup.ui:1827
 msgid "You can change the order on language bar"
-msgstr ""
+msgstr "ທ່ານສາມາດປ່ຽນລຳດັບໃນແຖບພາສາໄດ້"
 
 #: setup/python2/setup.ui:1825 setup/python3/setup.ui:1825
 msgid "_Down"
-msgstr ""
+msgstr "_ລົງ"
 
 #: setup/python2/setup.ui:1852 setup/python3/setup.ui:1852
 msgid "<b>Extended Dictionaries</b>"
-msgstr ""
+msgstr "<b>ວັດຈະນານຸກົມສ່ວນຂະຫຍາຍ</b>"
 
 #: setup/python2/setup.ui:1867 setup/python3/setup.ui:1867
 msgid "Dictionary"
-msgstr ""
+msgstr "ວັດຈະນານຸກົມ"
 
 #: setup/python2/setup.ui:1888 setup/python3/setup.ui:1888
 msgid "About"
-msgstr ""
+msgstr "ກ່ຽວກັບ"
 
 #: setup/python2/setup.ui:1908 setup/python2/setup.ui:2418
 #: setup/python3/setup.ui:1908 setup/python3/setup.ui:2418
 msgid "_Close"
-msgstr ""
+msgstr "_ປິດ"
 
 #: setup/python2/setup.ui:1938 setup/python3/setup.ui:1938
 msgid "Edit Shortcut"
-msgstr ""
+msgstr "ແກ້ໄຂປຸ່ມລັດ"
 
 #: setup/python2/setup.ui:1980 setup/python3/setup.ui:1980
 msgid "Key Code:"
-msgstr ""
+msgstr "ລະຫັດປຸ່ມ:"
 
 #: setup/python2/setup.ui:2028 setup/python3/setup.ui:2028
 msgid "Modifier:"
-msgstr ""
+msgstr "ປຸ່ມປັບປ່ຽນ (Modifier):"
 
 #: setup/python2/setup.ui:2042 setup/python3/setup.ui:2042
 msgid "A_lternate"
-msgstr ""
+msgstr "A_lternate"
 
 #: setup/python2/setup.ui:2055 setup/python3/setup.ui:2055
 msgid "Co_ntrol"
-msgstr ""
+msgstr "Co_ntrol"
 
 #: setup/python2/setup.ui:2068 setup/python3/setup.ui:2068
 msgid "_Shift"
-msgstr ""
+msgstr "_Shift"
 
 #: setup/python2/setup.ui:2116 setup/python3/setup.ui:2116
 msgid "_Refresh"
-msgstr ""
+msgstr "_ໂຫຼດໃໝ່"
 
 #: setup/python2/setup.ui:2293 setup/python3/setup.ui:2293
 msgid "_Input Characters"
-msgstr ""
+msgstr "ຕົວອັກສອນຂາ_ເຂົ້າ"
 
 #: setup/python2/setup.ui:2313 setup/python3/setup.ui:2313
 msgid "_Output Characters"
-msgstr ""
+msgstr "ຕົວອັກສອນຂາ_ອອກ"
 
 #: setup/python2/setup.ui:2333 setup/python3/setup.ui:2333
 msgid "_Left Thumb Shift"
-msgstr ""
+msgstr "_Left Thumb Shift"
 
 #: setup/python2/setup.ui:2353 setup/python3/setup.ui:2353
 msgid "_Right Thumb Shift"
-msgstr ""
+msgstr "_Right Thumb Shift"
 
 #: setup/python2/setup.ui:2387 setup/python3/setup.ui:2387
 msgid "_Remove"
-msgstr ""
+msgstr "_ເອົາອອກ"
 
 #: setup/python2/setup.ui:2607 setup/python3/setup.ui:2607
 msgid "_Short Label:"
-msgstr ""
+msgstr "ປ້າຍຊື່_ສັ້ນ:"
 
 #: setup/python2/setup.ui:2631 setup/python3/setup.ui:2631
 msgid "_Description:"
-msgstr ""
+msgstr "_ຄຳອະທິບາຍ:"
 
 #: setup/python2/setup.ui:2663 setup/python3/setup.ui:2663
 msgid "_Use your dictionary alone with switching dictionaries"
-msgstr ""
+msgstr "_ໃຊ້ວັດຈະນານຸກົມຂອງທ່ານເອງເມື່ອສະຫຼັບວັດຈະນານຸກົມ"
 
 #: setup/python2/setup.ui:2679 setup/python3/setup.ui:2679
 msgid "_Embed your dictionary in the system dictionary"
-msgstr ""
+msgstr "_ຝັງວັດຈະນານຸກົມຂອງທ່ານເຂົ້າໃນວັດຈະນານຸກົມລະບົບ"
 
 #: setup/python2/setup.ui:2695 setup/python3/setup.ui:2695
 msgid "Enable the _reverse conversion"
-msgstr ""
+msgstr "ເປີດໃຊ້ການແປງ_ຍ້ອນກັບ"
 
 #: setup/python2/setup.ui:2715 setup/python3/setup.ui:2715
 msgid "The Anthy engine for the IBus input platform"
-msgstr ""
+msgstr "ເຄື່ອງຈັກ Anthy ສຳລັບເວທີວິທີປ້ອນຂໍ້ມູນ IBus"
 
 #: setup/python2/setup.ui:2719 setup/python3/setup.ui:2719
 msgid "translator_credits"
-msgstr ""
+msgstr "translator_credits"
