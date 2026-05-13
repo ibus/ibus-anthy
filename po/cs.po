@@ -6,13 +6,14 @@
 # Zdenek <chmelarz@gmail.com>, 2017-2018. #zanata
 # Jonas Hubeny <jonas.hubeny@gmail.com>, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
+# Pavel Borecki <pavel.borecki@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: ibus-anthy master\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
-"PO-Revision-Date: 2026-02-18 19:58+0000\n"
-"Last-Translator: Jonas Hubeny <jonas.hubeny@gmail.com>\n"
+"PO-Revision-Date: 2026-05-14 06:59+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/ibus/ibus-"
 "anthy/cs/>\n"
 "Language: cs\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.16\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: data/ibus-anthy.appdata.xml.in:8
 msgid "Japanese input method"
@@ -867,12 +868,10 @@ msgid "A_lternate"
 msgstr "A_lt"
 
 #: setup/python2/setup.ui:2055 setup/python3/setup.ui:2055
-#, fuzzy
 msgid "Co_ntrol"
 msgstr "Co_ntrol"
 
 #: setup/python2/setup.ui:2068 setup/python3/setup.ui:2068
-#, fuzzy
 msgid "_Shift"
 msgstr "_Shift"
 
