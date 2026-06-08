@@ -5,13 +5,15 @@
 #
 # Languages add-on <noreply-addon-languages@weblate.org>, 2026.
 # Nik Nikovsky <zejdzztegomaila@gmail.com>, 2026.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.16\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
 "PO-Revision-Date: 2026-06-09 13:13+0000\n"
-"Last-Translator: Nik Nikovsky <zejdzztegomaila@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/pl/>\n"
 "Language: pl\n"
@@ -97,12 +99,12 @@ msgstr "Zmień metodę wprowadzania"
 #: engine/python2/engine.py:323 engine/python3/engine.py:324
 #: setup/python2/setup.ui:17 setup/python3/setup.ui:17
 msgid "Hiragana"
-msgstr ""
+msgstr "Hiragana"
 
 #: engine/python2/engine.py:332 engine/python3/engine.py:333
 #: setup/python2/setup.ui:20 setup/python3/setup.ui:20
 msgid "Katakana"
-msgstr ""
+msgstr "Katakana"
 
 #: engine/python2/engine.py:341 engine/python3/engine.py:342
 #: setup/python2/setup.ui:23 setup/python3/setup.ui:23
