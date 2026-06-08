@@ -4,28 +4,33 @@
 # This file is distributed under the same license as the ibus-anthy package.
 #
 # Languages add-on <noreply-addon-languages@weblate.org>, 2026.
+# Nik Nikovsky <zejdzztegomaila@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.16\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
-"PO-Revision-Date: 2025-02-17 17:12+0900\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-06-09 13:13+0000\n"
+"Last-Translator: Nik Nikovsky <zejdzztegomaila@gmail.com>\n"
+"Language-Team: Polish <https://translate.fedoraproject.org/projects/ibus/"
+"ibus-anthy/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: data/ibus-anthy.appdata.xml.in:8
 msgid "Japanese input method"
-msgstr ""
+msgstr "Japońska metoda wprowadzania"
 
 #: data/ibus-anthy.appdata.xml.in:11 data/ibus-anthy.appdata.xml.in:39
 msgid "The Anthy input method is designed for entering Japanese text."
 msgstr ""
+"Metoda wprowadzania Anthy jest zaprojektowana do wpisywania tekstu po "
+"japońsku."
 
 #: data/ibus-anthy.appdata.xml.in:14
 msgid ""
@@ -40,7 +45,7 @@ msgstr ""
 
 #: data/ibus-anthy.appdata.xml.in:22
 msgid "Japanese"
-msgstr ""
+msgstr "Japoński"
 
 #: data/ibus-anthy.appdata.xml.in:31
 msgid "See the upstream release list."
@@ -58,11 +63,11 @@ msgstr ""
 #: engine/python2/engine.py:267 engine/python3/engine.py:268
 #: setup/python2/main.py:420 setup/python3/main.py:424
 msgid "Preferences - Anthy"
-msgstr ""
+msgstr "Preferencje - Anthy"
 
 #: engine/python2/engine.py:269 engine/python3/engine.py:270
 msgid "Configure Anthy"
-msgstr ""
+msgstr "Konfiguruj Anthy"
 
 #. Translators: Specify the order of %s with your translation.
 #. It will be "Input Mode (A)" for example.
@@ -83,11 +88,11 @@ msgstr ""
 #: engine/python3/engine.py:308 engine/python3/engine.py:905
 #: setup/python2/main.py:405 setup/python3/main.py:409
 msgid "Input mode"
-msgstr ""
+msgstr "Metoda wprowadzania"
 
 #: engine/python2/engine.py:313 engine/python3/engine.py:314
 msgid "Switch input mode"
-msgstr ""
+msgstr "Zmień metodę wprowadzania"
 
 #: engine/python2/engine.py:323 engine/python3/engine.py:324
 #: setup/python2/setup.ui:17 setup/python3/setup.ui:17
@@ -101,39 +106,45 @@ msgstr ""
 
 #: engine/python2/engine.py:341 engine/python3/engine.py:342
 #: setup/python2/setup.ui:23 setup/python3/setup.ui:23
+#, fuzzy
 msgid "Halfwidth Katakana"
-msgstr ""
+msgstr "Katakana (połowa szerokości)"
 
 #: engine/python2/engine.py:350 engine/python3/engine.py:351
 #: setup/python2/setup.ui:26 setup/python3/setup.ui:26
 msgid "Latin"
-msgstr ""
+msgstr "Łaciński"
 
 #: engine/python2/engine.py:359 engine/python3/engine.py:360
 #: setup/python2/setup.ui:29 setup/python3/setup.ui:29
+#, fuzzy
 msgid "Wide Latin"
-msgstr ""
+msgstr "Szeroki Łaciński"
 
 #: engine/python2/engine.py:395 engine/python2/engine.py:941
 #: engine/python2/engine.py:965 engine/python3/engine.py:396
 #: engine/python3/engine.py:936 engine/python3/engine.py:960
 #: setup/python2/main.py:408 setup/python3/main.py:412
+#, fuzzy
 msgid "Typing method"
-msgstr ""
+msgstr "Metoda wprowadzania"
 
 #: engine/python2/engine.py:401 engine/python3/engine.py:402
+#, fuzzy
 msgid "Switch typing method"
-msgstr ""
+msgstr "Zmień metodę wprowadzania"
 
 #: engine/python2/engine.py:411 engine/python3/engine.py:412
 #: setup/python2/setup.ui:71 setup/python3/setup.ui:71
+#, fuzzy
 msgid "Romaji"
-msgstr ""
+msgstr "Romaji"
 
 #: engine/python2/engine.py:420 engine/python3/engine.py:421
 #: setup/python2/setup.ui:74 setup/python3/setup.ui:74
+#, fuzzy
 msgid "Kana"
-msgstr ""
+msgstr "Kana"
 
 #: engine/python2/engine.py:429 engine/python3/engine.py:430
 #: setup/python2/setup.ui:77 setup/python3/setup.ui:77
@@ -144,11 +155,11 @@ msgstr ""
 #: engine/python3/engine.py:463 engine/python3/engine.py:989
 #: setup/python2/main.py:411 setup/python3/main.py:415
 msgid "Segment mode"
-msgstr ""
+msgstr "Tryb segmentowy"
 
 #: engine/python2/engine.py:468 engine/python3/engine.py:469
 msgid "Switch conversion mode"
-msgstr ""
+msgstr "Zmień tryb konwersji"
 
 #: engine/python2/engine.py:478 engine/python3/engine.py:479
 #: setup/python2/setup.ui:87 setup/python3/setup.ui:87
@@ -174,46 +185,48 @@ msgstr ""
 #: engine/python3/engine.py:539 engine/python3/engine.py:1051
 #: setup/python2/main.py:414 setup/python3/main.py:418
 msgid "Dictionary mode"
-msgstr ""
+msgstr "Tryb słownikowy"
 
 #: engine/python2/engine.py:544 engine/python3/engine.py:545
 msgid "Switch dictionary"
-msgstr ""
+msgstr "Zmień słownik"
 
 #: engine/python2/engine.py:634 engine/python3/engine.py:634
 #: setup/python2/main.py:417 setup/python3/main.py:421
 msgid "Dictionary - Anthy"
-msgstr ""
+msgstr "Słownik - Anthy"
 
 #. Translators: "Dic" means 'dictionary', One kanji may be good.
 #: engine/python2/engine.py:640 engine/python3/engine.py:639
+#, fuzzy
 msgid "Dic"
-msgstr ""
+msgstr "Dic"
 
 #: engine/python2/engine.py:647 engine/python3/engine.py:646
 msgid "Configure dictionaries"
-msgstr ""
+msgstr "Konfiguruj słowniki"
 
 #: engine/python2/engine.py:657 engine/python3/engine.py:656
 msgid "Edit dictionaries"
-msgstr ""
+msgstr "Edytuj słowniki"
 
 #: engine/python2/engine.py:659 engine/python3/engine.py:658
+#, fuzzy
 msgid "Launch the dictionary tool"
-msgstr ""
+msgstr "Uruchom narzędzie do słowników"
 
 #: engine/python2/engine.py:666 engine/python3/engine.py:665
 msgid "Add words"
-msgstr ""
+msgstr "Dodaj słowa"
 
 #: engine/python2/engine.py:668 engine/python3/engine.py:667
 msgid "Add words to the dictionary"
-msgstr ""
+msgstr "Dodaj słowa do słownika"
 
 #: setup/python2/anthyprefs.py:337 setup/python2/setup.ui:397
 #: setup/python3/anthyprefs.py:330 setup/python3/setup.ui:397
 msgid "General"
-msgstr ""
+msgstr "Ogólne"
 
 #: setup/python2/anthyprefs.py:338 setup/python3/anthyprefs.py:331
 msgid "Zip Code Conversion"
@@ -221,7 +234,7 @@ msgstr ""
 
 #: setup/python2/anthyprefs.py:339 setup/python3/anthyprefs.py:332
 msgid "Symbol"
-msgstr ""
+msgstr "Symbol"
 
 #: setup/python2/anthyprefs.py:340 setup/python3/anthyprefs.py:333
 msgid "Old Character Style"
@@ -233,12 +246,13 @@ msgstr ""
 
 #: setup/python2/anthyprefs.py:342 setup/python3/anthyprefs.py:335
 msgid "Emoji"
-msgstr ""
+msgstr "Emotikony"
 
 #: setup/python2/ibus-setup-anthy.desktop.in.in:2
 #: setup/python3/ibus-setup-anthy.desktop.in.in:2
+#, fuzzy
 msgid "IBus Anthy Setup"
-msgstr ""
+msgstr "Konfiguracja IBus Anthy"
 
 #: setup/python2/ibus-setup-anthy.desktop.in.in:3
 #: setup/python3/ibus-setup-anthy.desktop.in.in:3
