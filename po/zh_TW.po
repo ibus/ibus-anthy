@@ -4,27 +4,30 @@
 # This file is distributed under the same license as the ibus-anthy package.
 #
 # Languages add-on <noreply-addon-languages@weblate.org>, 2026.
+# hsu zangmen <chzang55@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.16\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
-"PO-Revision-Date: 2025-02-17 17:12+0900\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-10-30 06:18+0000\n"
+"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
+"projects/ibus/ibus-anthy/zh_TW/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: data/ibus-anthy.appdata.xml.in:8
 msgid "Japanese input method"
-msgstr ""
+msgstr "日文輸入法"
 
 #: data/ibus-anthy.appdata.xml.in:11 data/ibus-anthy.appdata.xml.in:39
 msgid "The Anthy input method is designed for entering Japanese text."
-msgstr ""
+msgstr "Anthy 輸入法是專為輸入日文而設計的。"
 
 #: data/ibus-anthy.appdata.xml.in:14
 msgid ""
@@ -32,6 +35,8 @@ msgid ""
 "They are necessary because these contain too many characters to simply be "
 "laid out on a traditional keyboard."
 msgstr ""
+"輸入法是一種讓使用者能夠輸入複雜語言的打字系統。由於這些語言包含的字元過多，"
+"無法單純透過傳統鍵盤的佈局來輸入，因此輸入法便顯得不可或缺。"
 
 #: data/ibus-anthy.appdata.xml.in:21
 msgid "input-method"
@@ -43,7 +48,7 @@ msgstr ""
 
 #: data/ibus-anthy.appdata.xml.in:31
 msgid "See the upstream release list."
-msgstr ""
+msgstr "請參閱上游的發行清單。"
 
 #: engine/python2/engine.py:219 engine/python3/engine.py:220
 #, python-format
@@ -53,15 +58,19 @@ msgid ""
 "directory is not '\\n'. I.e. not correct text format.\n"
 "Please fix the file or remove it by manual and restart IBus."
 msgstr ""
+"無法啟用 Anthy。\n"
+"您家目錄中的檔案 %s/last-record2_default.utf8 的內容結尾並非 '\\n'。也就是說"
+"，文字格式不正確。\n"
+"請修正該檔案或手動刪除它，然後重新啟動 IBus。"
 
 #: engine/python2/engine.py:267 engine/python3/engine.py:268
 #: setup/python2/main.py:420 setup/python3/main.py:424
 msgid "Preferences - Anthy"
-msgstr ""
+msgstr "偏好設定 - Anthy"
 
 #: engine/python2/engine.py:269 engine/python3/engine.py:270
 msgid "Configure Anthy"
-msgstr ""
+msgstr "設定 Anthy"
 
 #. Translators: Specify the order of %s with your translation.
 #. It will be "Input Mode (A)" for example.
@@ -76,7 +85,7 @@ msgstr ""
 #: engine/python3/engine.py:988 engine/python3/engine.py:1050
 #, python-format
 msgid "%(description)s (%(symbol)s)"
-msgstr ""
+msgstr "%(description)s (%(symbol)s)"
 
 #: engine/python2/engine.py:307 engine/python2/engine.py:910
 #: engine/python3/engine.py:308 engine/python3/engine.py:905
@@ -101,17 +110,17 @@ msgstr ""
 #: engine/python2/engine.py:341 engine/python3/engine.py:342
 #: setup/python2/setup.ui:23 setup/python3/setup.ui:23
 msgid "Halfwidth Katakana"
-msgstr ""
+msgstr "半寬片假名"
 
 #: engine/python2/engine.py:350 engine/python3/engine.py:351
 #: setup/python2/setup.ui:26 setup/python3/setup.ui:26
 msgid "Latin"
-msgstr ""
+msgstr "拉丁"
 
 #: engine/python2/engine.py:359 engine/python3/engine.py:360
 #: setup/python2/setup.ui:29 setup/python3/setup.ui:29
 msgid "Wide Latin"
-msgstr ""
+msgstr "寬體拉丁字體"
 
 #: engine/python2/engine.py:395 engine/python2/engine.py:941
 #: engine/python2/engine.py:965 engine/python3/engine.py:396
@@ -147,7 +156,7 @@ msgstr ""
 
 #: engine/python2/engine.py:468 engine/python3/engine.py:469
 msgid "Switch conversion mode"
-msgstr ""
+msgstr "切換轉換模式"
 
 #: engine/python2/engine.py:478 engine/python3/engine.py:479
 #: setup/python2/setup.ui:87 setup/python3/setup.ui:87
@@ -173,7 +182,7 @@ msgstr ""
 #: engine/python3/engine.py:539 engine/python3/engine.py:1051
 #: setup/python2/main.py:414 setup/python3/main.py:418
 msgid "Dictionary mode"
-msgstr ""
+msgstr "字典模式"
 
 #: engine/python2/engine.py:544 engine/python3/engine.py:545
 msgid "Switch dictionary"
@@ -182,7 +191,7 @@ msgstr ""
 #: engine/python2/engine.py:634 engine/python3/engine.py:634
 #: setup/python2/main.py:417 setup/python3/main.py:421
 msgid "Dictionary - Anthy"
-msgstr ""
+msgstr "辭典 - Anthy"
 
 #. Translators: "Dic" means 'dictionary', One kanji may be good.
 #: engine/python2/engine.py:640 engine/python3/engine.py:639
@@ -203,7 +212,7 @@ msgstr ""
 
 #: engine/python2/engine.py:666 engine/python3/engine.py:665
 msgid "Add words"
-msgstr ""
+msgstr "新增單字"
 
 #: engine/python2/engine.py:668 engine/python3/engine.py:667
 msgid "Add words to the dictionary"
@@ -228,7 +237,7 @@ msgstr ""
 
 #: setup/python2/anthyprefs.py:341 setup/python3/anthyprefs.py:334
 msgid "Era"
-msgstr ""
+msgstr "時代"
 
 #: setup/python2/anthyprefs.py:342 setup/python3/anthyprefs.py:335
 msgid "Emoji"
@@ -242,7 +251,7 @@ msgstr ""
 #: setup/python2/ibus-setup-anthy.desktop.in.in:3
 #: setup/python3/ibus-setup-anthy.desktop.in.in:3
 msgid "Set up IBus Anthy engine"
-msgstr ""
+msgstr "設定 IBus Anthy 引擎"
 
 #: setup/python2/main.py:177 setup/python3/main.py:179
 msgid "Menu label"
@@ -294,7 +303,7 @@ msgstr ""
 
 #: setup/python2/main.py:505 setup/python3/main.py:509
 msgid "Right"
-msgstr ""
+msgstr "右邊"
 
 #: setup/python2/main.py:587 setup/python3/main.py:591
 msgid "Customize Romaji Key Table"
@@ -332,7 +341,7 @@ msgstr ""
 
 #: setup/python2/main.py:597 setup/python3/main.py:601
 msgid "U.S. Keyboard Layout"
-msgstr ""
+msgstr "美式鍵盤佈局"
 
 #: setup/python2/main.py:600 setup/python3/main.py:604
 msgid "Customize Thumb Shift Key Table"
