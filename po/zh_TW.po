@@ -5,13 +5,15 @@
 #
 # Languages add-on <noreply-addon-languages@weblate.org>, 2026.
 # hsu zangmen <chzang55@gmail.com>, 2026.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.16\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
 "PO-Revision-Date: 2026-10-30 06:18+0000\n"
-"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/ibus/ibus-anthy/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -40,11 +42,11 @@ msgstr ""
 
 #: data/ibus-anthy.appdata.xml.in:21
 msgid "input-method"
-msgstr ""
+msgstr "由輸入法"
 
 #: data/ibus-anthy.appdata.xml.in:22
 msgid "Japanese"
-msgstr ""
+msgstr "日文"
 
 #: data/ibus-anthy.appdata.xml.in:31
 msgid "See the upstream release list."
@@ -91,21 +93,21 @@ msgstr "%(description)s (%(symbol)s)"
 #: engine/python3/engine.py:308 engine/python3/engine.py:905
 #: setup/python2/main.py:405 setup/python3/main.py:409
 msgid "Input mode"
-msgstr ""
+msgstr "輸入模式"
 
 #: engine/python2/engine.py:313 engine/python3/engine.py:314
 msgid "Switch input mode"
-msgstr ""
+msgstr "切換輸入模式"
 
 #: engine/python2/engine.py:323 engine/python3/engine.py:324
 #: setup/python2/setup.ui:17 setup/python3/setup.ui:17
 msgid "Hiragana"
-msgstr ""
+msgstr "平假名"
 
 #: engine/python2/engine.py:332 engine/python3/engine.py:333
 #: setup/python2/setup.ui:20 setup/python3/setup.ui:20
 msgid "Katakana"
-msgstr ""
+msgstr "片假名"
 
 #: engine/python2/engine.py:341 engine/python3/engine.py:342
 #: setup/python2/setup.ui:23 setup/python3/setup.ui:23
@@ -141,7 +143,7 @@ msgstr ""
 #: engine/python2/engine.py:420 engine/python3/engine.py:421
 #: setup/python2/setup.ui:74 setup/python3/setup.ui:74
 msgid "Kana"
-msgstr ""
+msgstr "考納斯"
 
 #: engine/python2/engine.py:429 engine/python3/engine.py:430
 #: setup/python2/setup.ui:77 setup/python3/setup.ui:77
@@ -221,7 +223,7 @@ msgstr ""
 #: setup/python2/anthyprefs.py:337 setup/python2/setup.ui:397
 #: setup/python3/anthyprefs.py:330 setup/python3/setup.ui:397
 msgid "General"
-msgstr ""
+msgstr "一般"
 
 #: setup/python2/anthyprefs.py:338 setup/python3/anthyprefs.py:331
 msgid "Zip Code Conversion"
@@ -229,7 +231,7 @@ msgstr ""
 
 #: setup/python2/anthyprefs.py:339 setup/python3/anthyprefs.py:332
 msgid "Symbol"
-msgstr ""
+msgstr "符號"
 
 #: setup/python2/anthyprefs.py:340 setup/python3/anthyprefs.py:333
 msgid "Old Character Style"
@@ -241,7 +243,7 @@ msgstr "時代"
 
 #: setup/python2/anthyprefs.py:342 setup/python3/anthyprefs.py:335
 msgid "Emoji"
-msgstr ""
+msgstr "繪文字"
 
 #: setup/python2/ibus-setup-anthy.desktop.in.in:2
 #: setup/python3/ibus-setup-anthy.desktop.in.in:2
@@ -259,15 +261,15 @@ msgstr ""
 
 #: setup/python2/main.py:198 setup/python3/main.py:200
 msgid "Command"
-msgstr ""
+msgstr "指令"
 
 #: setup/python2/main.py:202 setup/python3/main.py:204
 msgid "Shortcut"
-msgstr ""
+msgstr "捷徑"
 
 #: setup/python2/main.py:247 setup/python3/main.py:249
 msgid "Description"
-msgstr ""
+msgstr "說明"
 
 #. Translators: "Embd" is an abbreviation of "embedded".
 #: setup/python2/main.py:255 setup/python3/main.py:257
@@ -291,15 +293,15 @@ msgstr ""
 
 #: setup/python2/main.py:499 setup/python3/main.py:503
 msgid "Input"
-msgstr ""
+msgstr "輸入"
 
 #: setup/python2/main.py:501 setup/python3/main.py:505
 msgid "Single"
-msgstr ""
+msgstr "單一"
 
 #: setup/python2/main.py:503 setup/python3/main.py:507
 msgid "Left"
-msgstr ""
+msgstr "左邊"
 
 #: setup/python2/main.py:505 setup/python3/main.py:509
 msgid "Right"
@@ -324,7 +326,7 @@ msgstr ""
 #: setup/python3/main.py:594 setup/python3/main.py:1064
 #: setup/python3/main.py:1168 setup/python3/setup.ui:183
 msgid "Default"
-msgstr ""
+msgstr "預設值"
 
 #: setup/python2/main.py:593 setup/python3/main.py:597
 msgid "Customize Kana Key Table"
@@ -357,7 +359,7 @@ msgstr ""
 
 #: setup/python2/main.py:603 setup/python3/main.py:607
 msgid "Base"
-msgstr ""
+msgstr "基礎"
 
 #: setup/python2/main.py:604 setup/python3/main.py:608
 msgid "NICOLA-J key extension"
@@ -472,7 +474,7 @@ msgstr ""
 #: setup/python2/setup.ui:2181 setup/python3/main.py:1388
 #: setup/python3/main.py:1478 setup/python3/setup.ui:2181
 msgid "_OK"
-msgstr ""
+msgstr "確定(_O)"
 
 #: setup/python2/main.py:1407 setup/python3/main.py:1400
 msgid "Your choosed file is not correct."
@@ -492,7 +494,7 @@ msgstr ""
 
 #: setup/python2/main.py:1644 setup/python3/main.py:1637
 msgid "Please press a key (or a key combination)"
-msgstr ""
+msgstr "請按鍵盤按鍵 (或是按鍵組合)"
 
 #: setup/python2/main.py:1645 setup/python3/main.py:1638
 msgid "The dialog will be closed when the key is released"
@@ -781,11 +783,11 @@ msgstr ""
 #: setup/python2/setup.ui:1779 setup/python2/setup.ui:2132
 #: setup/python3/setup.ui:1779 setup/python3/setup.ui:2132
 msgid "_Delete"
-msgstr ""
+msgstr "刪除(_D)"
 
 #: setup/python2/setup.ui:1808 setup/python3/setup.ui:1808
 msgid "_Up"
-msgstr ""
+msgstr "向上(_U)"
 
 #: setup/python2/setup.ui:1810 setup/python2/setup.ui:1827
 #: setup/python3/setup.ui:1810 setup/python3/setup.ui:1827
@@ -806,12 +808,12 @@ msgstr ""
 
 #: setup/python2/setup.ui:1888 setup/python3/setup.ui:1888
 msgid "About"
-msgstr ""
+msgstr "關於"
 
 #: setup/python2/setup.ui:1908 setup/python2/setup.ui:2418
 #: setup/python3/setup.ui:1908 setup/python3/setup.ui:2418
 msgid "_Close"
-msgstr ""
+msgstr "關閉(_C)"
 
 #: setup/python2/setup.ui:1938 setup/python3/setup.ui:1938
 msgid "Edit Shortcut"
