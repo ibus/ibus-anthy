@@ -11,9 +11,8 @@ msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.16\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
-"PO-Revision-Date: 2026-06-09 13:13+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2026-11-05 11:18+0000\n"
+"Last-Translator: Nik Nikovsky <zejdzztegomaila@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/pl/>\n"
 "Language: pl\n"
@@ -22,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 #: data/ibus-anthy.appdata.xml.in:8
 msgid "Japanese input method"
@@ -43,7 +42,7 @@ msgstr ""
 
 #: data/ibus-anthy.appdata.xml.in:21
 msgid "input-method"
-msgstr ""
+msgstr "input-method"
 
 #: data/ibus-anthy.appdata.xml.in:22
 msgid "Japanese"
@@ -119,22 +118,19 @@ msgstr "Łaciński"
 
 #: engine/python2/engine.py:359 engine/python3/engine.py:360
 #: setup/python2/setup.ui:29 setup/python3/setup.ui:29
-#, fuzzy
 msgid "Wide Latin"
-msgstr "Szeroki Łaciński"
+msgstr "Szeroka Łacina"
 
 #: engine/python2/engine.py:395 engine/python2/engine.py:941
 #: engine/python2/engine.py:965 engine/python3/engine.py:396
 #: engine/python3/engine.py:936 engine/python3/engine.py:960
 #: setup/python2/main.py:408 setup/python3/main.py:412
-#, fuzzy
 msgid "Typing method"
-msgstr "Metoda wprowadzania"
+msgstr "Metoda wpisywania"
 
 #: engine/python2/engine.py:401 engine/python3/engine.py:402
-#, fuzzy
 msgid "Switch typing method"
-msgstr "Zmień metodę wprowadzania"
+msgstr "Zmień metodę wpisywania"
 
 #: engine/python2/engine.py:411 engine/python3/engine.py:412
 #: setup/python2/setup.ui:71 setup/python3/setup.ui:71
