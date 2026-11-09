@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.16\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
-"PO-Revision-Date: 2026-11-05 11:18+0000\n"
+"PO-Revision-Date: 2026-11-10 10:18+0000\n"
 "Last-Translator: Nik Nikovsky <zejdzztegomaila@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/pl/>\n"
@@ -83,13 +83,13 @@ msgstr "Konfiguruj Anthy"
 #: engine/python3/engine.py:988 engine/python3/engine.py:1050
 #, python-format
 msgid "%(description)s (%(symbol)s)"
-msgstr ""
+msgstr "%(description)s %(symbol)s"
 
 #: engine/python2/engine.py:307 engine/python2/engine.py:910
 #: engine/python3/engine.py:308 engine/python3/engine.py:905
 #: setup/python2/main.py:405 setup/python3/main.py:409
 msgid "Input mode"
-msgstr "Metoda wprowadzania"
+msgstr "Tryb wprowadzania"
 
 #: engine/python2/engine.py:313 engine/python3/engine.py:314
 msgid "Switch input mode"
@@ -107,7 +107,6 @@ msgstr "Katakana"
 
 #: engine/python2/engine.py:341 engine/python3/engine.py:342
 #: setup/python2/setup.ui:23 setup/python3/setup.ui:23
-#, fuzzy
 msgid "Halfwidth Katakana"
 msgstr "Katakana (połowa szerokości)"
 
@@ -134,13 +133,11 @@ msgstr "Zmień metodę wpisywania"
 
 #: engine/python2/engine.py:411 engine/python3/engine.py:412
 #: setup/python2/setup.ui:71 setup/python3/setup.ui:71
-#, fuzzy
 msgid "Romaji"
 msgstr "Romaji"
 
 #: engine/python2/engine.py:420 engine/python3/engine.py:421
 #: setup/python2/setup.ui:74 setup/python3/setup.ui:74
-#, fuzzy
 msgid "Kana"
 msgstr "Kana"
 
@@ -196,7 +193,6 @@ msgstr "Słownik - Anthy"
 
 #. Translators: "Dic" means 'dictionary', One kanji may be good.
 #: engine/python2/engine.py:640 engine/python3/engine.py:639
-#, fuzzy
 msgid "Dic"
 msgstr "Dic"
 
@@ -248,7 +244,6 @@ msgstr "Emotikony"
 
 #: setup/python2/ibus-setup-anthy.desktop.in.in:2
 #: setup/python3/ibus-setup-anthy.desktop.in.in:2
-#, fuzzy
 msgid "IBus Anthy Setup"
 msgstr "Konfiguracja IBus Anthy"
 
@@ -476,7 +471,7 @@ msgstr ""
 #: setup/python2/setup.ui:2181 setup/python3/main.py:1388
 #: setup/python3/main.py:1478 setup/python3/setup.ui:2181
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #: setup/python2/main.py:1407 setup/python3/main.py:1400
 msgid "Your choosed file is not correct."
