@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: ibus-anthy 1.5.16\n"
 "Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
 "POT-Creation-Date: 2025-02-17 17:13+0900\n"
-"PO-Revision-Date: 2026-11-10 10:18+0000\n"
+"PO-Revision-Date: 2026-11-17 10:18+0000\n"
 "Last-Translator: Nik Nikovsky <zejdzztegomaila@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/ibus/"
 "ibus-anthy/pl/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.11.1\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #: data/ibus-anthy.appdata.xml.in:8
 msgid "Japanese input method"
@@ -34,11 +34,16 @@ msgstr ""
 "japońsku."
 
 #: data/ibus-anthy.appdata.xml.in:14
+#, fuzzy
 msgid ""
 "Input methods are typing systems allowing users to input complex languages. "
 "They are necessary because these contain too many characters to simply be "
 "laid out on a traditional keyboard."
 msgstr ""
+"Metody wprowadzania danych to systemy pisania, które umożliwiają "
+"użytkownikom wprowadzanie złożonych języków. Są one niezbędne, ponieważ "
+"zawierają zbyt wiele znaków, aby można je było po prostu umieścić na "
+"tradycyjnej klawiaturze."
 
 #: data/ibus-anthy.appdata.xml.in:21
 msgid "input-method"
@@ -50,16 +55,20 @@ msgstr "Japoński"
 
 #: data/ibus-anthy.appdata.xml.in:31
 msgid "See the upstream release list."
-msgstr ""
+msgstr "Zobacz listę wydań upstream."
 
 #: engine/python2/engine.py:219 engine/python3/engine.py:220
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "Could not enable Anthy.\n"
 "The end of the content of the file %s/last-record2_default.utf8 in your home "
 "directory is not '\\n'. I.e. not correct text format.\n"
 "Please fix the file or remove it by manual and restart IBus."
 msgstr ""
+"ie można włączyć Anthy. \n"
+"Koniec zawartości pliku %s/last-record2_default.utf8 w Twoim katalogu "
+"domowym nie jest '\\n'. Oznacza to, że format tekstu jest niepoprawny. \n"
+"Napraw plik lub usuń go ręcznie i uruchom ponownie IBus."
 
 #: engine/python2/engine.py:267 engine/python3/engine.py:268
 #: setup/python2/main.py:420 setup/python3/main.py:424
