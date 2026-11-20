@@ -21,8 +21,8 @@
 # You should have received a copy of the GNU General Public License along
 # with this program; if not, see <https://www.gnu.org/licenses/>.
 
-from datetime import date
-from os import path
+from datetime import date, datetime, timezone
+from os import environ, path
 import getopt
 import locale
 import re
@@ -52,7 +52,12 @@ class JapaneseEra(object):
             sys.exit(1)
         self.__narrow_to_wide_map = str.maketrans('0123456789',
                                                   '０１２３４５６７８９')
-        self.__S_YEAR = date.today().year
+        source_date_epoch = environ.get('SOURCE_DATE_EPOCH')
+        if source_date_epoch:
+            self.__S_YEAR = datetime.fromtimestamp(
+                    int(source_date_epoch), timezone.utc).year
+        else:
+            self.__S_YEAR = date.today().year
         self.__M_YEAR = str(self.__S_YEAR).translate(self.__narrow_to_wide_map)
         parse_file = open(self._parse_file)
         self._parse_contents = parse_file.read()
