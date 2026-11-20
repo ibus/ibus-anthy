@@ -28,7 +28,7 @@ m4_define([ibus_anthy_released],
 m4_define([ibus_anthy_major_version], [1])
 m4_define([ibus_anthy_minor_version], [5])
 m4_define([ibus_anthy_micro_version], [19])
-m4_define([ibus_anthy_beta_version], [alpha3])
+m4_define([ibus_anthy_beta_version], [alpha4])
 m4_define([ibus_abi_current], [5])
 m4_define([ibus_abi_revision],
           [m4_eval(100 * ibus_anthy_minor_version + ibus_anthy_micro_version)])

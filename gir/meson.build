@@ -35,6 +35,7 @@ anthy_includedir = run_command('pkg-config', '--variable=includedir',
                                check: true).stdout().strip()
 
 ibus_gir_args = introspection_args
+ibus_gir_args += [ '--accept-unprefixed', ]
 if not introspection_dep.version().version_compare('>=0.9.6')
   ibus_gir_args += [ '--strip-prefix=IBus', ]
 endif
@@ -42,7 +43,7 @@ endif
 anthy_gir = gnome.generate_gir(libanthygobject,
   sources: anthygobject_headers + anthy_includedir / 'anthy' / 'anthy.h',
   namespace: 'Anthy',
-  nsversion: ibus_api_version,
+  nsversion: '9000',
   identifier_prefix: 'Anthy',
   symbol_prefix: [ 'anthy' ],
   header: anthygobject_headers,
